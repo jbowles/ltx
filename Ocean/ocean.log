@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  16 SEP 2012 07:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  16 SEP 2012 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,7 +338,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 
 Writing index file ocean.idx
-(./ocean.aux (./what-i-want-to-be.aux) (./love-words-math.aux))
+(./ocean.aux (./what-i-want-to-be.aux) (./love-words-math.aux)
+(./kitchen-garden.aux))
 \openout1 = `ocean.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -461,7 +462,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
-<research2.jpg, id=51, 426.59375pt x 283.0575pt>
+<research2.jpg, id=53, 426.59375pt x 283.0575pt>
 File: research2.jpg Graphic file (type jpg)
  <use research2.jpg>
 Package pdftex.def Info: research2.jpg used on input line 116.
@@ -475,7 +476,7 @@ Package pdftex.def Info: research2.jpg used on input line 116.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
-<lalooks.jpg, id=57, 200.75pt x 200.75pt>
+<lalooks.jpg, id=59, 200.75pt x 200.75pt>
 File: lalooks.jpg Graphic file (type jpg)
  <use lalooks.jpg>
 Package pdftex.def Info: lalooks.jpg used on input line 4.
@@ -483,7 +484,7 @@ Package pdftex.def Info: lalooks.jpg used on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-<movie-director.jpg, id=58, 348.30125pt x 347.2975pt>
+<movie-director.jpg, id=60, 348.30125pt x 347.2975pt>
 File: movie-director.jpg Graphic file (type jpg)
  <use movie-director.jpg>
 Package pdftex.def Info: movie-director.jpg used on input line 14.
@@ -498,7 +499,7 @@ Underfull \vbox (badness 4060) has occurred while \output is active []
  [3])
 [4]
 Chapter 2.
-<mathy.png, id=76, 586.8324pt x 442.2924pt>
+<mathy.png, id=78, 586.8324pt x 442.2924pt>
 File: mathy.png Graphic file (type png)
  <use mathy.png>
 Package pdftex.def Info: mathy.png used on input line 125.
@@ -516,11 +517,13 @@ Package pdftex.def Info: mathy.png used on input line 125.
 
 ]
 Chapter 3.
-File: mathy.png Graphic file (type png)
-<use mathy.png>
-Package pdftex.def Info: mathy.png used on input line 135.
-(pdftex.def)             Requested size: 341.55396pt x 358.80829pt.
- [9]
+<kitchen-garden.jpg, id=100, 371.3875pt x 300.12125pt>
+File: kitchen-garden.jpg Graphic file (type jpg)
+
+<use kitchen-garden.jpg>
+Package pdftex.def Info: kitchen-garden.jpg used on input line 135.
+(pdftex.def)             Requested size: 341.56163pt x 358.83397pt.
+ [9 </Users/jbowles/Library/texmf/tex/gix/kitchen-garden.jpg>]
 \openout2 = `kitchen-garden.aux'.
 
  (./kitchen-garden.tex) [10
@@ -528,17 +531,17 @@ Package pdftex.def Info: mathy.png used on input line 135.
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
- (./ocean.aux
-(./what-i-want-to-be.aux) (./love-words-math.aux) (./kitchen-garden.aux))
+ (./ocean.aux (./what-i-want-to-be.aux)
+(./love-words-math.aux) (./kitchen-garden.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
- 7279 strings out of 493633
- 103371 string characters out of 3143378
- 204959 words of memory out of 3000000
- 10393 multiletter control sequences out of 15000+200000
+ 7286 strings out of 493633
+ 103521 string characters out of 3143378
+ 205473 words of memory out of 3000000
+ 10398 multiletter control sequences out of 15000+200000
  34045 words of font info for 80 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  29i,11n,43p,2443b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -547,10 +550,10 @@ exlive/2011/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb>
-Output written on ocean.pdf (16 pages, 419088 bytes).
+Output written on ocean.pdf (16 pages, 451458 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 134 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  33 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
