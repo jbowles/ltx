@@ -1,0 +1,162 @@
+% Template <Ling-Article-_gb4e> for papers with lots of natural language data.
+
+% Runs special commands for morpheme gloss, wh-, and X-bar; but no hypereff.
+\documentclass[11pt]{article}
+
+\usepackage{qtree,tree-dvips}
+\usepackage{amsmath,mathbbol}
+\usepackage[usenames]{xcolor}
+\usepackage[normalem]{ulem}
+\usepackage[safe]{tipa}
+\newcommand{\ipa}{\textipa}
+%quick tipa.style command
+
+%From <sp.cl>=================
+\usepackage{natbib}
+\bibpunct[: ]{(}{)}{;}{a}{}{,}
+\newcommand{\BIBand}{\&}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{doi:#1}}
+\setlength{\bibsep}{0pt}
+\setlength{\bibhang}{0.25in}
+\bibliographystyle{sp}%------------------sp.bst-----------------------
+\newcommand{\posscitet}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\possciteauthor}[1]{\citeauthor{#1}'s}
+\newcommand{\pgposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~#2)}
+\newcommand{\secposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~$\S$#2)}
+\newcommand{\pgcitealt}[2]{\citealt{#1}:~#2}
+\newcommand{\seccitealt}[2]{\citealt{#1}:~$\S$#2}
+\newcommand{\pgcitep}[2]{(\citealt{#1}:~#2)}
+\newcommand{\seccitep}[2]{(\citealt{#1}:~$\S$#2)}
+\newcommand{\pgcitet}[2]{\citeauthor{#1} (\citeyear{#1}:~#2)}
+\newcommand{\seccitet}[2]{\citeauthor{#1} (\citeyear{#1}:~$\S$#2)}
+%=============================
+% Vertical.
+\paperheight=11in
+\topmargin=0in     %
+\headheight=0.2in  % head: 1.5in (margin + head + sep = .5; latex adds 1in)
+\headsep=0.3in     %
+\topskip=0.1in     % included in the textheight
+\textheight=8in    % text is 8in
+\footskip=0.5in    % foot: 1.5in (.5 + 1.0in leftover)
+\parskip=0pt
+
+% Horizontal.
+\paperwidth=8.5in
+\textwidth=5.5in
+\oddsidemargin=0.5in  % 1.5in due to LaTeX's calculations
+\evensidemargin=0.5in % 1.5in due to LaTeX's calculations
+\raggedbottom % constant spacing in the text; cost is a ragged bottom
+\parindent=0.25in
+\leftmargini=0.5in%
+% Tell dvips about the paper:
+%\special{papersize=8.5in,11in}
+% Paper/text size option (another):
+%\paperwidth=8.5 \textwidth=5.5in \paperheight=11 \textheight=8in
+
+% "Morpheme glosses etc.
+% Inspired by macros defined by Uli Sauerland"
+% =====I got this from Paul Hagstrom========
+\newcommand\Pro{{\sc{pro}}}
+\newcommand\pro{{\sl{pro}}}
+\newcommand\Nom{{\sc{nom}}}
+\newcommand\Acc{{\sc{acc}}}
+\newcommand\Dat{{\sc{dat}}}
+\newcommand\Gen{{\sc{gen}}}
+\newcommand\Loc{{\sc{loc}}}
+\newcommand\Erg{{\sc{erg}}}
+\newcommand\Abs{{\sc{abs}}}
+\newcommand\Des{{\sc{des}}}
+\newcommand\Foc{{\sc{foc}}}
+\newcommand\Top{{\sc{top}}}
+\newcommand\Pol{{\sc{pol}}}
+\newcommand\Neg{{\sc{neg}}}
+\newcommand\Pass{{\sc{pass}}}
+\newcommand\pst{{\sc{past}}}
+\newcommand\fut{{\sc{fut}}}
+\newcommand\prs{{\sc{pres}}}
+\newcommand\Prog{{\sc{prog}}}
+\newcommand\Comp{{\sc{comp}}}
+\newcommand\Decl{{\sc{decl}}}
+\newcommand\Cond{{\sc{cond}}}
+\newcommand\Quot{{\sc{quot}}}
+\newcommand\evd{{\sc{evd}}}
+\newcommand\Viz{{\sc{vis}}}
+\newcommand\Nvis{{\sc{nvis}}}
+\newcommand\Scnd{{\sc{scnd}}}
+\newcommand\Hrsy{{\sc{hrsy}}}
+\newcommand\Infer{{\sc{infer}}}
+\newcommand\f{{\sc{f}}}
+\newcommand\sg{{\sc{sg}}}
+\newcommand\pl{{\sc{pl}}}
+\newcommand\m{{\sc{m}}}
+\newcommand\Q{{\sc{q}}}
+%X-bar command for: \obar{X}=X0, \ibar{X}=X', \iibar{X}=XP, \mbar{X}=Xmax.
+%\primebars
+% Allow \wh-word, \wh-phrases, \wh-movement, etc., to italicize the "wh"----Paul Hagstrom---------------------------------------------
+\newcommand{\wh}{\emph{wh}}
+\newcommand{\Wh}{\emph{Wh}}
+%***********************************************************************
+\definecolor{jblinkcolor}{rgb}{.0,.2,.4}
+\usepackage[colorlinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			filecolor=jblinkcolor,
+			plainpages=false,
+			pdfpagelabels,
+			bookmarks=false,
+			pdfstartview=FitH,
+			hyperfootnotes=false]{hyperref}			
+			\urlstyle{rm}			
+			%********************************************************************	
+\usepackage{gb4e}
+%********************************************************************%********************************************************************
+
+
+
+\begin{document}
+\title{Title: gb4e Package}
+
+\author{Joshua Bowles\\
+University}
+
+
+
+\date{\today}
+
+\maketitle
+
+
+\section{Examples}
+%-------------------------------------------------------------
+Here is an example of the \texttt{gb4e} package.\footnote{This package is not compatible with the \texttt{linguex} and \texttt{graphicx} packages. Nor is it compatible with, for some reason, the \texttt{colorlinks=true} parameter for \texttt{hypertext}} See also the {\bf Examples} file at {In-Progress}.
+
+\begin{exe} % sets up the top-level example environment
+\ex\label{here} Here is one. % example with running number
+\ex[*]{Here another is.} % judged ex. with running number
+\ex Here are some with judgements.
+\begin{xlist} % first embedding (alphabetical numbering)
+\ex[]{A grammatical sentence am I.}
+\ex[*]{A ungrammatical sentence is you.}
+\ex[??]{A dubious sentence is she.}
+\ex % just the number
+\begin{xlist} % second embedding (roman numbering)
+\ex[**]{Need one a second embedding?}
+\ex[\%]{sometime.}
+\end{xlist} % end second embedding
+\ex Dare to judge me!
+\end{xlist} % end first embedding
+\ex This concludes the demonstration.
+\end{exe}
+
+There are also other examples from, e.g., \posscitet{chomsky81lgb} book.
+\newpage
+%Bibliography------------------------------------------------------
+%\bibliographystyle{linquiry2}
+\bibliography{myrefs}
+
+
+
+ 
+\end{document}
+

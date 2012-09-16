@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{paperp}
+\usepackage{paperc}
+
+\begin{document}
+ \title{PhD 2010}
+\author{Joshua Bowles}
+\date{\today}
+
+\maketitle
+
+\section{Research}
+I am interested in studying syntax, semantics, and pragmatics. Specifically, I want to focus on `context' in human language; this includes tense, modality, evidentials, illocutionary force, deixis, anaphora, and the nature of adverbs; as well as other phenomena related to space and time in natural language (i.e., topics usually dealt with in situation semantics, update semantics, epistemic logics, modal logics, tense logics, left-periphery cartography, functional categories, {\sl et cetera}). My interest in `context' derives from work I did on evidentiality in my master's thesis. Realistically, any detailed research focus I decide on for my dissertation would attempt to highlight and complement current faculty research. 
+
+I  am also dedicated to employing various methods of data collection and analysis as a means to testing hypothetical claims in theoretical linguistics. I am not committed to one theory or the other, but am committed to finding solutions to both real-world problems and theoretical problems. Currently, I have been acquiring proficiency in a number of programming languages and applications designed to deal with large corpora of language data. To that end I have found work in computational linguistics interesting and relevant to core linguistic work and I hope to continue to use and develop these new skills within the broader goals of linguistic inquiry. Interest in computational tools derives from my two-year hiatus from graduate school, in which I taught {\sl Science and Technical Writing} courses and started experimenting with computational tools for natural language processing.
+
+\section{Personal}
+I received my MA in (general/theoretical) linguistics from the University of Utah in 2008. During my two years in the Master's program I was able to engage in collaborative research with other students that culminated in various conference presentations to the {\sl Berkeley Linguistics Society}, the {\sl Association of Linguistic Typology}, and the University of Utah's {\sl Conference on Endangered Languages and Cultures of Native America}. I was also able to produce high quality research on my own that resulted in conference acceptances to the Univeristy of Madison-Wisconin's {\sl 6th Workshop in General Linguistics} and the Canadian based {\sl 13 Workshop on Structure and Constituency in the Languages of the Americas} (I was not able to attend the latter due to lack of funding).
+
+I want to pursue advanced research and study at Utah. I feel that my research focus and experience are a good fit for the department, specifically in light of new faculty acqusitions over the last few years.
+\end{document}

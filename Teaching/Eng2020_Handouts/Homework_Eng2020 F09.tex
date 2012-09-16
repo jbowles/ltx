@@ -1,0 +1,254 @@
+\documentclass{article}
+% Change "article" to "report" to get rid of page number on title page
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{linguex}
+\usepackage{setspace}
+\usepackage{Tabbing}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{soul,color}
+\usepackage{graphicx,float,wrapfig}
+\newtheorem{theorem}{Theorem}
+\theoremstyle{plain}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{conclusion}{Conclusion}
+\newtheorem{condition}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{criterion}{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{example}{Example}
+\newtheorem{solution}{Solution}
+\newtheorem{summary}{Summary}
+\numberwithin{equation}{section}
+
+\theoremstyle{definition}
+\newtheorem{phrase string}{Phrase String}
+\newtheorem{notation}{Notation}
+\newtheorem{remark}{Remark}
+\newtheorem{problem}{Problem}
+\newtheorem{syllogism}{Syllogism}
+\newtheorem{subdefinition}{Subdefinition}
+\newtheorem{fallacy}{Fallacy}
+
+% In case you need to adjust margins:
+\topmargin=-0.45in      %
+\evensidemargin=0in     %
+\oddsidemargin=0in      %
+\textwidth=6.5in        %
+\textheight=9.0in       %
+\headsep=0.25in       
+
+% Homework Specific Information
+\newcommand{\hmwkTitle}{Fallacy and Reasoning}
+\newcommand{\hmwkDueDate}{or before July 29, 2009}
+\newcommand{\hmwkClass}{Eng 2010}
+\newcommand{\hmwkClassTime}{}
+\newcommand{\hmwkClassInstructor}{Joshua Bowles}
+\newcommand{\hmwkAuthorName}{Your Name:}
+% Setup the header and footer
+\pagestyle{fancy}                                                       %
+\lhead{}                                                 %
+\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime): \hmwkTitle}  %
+\rhead{\firstxmark}                                                     %
+\lfoot{\lastxmark}                                                      %
+\cfoot{}                                                                %
+\rfoot{Page\ \thepage\ of\ \pageref{LastPage}}                          %
+\renewcommand\headrulewidth{0.4pt}                                      %
+\renewcommand\footrulewidth{0.4pt}                                      %
+
+% This is used to trace down (pin point) problems
+% in latexing a document:
+%\tracingall
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some tools
+\newcommand{\enterProblemHeader}[1]{\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak%
+                                    \nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak}%
+\newcommand{\exitProblemHeader}[1]{\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak%
+                                   \nobreak\extramarks{#1}{}\nobreak}%
+
+\newlength{\labelLength}
+\newcommand{\labelAnswer}[2]
+  {\settowidth{\labelLength}{#1}%
+   \addtolength{\labelLength}{0.25in}%
+   \changetext{}{-\labelLength}{}{}{}%
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#2\end{minipage}}%
+   \marginpar{\fbox{#1}}%
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   \changetext{}{+\labelLength}{}{}{}}%
+
+\setcounter{secnumdepth}{0}
+\newcommand{\homeworkProblemName}{}%
+\newcounter{homeworkProblemCounter}%
+\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}]%
+  {\stepcounter{homeworkProblemCounter}%
+   \renewcommand{\homeworkProblemName}{#1}%
+   \section{\homeworkProblemName}%
+   \enterProblemHeader{\homeworkProblemName}}%
+  {\exitProblemHeader{\homeworkProblemName}}%
+
+\newcommand{\problemAnswer}[1]
+  {\noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}}%
+
+\newcommand{\problemLAnswer}[1]
+  {\labelAnswer{\homeworkProblemName}{#1}}
+
+\newcommand{\homeworkSectionName}{}%
+\newlength{\homeworkSectionLabelLength}{}%
+\newenvironment{homeworkSection}[1]%
+  {% We put this space here to make sure we're not connected to the above.
+   % Otherwise the changetext can do funny things to the other margin
+
+   \renewcommand{\homeworkSectionName}{#1}%
+   \settowidth{\homeworkSectionLabelLength}{\homeworkSectionName}%
+   \addtolength{\homeworkSectionLabelLength}{0.25in}%
+   \changetext{}{-\homeworkSectionLabelLength}{}{}{}%
+   \subsection{\homeworkSectionName}%
+   \enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]}}%
+  {\enterProblemHeader{\homeworkProblemName}%
+
+   % We put the blank space above in order to make sure this margin
+   % change doesn't happen too soon (otherwise \sectionAnswer's can
+   % get ugly about their \marginpar placement.
+   \changetext{}{+\homeworkSectionLabelLength}{}{}{}}%
+
+\newcommand{\sectionAnswer}[1]
+  {% We put this space here to make sure we're disconnected from the previous
+   % passage
+
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}%
+   \enterProblemHeader{\homeworkProblemName}\exitProblemHeader{\homeworkProblemName}%
+   \marginpar{\fbox{\homeworkSectionName}}%
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   }%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Make title
+\title{\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\\normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}}
+\date{\today}
+\author{\textbf{\hmwkAuthorName}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\begin{homeworkProblem}
+\texttt{Directions:
+Look at the following syllogisms and answer questions 1 and 2 with \textsc{Yes} or \textsc{No}.\\ \textul{Question 3 is extra credit.}} 
+
+\ex. Do the conclusions follow from the premises?
+
+\ex. Are the conclusions true in the real world?
+
+\ex. Are there any examples where the conclusions follow from the premises, but either the conclusions or the premises are not true in the real world?
+\a. Which examples are these?
+\b. How do you know the premises/conclusions are not true?
+
+
+\mbox{
+
+}
+
+\begin{syllogism} Pakistani\\
+All Pakistanis are Moslems\\
+No Sinhalese are Moslems\\
+Therefore, no Sinhalese are Pakistani's.\\
+\end{syllogism}
+
+\begin{syllogism} Accidents\\
+Accidents are frequent\\
+Getting struck by lighteing is an accident\\
+Therefore, getting struck by lightening is frequent.\\
+\end{syllogism}
+
+\begin{syllogism} Mormons\\
+All Mormons are pious persons\\
+No Samoans are Mormons\\
+Therefore, no Samoans are pious persons.\\
+\end{syllogism}
+
+\begin{syllogism} Identity\\
+All cells die and regenerate,\\
+X is composed of cells,\\
+(Therefore,) X is always dying and regenerating,\\
+X is always dying and regenerating,\\
+There exists an identity which is a property of X,\\
+Therefore, The identity of X is always dying and regenerating.\footnote{A syllogism, both technically and classically, only has two premises. When it has more, or an argument is composed of a series of syllogisms, it is called a \textbf{sorite}, a Greek word meaning `pile.'}\\
+\end{syllogism}
+
+\begin{syllogism} Numbers\\
+Some prime numbers are integers\\
+All rational numbers are real numbers\\
+All integers are rational numbers\\
+Some prime numbers are real numbers.\\
+\end{syllogism}
+\end{homeworkProblem}
+
+
+\begin{homeworkProblem}
+\texttt{Directions: pick \textbf{ONE} fallacy and tell me what is wrong with it.}
+
+\begin{remark}
+Remember, I am not asking you if you agree with the opinions or conclusions. Agreeing with an opinion is a matter of your personal right to any opinion/ethic/religion. What I want is some kind of explanation of \textsl{why the reasoning is `bad'}, despite whether you agree with the sentiment or not.
+\end{remark}
+
+\mbox{
+
+}
+
+\begin{fallacy} \textsc{Drink I say!}\\
+A - You should not drink liquor.\\
+B - Why do you say that?\\
+A - Because God does not like it.\\
+B - How do you know that?\\
+A - My scriptures tell me so.\\
+B - But how do you know the scriptures are right?\\
+A - Because everything in the scriptures is right.\\
+B - How do you know that?\\
+A - Because scripture is divinely inspired.\\
+B - But how do you know that?\\
+A - Because scripture itself says it is divinely inspired.\\
+B - Yes, but why believe that?\\
+A - You have to believe the scriptures, everything in it is right!\end{fallacy}
+
+\begin{fallacy} \textsc{Directions from nowhere!}\\
+How do you get to Hyde Park?
+There is a straight road from Blythe Park to Hyde Park. Blythe is exactly 100 miles north of Hyde. Gorky Park is on the way to Hyde and is exactly 20 miles south of Blythe. Green Park is also on the way to Hyde and is 80 miles south of Gorky. Once you get to Green park you are only fifteen miles North of Hyde Park.\\\end{fallacy}
+
+\begin{fallacy} \textsc{I'm sick of this!}\\
+If people are not deathly sick, then health care is unnecessary.\\
+And if people are deathly sick, then health care is ineffectual.\\
+Now, people are either deathly sick or they're not deathly sick.\\
+Therefore, health care is either unnecessary or ineffectual.\\\end{fallacy} 
+
+\begin{fallacy} \textsc{My friend said so!}\\
+My friend always speeds and never gets a ticket. That means that either police are not giving tickets for speeding or we can get away with speeding. Either way, I'm gonna start speeding because I won't get a ticket.\\\end{fallacy}
+
+\begin{fallacy} \textsc{You socialist!}\\
+The U.S. government wants to give health care to everyone. Only socialistic systems give health care to everyone. Therefore, the U.S. is going to become a socialistic system.\\\end{fallacy}
+
+
+\end{homeworkProblem}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

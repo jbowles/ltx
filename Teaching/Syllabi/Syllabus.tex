@@ -1,0 +1,257 @@
+\documentclass [11pt]{article}
+\usepackage{setspace,amssymb,latexsym,amsmath,amscd,epsfig,amsthm,wasysym}
+\usepackage{graphicx}
+
+\font\minihelv=phvr at 6pt
+\font\helv=phvr at 10pt
+\font\bighelv=phvr at 20pt
+\font\hugehelv=phvr at 36pt
+\font\mybigfont=phvr at 16pt
+\font\mymediumfont=phvr at 14pt
+\font\mediumhelv=phvr at 14pt
+\font\mybfit=ptmbi at 12pt
+
+\def\minivskip{\vskip 1.5mm}
+\def\myspace{\phantom{\Biggr\|}}
+\def\leavespace{\vskip 4mm}
+
+\def\cosec{\hbox{cosec}}
+\def\sec{\hbox{sec}}
+\def\cotan{\hbox{cotan}}
+
+\parindent=0pt
+\setlength{\evensidemargin}{0.0cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\topmargin}{-1.5cm}
+%\setlength{\baselineskip}{20pt}
+\setlength{\textwidth}{17cm}
+\setlength{\textheight}{23.5cm}
+\hoffset = -0.25cm
+
+\begin{document}
+\begin{figure}
+\includegraphics[width=3in]{closeupred}\includegraphics[width=3in]{greenflower}
+\end{figure}
+
+   \begin{center}
+
+     {\bighelv LING 1010 Introduction to Language - Fall 2009} \\
+     {\mediumhelv Syntax, Semantics, and Phonology} \\
+     \ \\
+     \ \\
+
+     \begin{tabular}{ l r }
+
+       \begin{tabular}{l}
+          Instructor: Joshua Bowles          \\                                             
+          Office:                    \\                                                  
+          E-mail: bowlesling@gmail.com     \\                                               
+          O:          \\                                             
+                                            \\
+       \end{tabular}
+
+       &
+
+       \begin{tabular}{l}
+          Class: MWF 9:00-9:50 in Arjona 407 \\
+          Office Hours: MWF 10:15-11:15 \\                                                  
+          \phantom{Office Hours: }and by appointment                \\                                               
+                                            \\        
+                                            \\                                     
+       \end{tabular}
+
+     \end{tabular}
+
+   \end{center}
+
+   \ \\
+
+   {\bf Textbook}\\
+   Elementary Mathematical Modeling: Functions and Graphs by Mary Ellen Davis and C. Henry Edwards, 
+   Prentice Hall (ISBN 0-13-096202-3) \\
+   \ \\
+
+   {\bf Who Should take this course ?}\\
+   The course is intended primarily for students who are prepared for college-level algebra, but do not intend 
+   to take calculus. If you do plan to take calculus, you should be in math 109Q. If you are just looking for
+   the easiest "Q" around, math 102Q is a safer bet. \\
+   \ \\
+
+   {\bf Course Outline and Grades}\\
+   We will use mathematical models to gain an understanding of real world problems and situations. We will 
+   study the use of linear, quadratic, natural, exponential, logarithmic, and polynomial models. \\
+   The exams are {\it tentatively} scheduled as follows:
+   \begin{itemize}
+     \item Exam I: Ch.1 and Ch.2 on September 24th (in class)
+     \item Exam II: Ch.3 and Ch.4 on October 22nd (in class)
+     \item Exam III: Ch.5 and Ch.6 on November 19th (in class)
+     \item Final Exam : cumulative (i.e. Ch.1 through Ch.8) {\it probably} on December 13th
+   \end{itemize}
+   Each in class exam is budgeted at 45 minutes and counts for 20\% of your grade,
+   the final is on the common exam day for math classes and counts for 25\%.
+   Quizzes and homeworks will count for 15\% of your final grade.\\
+   There will not be a curve, but there will be 10\% extra credit on each exam.
+   The letter grade will be assigned according to the standard table:   
+   93-100 gives A, 90-92 gives A-, 87-89 gives B+, 83-86 gives B, 80-82 gives B-,
+   77-79 gives C+, 73-76 gives C, 70-72 gives C-, 67-69 gives D+, 63-66 gives D,
+   60-62 gives D-, and 00-59 gives F.\\
+   \ \\
+
+   {\bf Notes on the Calendar}\\
+   There will be no classes on September 6th (Labor Day weekend), and December 22nd, 24th and 26th
+   (Thanksgiving Break). The last day to withdraw is September 13th and the Add/Drop deadline
+   is November 1st. \\
+   \ \\  
+ 
+   {\bf Calculator Policy}\\
+   A graphing calculator can be handy, but is not at all necessary for the course.
+   In fact, you are encouraged to purchase a simple scientific calculator. As long
+   as it has $sin$, $cos$, $tan$, $log$ and $exp$ on it, you should be fine. If you
+   are spending more than $\$20$, you are probably already buying more than you need.
+   \ \\
+
+   {\bf Class Conduct}\\
+   Class atmosphere will be quite relaxed. Just a few guidelines to make sure:
+   \begin{itemize}
+     \item  Arriving a few minutes late is tolerated as long as you make an effort
+       to minimize the disturbance for other students. 
+     \item  Eating and drinking in class should be reduced to a minimum. It is not
+       forbidden, but please make sure that you are not disturbing others with noise
+       and enticing aromas.
+     \item  Dozing off in an early morning class is not a cardinal sin, but be
+       sure not to make a spectacle of yourself. It is extremely disrespectful
+       to do this in an ostentatious manner.
+     \item  Turn off all cell phones or don't even bring them. 
+     \item  If you cannot make it to class for whatever reason, make sure that
+       you know what happened during the lecture that you missed. It is
+       your responsibility, and nobody else's, to do so!
+     \item  If you have to leave a class early, inform your instructor in
+       advance. It is very rude to simply walk out in the middle of a
+       lecture. 
+     \item  If you make an appointment with your instructor keep it, or at
+       least notify your instructor a.s.a.p. that you cannot make it. You
+       would also do this for your physician, plumber or car mechanic.
+       Your instructor deserves the same respect.
+    \end{itemize}
+   \ \\
+       
+   {\bf Makeups}\\
+   If you have a valid reason for a makeup exam, inform your instructor
+   a.s.a.p. A valid reason is a medical emergency, a death in the family, and, quite frankly, 
+   very little else. In all cases, you will be expected to bring in proof.\\
+   \ \\
+
+   {\bf Student Athletes}\\
+   If you are a student athlete, inform your instructor a.s.a.p. of
+   interferences with your commitments as an athlete (especially
+   conflicts with exam dates). You will be expected to bring in a
+   letter from the athletics department. The sooner you notify us, the
+   better that we will be able to accommodate you.\\
+   \ \\
+
+   {\bf Students with Disabilities}\\
+   Inform your instructor a.s.a.p. of special needs that you may have like
+   larger printouts of quizzes and exams or extra time on an exam.
+   You will be expected to bring in a letter from the center for students 
+   with disabilities. The sooner you notify us, the better that we will 
+   be able to accommodate you.\\
+   \ \\
+
+   \vfill\eject
+
+   {\bf Academic Integrity}\\
+   A fundamental tenet of all educational institutions is academic
+   honesty; academic work depends upon respect for and acknowledgment of
+   the work and ideas of others. Misrepresenting someone else's work as
+   one's own is a serious offense in any academic setting and it will not
+   be condoned.
+   Academic misconduct includes, but is not limited to, providing or
+   receiving assistance in a manner not authorized by the instructor in
+   the creation of work to be submitted for academic evaluation (e.g.
+   papers, projects, examinations and assessments - whether online or in
+   class); presenting, as one's own, the ideas, words or calculations of
+   another for academic evaluation; doing unauthorized academic work for
+   which another person will receive credit or be evaluated; using
+   unauthorized aids in preparing work for evaluation (e.g. unauthorized
+   formula sheets, unauthorized calculators, unauthorized programs or
+   formulas loaded into your calculator, etc.); and presenting the same
+   or substantially the same papers or projects in two or more courses
+   without the explicit permission of the instructors involved.
+   A student who knowingly assists another student in committing an act
+   of academic misconduct shall be equally accountable for the violation,
+   and shall be subject to the sanctions and other remedies described in
+   The Student Code. Sanctions shall include, but are not limited to, a
+   letter sent to the Dean of Students of the University; a grade of 0 on
+   the assignment, quiz or exam; a grade of F for the course.
+   It is well known that in some courses cheating is not punished as
+   harshly as described above. This is not such a course.\\
+   \ \\
+   
+%   \vfill\eject
+
+   {\bf  Recommended Exercises}\\
+
+\begin{tabular}{ll}
+ 1.1 & p. 11 \# 2,3,8,11,15,16,20,21,25,28,33,36,40 \\
+ 1.2 & p. 22 \# 1,2,7,8,11,14-16,19,22,26,31 \\
+ 1.3 & p. 37 \# 1,2,5,8-10,13,16-18,21,25,26 \\
+ 1.4 & p. 50 \# 1,2,5,6,9,10,15 \\
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 2.1 & p. 70 \# 2,5,6,9,10,15,18,21,22,29,30 \\
+ 2.2 & p. 84 \# 1,2,3,6,8,9,16,19,20 \\                       
+ 2.3 & p. 96 \# 1,2,9,10,17,21,22 \\ 
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 3.1 & p. 112 \# 1-10,20,21 \\
+ 3.2 & p. 125 \# 1,2,6,7,11,12,16,17,26 \\
+ 3.3 & p. 137 \# 1-8,17,18,30 \\                     
+ 3.4 & p. 151 \# 1,2,9,10,11,15,16,21\\      
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 4.1 & p. 170 \# 1,3,8,11,12,15,17,18,21 \\
+ 4.2 & p. 182 \# 17,18,22,25-27,29 \\
+ 4.3 & p. 197 \# 1-4,7,8,21,22 \\
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 5.1 & p. 218 \# 1-5,11,14 \\
+ 5.2 & p. 233 \# 1-4,7,15,18,21 \\
+ 5.3 & p. 245 \# 1,2,5,6,11,12,23 \\
+ 5.4 & p. 260 \# 1,4,9,14,19,24 \\
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 6.1 & p. 282 \# 1-4,7,11-15,18,21 \\
+ 6.2 & p. 290 \# 1,3,6,7,10-13 \\
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 7.1 & p. 307 \# 1-5,7,14-16,29 \\
+ 7.2 & p. 317 \# 1,2,7,8,23 \\
+\end{tabular}
+
+\vskip 2mm
+
+\begin{tabular}{ll}
+ 8.1 & p. 348 \# 1-5,19,22,23 \\
+ 8.2 & p. 355 \# 1-5,20,21 \\
+\end{tabular}
+
+
+\end{document}

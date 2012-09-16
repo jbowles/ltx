@@ -1,0 +1,70 @@
+\documentclass[hyperref={pdfpagelabels=false},pdfauthor={true},%handout
+]{beamer}
+\setbeamercovered{dynamic}
+\setbeamertemplate{navigation symbols}{}
+%\usepackage{beamerthemesplit}
+\usepackage{lmodern}
+\usetheme%{Berkeley}
+%{Warsaw}{Frankfurt}%
+{Berlin} 
+%\usecolortheme{seahorse}{}%{rose}{}%{lily}{}
+\newtheorem{argument}[theorem]{argument}
+% For Handout: will provide light grey background for the slides.
+%\mode<handout>{\setbeamercolor{background canvas}{bg=black!5}}
+\begin{document}
+
+\title{My Beamer}
+\author[Bowles]{Joshua Bowles}
+\date{\today: This conference presentation at this location}
+\subtitle{Beamer}
+\institute{Utah Valley University}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Contents}\tableofcontents
+\end{frame}
+
+\section{First}
+\frame{\tableofcontents[currentsection]}
+\begin{frame}
+\frametitle{There Is No Largest Prime Number}
+\framesubtitle{The proof uses \textit{reductio ad absurdum}.}
+\begin{theorem}
+There is no largest prime number.
+\end{theorem}
+\begin{proof}
+\begin{enumerate}
+\item<1-> Suppose $p$ were the largest prime number.
+\item<2-> Let $q$ be the product of the first $p$ numbers.
+\item<3-> Then $q + 1$ is not divisible by any of them.
+\item<1-> Thus $q + 1$ is also prime and greater than $p$.\qedhere
+\end{enumerate}
+\end{proof}
+\uncover<4->{The proof used \textit{reductio ad absurdum}.}
+\end{frame}
+
+\section{1}
+\begin{frame}\frametitle{1.1}
+ssssssssssssssss
+\end{frame}
+
+\section{2}
+\begin{frame}\frametitle{2.2}
+tttttttttttttttttttttt
+\end{frame}
+
+\section{3}
+\begin{frame}\frametitle{3.3}
+rrrrrrrrrrrrrrrrrrrrrrr
+\end{frame}
+
+\section{4}
+\begin{frame}\frametitle{4.4}
+uuuuuuuuuuuuuuu
+\end{frame}
+
+
+\end{document}

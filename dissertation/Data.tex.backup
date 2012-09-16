@@ -1,0 +1,220 @@
+%HANDOUT
+
+\documentclass[11pt]{article}
+
+
+\usepackage[pdftex,bookmarks=false]{hyperref}
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\paperwidth=8.5in
+\textwidth=5.5in
+
+\begin{document}
+\author{Joshua Bowles}
+\title{List File \& Requirements: PhD}
+\date{\today}
+\maketitle
+
+\section{Contents}
+The list is according to deadlines; binary values for GRE requiremnts.
+\begin{enumerate}
+\item UCLA---no
+\item Northwestern---yes
+\item MIT---no
+\item UT Austin---yes
+\item UMass---yes 
+\item Rutgers---no 
+\item UC Santa Cruz---yes
+\item (Pennsylvania ??)
+\end{enumerate}
+
+
+\section{UCLA}
+\begin{enumerate}
+\item GRE: {\bf NO}
+\item Other test scores:
+\item References: 3
+\item Writing Sample: YES
+\item Statement: YES
+\item Fee: \$ 70
+\item Deadline: December 15
+\item Financial Aid: Supported: ``The Linguistics Department undertakes to provide support packages for all the students that it admits, with support commitments lasting for up to five years, subject to maintenance of satisfactory academic standing. All support packages include the cost of tuition, fees, and a salary or living stipend; consult the department for current stipend levels.  Almost all support packages involve a mixture of fellowship, Research Apprenticeship (RA), and Teaching Apprenticeship (TA) positions, spread out over the 5 year period.''
+\item Languages offered: Chinese Mandarin
+\end{enumerate}
+
+\section{Northwestern}
+from \href{http://www.tgs.northwestern.edu/admission/requirements/}{Northwestern graduate school}
+Statement of purpose
+Your statement of purpose is an important part of your application.  Program admission committees consider them carefully in ranking applicants.  Be as specific as possible about your research interests and qualifications.  If you have particular reasons for choosing Northwestern, be sure to indicate them.  
+
+Your statement may be submitted electronically as part of the online application.  The statement may not exceed 5,000 characters.  You may find it useful to compose your statement using word processing software, then to cut and paste it into the online application.  However, should you desire to submit your statement on paper, a copy of this statement should be submitted along with the other supporting materials you send to the program to which you are applying.  Be sure that your identification - full name, birth date, and the program to which you are applying - are listed below the title.
+
+and also from \href{http://www.linguistics.northwestern.edu/programs/app-info.html}{Northwestern Linguistics}:
+Graduate Program Application Information
+Where can I find out about general requirements and procedures for applying to a graduate program at Northwestern University?
+Follow these links:
+
+General information about Northwestern's admission process
+General information regarding application materials, including payment of the application fee, and up-to-date information on test scores
+Information on financial aid.
+Online application
+How early may I submit an application?
+October 1st for admission the following Fall Quarter.
+
+What is the application deadline?
+December 31st for admission the following Fall Quarter.
+
+Are there any additional program-specific materials that must be included in an application to a graduate program in Linguistics?
+Like many programs at Northwestern, Linguistics requires GRE scores for admission. For more on the GRE, please click here. In addition, the Linguistics Department requires applicants to submit a writing sample. The length of this writing sample is highly variable, but typically it is at least 3-5 pages long with a highly variable upper limit. Some applicants submit an entire MA thesis, while others send in just a 3-5 page paper written for a class at their undergraduate institution. As for the topic, anything that is related to Linguistics is fine, it certainly doesn't have to be in the area of Linguistics that the applicant is hoping to specialize in. The main purpose of the writing sample is to give us an idea of the applicant's written expression ability.
+
+Who should I ask to write the two letters of recommendation?
+Letters of recommendation should be written by anyone in a position to evaluate your potential for graduate study in Linguistics. There are no requirements regarding the position of the letter writer, however, it is highly recommended that at least one letter come from a former or current professor. In the case of an applicant who has been out of school for some time, a letter from a recent or current supervisor is also very helpful. Please note that we require a minimum of 2 letters of recommendation, however there is no maximum. It is often appropriate to include up to 4-5 letters, especially (but not exclusively) in the case of an applicant with extensive work experience beyond the undergraduate degree.
+
+Where should hard copies of the supplemental application materials be sent?
+Any hard copies of application materials, with the exception of the application fee, must be sent to the Linguistics Department at this address:\\
+
+Department of Linguistics \\
+Northwestern University \\
+2016 Sheridan Road \\
+Evanston, Illinois 60208-4090\\
+
+What is the application review process at the level of the NU Graduate School?
+For information on the Graduate School application review process go to this website.
+
+What is the application review process at the level of the NU Linguistics Department?
+Once the application deadline has passed (December 31), the graduate admission committee begins to review applications. All applications are reviewed very carefully and close attention is paid to each and every part of the application package including test scores (GRE and TOEFL), undergraduate academic record, writing sample, letters of recommendation and the personal statement. At some point in late January/early February, we make the first round of admissions offers and invite those applicants with offers to attend our Annual Applicant Visit Weekend. In accordance with the Resolution Regarding Graduate Scholars, Fellows, Trainees, and Assistants of the Council of Graduate Schools, applicants who receive an offer prior to April 15th, have until that date to accept or decline the offer. Offers made after April 15th typically expire after 2-3 weeks. Given this schedule, our entering class for any given year is usually finalized by late April/early May. At that point (if not sooner), all applicants should have been notified regarding the final status of their application.
+
+\begin{enumerate}
+\item GRE: YES
+\item Other test scores: NO
+\item References: at least 2, up to 5
+\item Writing Sample: Yes
+\item Statement: Yes
+\item Fee: \$75
+\item deadline: December 31
+\item Languages offered: 
+\end{enumerate}
+
+\section{MIT}
+For \href{http://web.mit.edu/linguistics/index.html}{MIT}.
+
+From the \href{http://web.mit.edu/admissions/graduate/requirements/index.html}{Graduate School} site (pdf):\\
+
+Linguistics and Philosophy, Course XXIV Room: 32-D808 Phone: (617) 253-4141 Fax: (617) 253-5017 email: lp-admissions@mit.edu http://web.mit.edu/linguistics/www/ http://web.mit.edu/philos/www/ Type of degree offered: Ph.D. Term students can be admitted: September\\ Application deadline:\\
+{\bf January 2}\\ Tests required: TOEFL: Minimum score required: 577 (233 for computer-based) (91 for internet-based) TOEFL may be waived by department Department code: 04 (Linguistics) 20 (Philosophy)\\ GRE: No\\ Return applications to: Department of Linguistics and Philosophy, Room 32-D808 Areas of research offered: Linguistics Philosophy Special instructions:
+Applicants to the Department of Linguistics and Philosophy are required to submit a writing sample as part of their application. Writing samples should be
+submitted electronically.\\ Please go to \\http://www.dlp.mit.edu/admissions\\ for further instruction. Applicants to the linguistics program are very strongly urged to send a copy of a {\bf major research paper (a term paper, research report, or thesis). The paper need not be about linguistics, but it should demonstrate an applicant's ability to pursue serious scholarly inquiry}.
+Applicants to the philosophy program should submit a writing sample in philosophy, ideally of 15-25 pages in length. The writing sample should allow us to assess the applicant's understanding of a philosophical problem, and ability to evaluate philosophical arguments. This assessment is usually easier if the writing sample explicitly engages with some of the contemporary philosophical literature. Applicants to the Linguistics Program are NOT required to complete the Record of Courses Taken in Preparation for Graduate Study form. Applicants to the Philosophy Program are required to list only relevant texts and authors on the Record of Courses Taken in Preparation for Graduate Study form.\\
+
+\begin{enumerate}
+\item GRE: {\bf NO}
+\item Other test scores: NO
+\item References: 3
+\item Writing Sample: Yes
+\item Statement: Yes
+\item Fee: \$ 70
+\item Deadline: January 2
+\item Financial Aid: Competitive: ``The department has limited funds for the support of graduate students, and is committed to distributing this support as equitably as possible to students in good standing who are in need of financial assistance. Consequently, applicants are strongly urged to make extensive efforts to find some outside source of support.''
+\item Languages offered: Chinese Mandarin
+\end{enumerate}
+
+\section{UT Austin}
+For \href{http://www.utexas.edu/cola/depts/linguistics/main/}{UT Austin} linguistics.
+
+The following is from UT Austin `How to Apply' \href{http://www.utexas.edu/cola/depts/linguistics/graduate_programs/apply/}{Graduate Programs}:\\
+
+
+How to Apply
+The \textbf{deadline for applying for fall 2009 is January 7, 2009.}
+All applicants are strongly urged to use the on-line application procedure. Apply online here.
+Admission to the graduate program is not restricted to those with a B.A. in linguistics, and the core course offerings are specifically designed to meet the needs of entering students with little or no previous course work in linguistics.
+U.S. citizens, permanent residents, and those who have already attended the University of Texas at Austin:
+   1. Submit the Application for Admission to Graduate Study and \$50 application fee to the Office of Admissions.
+   2. Request one official copy of your transcripts for all senior college and graduate work to be sent directly to the Office of Admissions.
+   3. Take the Graduate Record Examinations General Test (GRE) in time to have the official test scores reported to the Office of Admissions by the application deadline. 
+Citizens of other countries who have not previously attended the University of Texas
+   1. Submit the Application for Undergraduate \& Graduate Admission - Students From Other Countries, the \$75 non-refundable processing fee, and a letter of sponsorship to the Office of Admissions.
+   2. Request one copy of your transcripts for all senior college and graduate work to be sent directly to the Office of Admissions.
+   3. Take the Graduate Record Examinations General Test (GRE) in time to have the official test scores reported to the Office of Admissions by the application deadline.
+   4. Take the Test of English as a Foreign Language (TOEFL) in time to have the official test scores reported to the Office of Admissions by the application deadline.
+All applicants:
+\textbf{The following four items are required by the Graduate Linguistics Program.\\
+   1. Statement of Purpose - a clear and straightforward statement in which you give an idea of:
+          * your current interests in linguistics;
+          * how these interests developed;
+          * your plans for graduate study and eventual specialization, even if tentative.\\ 
+   2. Recommendation letters - we require three letters from professors who know you and your work.\\
+   3. Sample research paper, or work of similar scope, that clearly demonstrates your writing ability.\\
+   4. One official copy of each transcript (in addition to those sent to the Office of Admissions).}\\ 
+Please send these four items directly to:\\
+The University of Texas at Austin\\
+Linguistics Admissions\\
+Department of Linguistics\\
+1 University Station B5100\\
+Austin, Texas 78712-0198\\
+
+
+\begin{enumerate}
+\item GRE: YES
+\item Other test scores: NO
+\item References: 3
+\item Writing Sample: YES
+\item Statement: YES
+\item Fee: \$50
+\item Deadline: January 7
+\item Languages offered: Chinese
+\end{enumerate}
+
+\section{UMASS}
+See the \href{http://www.umass.edu/linguist/graduate_program/application_process.shtml}{UMASS site}.
+\begin{enumerate}
+\item GRE: YES
+\item Other test scores: NO
+\item References: 2 - 3
+\item Writing Sample: YES
+\item Statement: YES 
+\item Fee: \$ 50
+\item Deadline: January 15
+\item Languages offered:
+\item GRE codes: Institution {\bf 3917} (no department code needed) 
+\item Financial Aid: Supported: ``It is department policy that, resources permitting, all students are adequately supported for the full five years of the graduate program. For many years now, we have been completely successful in achieving this goal. During 2008-2009, all of our students without other sources of financial aid received a tuition waiver and a stipend of \$18500. Additional summer support is sometimes available.''
+\end{enumerate}
+
+\section{Rutgers}
+See the \href{http://ling.rutgers.edu/index.php?option=com_content&task=view&id=107&Itemid=153}{Rutgers site}. 
+\begin{enumerate}
+\item GRE: {\bf NO}
+\item Other test scores: NO
+\item References: 3
+\item Writing Sample:
+\item Statement:
+\item Fee: \$ 65
+\item Deadline: February 1 (January 1 if applying for Presidential Fellowship)
+\item GRE codes: Institution {\bf 2790} (no department code needed)
+\item Financial Aid: Supported: ``Graduate students in the department of linguistics are typically supported for the full five years of their graduate study. Students must remain in good academic standing in order for their support to be renewed each year.  Most students receive mixed types of support over the course of their five years, for example, a graduate assistantship or fellowship for the first two years, teaching assistantships for the next two, and then a dissertation fellowship for the final year. All of these options include full tuition remission and paid health benefits.''
+\item Languages offered: Chinese Mandarin
+\end{enumerate}
+
+
+\section{Santa Cruz}
+\begin{enumerate}
+\item GRE: YES
+\item Other test scores:
+\item References: 3
+\item Writing Sample:
+\item Statement: 
+\item Fee: \$ 
+\item Languages offered: 
+\end{enumerate}
+
+
+
+
+
+
+
+\end{document}  

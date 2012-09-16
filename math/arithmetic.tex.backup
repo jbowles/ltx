@@ -1,0 +1,207 @@
+\chapter{Arithmetic}
+In this chapter I sketch the basic materials of arithmetic. 
+      \section{Percent}
+Any percent\index{percent} can be transformed into a rational number fraction by dividing by 100, which also gives a decimal:
+\[ 40\% = \frac{40}{100} = .4 \]
+Multiplying decimal values by other numerical values will yield a percentage relation. For example,
+\[ 30\% \text{ of } 350 = (350)\left(\frac{30}{100}\right) = (350)\left(\frac{3}{10}\right) = \frac{1,050}{10} = 105 \] 
+or,
+\[ 30\% \text{ of } 350 = .3\times350 = 105 \]
+
+Increases (equation \ref{greater}) and decreases (equation \ref{less}) of percentages are handled by the following; assume that x and y are positive numbers and that $x < y$:
+\begin{equation}\label{greater}
+    y \text{ is }\left(\frac{y-x}{x} \right)(100) \text{ percent greater than } x
+\end{equation}
+\begin{equation}\label{less}
+     x \text{ is }\left(\frac{y-x}{y} \right)(100) \text{ percent less than } y
+\end{equation}
+For example, an \textbf{increase} from 600 to 750 is found by dividing the difference of the increase (750 - 600 = 150) by the first or \textbf{smaller} of the two initial values, known as the \textsl{base}, or the denominator:
+\[ \left(\frac{150}{600}\right)(100) = 25\%\]
+Whereas a \textbf{decrease} from 500 to 400 is found by dividing the difference of the decrease (500 - 400 = 100) by the first or \textbf{larger} of the two initial values, also known as the \textsl{base}, or the denominator:
+\[ \left(\frac{100}{500}\right)(100) = 20\%\]
+
+      \section{Average and Arithmetic Mean}
+\begin{align}
+    \frac{x_1 + y_2 + z_3}{3} &= \text{average}\\
+\frac{n_m}{m} &= \text{average}
+\end{align}
+\begin{example}
+      \begin{equation}
+   \begin{split}
+\frac{5_1 + 8_2 + 8_3 + 14_4 + 15_5 + 10_6}{6} &= Average(x)\\
+ \frac{60}{6} &= 10
+   \end{split} 
+      \end{equation}
+\end{example}
+
+
+   \subsection{Range}
+Range is defined as the greatest measurement minus the least measurement, iff all numerical values are a discrete set. 
+\begin{align}
+    \textcolor{red}{5}, 8, 8, 14, \textcolor{red}{15}, 10 &= Range(x)\\
+15 - 5 &= 10
+\end{align}
+Notice that it is a coincidence that the {\sl range} and the {\sl average} are the same value. Range by itself is not very useful, but has been used as the starting intuition for developing the \textsl{standard deviation}.
+
+   %\subsection{Standard deviation}
+
+   %\subsection{Frequency distribution}
+
+
+
+%======================
+\chapter{Basic Geometry}
+      \section{Area, Perimeter, Volume}
+   \subsection{Area}
+Triangle:
+\begin{equation}
+    A = \frac{bh}{2} \qquad \text{\scriptsize b = base, h = height}
+\end{equation}
+Square:
+\begin{equation}
+    A = l^2 \qquad \text{\scriptsize l = length}
+\end{equation}
+Rectangle:
+\begin{equation}
+    A = bh \qquad \text{\scriptsize b = base, b = height}
+\end{equation}
+Regular Polygons:
+Add this later\ldots\\
+Circle:
+\begin{equation}
+    A = \pi r^2 \qquad \text{\scriptsize r = radius}
+\end{equation}
+
+   \subsection{Perimeter}\label{perimeter}
+Triangle:
+\begin{equation}
+    P = l_a + l_b + l_c \qquad \text{\scriptsize l = length}
+\end{equation}
+Square:
+\begin{equation}
+    P = 4l \qquad \text{\scriptsize l = length}
+\end{equation}
+Rectangle:\footnote{Perimeter for a rectangle can also be defined equivalently as $P = 2(l + w)$, where l = length and w = width, or as $P = 2(side A + side B)$}
+\begin{equation}
+    P = 2(b + h) \qquad \text{\scriptsize b = base, h = height}
+\end{equation}
+Regular Polygons:
+\begin{equation}
+    P = nl \qquad \text{\scriptsize l = length, n = number of sides}
+\end{equation}
+Circle (\textsl{circumfrence}):
+\begin{equation}
+    C = 2 * \pi * r \qquad \text{\scriptsize C = circumfrence, r = radius}
+\end{equation}
+
+   \subsection{Volume}
+Cone or Pyramid:
+\begin{equation}
+    V = \frac{1}{3}(bh) \qquad \text{\scriptsize b = base, h = height}
+\end{equation}
+Cube:
+\begin{equation}
+    V = l^3 \qquad \text{\scriptsize l = length}
+\end{equation}
+Rectangular prism:
+\begin{equation}
+    V = bwh \qquad \text{\scriptsize b = base, w = width, h = height}
+\end{equation}
+Sphere:
+\begin{equation}
+    V = \frac{4}{3}\pi r^3 \qquad \text{\scriptsize r = radius}
+\end{equation}
+Cylinder:
+\begin{equation}
+    V = A_{base} * h \qquad \text{\scriptsize $A_{base}$ = area of base, h = height}
+\end{equation}
+
+      \section{The Circle}
+For a circle, the \textsl{radius} is measured from the midpoint to an edge, \textsl{diameter} is any line that meets two edges and passes through the center point; any line that touches two edges but does not pass through the mid point is called a \textsl{chord}.
+
+The ration of circumference to diameter of a circle is 
+\begin{equation}
+    \frac{c}{d}\pi
+\end{equation}
+Circumference, given above in \ref{perimeter}, is repeated here:
+\begin{equation}
+    c = 2\pi r
+\end{equation}
+
+      \section{Pythagorean theorem}\index{Pythagorean theorem}
+\begin{equation}
+    a^2 + b^2 = c^2
+\end{equation}
+      \section{Polygons}
+\subsection{Sums for interior polygon angles}
+The sum of the interior angles for any $n$-sided polygon\index{polygon} is:
+\begin{equation}
+    (n - 2)(180^\circ) 
+\end{equation}
+For example, where $n$ equals any real value for triangle, quadrilateral, pentagon, hexagon, etc.:
+\begin{equation}
+ \begin{split}
+(3-2)(180^\circ)& = 180^\circ\\
+(4-2)(180^\circ)& = 360^\circ\\
+(5-2)(180^\circ)& = 540^\circ\\
+(6-2)(180^\circ)& = 720^\circ\\
+(7-2)(180^\circ)& = 900^\circ\\
+(8-2)(180^\circ)& = 1080^\circ\\
+(9-2)(180^\circ)& = 1260^\circ\\
+(10-2)(180^\circ)& = 1440^\circ
+\end{split}   
+\end{equation}
+Notice the the difference between $n \pm1$ side for the sum of interior angles is $180^\circ$, that is, adding or subtracting one side to a polygon is equivalent to increasing or decreasing the sum of the interior angles by $180^\circ$. We can state this as a co-variation, where the number of sides varies directly\index{direct variation of polygon sides} with the value 180; where $k = 180$ and is the constant:
+\begin{equation}
+    y =kx \qquad \text{or} \qquad \frac{y}{x} =k
+\end{equation}
+The following show the direct variation\index{direct variation of polygon angles} of the sum of interior angles for polygons\index{polygon}; first a quadrilateral, then a pentagon:
+\begin{equation}
+    360 =(180)(4-2) \qquad \text{or} \qquad \frac{360}{4-2} =180
+\end{equation}
+and,
+\begin{equation}
+    540 =(180)(5-2) \qquad  \text{or} \qquad \frac{540}{5-2} =180
+\end{equation}
+An interesting thing that falls out of this series for polygons is the definition of line.\footnote{According to the polygonal series and the direct variation defined above, a line, with 0 angles, ends up being $-360^\circ$. Another way is to start with a line as defined as having 0 degree: by this path we have to give a line 2 sides so that $0 \times 180 = 0$.} Defining a line by this method could be used as a proof for why a line is not a polygon; I leave this up to imagination.
+
+   \subsection{Area and Perimeter for Polygons}
+The \textsl{perimeter} of a polygon is the sum of the lengths of its sides. The \textsl{area} of a polygon is the measure of enclosed region.
+
+   \subsubsection{Triangles}
+\begin{maxim}
+No triangle can have a longest side that is greater than the sum to the two shortest sides.
+\end{maxim}
+\begin{example}
+    If triangle $\bigtriangleup$ABC has $A = 4$, $B = 7$, then $C \neq 12$. That is, $4 + 7 =11$, and since no side of a triangle can be greater than the sum of two other sides, C cannot be greater than $11$. In other words, take the longest side of $\Delta$ABC, the sum of the other sides cannot be greater.
+\end{example}
+\begin{definition}\textsc{Equilateral Triangle}\\
+Has all three sides equal
+\end{definition}
+\begin{example}
+    For equilateral $\bigtriangleup$ABC, all angles must equal $60^\circ$. If any angle is more or less than 60, then $\bigtriangleup$ABC $\neq 180$.
+\end{example}
+
+\begin{definition}\textsc{Isosceles Triangle}\\
+Has two sides of equal length. 
+\end{definition}
+\begin{example}
+    For isosceles $\bigtriangleup$ABC, angle ABC and angle BCA = $50^\circ$, then
+\begin{align*}
+    50 + 50 + x &= 180\\
+   100 + x &= 180\\
+   x &= 80
+\end{align*}
+\end{example}
+
+\begin{definition}\textsc{Right Triangle}\\
+Has one interior angle that equals $90^\circ$. For right $\bigtriangleup$DEF, say DF is hypotenuse (side oposite of the right angle), then Pythogorean theorem says that $(DF)^2 = (DE)^2 + (EF)^2$
+\end{definition}
+\begin{example}
+    For right $\bigtriangleup$DEF, DE = 5, DF = 8 and is the hypotenuse, and EF = x, then
+\begin{align*}
+    8^2 &= 5^2 + x^2\\
+   64 &= 25 + x^2\\
+   39 &= x^2
+\end{align*}
+\end{example}

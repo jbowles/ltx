@@ -1,0 +1,58 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}The basic explanation}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Structure}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Analysis}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Style}{3}{subsection.2.3}
+\contentsline {paragraph}{This}{3}{section*.2}
+\contentsline {paragraph}{This}{3}{section*.3}
+\contentsline {subsection}{\numberline {2.4}Originality}{3}{subsection.2.4}
+\contentsline {section}{\numberline {3}Scalar Criteria}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}}{3}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}The Superior Paper (A)}{4}{subsubsection.3.1.1}
+\contentsline {paragraph}{Structure:}{4}{section*.4}
+\contentsline {paragraph}{Analysis:}{4}{section*.5}
+\contentsline {paragraph}{Style:}{4}{section*.6}
+\contentsline {paragraph}{Originality:}{4}{section*.7}
+\contentsline {subsubsection}{\numberline {3.1.2}The Very Good Paper (A/B)}{4}{subsubsection.3.1.2}
+\contentsline {paragraph}{Structure:}{4}{section*.8}
+\contentsline {paragraph}{Analysis:}{4}{section*.9}
+\contentsline {paragraph}{Style:}{4}{section*.10}
+\contentsline {subsubsection}{\numberline {3.1.3}The Good Paper (B)}{4}{subsubsection.3.1.3}
+\contentsline {paragraph}{Structure:}{4}{section*.11}
+\contentsline {paragraph}{Analysis:}{4}{section*.12}
+\contentsline {paragraph}{Style:}{4}{section*.13}
+\contentsline {subsubsection}{\numberline {3.1.4}The Borderline Paper (B/C)}{5}{subsubsection.3.1.4}
+\contentsline {paragraph}{Structure:}{5}{section*.14}
+\contentsline {paragraph}{Analysis:}{5}{section*.15}
+\contentsline {paragraph}{Style:}{5}{section*.16}
+\contentsline {subsubsection}{\numberline {3.1.5}The ``Needs Help'' Paper (C)}{5}{subsubsection.3.1.5}
+\contentsline {paragraph}{Structure:}{5}{section*.17}
+\contentsline {paragraph}{Analysis:}{5}{section*.18}
+\contentsline {paragraph}{Style:}{5}{section*.19}
+\contentsline {subsubsection}{\numberline {3.1.6}The Bad Paper (D or F)}{5}{subsubsection.3.1.6}
+\contentsline {subsection}{\numberline {3.2}}{5}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}The Unsatisfactory Paper.}{6}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}The C Paper.}{6}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}The B Paper.}{6}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}The A Paper.}{6}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}}{7}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}An A paper is excellent in nearly all respects:}{7}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}B paper is solid in most respects:}{7}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}C paper is an adequate response to the topic:}{8}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}D paper does not adequately respond to the assignment:}{8}{subsubsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.5}F or Failing papers}{8}{subsubsection.3.3.5}
+\contentsline {subsection}{\numberline {3.4}}{9}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}A}{9}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}B}{9}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}C}{9}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}D}{10}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.5}F}{10}{subsubsection.3.4.5}
+\contentsline {subsection}{\numberline {3.5}}{11}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}A/A–}{11}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}B/B+}{11}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}B–}{11}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}C/C+}{11}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.5}D+/C–}{11}{subsubsection.3.5.5}
+\contentsline {subsubsection}{\numberline {3.5.6}D}{11}{subsubsection.3.5.6}
+\contentsline {subsubsection}{\numberline {3.5.7}E}{11}{subsubsection.3.5.7}
+\contentsline {section}{\numberline {4}Other Sources}{12}{section.4}

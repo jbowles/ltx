@@ -1,0 +1,85 @@
+%HANDOUT
+
+\documentclass[11pt]{article}
+
+
+
+\usepackage{mypackages}
+%\usepackage{mycommands}
+
+
+
+\begin{document}
+\author{Joshua Bowles}
+\title{STATEMENT OF PURPOSE: UCLA}
+\date{\today}
+
+
+
+\maketitle
+\section{AWARDS/DISTINCTIONS:}
+\textbf{2007} Endangered Language Fund (Co-PI) \$3500\\
+\textbf{2007} International Field Work Travel Funds, University of Utah \$300\\
+\textbf{under review} National Endowment of the Humanities Summer Stipend \$12,000; Project: ``Evidentiality and the Human Mind: Language, Information, and Human Discourse.''
+
+\section{PERTINENT WORK EXPERIENCE:} 
+\textbf{Fall 2009/2008}	\emph{Science \& Technology Writing and Research} ENG 2020, Undergraduate, Utah Valley University (9 courses total)\\
+\textbf{Summer 2009} \emph{Humanities \& Social Science Writing and Research} ENG 2010, Undergraduate, Utah Valley University\\
+\textbf{2009, July -- Nov} Computational Linguist (Intern), Attensity Corporation, U.S. Technology Center, Salt Lake City, UT
+
+\section{PUBLICATIONS/ORGANIZATIONS:}
+\textbf{to appear} The morphosyntax of tense-evidentials: An initial model. \emph{\href{http://ling.wisc.edu/lso/wpl-main.html}{LS0} Working Papers in Linguistics: Proceedings of the 6th Workshop in General Linguistics,} Volume 8. University of Wisconsin-Madison.\\
+\textbf{to appear} The Eastern Tukanoan languages and the typology of classifiers. \emph{Proceedings of the 33rd
+Annual Meeting of the \href{http://linguistics.berkeley.edu/BLS/past_meetings.html}{Berkeley Linguistics Society.}} (Wilson Silva and Joshua Bowles)\\
+\textbf{2009} Review of Heck (2008), \emph{On pied-piping: Wh-movement and beyond} (Mouton de Gruyter). \href{http://linguistlist.org/issues/20/20-2283.html}{LinguistList}.\\
+\textbf{2008} Some questions about determining causal inference and criteria for evidence:
+Response to Ladd, Dediu, and Kinsella (2008). \emph{\href{http://www.biolinguistics.eu.}{Biolinguistics}} 2.2-3: 247-255.\\
+\textbf{2007} Review of Niyogi (2006), \emph{The computational nature of language learning and evolution} (MIT Press). {\it Word} 57.2: 178-183.\\
+
+\noindent Linguistic Society of America: 2006 -- 2008\\
+Association of Computational Linguistics: 2007 -- 2008\\
+
+\section{STATEMENT OF PURPOSE:} 
+
+\subsection{Diversity}
+I grew up very poor and have dreamed of getting my PhD. I have had to work my way through a small state college to a large research university. I never give up and can attest to what drive and determination can accomplish. I know that failure builds character and leadership; and that respect is something people confer on you. A leader is molded through experience and shaped more by failures than successes. Great scientific research is guided by leaders who through honesty, discipline, and hard work build upon the successes of previous generations. I endeavour to be a leader in my generation by learning from the best and never giving up.
+
+Furthermore, I have interacted with diverse cultures either through study in other countries (4 months in Guadalajara, Mexico), or through field work.
+
+\begin{cvlist}{Field Work}
+\item[2007, June-August] Sao Gabriel da Cachoeria and Camanaus, Brazil. Work on all grammatical aspects of Desano and limited work on Cubeo; Tukanoan family. 
+\item[2004, September] Denver, Colorado, USA. Limited work on phonology of Afghani Poshtun; Indo-Iranian family.
+\end{cvlist}
+
+\subsection{Personal}
+I am looking to study formal-computational semantics and pragmatics. I have a good base in descriptive, typological-functional theories from study under Stephanie Robin Quizar and Lyle Campbell, as well as in minimalist syntax from Aniko Csirmaz and Ed Rubin. Now I want to study more formal techniques. One of my main interests is Evidentiality. This came from working with Tukanoan languages, and presently I am looking into how languages without grammatical evidentials may possibly encode evidential (or epistemic modal) interpretations. I am also interested in building ontologies and formal models of context for evidential reasoning, presupposition, and implicature. 
+
+\subsection{Research}
+I am interested in applying various linguistic theories to solve real-world problems in scientific and industry related domains. I enjoy finding ways to use ideas from mathematical logic, computability theory, and abstract algebra to build rigorous models for natural languages. Presently I am focusing my energy on basic skills needed for computational linguists. This includes (i) basic command line usage (having recently switched to a Linux environment), (ii) natural language processing (including languages such as Python, Lisp, Prolog), and (iii) statistics and probablility. These are life-long goals and I have no pretention to mastery in a few short months.   
+
+The following subsections list current and future research projects I would like to continue in my doctoral studies. 
+
+\subsubsection{Current Projects: 2008--2009}
+\ex. \textsl{English Corpus of Evidentiality Data} (goal of 1 million sentences/clauses; presently at about .02\% of goal).
+
+\ex. \textsl{Evidentiality and the Human Mind: Language, Information, and Human Discourse} (\texttt{Project under review for funding by the NEH Summer Stipend 2010}). 
+
+\ex. \textsl{Some Syntax, Semantics, and Pragmatics of Evidentiality in English}. Ms., 29 pgs: version 1.3. 
+
+\ex. \textsl{Recursion for Computation's Sake}. Ms., 24 pgs: version 1.
+
+\ex. \textsl{Ambiguous Merge, Symmetry, and Group Theory}. Ms., 27 pgs: version 2. 
+\a.  \small{Revision in progress for future squib submission. \textsl{A Note on Ideal Structure for a Hypothetical Operation}. 9 pgs: version 1}.
+
+\subsubsection{Future Project Interests: Things that have been on my mind}
+\ex. Computing Fixed Phrases and Idioms by Named Entity Recognition and Normalization (\small{related to work I did as a linguist intern at Attensity Corporation}).
+
+\ex. Statistical Patterns for Pragmatic Structures in English Evidentiality. 
+
+\ex. Formalizing Context.
+
+\ex. Ontology and Knowledge Representation for Evidential Reasoning.
+
+I am also considering studying a language with a large web presence: starting Mandarin, or continuing German or Spanish.  
+
+\end{document}  

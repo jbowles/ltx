@@ -1,0 +1,55 @@
+
+
+\documentclass[11pt]{article}
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Statement of Purpose: Stanford}
+\date{\today}
+
+
+\maketitle
+\section{Personal}
+I am looking to study formal-computational semantics and pragmatics. I have a nice base in descriptive, typological-functional theories from study under Stephanie Robin Quizar and Lyle Campbell, as well as in minimalist syntax from Aniko Csirmaz and Ed Rubin. Now I want to study more formal techniques. One of my main interests is Evidentiality. This came from working with Tukanoan languages, and presently I am looking into how languages without grammatical evidentials may possibly encode evidential (or epistemic modal) interpretations. I am also interested in building ontologies and formal models of context for evidential reasoning, presupposition, and implicature. 
+
+At first I was not going to apply to Stanford Linguistics, even though I have always wanted to get my PhD here. I was not sure that my interests in pragmatics and semantics aligned well with enough of the faculty's interests. However, given new additions to the department, I see that my interests are broadly represented in the linguistics faculty and I know I could be a productive member of the community. 
+
+\subsection{GRE Scores}
+Unfortunately, my 4 year old GRE scores do not accurately reflect my ability. I know why the scores are low and am correcting this by re-taking the GRE. However, since I only recently decided to apply to Stanford (as of November 16), my new scores will not be submitted in time. (That is, the deadline of December 8 is much earlier than the other schools I am applying to and I don't re-take the GRE until December 10). In effect, and specifically regarding the low quantitative score, I was naive about preparing for the exam and thought that because I was doing active research and writing, as well as studying mathematical logic and abstract algebra on my own, I would be fine without studying for the actual test. I am not proud of my naivet\'e and will convince you that the GRE scores that have been submitted do not reflect my actual ability.
+
+\section{Research}
+I am interested in applying various linguistic theories to solve real-world problems in scientific and industry related domains. I enjoy finding ways to use ideas from mathematical logic, computability theory, and abstract algebra to build rigorous models for natural languages. Presently I am focusing my energy on basic skills needed for computational linguists. This includes (i) basic command line usage (having recently switched to a Linux environment), (ii) natural language processing (including languages such as Python, Lisp, Prolog), and (iii) statistics and probablility. These are life-long goals and I have no pretention to mastery in a few short months.   
+
+The following subsections list current and future research projects I would like to continue in my doctoral studies. 
+
+\subsection{Current Projects: 2008--2009}
+\ex. \textsl{English Corpus of Evidentiality Data} (goal of 1 million sentences/clauses; presently at about .02\% of goal).
+
+\ex. \textsl{Evidentiality and the Human Mind: Language, Information, and Human Discourse} (\texttt{Project under review for funding by the NEH Summer Stipend 2010}). 
+
+\ex. \textsl{Some Syntax, Semantics, and Pragmatics of Evidentiality in English}. Ms., 29 pgs: version 1.3. 
+
+\ex. \textsl{Recursion for Computation's Sake}. Ms., 24 pgs: version 1.
+
+\ex. \textsl{Ambiguous Merge, Symmetry, and Group Theory}. Ms., 27 pgs: version 2. 
+\a.  \small{Revision in progress for future squib submission. \textsl{A Note on Ideal Structure for a Hypothetical Operation}. 9 pgs: version 1}.
+
+\subsection{Future Project Interests: Things that have been on my mind}
+\ex. Computing Fixed Phrases and Idioms by Named Entity Recognition and Normalization (\small{related to work I did as a linguist intern at Attensity Corporation}).
+
+\ex. Statistical Patterns for Pragmatic Structures in English Evidentiality. 
+
+\ex. Formalizing Context.
+
+\ex. Ontology and Knowledge Representation for Evidential Reasoning.
+
+I am also considering studying a language with a large web presence: starting Mandarin, or continuing German or Spanish.
+
+
+
+\end{document}  

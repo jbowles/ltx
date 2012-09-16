@@ -1,0 +1,235 @@
+\begin{thebibliography}{41}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Aikhenvald(2003)}]{aikhenvald03cls}
+Aikhenvald, Alexandra~Y. 2003.
+\newblock \emph{Classifiers: A typology of noun categorization devices}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Baker(1985)}]{baker85mirror}
+Baker, Mark. 1985.
+\newblock The mirror principle and morphosyntactic explanation.
+\newblock \emph{Linguistic Inquiry} 16: 373--415.
+
+\bibitem[{Boeckx(2006)}]{boeckx06linguisticmin}
+Boeckx, Cedric. 2006.
+\newblock \emph{Linguistic minimalism: Origins, concepts, methods, and aims}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Boeckx(2008)}]{boeckx08bare}
+Boeckx, Cedric. 2008.
+\newblock \emph{Bare syntax}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Boeckx \protect\BIBand{} Piattelli-Palmarini(2005)}]{boeckxpp:2005}
+Boeckx, Cedric \protect\BIBand{} Massimo Piattelli-Palmarini. 2005.
+\newblock Language as a natural object---linguistics as a natural science.
+\newblock \emph{The Linguistic Review} 22: 447--466.
+
+\bibitem[{Bowles(2009)}]{bowles09amerge}
+Bowles, Joshua. 2009.
+\newblock \textsc{M}erge, symmetry, and group theory$\alpha$.
+\newblock \textsc{M}s., University of Utah and Utah Valley University.
+
+\bibitem[{Bybee(1985)}]{bybee85morph}
+Bybee, Joan~L. 1985.
+\newblock \emph{Morphology: a study of the relation between meaning and form}.
+\newblock Amsterdam: John Benjamins.
+
+\bibitem[{Chomsky(1986)}]{chomsky86knowledge}
+Chomsky, Noam. 1986.
+\newblock \emph{Knowledge of language: Its nature, origin, and use}.
+\newblock New York: Praeger.
+
+\bibitem[{Chomsky(1995)}]{chomsky95mp}
+Chomsky, Noam. 1995.
+\newblock \emph{The minimalist program}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Chomsky(2007)}]{chomsky07ofminds}
+Chomsky, Noam. 2007.
+\newblock Of minds and language.
+\newblock \emph{Biolinguistics} 1: 9--27.
+
+\bibitem[{Cinque(1999)}]{cinque99adverbs}
+Cinque, Guglielmo. 1999.
+\newblock \emph{Adverbs and functional heads}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Everett(1986)}]{everett86hal}
+Everett, Daniel~L. 1986.
+\newblock Pirah{\~a}.
+\newblock In Desmond~C. Derbyshire \protect\BIBand{} Geoffrey~K. Pullum (eds.)
+  \emph{Handbook of Amazonian Languages}, vol.~1, 200--325. Berlin: Mouton de
+  Gruyter.
+
+\bibitem[{Everett(2005)}]{everett05piraha}
+Everett, Daniel~L. 2005.
+\newblock Cultural constraints on grammar and cognition in \textsc{P}irah{\~a}:
+  Another look at the design features of human language.
+\newblock \emph{Current Anthropology} 46(4): 621--646.
+
+\bibitem[{Everett(2006)}]{everett06reply}
+Everett, Daniel~L. 2006.
+\newblock Reply to \textsc{D}iscussion for ``\textsc{O}n cultural constraints
+  on \textsc{P}irah{\~a} grammar''.
+\newblock \emph{Current Anthropology} 47(1): 143--145.
+
+\bibitem[{Everett(2007)}]{everett07replynevins}
+Everett, Daniel~L. 2007.
+\newblock Cultural constraints on grammar in \textsc{P}irah{\~a}: A reply to
+  \textsc{N}evins, \textsc{P}esetsky, and \textsc{R}odrigues.
+\newblock Ms., Linguistics, Anthroplogy, and Biological Sciences, Illinois
+  State University.
+
+\bibitem[{Everett(2009)}]{everett09response}
+Everett, Daniel~L. 2009.
+\newblock Pirah{\~a} culture and grammar: A response to some criticisms.
+\newblock \emph{Language} 85(2): 405--442.
+
+\bibitem[{Heim \protect\BIBand{} Kratzer(1998)}]{heimkratzer98semantics}
+Heim, Irene \protect\BIBand{} Angelika Kratzer. 1998.
+\newblock \emph{Semantics in generative grammar}.
+\newblock Oxford: Blackwell.
+
+\bibitem[{Hornstein \protect\BIBand{} Nunes(2008)}]{hornnunes08adjunction}
+Hornstein, Norbert \protect\BIBand{} Jairo Nunes. 2008.
+\newblock Adjunction, labeling, and bare phrase structure.
+\newblock \emph{Biolinguistics} 2: 57--86.
+
+\bibitem[{Katz(1998)}]{katz:1998}
+Katz, Jerrold. 1998.
+\newblock \emph{Realistic rationalism}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Kayne(1994)}]{kayne94antisymm}
+Kayne, Richard. 1994.
+\newblock \emph{The antisymmetry of syntax}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Kratzer(2008)}]{kratzer08situations}
+Kratzer, Angelika. 2008.
+\newblock Situations in natural languages semantics.
+\newblock In Edward~N. Zalta (ed.) \emph{The Stanford Encyclopedia of
+  Philosophy}. Stanford University: Metaphysics Research Lab, CSLI.
+\newblock
+  \urlprefix\url{http://plato.stanford.edu/entries/situations-semantics/}.
+
+\bibitem[{Kremer(2006)}]{kremer06cantorspace}
+Kremer, Philip. 2006.
+\newblock The modal logic of continuous functions on cantor space.
+\newblock \emph{Mathematical Logic} 45: 1021--1032.
+
+\bibitem[{Langendoen \protect\BIBand{} Postal(1984)}]{langpostal:1984}
+Langendoen, Terence \protect\BIBand{} Paul Postal. 1984.
+\newblock \emph{The vastness of natural languages}.
+\newblock Oxford: Basil Blackwell.
+
+\bibitem[{Legate(2003)}]{legate01config}
+Legate, Julie~Ann. 2003.
+\newblock The configurational structure of a non-configurational language.
+\newblock \emph{Linguistic Variation Yearbook 2001} 1: 61--104.
+
+\bibitem[{McCloskey(2007)}]{mccloskey07language}
+McCloskey, James. 2007.
+\newblock A language at the edge: Irish and the theory of grammar.
+\newblock \textsc{M}s., University of California, Santa Cruz.
+
+\bibitem[{Parker-Kinsella(2006)}]{parker06recursion}
+Parker-Kinsella, Anna~R. 2006.
+\newblock Evolving the narrow language faculty: was recursion the pivotal step?
+\newblock In \emph{Proceedings of the 6th International Conference on the
+  Evolution of Language}, 239--246.
+
+\bibitem[{Parsons(1990)}]{parsons90events}
+Parsons, Terence. 1990.
+\newblock \emph{Events in the semantics of English: A study in subatomic
+  semantics}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Partee(2008)}]{partee08symmetry}
+Partee, Barbara. 2008.
+\newblock Symmetry and symmetrical predicates.
+\newblock \urlprefix\url{http://people.umass.edu/partee/}.
+\newblock \textsc{H}andout, University of Massachusetts, Amherst.
+
+\bibitem[{Piattelli-Palmarini \protect\BIBand{} Uriagereka(2008)}]{ppuri:2008}
+Piattelli-Palmarini, Massimo \protect\BIBand{} Juan Uriagereka. 2008.
+\newblock Still a bridge too far? biolinguistic questions for grounding
+  language on brains.
+\newblock \emph{Physics of Life Reviews} 5: 207--224.
+
+\bibitem[{Pietroski(2008)}]{pietroski08minmeaning}
+Pietroski, Paul. 2008.
+\newblock Minimalist meaning, internalist interpretation.
+\newblock \emph{Biolinguistics} 2(4): 317--341.
+
+\bibitem[{Pinker \protect\BIBand{} Jackendoff(2005)}]{jp:2005}
+Pinker, Steven \protect\BIBand{} Ray Jackendoff. 2005.
+\newblock The faculty of language: What's special about it?
+\newblock \emph{Cognition} 95(2): 201--236.
+
+\bibitem[{Postal(2009)}]{postal09incoherence}
+Postal, Paul. 2009.
+\newblock The incoherence of chomsky's `biolinguistic' perspective.
+\newblock \emph{Biolinguistics} 3(1): 104--123.
+
+\bibitem[{Pullum \protect\BIBand{} Scholz(2003)}]{pullumscholz03contrasting}
+Pullum, Geoffrey~K. \protect\BIBand{} Barbara~C. Scholz. 2003.
+\newblock Contrasting applications of logic in natural language syntactic
+  description.
+\newblock In Petr H{\`a}jek, Luis Vald{\`e}s-Villanueva \protect\BIBand{} Dag
+  Westerst{\"a}hl (eds.) \emph{Logic, methodology and philosophy of science:
+  Proceedings of the twelfth international congress}, 481--503. London: King's
+  College Publications.
+
+\bibitem[{Pullum \protect\BIBand{} Scholz(2009)}]{pullumscholz09recursion}
+Pullum, Geoffrey~K. \protect\BIBand{} Barbara~C. Scholz. 2009.
+\newblock Recursion and the infinitude claim.
+\newblock In Harry {van der Hulst} (ed.) \emph{Recursion in human language}.
+  Berlin: Mouton de Gruyter.
+
+\bibitem[{Rice(2000)}]{rice00scope}
+Rice, Keren. 2000.
+\newblock \emph{Morpheme order and semantic scope}.
+\newblock Cambridge: Cambridge University Press.
+
+\bibitem[{Scholz \protect\BIBand{} Pullum(2007)}]{scholzpullum07origins}
+Scholz, Barbara~C. \protect\BIBand{} Geoffrey~K. Pullum. 2007.
+\newblock Tracking the origins of transformational generative grammar: Review
+  of tomalin (2006).
+\newblock \emph{Journal of Linguistics} 43(3): 701--723.
+
+\bibitem[{Soare(1996)}]{soare:1996}
+Soare, Robert~I. 1996.
+\newblock Computability and recursion.
+\newblock \emph{Bulletin of Symbolic Logic} 2: 284--321.
+
+\bibitem[{Speas(2004{\natexlab{a}})}]{speas04evdparadigms}
+Speas, Margaret. 2004{\natexlab{a}}.
+\newblock Evidential paradigms, world variables and person agreement features.
+\newblock \emph{Italian Journal of Linguistics} 16(1): 104--135.
+
+\bibitem[{Speas(2004{\natexlab{b}})}]{speas04evdlogophor}
+Speas, Margaret. 2004{\natexlab{b}}.
+\newblock Evidentiality, logophoricity and the syntactic representation of
+  pragmatic features.
+\newblock \emph{Lingua} 114(3): 255--276.
+
+\bibitem[{Speas(2007)}]{speas07evdfunctional}
+Speas, Margaret. 2007.
+\newblock Evidentials as generalized functional heads.
+\newblock \textsc{M}s., University of Massachusetts, Amherst.
+
+\bibitem[{Speas(2008)}]{speas08synsemevd}
+Speas, Peggy. 2008.
+\newblock On the syntax and semantics of evidentials.
+\newblock \emph{Language and Linguistics Compass} 2(5): 940--965.
+
+\end{thebibliography}

@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{paperp,paperc}
+
+\begin{document}
+
+\title{Recursion: Review}
+\section{Introduction}
+
+Whatever  you feel about Chomsky and Everret you must admit that they have both played their part in bringing to the linguistic public issues of foundational concern to our field. They have also both played a role in bringing linguistics to a popular audience through their own advocacy of socio-cultural issues; ironically they emerge as duelists instead of collaborating advocates. Their role of duelling linguists is perhaps facilitated by the larger socio-cultural context of 20th century ``linguistic wars.'' I mention these peripheral issues because they underlie the motivations for which this book was produced: a conference organized by Everret to argue against the notion of recursion as a primitive for (human) natural language capacity outside of the influence of cultural constaints.
+
+\maketitle
+
+\begin{document}
+
+\section{Discussion}
+Here I will touch on only a few issues. I try to steer clear of common (and un-enlightening) labels such as Minimalist or Functionalist and avoid as much as poosible the rhetorical vitriol that has come to permeate the linguistic `debate' on recursion. 
+
+When I introduce the major concepts of syntax to undergraduates in Science and Technology composition courses I make a special note of highlighting the fact that what we know about capital ``L'' Language (i.e., the human capacity to use human languges) is a complex chain of inferences made from highly variable empirical data. How we collect such data and the kinds of data used can have a dramatic impact on the hypotheses that will emerge. In other words, we cannot see Language nro can we ``put it under the microscope.'' What we must do is draw inferences from observed language (lowercase ``l'') data. Such data can only at best represent the effect of the mechanisms of Language given a particular language's structure. 
+
+Whether or not the nature of the actual mechanisms of Language can be recovered, and what the origin of such mechanisms is, is a deep linguistic puzzle (and perhaps a genuine mystery). Scholars such as Everret and Levinson place such origins in the nature and history of human cultures; others, such as Boeckx or Chomsky, place such origins in the formal patterns of a neo-Thompsonian (D'arcy Thompson) biology. Each split has its nuances, but the overall difference boils down to the methodological use (or non use) of a first-principles approach. To clarify, a formal biological approach emphasizes recursion as a first-principle for the origin of language. (But of course, one can find competing explanations more along the lines of an adaptionist approach utilizing notions such as cultural evolution; see the work of Ladd \& Dediu, Kinsella. Additionally, other formal approaches do not necessitate recursion as a first principle; see Pullum and Shulz \& Pullum). The cultural approach does not seem to appeal a first-principles but instead proposes pragmatic maxims---dependent on cultural constraints---that shape the overall structure of the semantic-syntactic-phonologic phenomena. 
+
+It is not my intention to represent the formal-biological approach as bottom-up and the cultural constriants approach as top-down; such broad labels don't clarify the issues. But in a certain sense these vague labels can hint to us that both approaches are not exclusive: they simply tackle the enormous difficulty of linguistic research from different angles. And, I argue, current linguistic research---in practice---rarely conforms to the strict boundary line between the `formal-biological' and `cultural constaints' approaches. And when an advocate of one approach crosses into the ``territory'' of the other it should not be treated as an opportunity to attack, but to engage in what science does best: the dialectic of competing approaches. 
+
+I have never understood why the two approaches need to treated as exclusive to each other: culture or formal-biology. I don't see why linguists generally can't formulate zones of convergence between, treating the ``or'' as inclusive and dependent on individual research foci.        
+
+\end{document}

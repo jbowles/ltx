@@ -1,0 +1,6 @@
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file MathStuff.idx....done (45 entries accepted, 0 rejected).
+Sorting entries....done (249 comparisons).
+Generating output file MathStuff.ind....done (82 lines written, 0 warnings).
+Output written in MathStuff.ind.
+Transcript written in MathStuff.ilg.

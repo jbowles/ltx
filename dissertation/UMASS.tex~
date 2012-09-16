@@ -1,0 +1,55 @@
+%HANDOUT
+
+\documentclass[11pt]{article}
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Statement of Purpose: Stanford}
+\date{\texttt{DUE: December 08, 2009}}
+
+
+\maketitle
+\section{Personal}
+It has been a long-term goal for me to attend Stanford. The plan was to work my way up through a small state college to a research university, and finally, to PhD work at Stanford. However, I had not recently planned on applying for doctoral work because it did not seem like my interests were aligned with enough of the faculty. But given new additions to the department, I see that my research interests in formal-computational pragmatics and semantics are reflected in enough of the faculty's interests for me to be a productive member of the community.
+
+I started my linguistic life in the library studying Chomsky's early works, as well as philosophers such as D. Lewis, Quine, and Bakhtin. I took undergraduate classes with Stefanie Robin Quizar (typological-functional linguistics and Mayan languages) that extended to graduate work with Lyle Campbell (typology, historical linguistics, and American Indian languages). While at Utah, I also benefited from formal syntax courses with Aniko Csirmaz and Ed Rubin.
+
+\subsection{GRE Scores}
+Unfortunately, my 5 year old GRE scores do not accurately reflect my ability. I know why the scores are low and am correcting this by re-taking the GRE. However, since I only recently decided to apply to Stanford (as of November 18), my new scores will not be submitted in time. (That is, the deadline of December 8 is much earlier than the other schools I am applying to and I don't re-take the GRE until December 10). In effect, and specifically regarding the low mathematics score, I was naive about preparing for the exam and thought that because I was doing active research and writing, as well as studying mathematical logic and abstract algebra on my own, I would be fine without studying for the actual test. I am not proud of my naivet\'e and will convince you that the GRE scores that have been submitted do not reflect my actual ability.
+
+\section{Research}
+I am generally interested in applying various linguistic theories to solve real-world problems in both scientific and industry related domains. I enjoy finding ways to use definitions and ideas from mathematical logic, computability theory, and abstract algebra to build rigorous models for explaining natural language data. 
+
+
+The following subsections list current and future projects I would like to continue in my doctoral studies. 
+
+\subsection{Recent Projects}
+\ex. \textsl{English Corpus of Evidentiality Data} (goal of 1 million sentences/clauses; presently at about .02\% of goal).
+
+\ex. \textsl{Evidentiality and the Human Mind: Language, Information, and Human Discourse} (\texttt{Project under review for funding by the NEH Summer Stipend 2010}). 
+
+\ex. \textsl{Some Syntax, Semantics, and Pragmatics of Evidentiality in English}. Ms., 29 pgs: version 1.3. 
+
+\ex. \textsl{Recursion for Computation's Sake}. Ms., 24 pgs: version 1.
+
+\ex. \textsl{Ambiguous Merge, Symmetry, and Group Theory: Connections to computability theory, pre-group grammars and Lambek calculi}. Ms., 27 pgs: version 2. 
+\a.  \textsl{A Note on Ideal Structure for a Hypothetical Operation}. Revision in progress for squib submission to \textsl{Linguistic Inquiry}.
+
+\subsection{Planned Projects}
+\ex. Computing Fixed Phrases and Idioms by Named Entity Recognition.
+
+\ex. Statistical Patterns for Syntactic and Pragmatic Structures in English Evidentiality. 
+
+\ex. A Model for the Projection Problem Using an Algebraic Group-Theory Definition for Minimalist Merge.
+
+\subsection{Languages}
+I would like to study a language with a large web presence. I am considering starting Mandarin, or continuing study in Spanish or German.
+
+
+
+\end{document}  

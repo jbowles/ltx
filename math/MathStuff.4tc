@@ -1,0 +1,50 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Contents}}{3}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{List of Figures}}{5}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{List of Tables}}{7}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{Preface}}{9}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Prologue}}{11}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{1}{x1-60001}{QQ2-1-6}{Arithmetic}}{13}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{1}{x1-70001.1}{QQ2-1-7}{Percent}}{13}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{1}{x1-80001.2}{QQ2-1-8}{Average and Arithmetic Mean}}{14}\relax 
+\doTocEntry\tocsubsection{1.2.1}{\csname a:TocLink\endcsname{1}{x1-90001.2.1}{QQ2-1-9}{Range}}{15}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{1}{x1-100002}{QQ2-1-10}{Basic Geometry}}{17}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{1}{x1-110002.1}{QQ2-1-11}{Area, Perimeter, Volume}}{17}\relax 
+\doTocEntry\tocsubsection{2.1.1}{\csname a:TocLink\endcsname{1}{x1-120002.1.1}{QQ2-1-12}{Area}}{17}\relax 
+\doTocEntry\tocsubsection{2.1.2}{\csname a:TocLink\endcsname{1}{x1-130002.1.2}{QQ2-1-13}{Perimeter}}{18}\relax 
+\doTocEntry\tocsubsection{2.1.3}{\csname a:TocLink\endcsname{1}{x1-140002.1.3}{QQ2-1-14}{Volume}}{20}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{1}{x1-150002.2}{QQ2-1-15}{The Circle}}{22}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{1}{x1-160002.3}{QQ2-1-16}{Pythagorean theorem}}{23}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{1}{x1-170002.4}{QQ2-1-17}{Polygons}}{23}\relax 
+\doTocEntry\tocsubsection{2.4.1}{\csname a:TocLink\endcsname{1}{x1-180002.4.1}{QQ2-1-18}{Sums for interior polygon angles}}{23}\relax 
+\doTocEntry\tocsubsection{2.4.2}{\csname a:TocLink\endcsname{1}{x1-190002.4.2}{QQ2-1-19}{Area and Perimeter for Polygons}}{26}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-200002.4.2}{QQ2-1-20}{Triangles}}{26}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{1}{x1-210003}{QQ2-1-21}{Elementary Algebra: Equations and Formulas}}{31}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{1}{x1-220003.1}{QQ2-1-22}{The Quadratic Equation}}{31}\relax 
+\doTocEntry\tocsubsection{3.1.1}{\csname a:TocLink\endcsname{1}{x1-230003.1.1}{QQ2-1-23}{Factoring quadratics}}{31}\relax 
+\doTocEntry\tocsubsection{3.1.2}{\csname a:TocLink\endcsname{1}{x1-240003.1.2}{QQ2-1-24}{Quadratic Formula}}{33}\relax 
+\doTocEntry\toclot{3.1}{\csname a:TocLink\endcsname{1}{x1-240091}{}{\ignorespaces Solutions to Quadratic}}{table}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{1}{x1-250003.2}{QQ2-1-26}{Two maxims for inequalities}}{38}\relax 
+\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{1}{x1-260003.3}{QQ2-1-27}{Sequences}}{39}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-270003.3}{QQ2-1-28}{A Recursive Definition}}{40}\relax 
+\doTocEntry\tocsection{3.4}{\csname a:TocLink\endcsname{1}{x1-280003.4}{QQ2-1-29}{Arithmetic and Geometric Sequences}}{41}\relax 
+\doTocEntry\tocsubsection{3.4.1}{\csname a:TocLink\endcsname{1}{x1-290003.4.1}{QQ2-1-30}{A-Sequence}}{41}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-300003.4.1}{QQ2-1-31}{Arithmetic means}}{44}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-310003.4.1}{QQ2-1-32}{Sum of first $n$ a-sequence terms}}{46}\relax 
+\doTocEntry\tocsubsection{3.4.2}{\csname a:TocLink\endcsname{1}{x1-320003.4.2}{QQ2-1-33}{G-Sequence}}{47}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-330003.4.2}{QQ2-1-34}{Geometric means}}{49}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-340003.4.2}{QQ2-1-35}{Sum of first $n$ g-sequence terms}}{51}\relax 
+\doTocEntry\tocsubsection{3.4.3}{\csname a:TocLink\endcsname{1}{x1-350003.4.3}{QQ2-1-36}{Infinite Geometric Sequences}}{51}\relax 
+\doTocEntry\tocsection{3.5}{\csname a:TocLink\endcsname{1}{x1-360003.5}{QQ2-1-37}{Binomials and the Theorem}}{57}\relax 
+\doTocEntry\tocsubsection{3.5.1}{\csname a:TocLink\endcsname{1}{x1-370003.5.1}{QQ2-1-38}{Expanding binomials}}{57}\relax 
+\doTocEntry\toclof{3.1}{\csname a:TocLink\endcsname{1}{x1-370121}{}{\ignorespaces Pascal and Sierpinski Triangle}}{figure}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-380003.5.1}{QQ2-1-40}{Factorials}}{61}\relax 
+\doTocEntry\tocsubsection{3.5.2}{\csname a:TocLink\endcsname{1}{x1-390003.5.2}{QQ2-1-41}{Binomial Theorem}}{62}\relax 
+\doTocEntry\tocsection{3.6}{\csname a:TocLink\endcsname{1}{x1-400003.6}{QQ2-1-42}{Summation}}{63}\relax 
+\doTocEntry\tocsubsection{3.6.1}{\csname a:TocLink\endcsname{1}{x1-410003.6.1}{QQ2-1-43}{Three Basic Properties of Summation}}{65}\relax 
+\doTocEntry\tocsubsection{3.6.2}{\csname a:TocLink\endcsname{1}{x1-420003.6.2}{QQ2-1-44}{Binomial theorem as summation}}{70}\relax 
+\doTocEntry\tocsection{3.7}{\csname a:TocLink\endcsname{1}{x1-430003.7}{QQ2-1-45}{Induction}}{71}\relax 
+\doTocEntry\tocsubsection{3.7.1}{\csname a:TocLink\endcsname{1}{x1-440003.7.1}{QQ2-1-46}{A Formalized Induction Scheme for Peano's Axioms}}{72}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-450003.7.1}{QQ2-1-47}{Writing numerals inductively}}{74}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-460003.7.1}{QQ2-1-48}{Division in a formalized induction scheme}}{75}\relax 
+\doTocEntry\tocsection{3.8}{\csname a:TocLink\endcsname{1}{x1-470003.8}{QQ2-1-49}{Induction and Sequences}}{75}\relax 

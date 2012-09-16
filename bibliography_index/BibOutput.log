@@ -1,0 +1,1656 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  16 SEP 2012 08:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**BibOutput.tex
+(./BibOutput.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./BibOutput.aux)
+\openout1 = `BibOutput.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 6--14
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 17--25
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 28--39
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 42--54
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 57--69
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 72--84
+[][] 
+ []
+
+[1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 87--98
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 101--112
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 115--126
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 129--138
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 141--150
+[][] 
+ []
+
+[2]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 153--162
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 165--176
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 179--191
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 194--206
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 209--218
+[][] 
+ []
+
+[3]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 221--232
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 235--244
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 247--256
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 259--268
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 271--279
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 282--290
+[][] 
+ []
+
+[4]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 293--302
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 305--316
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 319--328
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 331--342
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 345--357
+[][] 
+ []
+
+[5]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 360--372
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 375--386
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 389--401
+[][] 
+ []
+
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 404--416
+[][] 
+ []
+
+[6]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 419--430
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 433--441
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 444--452
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 455--464
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 467--479
+[][] 
+ []
+
+[7]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 482--494
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 497--508
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 511--518
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 521--530
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 533--545
+[][] 
+ []
+
+[8]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 548--556
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 559--568
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 571--580
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 583--593
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 596--608
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 611--623
+[][] 
+ []
+
+[9]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 626--635
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 638--649
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 652--660
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 663--671
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 674--682
+[][] 
+ []
+
+
+Overfull \hbox (62.16635pt too wide) in paragraph at lines 695--696
+[]\OT1/cmr/m/n/10 http://www.biolinguistics.eu/index.php/biolinguistics/issue/v
+iew/8/showToc| 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 685--697
+[][] 
+ []
+
+[10]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 700--712
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 715--723
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 726--734
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 737--745
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 748--756
+[][] 
+ []
+
+
+Overfull \hbox (21.16618pt too wide) in paragraph at lines 765--766
+[]\OT1/cmr/m/n/10 http://sites.google.com/site/bowleslinguistics/Home/research/
+misc-
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 759--767
+[][] 
+ []
+
+[11]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 770--778
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 781--789
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 792--800
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 803--811
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 814--822
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 825--832
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 835--844
+[][] 
+ []
+
+[12]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 847--855
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 858--867
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 870--882
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 885--895
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 898--910
+[][] 
+ []
+
+[13]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 913--922
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 925--933
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 936--945
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 948--959
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 962--972
+[][] 
+ []
+
+[14]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 975--984
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 987--996
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 999--1008
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1011--1021
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1024--1033
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1036--1048
+[][] 
+ []
+
+[15]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1051--1063
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1066--1077
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1080--1091
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1094--1105
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1108--1119
+[][] 
+ []
+
+[16]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1122--1131
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1134--1143
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1146--1157
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1160--1169
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1172--1181
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1184--1193
+[][] 
+ []
+
+[17]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1196--1207
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1210--1220
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1223--1232
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1235--1243
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1246--1254
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1257--1268
+[][] 
+ []
+
+[18]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1271--1280
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1283--1294
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1297--1308
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1311--1321
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1324--1332
+[][] 
+ []
+
+[19]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1335--1344
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1347--1358
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1361--1370
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1373--1382
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1385--1394
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1397--1406
+[][] 
+ []
+
+[20]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1409--1420
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1423--1432
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1435--1447
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1450--1459
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1462--1470
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1473--1483
+[][] 
+ []
+
+[21]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1486--1495
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1498--1508
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1511--1520
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1523--1532
+[][] 
+ []
+
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1535--1543
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1546--1557
+[][] 
+ []
+
+[22]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1560--1569
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1572--1583
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1586--1597
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1600--1611
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1614--1622
+[][] 
+ []
+
+[23]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1625--1636
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1639--1651
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1654--1664
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1667--1675
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1678--1690
+[][] 
+ []
+
+[24]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1693--1703
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1706--1716
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1719--1731
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1734--1745
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1748--1759
+[][] 
+ []
+
+[25]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1762--1771
+[][] 
+ []
+
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ½ in font cmr10!
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1774--1782
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1785--1794
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1797--1805
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1808--1819
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1822--1833
+[][] 
+ []
+
+[26]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1836--1846
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1849--1859
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1862--1872
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1875--1885
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1888--1896
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1899--1907
+[][] 
+ []
+
+[27]
+Overfull \hbox (14.833pt too wide) in paragraph at lines 1917--1918
+[]\OT1/cmr/m/n/10 http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.18
+27| 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1910--1919
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1922--1934
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1937--1948
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1951--1962
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1965--1974
+[][] 
+ []
+
+[28]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1977--1986
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 1989--2001
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2004--2014
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2017--2026
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2029--2038
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2041--2052
+[][] 
+ []
+
+[29]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2055--2064
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2067--2081
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2084--2098
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2101--2110
+[][] 
+ []
+
+[30]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2113--2127
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2130--2141
+[][] 
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 2147--2148
+[]\OT1/cmr/m/n/10 Norbert Horn-stein and Jairo Nunes and Klean-thes K.
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2144--2153
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2156--2167
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2170--2179
+[][] 
+ []
+
+[31]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2182--2191
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2194--2205
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2208--2219
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2222--2231
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2234--2243
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2246--2258
+[][] 
+ []
+
+[32]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2261--2272
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2275--2286
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2289--2301
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2304--2313
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2316--2325
+[][] 
+ []
+
+[33]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2328--2339
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2342--2351
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2354--2366
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2369--2377
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2380--2391
+[][] 
+ []
+
+[34]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2394--2403
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2406--2415
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2418--2427
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2430--2438
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2441--2450
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2453--2464
+[][] 
+ []
+
+[35]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2467--2476
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2479--2488
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2491--2503
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2506--2518
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2521--2533
+[][] 
+ []
+
+[36]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2536--2547
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2550--2561
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2564--2573
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2576--2588
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2591--2602
+[][] 
+ []
+
+[37]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2605--2617
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2620--2629
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2632--2641
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2644--2653
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2656--2668
+[][] 
+ []
+
+[38]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2671--2680
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2683--2692
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2695--2706
+[][] 
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 2717--2718
+[]\OT1/cmr/m/n/10 Unabridged re-pub-li-ca-tion of 1968 edi-tion, pub-lished by
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2709--2719
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2722--2730
+[][] 
+ []
+
+[39]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2733--2742
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2745--2753
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2756--2767
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2770--2781
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2784--2792
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2795--2806
+[][] 
+ []
+
+[40]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2809--2821
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2824--2833
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2836--2844
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2847--2856
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2859--2870
+[][] 
+ []
+
+[41]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2873--2882
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2885--2896
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2899--2908
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2911--2920
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2923--2931
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2934--2943
+[][] 
+ []
+
+[42]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2946--2954
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2957--2966
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2969--2978
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2981--2992
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 2995--3004
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3007--3016
+[][] 
+ []
+
+[43]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3019--3031
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3034--3043
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3046--3057
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3060--3069
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3072--3081
+[][] 
+ []
+
+[44]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3084--3093
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3096--3108
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3111--3123
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3126--3137
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3140--3150
+[][] 
+ []
+
+[45]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3153--3163
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3166--3176
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3179--3189
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3192--3203
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3206--3217
+[][] 
+ []
+
+[46]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3220--3230
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3233--3242
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3245--3257
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3260--3272
+[][] 
+ []
+
+[47]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3275--3287
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3290--3299
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3302--3311
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3314--3323
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3326--3335
+[][] 
+ []
+
+[48]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3338--3347
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3350--3362
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3365--3374
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3377--3388
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3391--3400
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3403--3411
+[][] 
+ []
+
+[49]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3414--3425
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3428--3439
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3442--3453
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3456--3468
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3471--3480
+[][] 
+ []
+
+[50]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3483--3492
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3495--3506
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3509--3519
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3522--3534
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3537--3545
+[][] 
+ []
+
+[51]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3548--3556
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3559--3570
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3573--3584
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3587--3598
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3601--3609
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3612--3623
+[][] 
+ []
+
+[52]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3626--3638
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3641--3650
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3653--3661
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3664--3673
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3676--3685
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3688--3700
+[][] 
+ []
+
+[53]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3703--3712
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3715--3724
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3727--3736
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3739--3748
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3751--3760
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3763--3774
+[][] 
+ []
+
+[54]
+Underfull \hbox (badness 6204) in paragraph at lines 3781--3782
+[]\OT1/cmr/m/n/10 On com-putable num-bers, with an ap-pli-ca-tion to the
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3777--3787
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3790--3799
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3802--3813
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3816--3827
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3830--3839
+[][] 
+ []
+
+[55]
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3842--3851
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3854--3866
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3869--3880
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3883--3894
+[][] 
+ []
+
+
+Overfull \hbox (39.0pt too wide) in paragraph at lines 3897--3908
+[][] 
+ []
+
+[56] [57] (./BibOutput.aux) ) 
+Here is how much of TeX's memory you used:
+ 215 strings out of 493633
+ 2330 string characters out of 3143378
+ 60245 words of memory out of 3000000
+ 3597 multiletter control sequences out of 15000+200000
+ 4808 words of font info for 18 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 23i,10n,17p,279b,176s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsl10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on BibOutput.pdf (57 pages, 158132 bytes).
+PDF statistics:
+ 217 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

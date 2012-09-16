@@ -1,0 +1,422 @@
+htfcss: cmti  font-style: italic;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmsl font-style: oblique;
+htfcss: cmtt font-family: monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+File: MathStuff.html
+File: MathStuff.css
+File: MathStuff.tmp
+File: MathStuff2.html
+File: MathStuff3.html
+Font_Class(4,"4"): <span  class="small-caps"></span>
+File: MathStuff4.html
+File: MathStuff5.html
+Css: p.noindent { text-indent: 0em }
+Css: td p.noindent { text-indent: 0em; margin-top:0em; }
+Css: p.nopar { text-indent: 0em; }
+Css: p.indent{ text-indent: 1.5em }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 1px; margin:0px; }
+Css: .tabbing-right {text-align:right;}
+Css: span.TEX {letter-spacing: -0.125em; }
+Css: span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+Css: a span.TEX span.E {text-decoration: none; }
+Css: span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+Css: span.LATEX span.TEX{ position:relative; left: -0.4em; }
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+Css: h1.partHead{text-align: center}
+Css:  .chapterToc, .likechapterToc {margin-left:0em;}
+Css:  .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {margin-left:2em;}
+Css:  .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {margin-left:4em;}
+Css: .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:6em;}
+Css:  .likesectionToc , .sectionToc {margin-left:0em;}
+Css:  .likesectionToc ~ .likesubsectionToc, .likesectionToc ~ .subsectionToc, .sectionToc ~ .likesubsectionToc, .sectionToc ~ .subsectionToc {margin-left:2em;}
+Css: .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:4em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:0em;}
+Css:  .likesubsectionToc ~ .subsubsectionToc, .subsectionToc ~ .subsubsectionToc, {margin-left:2em;}
+Css: .figure img.graphics {margin-left:10%;}
+Css: .caption span.id{font-weight: bold;}
+Css:  .wrapfig-r, .wrapfig-ri, .wrapfig-ir, .wrapfig-ro, .wrapfig-or {float:right; text-align:left; margin-left:auto; margin-top:0.5em;} 
+Css:  .wrapfig-l, .wrapfig-li, .wrapfig-il, .wrapfig-lo, .wrapfig-ol {float:left; text-align:left; margin-right:auto; margin-top:0.5em;} 
+Css: .wrapfig-r .caption td.content, .wrapfig-ri .caption td.content, .wrapfig-ir .caption td.content, .wrapfig-ro .caption td.content, .wrapfig-or .caption td.content, .wrapfig-l .caption td.content, .wrapfig-li .caption td.content, .wrapfig-il .caption td.content, .wrapfig-lo .caption td.content, .wrapfig-ol .caption td.content {white-space: normal; }
+Css: .wrapfig-r .caption, .wrapfig-ri .caption, .wrapfig-ir .caption, .wrapfig-ro .caption, .wrapfig-or .caption, .wrapfig-l .caption, .wrapfig-li .caption, .wrapfig-il .caption, .wrapfig-lo .caption, .wrapfig-ol .caption {width:30%; }
+Css: .uline{ text-decoration:underline; }
+Css: .uuline{ text-decoration:underline; }
+Css: span.sout {text-decoration: line-through }
+Css: span.xout {text-decoration: line-through }
+Css: span.uwave {text-decoration:underline }
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:100%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+Css: span#textcolor1{color:#FF0000}
+File: MathStuff.4idx
+--- needs --- MathStuff.idv[2] ==> MathStuff0x.png ---
+--- needs --- MathStuff.idv[3] ==> MathStuff1x.png ---
+--- needs --- MathStuff.idv[4] ==> MathStuff2x.png ---
+--- needs --- MathStuff.idv[5] ==> MathStuff3x.png ---
+--- needs --- MathStuff.idv[7] ==> MathStuff4x.png ---
+--- needs --- MathStuff.idv[9] ==> MathStuff5x.png ---
+--- needs --- MathStuff.idv[10] ==> MathStuff6x.png ---
+--- needs --- MathStuff.idv[12] ==> MathStuff7x.png ---
+--- needs --- MathStuff.idv[13] ==> MathStuff8x.png ---
+--- needs --- MathStuff.idv[14] ==> MathStuff9x.png ---
+Css: span#textcolor2{color:#FF0000}
+Css: span#textcolor3{color:#FF0000}
+--- needs --- MathStuff.idv[16] ==> MathStuff10x.png ---
+--- needs --- MathStuff.idv[18] ==> MathStuff11x.png ---
+--- needs --- MathStuff.idv[20] ==> MathStuff12x.png ---
+--- needs --- MathStuff.idv[22] ==> MathStuff13x.png ---
+--- needs --- MathStuff.idv[24] ==> MathStuff14x.png ---
+--- needs --- MathStuff.idv[26] ==> MathStuff15x.png ---
+--- needs --- MathStuff.idv[28] ==> MathStuff16x.png ---
+--- needs --- MathStuff.idv[30] ==> MathStuff17x.png ---
+--- needs --- MathStuff.idv[32] ==> MathStuff18x.png ---
+--- needs --- MathStuff.idv[34] ==> MathStuff19x.png ---
+--- needs --- MathStuff.idv[36] ==> MathStuff20x.png ---
+--- needs --- MathStuff.idv[38] ==> MathStuff21x.png ---
+--- needs --- MathStuff.idv[40] ==> MathStuff22x.png ---
+--- needs --- MathStuff.idv[42] ==> MathStuff23x.png ---
+--- needs --- MathStuff.idv[44] ==> MathStuff24x.png ---
+--- needs --- MathStuff.idv[46] ==> MathStuff25x.png ---
+--- needs --- MathStuff.idv[48] ==> MathStuff26x.png ---
+--- needs --- MathStuff.idv[50] ==> MathStuff27x.png ---
+--- needs --- MathStuff.idv[52] ==> MathStuff28x.png ---
+--- needs --- MathStuff.idv[54] ==> MathStuff29x.png ---
+--- needs --- MathStuff.idv[56] ==> MathStuff30x.png ---
+--- needs --- MathStuff.idv[58] ==> MathStuff31x.png ---
+--- needs --- MathStuff.idv[60] ==> MathStuff32x.png ---
+--- needs --- MathStuff.idv[62] ==> MathStuff33x.png ---
+Css: span#textcolor4{color:#FF00FF}
+Css: span#textcolor5{color:#FF00FF}
+--- needs --- MathStuff.idv[64] ==> MathStuff34x.png ---
+--- needs --- MathStuff.idv[66] ==> MathStuff35x.png ---
+Css: span#textcolor6{color:#FF00FF}
+Css: span#textcolor7{color:#FF00FF}
+--- needs --- MathStuff.idv[68] ==> MathStuff36x.png ---
+Css: span#textcolor8{color:#FF00FF}
+--- needs --- MathStuff.idv[70] ==> MathStuff37x.png ---
+Css: span#textcolor9{color:#FF00FF}
+--- needs --- MathStuff.idv[72] ==> MathStuff38x.png ---
+--- needs --- MathStuff.idv[74] ==> MathStuff39x.png ---
+Css: span#textcolor10{color:#FF00FF}
+Css: span#textcolor11{color:#FF0000}
+Css: span#textcolor12{color:#0000FF}
+Css: span#textcolor13{color:#00FF00}
+--- needs --- MathStuff.idv[76] ==> MathStuff40x.png ---
+Css: span#textcolor14{color:#FF00FF}
+--- needs --- MathStuff.idv[78] ==> MathStuff41x.png ---
+Css: span#textcolor15{color:#FF00FF}
+--- needs --- MathStuff.idv[80] ==> MathStuff42x.png ---
+--- needs --- MathStuff.idv[81] ==> MathStuff43x.png ---
+--- needs --- MathStuff.idv[83] ==> MathStuff44x.png ---
+Css: span#textcolor16{color:#0000FF}
+--- needs --- MathStuff.idv[85] ==> MathStuff45x.png ---
+--- needs --- MathStuff.idv[87] ==> MathStuff46x.png ---
+--- needs --- MathStuff.idv[88] ==> MathStuff47x.png ---
+--- needs --- MathStuff.idv[89] ==> MathStuff48x.png ---
+--- needs --- MathStuff.idv[91] ==> MathStuff49x.png ---
+Css: span#textcolor17{color:#FF00FF}
+Css: span#textcolor18{color:#FF0000}
+--- needs --- MathStuff.idv[93] ==> MathStuff50x.png ---
+--- needs --- MathStuff.idv[94] ==> MathStuff51x.png ---
+--- needs --- MathStuff.idv[95] ==> MathStuff52x.png ---
+Css: span#textcolor19{color:#0000FF}
+Css: span#textcolor20{color:#0000FF}
+Css: span#textcolor21{color:#0000FF}
+Css: span#textcolor22{color:#0000FF}
+Css: span#textcolor23{color:#0000FF}
+Css: span#textcolor24{color:#0000FF}
+Css: span#textcolor25{color:#0000FF}
+Css: span#textcolor26{color:#0000FF}
+Css: span#textcolor27{color:#0000FF}
+Css: span#textcolor28{color:#0000FF}
+--- needs --- MathStuff.idv[97] ==> MathStuff53x.png ---
+Css: span#textcolor29{color:#0000FF}
+--- needs --- MathStuff.idv[99] ==> MathStuff54x.png ---
+Css: span#textcolor30{color:#0000FF}
+--- needs --- MathStuff.idv[101] ==> MathStuff55x.png ---
+Css: span#textcolor31{color:#FF0000}
+Css: span#textcolor32{color:#FF0000}
+Css: span#textcolor33{color:#FF0000}
+Css: span#textcolor34{color:#FF0000}
+Css: span#textcolor35{color:#0000FF}
+Css: span#textcolor36{color:#0000FF}
+Css: span#textcolor37{color:#0000FF}
+Css: span#textcolor38{color:#0000FF}
+Css: span#textcolor39{color:#0000FF}
+Css: span#textcolor40{color:#0000FF}
+Css: span#textcolor41{color:#0000FF}
+Css: span#textcolor42{color:#0000FF}
+Css: span#textcolor43{color:#0000FF}
+--- needs --- MathStuff.idv[103] ==> MathStuff56x.png ---
+Css: span#textcolor44{color:#FF0000}
+Css: span#textcolor45{color:#0000FF}
+Css: span#textcolor48{color:#0000FF}
+Css: span#textcolor49{color:#0000FF}
+Css: span#textcolor50{color:#0000FF}
+Css: span#textcolor51{color:#00FFFF}
+--- needs --- MathStuff.idv[105] ==> MathStuff57x.png ---
+Css: span#textcolor52{color:#FF0000}
+--- needs --- MathStuff.idv[107] ==> MathStuff58x.png ---
+Css: span#textcolor53{color:#FF0000}
+--- needs --- MathStuff.idv[109] ==> MathStuff59x.png ---
+--- needs --- MathStuff.idv[111] ==> MathStuff60x.png ---
+--- needs --- MathStuff.idv[112] ==> MathStuff61x.png ---
+--- needs --- MathStuff.idv[113] ==> MathStuff62x.png ---
+--- needs --- MathStuff.idv[114] ==> MathStuff63x.png ---
+--- needs --- MathStuff.idv[115] ==> MathStuff64x.png ---
+--- needs --- MathStuff.idv[116] ==> MathStuff65x.png ---
+--- needs --- MathStuff.idv[117] ==> MathStuff66x.png ---
+--- needs --- MathStuff.idv[118] ==> MathStuff67x.png ---
+--- needs --- MathStuff.idv[120] ==> MathStuff68x.png ---
+--- needs --- MathStuff.idv[121] ==> MathStuff69x.png ---
+--- needs --- MathStuff.idv[122] ==> MathStuff70x.png ---
+--- needs --- MathStuff.idv[124] ==> MathStuff71x.png ---
+Css: span#textcolor55{color:#FF0000}
+Css: span#textcolor56{color:#0000FF}
+Css: span#textcolor57{color:#00FFFF}
+Css: span#textcolor58{color:}
+--- needs --- MathStuff.idv[126] ==> MathStuff72x.png ---
+--- needs --- MathStuff.idv[127] ==> MathStuff73x.png ---
+--- needs --- MathStuff.idv[129] ==> MathStuff74x.png ---
+Css: span#textcolor59{color:#FF0000}
+Css: span#textcolor60{color:#0000FF}
+Css: span#textcolor61{color:}
+Css: span#textcolor62{color:#FF0000}
+Css: span#textcolor63{color:#FF0000}
+--- needs --- MathStuff.idv[131] ==> MathStuff75x.png ---
+Css: span#textcolor64{color:#FF0000}
+Css: span#textcolor65{color:#0000FF}
+Css: span#textcolor66{color:#00FFFF}
+Css: span#textcolor67{color:}
+Css: span#textcolor68{color:#FF0000}
+--- needs --- MathStuff.idv[133] ==> MathStuff76x.png ---
+Css: span#textcolor72{color:}
+--- needs --- MathStuff.idv[135] ==> MathStuff77x.png ---
+--- needs --- MathStuff.idv[137] ==> MathStuff78x.png ---
+--- needs --- MathStuff.idv[139] ==> MathStuff79x.png ---
+Css: span#textcolor73{color:#FF0000}
+Css: span#textcolor74{color:}
+--- needs --- MathStuff.idv[141] ==> MathStuff80x.png ---
+--- needs --- MathStuff.idv[142] ==> MathStuff81x.png ---
+--- needs --- MathStuff.idv[143] ==> MathStuff82x.png ---
+--- needs --- MathStuff.idv[144] ==> MathStuff83x.png ---
+Css: span#textcolor75{color:}
+--- needs --- MathStuff.idv[146] ==> MathStuff84x.png ---
+--- needs --- MathStuff.idv[147] ==> MathStuff85x.png ---
+--- needs --- MathStuff.idv[148] ==> MathStuff86x.png ---
+--- needs --- MathStuff.idv[149] ==> MathStuff87x.png ---
+--- needs --- MathStuff.idv[150] ==> MathStuff88x.png ---
+--- needs --- MathStuff.idv[151] ==> MathStuff89x.png ---
+--- needs --- MathStuff.idv[152] ==> MathStuff90x.png ---
+--- needs --- MathStuff.idv[154] ==> MathStuff91x.png ---
+--- needs --- MathStuff.idv[155] ==> MathStuff92x.png ---
+--- needs --- MathStuff.idv[156] ==> MathStuff93x.png ---
+Css: span#textcolor76{color:#0000FF}
+Css: span#textcolor77{color:#FF0000}
+Css: span#textcolor78{color:#FF0000}
+Css: span#textcolor79{color:#0000FF}
+Css: span#textcolor80{color:#FF0000}
+--- needs --- MathStuff.idv[158] ==> MathStuff94x.png ---
+Css: span#textcolor81{color:#FF0000}
+Css: span#textcolor82{color:}
+Css: span#textcolor83{color:#FF0000}
+Css: span#textcolor84{color:}
+Css: span#textcolor85{color:}
+Css: span#textcolor86{color:#0000FF}
+Css: span#textcolor87{color:#00FFFF}
+Css: span#textcolor88{color:#FF0000}
+Css: span#textcolor89{color:#FF0000}
+Css: span#textcolor90{color:#FF00FF}
+Css: span#textcolor91{color:#FF00FF}
+Css: span#textcolor92{color:#FF00FF}
+Css: span#textcolor93{color:#FF00FF}
+Css: span#textcolor94{color:#FF00FF}
+--- needs --- MathStuff.idv[160] ==> MathStuff95x.png ---
+--- needs --- MathStuff.idv[162] ==> MathStuff96x.png ---
+--- needs --- MathStuff.idv[164] ==> MathStuff97x.png ---
+--- needs --- MathStuff.idv[166] ==> MathStuff98x.png ---
+--- needs --- MathStuff.idv[167] ==> MathStuff99x.png ---
+--- needs --- MathStuff.idv[169] ==> MathStuff100x.png ---
+Css: span#textcolor95{color:#FF0000}
+Css: span#textcolor96{color:#FF0000}
+Css: span#textcolor97{color:#FF0000}
+Css: span#textcolor98{color:#FF0000}
+Css: span#textcolor99{color:#FF0000}
+Css: span#textcolor100{color:#FF0000}
+--- needs --- MathStuff.idv[171] ==> MathStuff101x.png ---
+--- needs --- MathStuff.idv[173] ==> MathStuff102x.png ---
+--- needs --- MathStuff.idv[175] ==> MathStuff103x.png ---
+--- needs --- MathStuff.idv[176] ==> MathStuff104x.png ---
+--- needs --- MathStuff.idv[178] ==> MathStuff105x.png ---
+Css: span#textcolor101{color:#FF0000}
+Css: span#textcolor102{color:#FF0000}
+Css: span#textcolor103{color:#FF0000}
+Css: span#textcolor104{color:#FF0000}
+Css: span#textcolor105{color:#FF0000}
+Css: span#textcolor106{color:#FF0000}
+Css: span#textcolor107{color:#FF0000}
+Css: span#textcolor108{color:#FF0000}
+Css: span#textcolor109{color:#FF0000}
+--- needs --- MathStuff.idv[180] ==> MathStuff106x.png ---
+--- needs --- MathStuff.idv[181] ==> MathStuff107x.png ---
+Css: span#textcolor110{color:#FF00FF}
+--- needs --- MathStuff.idv[183] ==> MathStuff108x.png ---
+--- needs --- MathStuff.idv[185] ==> MathStuff109x.png ---
+Css: span#textcolor111{color:#FF0000}
+Css: span#textcolor112{color:#FF0000}
+Css: span#textcolor113{color:#FF0000}
+--- needs --- MathStuff.idv[187] ==> MathStuff110x.png ---
+--- needs --- MathStuff.idv[188] ==> MathStuff111x.png ---
+--- needs --- MathStuff.idv[189] ==> MathStuff112x.png ---
+--- needs --- MathStuff.idv[190] ==> MathStuff113x.png ---
+Css: span#textcolor114{color:}
+Css: span#textcolor116{color:#0000FF}
+Css: span#textcolor117{color:}
+Css: span#textcolor118{color:#0000FF}
+--- needs --- MathStuff.idv[192] ==> MathStuff114x.png ---
+Css: span#textcolor119{color:}
+--- needs --- MathStuff.idv[194] ==> MathStuff115x.png ---
+--- needs --- MathStuff.idv[196] ==> MathStuff116x.png ---
+Css: span#textcolor120{color:#0000FF}
+Css: span#textcolor121{color:#0000FF}
+Css: span#textcolor122{color:}
+Css: span#textcolor123{color:}
+Css: span#textcolor124{color:#0000FF}
+Css: span#textcolor125{color:}
+Css: span#textcolor126{color:#0000FF}
+Css: span#textcolor127{color:#0000FF}
+Css: span#textcolor128{color:}
+Css: span#textcolor129{color:}
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmr","7","7","100")
+Font("cmr","10","10","100")
+Font("cmmi","5","5","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("cmr","17","17","100")
+Font("cmr","12","12","100")
+Font("cmr","8","8","100")
+Font("cmmi","8","8","100")
+Font("cmsy","8","8","100")
+Font("cmsy","6","6","100")
+Font("cmtt","10","10","100")
+Font("cmsl","10","10","100")
+Font("cmbx","10","10","100")
+Font("cmti","10","10","100")
+Font("cmr","9","9","100")
+Font("cmcsc","10","10","100")

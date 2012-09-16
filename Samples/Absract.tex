@@ -1,0 +1,61 @@
+%This is going to be a sample for a smaller abstract-type file
+%This uses BibTeX
+%At the end of the document is a sample of a manual bibliography.
+%REMEMBER TO GET RID OF WHICHEVER BIBLIOGRAPHY YOU'RE NOT USING!
+
+\documentclass[11pt]{article}
+\usepackage{graphicx,gb4e,cgloss4e,latexsym,times}
+\usepackage{amsmath,amsthm,amsfonts}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+%\setlength{\headsep}{0.2in}     % space between header and text
+\setlength{\headheight}{12pt}   % make room for header
+\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
+%\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\lhead{\small \textbf{xxxxxx}} 
+\rhead{\small \textsl{xxxxxxxxxxx}}  
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+%From <sp.cls>=================
+\usepackage{natbib}
+\bibpunct[: ]{(}{)}{;}{a}{}{,}
+\newcommand{\BIBand}{\&}
+\setlength{\bibsep}{0pt}
+\setlength{\bibhang}{0.25in}
+\bibliographystyle{sp}%------------------sp.bst-----------------------
+\newcommand{\posscitet}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\possciteauthor}[1]{\citeauthor{#1}'s}
+\newcommand{\pgposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~#2)}
+\newcommand{\secposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~$\S$#2)}
+\newcommand{\pgcitealt}[2]{\citealt{#1}:~#2}
+\newcommand{\seccitealt}[2]{\citealt{#1}:~$\S$#2}
+\newcommand{\pgcitep}[2]{(\citealt{#1}:~#2)}
+\newcommand{\seccitep}[2]{(\citealt{#1}:~$\S$#2)}
+\newcommand{\pgcitet}[2]{\citeauthor{#1} (\citeyear{#1}:~#2)}
+\newcommand{\seccitet}[2]{\citeauthor{#1} (\citeyear{#1}:~$\S$#2)}
+%From <sp.cls>================================================================
+\usepackage{linguex,qtree}
+\usepackage[pdftex,colorlinks,breaklinks,
+		linkcolor=blue,
+		citecolor=black,
+		urlcolor=blue,
+		plainpages=false,
+		bookmarks=false,
+		hypertexnames=false]{hyperref}
+\urlstyle{rm}
+\setlength{\baselineskip}{13 pt}
+%sets line spacing. For a 12 pt font, try not to go below 13.
+\begin{document}
+
+\begin{center}
+{\bf Engaging Title}
+\end{center}
+
+%Text all here. Various forms of paragraph structure can be used.
+																																					
+
+
+\bibliography{myrefs}
+
+\end{document}
+

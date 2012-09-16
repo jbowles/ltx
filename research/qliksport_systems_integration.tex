@@ -1,0 +1,187 @@
+% Systems Integrations
+% Joshus Bowles
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,shadows}
+\usepackage{amsmath,bm,times}
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title: Systems Integration
+:Author: Joshua Bowles
+
+A block diagram of systems integration for a real time text classification application.
+
+\end{comment}
+
+\newcommand{\mx}[1]{\mathbf{\bm{#1}}} % Matrix command
+\newcommand{\vc}[1]{\mathbf{\bm{#1}}} % Vector command
+
+\begin{document}
+% Define the layers to draw the diagram
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+% Define block styles used later
+
+\tikzstyle{sensor}=[draw, fill=blue!20, text width=5em, 
+    text centered, minimum height=2.5em,drop shadow]
+\tikzstyle{ann} = [above, text width=5em, text centered]
+\tikzstyle{wa} = [sensor, text width=10em, fill=red!20, 
+    minimum height=6em, rounded corners, drop shadow]
+\tikzstyle{sc} = [sensor, text width=13em, fill=red!20, 
+    minimum height=10em, rounded corners, drop shadow]
+
+% Define distances for bordering
+\def\blockdist{2.3}
+\def\edgedist{2.5}
+
+\begin{tikzpicture}
+    \node (wa) [wa]  {\textbf{API Engine}\\ Stream sports related content and calssify using shallow Latent Semantic Indexing techniques};
+    \path (wa.west)+(-3.2,1.5) node (asr1) [sensor] {Twitter};
+    \path (wa.west)+(-3.2,0.5) node (asr2)[sensor] {Google};
+    \path (wa.west)+(-3.2,-1.0) node (dots)[ann] {$\vdots$}; 
+    \path (wa.west)+(-3.2,-2.0) node (asr3)[sensor] {Facebook};    
+   
+    \path (wa.east)+(\blockdist,0) node (vote) [sensor] {$\theta_0,\theta_1,...,\theta_M$\\ Background Jobs};
+
+    \path [draw, ->] (asr1.east) -- node [above] {} 
+        (wa.160) ;
+    \path [draw, ->] (asr2.east) -- node [above] {} 
+        (wa.180);
+    \path [draw, ->] (asr3.east) -- node [above] {} 
+        (wa.200);
+    \path [draw, ->] (wa.east) -- node [above] {} 
+        (vote.160);
+    \path [draw, ->] (wa.east) -- node [above] {} 
+        (vote.180);
+    \path [draw, ->] (wa.east) -- node [above] {} 
+        (vote.200);
+
+
+% CONNECT THE TWO BLOCKS               
+    \path (wa.south) +(0,-\blockdist) node (asrs) {System - APIs \& Text Classification};
+  
+    \begin{pgfonlayer}{background}
+        \path (asr1.west |- asr1.north)+(-0.5,0.3) node (a) {};
+        \path (wa.south -| wa.east)+(+0.5,-0.3) node (b) {};
+        \path (vote.east |- asrs.east)+(+0.5,-0.5) node (c) {};
+          
+        \path[fill=yellow!20,rounded corners, draw=black!50, dashed]
+            (a) rectangle (c);           
+        \path (asr1.north west)+(-0.2,0.2) node (a) {};
+            
+    \end{pgfonlayer}
+    
+    % Validation Layer is the same except that there are a set of nodes and links which are added
+   
+
+    \path (wa.south)+(10.0,-8.5) node (syscomb) [sc] {\textbf{Persistence of Data}\\ Websocket Publisher Pushes/Executes max score classifications};
+    \path (syscomb.west)+(-2.2,2.5) node (asrt1) [sensor] {$\theta_{0OT1}$};
+    \path (syscomb.west)+(-2.2,1.5) node (asrt2)[sensor] {$\theta_{1OT1}$};
+    \path (syscomb.west)+(-2.2,0) node (dots)[ann] {$\vdots$}; 
+    \path (syscomb.west)+(-2.2,-0.5) node (asrt3)[sensor] {$\theta_{MOT1}$};    
+
+    \path [draw, ->] (asrt1.east) -- node [above] {} 
+        (syscomb.160) ;
+    \path [draw, ->] (asrt2.east) -- node [above] {} 
+        (syscomb.180);
+    \path [draw, ->] (asrt3.east) -- node [above] {} 
+        (syscomb.200);
+
+%%%%%%%%%%%
+
+    \path (syscomb.west)+(-2.2,-2.5) node (asrtt1) [sensor] {$\theta_{0OT2}$};
+    \path (syscomb.west)+(-2.2,-3.5) node (asrtt2)[sensor] {$\theta_{1OT2}$};
+    \path (syscomb.west)+(-2.2,-5) node (dots)[ann] {$\vdots$}; 
+    \path (syscomb.west)+(-2.2,-6) node (asrtt3)[sensor] {$\theta_{MOT2}$};    
+
+    \path [draw, ->] (asrtt1.east) -- node [above] {} 
+        (syscomb.160) ;
+    \path [draw, ->] (asrtt2.east) -- node [above] {} 
+        (syscomb.180);
+    \path [draw, ->] (asrtt3.east) -- node [above] {} 
+        (syscomb.200);
+%%%%%%%%%%
+
+               
+    \path (wa.south) +(0,-\blockdist) node (sct) {System - APIs \& Text Classification};
+ 
+
+    \path (syscomb.east)+(1.0,0.0) node (bwtn) {};
+
+    % Note how the single nodes are repeated using for loop
+    \foreach \x in {0,1,...,4} 
+    { 
+        \draw (bwtn.east)+(\x,0) node (asr\x-2)[]{}; 
+        \fill (bwtn.east)+(\x,0) circle (0.2cm); 
+    }
+   
+    \path [draw, ->] (syscomb.east) -- node [above] {} 
+        (bwtn.east);
+	\path [draw, ->] (asr0-2) -- node [above] {@} 
+        (asr1-2);
+    \path [draw, -] (asr1-2) -- node [above] {b} 
+        (asr2-2);
+    \path [draw, -] (asr2-2) -- node [above] {z} 
+        (asr3-2);
+    \path [draw, -] (asr3-2) -- node [above] {} 
+        (asr4-2);
+
+    \path [draw, ->] (asr0-2) edge[bend  right]  node [below] {@} 
+        (asr1-2);
+    \path [draw, ->] (asr1-2) edge[bend  right]  node [below] {b} 
+        (asr2-2);
+    \path [draw, ->] (asr2-2) edge[bend  right]  node [below] {c} 
+        (asr3-2);
+    \path [draw, ->] (asr4-2) node[]{} (asr4-2)+(1.0,0);
+
+    \begin{scope}[looseness=2.5]
+        \path [draw, ->] (asr0-2) edge[bend  right=90]  node [below] {a} 
+            (asr1-2);
+        \path [draw, ->] (asr1-2) edge[bend  right=90]  node [below] {b} 
+            (asr2-2);
+        \path [draw, ->] (asr2-2) edge[bend  right=90]  node [below] {c} 
+            (asr3-2);
+    \end{scope}
+    \path (asr3-2.east)+(1.5,0.0) node (bw)[sensor] { \\Classification\\$\arg\max$};    
+
+    \path [draw, -] (asr1-2.east) node [below] {} 
+        (bw.west);
+          
+    \begin{pgfonlayer}{background}
+        \path (asrt1.west)+(-0.5,1.0) node (g) {};
+        \path (bw.east |- syscomb.south)+(0.5,-5.5) node (h) {};
+         
+        \path[fill=yellow!20,rounded corners, draw=black!50, dashed]
+            (g) rectangle (h); 
+
+
+    \end{pgfonlayer}
+
+    \path [draw, ->, blue!100] (vote.south) edge[bend  right=60]  node [below] {Shallow level classification: OT1} 
+            (asrt1.north); 
+   \path [draw, thick, ->, purple!100] (vote.south) edge[bend right=60]  node [below] {\textbf{Medium level classification: OT2}} 
+            (asrtt1.160);
+   \path [draw, thick, <->, orange!100] (vote.south) edge[bend left=80]  node [below] {\textbf{Retrieve OT1; execute medium-level classification}} 
+            (syscomb.40);
+    
+    \path (asr1-2.south) +(-\blockdist,-\blockdist) + (-2,-6.8)
+        node (asrs) {\textbf{System - Data Persistence and Max Score Classification Based on OT1 and OT2}};
+
+    \path (15,2) 
+      node (coda) {\huge{API Layer (Systems Integration): 20,000 foot view}};
+    \path (15,1) 
+      node (coda) {\large{Minimum Viable Product: 3 months}};
+\end{tikzpicture}
+
+
+
+\end{document}

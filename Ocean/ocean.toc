@@ -1,0 +1,9 @@
+\contentsline {chapter}{\numberline {1}What I Want To Be?}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Early}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}A Director?}{2}{subsection.1.1.1}
+\contentsline {subsubsection}{Movie Director}{2}{section*.3}
+\contentsline {chapter}{\numberline {2}Love, Words, and Math}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Love}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Words}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Math}{6}{section.2.3}
+\contentsline {chapter}{\numberline {3}Kitchen Garden}{9}{chapter.3}

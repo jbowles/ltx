@@ -1,0 +1,35 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Hirst(2000)}]{hirst00spuriouscontext}
+Hirst, Graeme. 2000.
+\newblock Context as a spurious concept.
+\newblock In \emph{Proceedings of the Conference on Intelligent Text Processing
+  and Computational Linguistics}, 273--287.
+\newblock
+  \urlprefix\url{http://ftp.cs.toronto.edu/pub/gh/Hirst-CICLing-2000.pdf}.
+
+\bibitem[{Karttunen(1973)}]{karttunen:presuppcontext}
+Karttunen, Lauri. 1973.
+\newblock Presupposition and linguistic context.
+\newblock \emph{Linguistic Inquiry} 181--194.
+
+\bibitem[{McCarthy(1996)}]{mccarthy96logicaicontext}
+McCarthy, John. 1996.
+\newblock A logical \textsc{AI} approach to context.
+\newblock \urlprefix\url{http://www-formal.stanford.edu/jmc/}.
+\newblock \textsc{U}npublished note, Stanford University.
+
+\bibitem[{Parsons(1996)}]{parsons96argument}
+Parsons, Terrence. 1996.
+\newblock What is an argument.
+\newblock \emph{The Journal of Philosophy} 93: 164--185.
+\newblock \urlprefix\url{http://admin.cdh.ucla.edu/facwebpage.php?par=91}.
+
+\end{thebibliography}

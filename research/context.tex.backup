@@ -1,0 +1,153 @@
+\documentclass{article}
+
+\usepackage{articlep}
+\usepackage{articlec}
+% \usepackage{morphgloss}
+
+\begin{document}
+    
+\title{Formalizing Context:\\ An approach to interpreting polysemous lexical items}
+
+\author{Joshua Bowles\\ \draft{0.2}}
+
+\maketitle
+\tableofcontents
+
+\section{Word Play}
+Why do some sentences allow a variable lexical item to be interpeted given a context? I use the term variable intentionally. Throughout this paper I will assume that a polysemous lexical item can be treated as a variable within a context. More specifically, a variable given a constant
+
+\begin{equation}
+  \frac{\mathbb{L}_{word}}{\mathbb{C}_c}
+\end{equation} 
+
+where $\mathbb{L}=$ lexicon, $word=$ polysemous word, $\mathbb{C}=$ credence, and $c=$ discourse context. That is, interpretation of the variable word $\mathbb{L}_{word}$ varies with credence in the context $\mathbb{C}_c$. 
+
+\newpage
+
+ \pex John kicked the bucket.\label{kick}
+    \a Jon physically struck a bucket with his leg.
+    \a Jon died.
+\xe
+
+\pex I need to make my appointments.
+    \a I need to schedule an appointment.
+    \a I need to go to an appointment (on time).
+\xe
+
+\pex I see the light.
+    \a I have visual confirmation of a light source.
+    \a I understand.
+\xe
+
+\subsection{The What and How}
+It would be nice to know why context matters in language. But until the How and What are
+substantialy modeled the Why will have to wait. The focus here will be on the following
+questions:(i) What are the linguistic components needed for interpreting a polysemous lexical
+item? How does context play a role? The second question presumes that an appropriate model of
+context is a component for lexical interpretation and seeks to provide such a model. The
+driving force behind  such a model rests on two premises.
+
+\subsection{What is a Constant?}
+Here I define constant context, $C_c$. Context implies an Agent $A$. A linguistic agent can be
+understood to have credence for a proposition being true in a context. Define $\mathbb{C}_c$.
+
+\begin{equation}
+ [\mathbb{C}_{A,c}(p) \geq c_{\tau}] \approx .98 \text{(in the interval [0,1])}
+\end{equation}
+
+\begin{premise}\label{var} 
+We can treat interpretation as a varying relationship between a variable and a constant.
+\end{premise}
+
+\begin{premise}\label{group}
+The axioms of Group Theory can be used to define symmetrical relations within contexts 
+\end{premise}
+
+\section{What is a context?}
+The driving insight here is that a context is {\bf composed} of elements. Unlike \cite{mccarthy96logicaicontext}, who promotes a view of contexts as {\sl primitives}, I assume otherwise; see \cite{hirst00spuriouscontext} for criticisms of the McCarthian view of context. 
+
+What exaclty are the elements that make up a context?
+
+We can say that a dialogic context is a situation $S$ in which the flow of information is between speakers. If this flow of information is direct, we can say that it is also symmetrical. That is, direct information flow is unimpeded flow, and it forms a group symmetry. Direct information flow is minimally effected by the context. For example in (\nextx),
+
+\pex<iloveyou>
+\a I love you.
+\a I love you too.
+\xe
+
+The environmental surroundings of ... should not,
+conventionally, have much of an effect on the message content. But, the identity of speaker A and
+speaker B should, conventionally, have a dramatic effect on the message content. That is, for this
+example the identity of the speakers play a significant role in constructing the context. Compare
+this kind of context `composition' to the one in the next example:
+
+
+\ex<bomb> Bomb!
+\xe
+ 
+Here, the identity of the speaker has a less significant impact on the effect of the message than does the environmental context. 
+\begin{definition}\label{envcontext}
+    {\bf Enviornmental Context} is the collected set of assumptions shared by a collective group of speakers.
+\end{definition}
+This definition is close to what \pgcitet{karttunen:presuppcontext}{182} uses as a definition for context: ``a set of logical forms that describe the set of background assumptions, that is, whatever the speaker chooses to regard as being shared by him and his intended audience.'' However, I go a step further here and claim that is does not matter what the speaker regards as ``being shared by him and his intended audience,'' and in fact, intentions are somewhat beside the point in these types of contexts. The definition in definition \ref{envcontext} is also close to what \cite{parsons96argument} defines as the ``setting'' of an argument: \ldots; except, again, I claim that speaker choice in the matter of shared assumptions is not very effective. 
+
+\textcolor{magenta}{ ?? For example, compare the environmental context of the inside of an airplane versus a city park. Of course, an experiment testing for reactions is not possible, but given a similairty between common expressives (which are testable, and for which there is a growing ammount of empirical data) and the the expressive in (\getref{bomb}), we may use common epxressive content as a valid source of data for experimentation. In this example, conditions external to speaker identity play a significant role in constructing the context. The flow of information is largely directed by non-speaker identity (and intentions), and can be classified non-symmetrical, or indirect (i.e., the message is mediated more by the speaker-external conditions than the by speaker identity/intention).}
+
+What do (\getref{iloveyou}) and (\getref{bomb}) tell us about context? We can classify two degrees of context within the range $[0, 1]$. On one extreme of the range we place symmetrical context, on the other non-symmetrical context. Symmetrical contexts are non-localized, and non-symmetrical contexts must be localized. These two types of context can be given the following expressions; where $sp =$ number of speakers:
+
+\begin{align}
+   \text{Symmetrical} =& \ sp \leq 2 \\
+   \text{Non-symmetrical} =& \ sp \geq 2   
+\end{align}
+ 
+\ldots
+
+\ex<fake> here is an example
+\xe
+
+Reference to example (\getref{fake}); see also \ldots. 
+
+
+\section{Why Context?}
+
+\section{Situations}
+Define a situation $S$ as the summation of the series of the variable relationship between a word from a lexicon $L_w$ and and the credence within a contenxt $\mathbb{C}_c$. 
+\begin{equation}
+S = \sum \frac{L_w}{\mathbb{C}_c}
+\end{equation}
+\section{A Bayesian Net in MIT-Church for Polyemous Meaning}
+Bayesian nets \ldots.
+
+The programming language Church (or MIT-Church), which is based on the major Lisp dialect Scheme, \ldots.
+
+Church allows the modelling of conditional probabilities, which can be useful in modelling the variable relationship between words and contexts. Given a situation $S$ with the ambiguous sentence {\sl Jon kicked the bucket} from \ref{kick}. We can informally assign some random probabilities to the two interpretations given here.\footnote{Assuming an English speaking set of speakers familiar with the idiom.}
+
+
+
+\ex 0.1 = `Jon' is the agent of action\label{.1} 
+\xe
+
+\ex 0.9 = `Jon' is the non-agent of action\label{.9}
+\xe
+
+The Church syntax looks like this:
+
+\ex \begin{verbatim}
+(church
+(define agent (flip .1))
+  (define non-agent (flip .9))
+  (define meaning (if (or agent non-agent) true (flip .1)))
+)
+\end{verbatim}
+\xe
+ 
+In this example we are imagining that there is some meaning that will result from the statement. Restricting the two possible meanings to licensing an agent (Jon struck an object with his leg) or non-agent (Jon died) reading. Notice that while we assume some interpretation (\texttt{meaning}), this does not mean that one is necessarily forced to accept one or the other (inlcusive and exclusive `or'), nor are the two meanings dependent on each other. We can assume some context in which neither meaning is licensed or both meanings are licensed simultaneously. There are possible and realistic contexts for all the probable scenarios; I will not spell them out here. 
+
+Church will result in a probability of 1.0 for the meaning of \ref{kick} to be \ref{.1} or \ref{.9} (inclusive `or'). But is does hold out for a slim possibility that no meaning will be assigned---or more accurately, that some other meaning will be assigned.
+
+This results in another perspective of $S$, where the variable interpretations of $L_w$ can be determined by the probabilities assigned by differing values or degrees of $\mathbb{C}_c$. 
+
+%------------------------------------
+\newpage
+\bibliography{myrefs}
+\end{document}

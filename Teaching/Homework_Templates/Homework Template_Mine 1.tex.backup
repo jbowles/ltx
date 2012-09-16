@@ -1,0 +1,152 @@
+\documentclass{article}
+% Change "article" to "report" to get rid of page number on title page
+
+
+% In case you need to adjust margins:
+\topmargin=-0.45in      %
+\evensidemargin=0in     %
+\oddsidemargin=0in      %
+\textwidth=6.5in        %
+\textheight=9.0in       %
+\headsep=0.25in       
+
+% Homework Specific Information
+\newcommand{\hmwkTitle}{Template}
+\newcommand{\hmwkDueDate}{in class}
+\newcommand{\hmwkClass}{Eng 2020}
+\newcommand{\hmwkClassTime}{}
+\newcommand{\hmwkClassInstructor}{Joshua Bowles}
+\newcommand{\hmwkAuthorName}{Your Name: }
+% Setup the header and footer
+\pagestyle{fancy}                                                       %
+\lhead{}                                                 %
+\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime): \hmwkTitle}  %
+\rhead{\firstxmark}                                                     %
+\lfoot{\lastxmark}                                                      %
+\cfoot{}                                                                %
+\rfoot{Page\ \thepage\ of\ \pageref{LastPage}}                          %
+\renewcommand\headrulewidth{0.4pt}                                      %
+\renewcommand\footrulewidth{0.4pt}                                      %
+
+% This is used to trace down (pin point) problems
+% in latexing a document:
+%\tracingall
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some tools
+\newcommand{\enterProblemHeader}[1]{\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak%
+                                    \nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak}%
+\newcommand{\exitProblemHeader}[1]{\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak%
+                                   \nobreak\extramarks{#1}{}\nobreak}%
+
+\newlength{\labelLength}
+\newcommand{\labelAnswer}[2]
+  {\settowidth{\labelLength}{#1}%
+   \addtolength{\labelLength}{0.25in}%
+   \changetext{}{-\labelLength}{}{}{}%
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#2\end{minipage}}%
+   \marginpar{\fbox{#1}}%
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   \changetext{}{+\labelLength}{}{}{}}%
+
+\setcounter{secnumdepth}{0}
+\newcommand{\homeworkProblemName}{}%
+\newcounter{homeworkProblemCounter}%
+\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}]%
+  {\stepcounter{homeworkProblemCounter}%
+   \renewcommand{\homeworkProblemName}{#1}%
+   \section{\homeworkProblemName}%
+   \enterProblemHeader{\homeworkProblemName}}%
+  {\exitProblemHeader{\homeworkProblemName}}%
+
+\newcommand{\problemAnswer}[1]
+  {\noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}}%
+
+\newcommand{\problemLAnswer}[1]
+  {\labelAnswer{\homeworkProblemName}{#1}}
+
+\newcommand{\homeworkSectionName}{}%
+\newlength{\homeworkSectionLabelLength}{}%
+\newenvironment{homeworkSection}[1]%
+  {% We put this space here to make sure we're not connected to the above.
+   % Otherwise the changetext can do funny things to the other margin
+
+   \renewcommand{\homeworkSectionName}{#1}%
+   \settowidth{\homeworkSectionLabelLength}{\homeworkSectionName}%
+   \addtolength{\homeworkSectionLabelLength}{0.25in}%
+   \changetext{}{-\homeworkSectionLabelLength}{}{}{}%
+   \subsection{\homeworkSectionName}%
+   \enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]}}%
+  {\enterProblemHeader{\homeworkProblemName}%
+
+   % We put the blank space above in order to make sure this margin
+   % change doesn't happen too soon (otherwise \sectionAnswer's can
+   % get ugly about their \marginpar placement.
+   \changetext{}{+\homeworkSectionLabelLength}{}{}{}}%
+
+\newcommand{\sectionAnswer}[1]
+  {% We put this space here to make sure we're disconnected from the previous
+   % passage
+
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}%
+   \enterProblemHeader{\homeworkProblemName}\exitProblemHeader{\homeworkProblemName}%
+   \marginpar{\fbox{\homeworkSectionName}}%
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   }%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Make title
+\title{\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\\normalsize\vspace{0.1in}\small{Due: \hmwkDueDate}\\\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}}
+\date{Jan. 27, 2010}
+\author{\textbf{\hmwkAuthorName}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+In many cases when making an argument or a claim we are compelled to give supporting evidence. However, in many cases the supporting evidence we give is NOT based on empirical data, but is instead based on impressionistic data. Nowhere is this more apparent than when people are talking about language. 
+
+As an example, we will look at some of the statistical distributions of words in certain texts. Imagine that the questions you are answering are in fact propositions from a thesis statement. That is, for problem 1 we will argue that
+\begin{quote}
+    U.S presidents have a tendancy to use a large percentage of words that end with {\sl -ly}. I argue that this is becuase more educated people tend to use a larger proportion of adjectives and adverbs formed by {\sl -ly}. I also argue that given the fact that U.S. presidents use the word ``America'' more than any other word, there is significant pre-occupation with the identity of the U.S. in presidential addresses.
+\end{quote}
+Imagine that problem 2 also has a thesis statement that proposes exactly the questions we are asking.  
+
+
+\begin{homeworkProblem}
+\texttt{Directions: These questions relate to the collection (55 texts) of all U.S.\\ Presidential Inagural addresses (1789 -- 2009).}
+
+\ex.[a.] Guess the percentage of words that end in -ly (i.e.: ``concurrent-{\bf ly}'', obvious-{\bf ly}'', etc.)? 
+
+\ex.[b.] Which word occurs more: \textsf{``citizen'', ``democracy'', ``America'', ``we''}?
+
+\end{homeworkProblem}
+
+
+
+\begin{homeworkProblem}
+\texttt{Directions: These questions refer to the book of Genesis in the Bible}
+
+\ex.[a.] How diverse is the vocabulary used?\footnote{One convention in religious writing is repetition of phrases, clauses, and words; if this text falls within convention, then its lexical diversity should be low. Lexical diversity = the number of unique words divided by the total number of all words. Here, we are looking for the number of words ending in {\sl -ly} divided by the number of all unique words (no duplicates are counted).} 
+
+\ex.[b.] Which word occurs more: \textsf{``God'', ``beginning'', ``said'', ``serpent''}?
+
+\end{homeworkProblem}
+
+
+\begin{homeworkProblem}
+    What is the most frequent word in English?
+\end{homeworkProblem}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,315 @@
+% $Header: /cvsroot/latex-beamer/latex-beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex,v 1.5 2007/01/28 20:48:23 tantau Exp $
+
+\documentclass{beamer}
+
+% This file is a solution template for:
+
+% - Giving a talk on some subject.
+% - The talk is between 15min and 45min long.
+% - Style is ornate.
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Pragmatic Logic] % (optional, use only with long paper titles)
+{Towards a Pragmatic Logic of Arguments\\ \small (with Special Reference to Computational Intelligence)}
+
+\subtitle
+{An Informal Talk for Sci-Tech Undergrads} % (optional)
+
+\author[Joshua Bowles] % (optional, use only with lots of authors)
+{Joshua Bowles\inst{1}$^,$\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Utah Valley University] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of English\\
+  Utah Valley University
+  \and
+  \inst{2}%
+  Department of Linguistics\\
+  University of Utah}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[Science and Technical Writing] % (optional)
+{\today / Lecture}
+
+\subject{Talks}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+
+\AtBeginSubsection[]
+{
+ \begin{frame}<beamer>{Outline}
+   \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  %% You might wish to add the option [pausesections]
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{What this lecture is}
+\textcolor{green}{This is a rough draft version of a long-term project geared specifically towards my Sci-Tech wrting students and in relation to the final research paper. This presentation also shows a template Beamer class within the \LaTeX typesetting framework.} 
+\end{frame}
+
+\begin{frame}{Why not a Computer?}
+\scriptsize 
+\begin{itemize}
+\item Computational software is good at structure and logic, but it cannot write a Classical Argument paper.
+\item \textcolor{blue}{If writing research papers was merely a process of compiling syllogism on top of syllogism -- constructing sorites -- then programs would write them for us.} 
+\item I do not explicitly discuss this idea, but please keep it in mind because it is related in a very strong sense to all that follows (especially in reference to notions like ``setting'' and ``subjective interpretation.'') Think of what it would take, as a logical structure, for a program to write a Classical Argument research paper. How could we develop the structure needed for a program to dynamically maintain biases, prejudices, and assumptions about how the world works. 
+\end{itemize}
+\end{frame}
+
+\section{What is an argument?}
+\begin{frame}{Parsons' Article}
+Parsons discusses the basic and intuitive notion of what an argument is. This article was published in \textsl{The Journal of Philosophy}, and so, we can assume he is talking to philosophers---people who, we might also assume, already \textsl{know} what an `argument' is. The first questions that might entertain us are below. 
+\end{frame} 
+
+\subsection{Why do we care?}
+\begin{frame}{Questions}\label{whycare}
+Why should we care about arguments?
+\begin{enumerate}
+\item Why do philosophers need to know what an argument is?
+\item Why does Parsons need to tell philosophers what an argument is? 
+\item Are we philosophers?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Why should we care?}
+The question of `Why we should care' is an important one: It has relevance to our sense of (i) what an `academic' is, (ii) what academics actually do in and for society, and (iii) what use does an academic have in society (what kinds of responsibilities they have to society --- think here of a comparison to athletes, teachers, politicians, firefighters, police, soldiers. etc\ldots.)
+Not only for academics, but how we digest arguments (or our ability to analyze them) effects various aspects of our personal and professional lives; as I mention later.
+\end{frame}
+
+\subsection{Definition}
+\begin{frame}{Argument defined (first try)}
+\begin{exampleblock}{\sc Argument}
+An argument refers to the abstract structure of reasoning employed in the process of analyzing various concepts, ideas, opinions, \ldots. It may be dialogical (requiring two or more speakers) but it does not have to be. In any case, it is dialectical.
+\end{exampleblock}
+\begin{block}{Dialectical}
+Dialectic is the process of a Thesis and Antithesis being synthesized to a new Thesis. The cycle goes on indefinitely.\\ First proposed by Aristotle, developed by Hegel and other German Idealist philosophers.
+\end{block}
+ \end{frame}\label{firsttry}
+
+
+ 
+\subsection{I don't See your Argument}
+\begin{frame}{A technical notion}
+\begin{block}{}
+``I see what your premises are,'' says the philosopher, ``and I see your conclusion.  But I just don't see how you get there.  I don't see the \textsl{argument}'' {Parsons 1996: 1}
+\end{block}
+\pause
+\begin{block}{Parsons wants to\dots}
+\ldots distinguish the notion of argument in philosophy from the technical notion in logic---syllogism. Argument has more \color{blue}{stuff} to it.  
+\end{block} 
+\end{frame}
+
+\begin{frame}\frametitle{The `stuff between'}
+Parsons is not only concerned with the holistic form of arguments, but in the relationship between the logic and the language of arguments. The `stuff between' the premises and conclusions of typical syllogistic reasoning.
+\end{frame}
+
+
+\section{Interpreting \& Assessing are like Analysis \& Synthesis}
+\subsection{Subjective goals}
+\begin{frame}{The subjective status of logic}
+\textbf{Interpretation} is always subjective. It cannot be otherwise. 
+{\bf BUT}
+\end{frame}
+
+\begin{frame}\frametitle{Interpretation}
+Recognition of the subjective nature of interpretation is not an allowance to BE purely subjective. \pause
+\begin{block}{Parsons 1996: 4}
+The first step, interpreting the text, is a sophisticated scholarly task.  It is typically underdetermined by all available evidence\dots, there may be an ineliminable element of subjectivity to it.  The second step is the logical task of assessing an argument.  This is mostly clear and objective.  
+\end{block}  
+\end{frame}
+
+\subsubsection{Objective goals}
+\begin{frame}{The illusion of Objectivity}
+\begin{itemize}
+\item  ``mostly clear and objective'' \textsl{assessment} of an interpretation does not need rely so much on subjectivity. 
+\item It can proceed by relying on models of logic.
+\end{itemize}
+\pause
+\begin{block}{Logic is\ldots} 
+an artificial language(s) that have been consciously constructed to contain mathematical rigor and delete unfortunate structures in natural languages, like ambiguity, in order to investigate notions like {\bf `true,' `false,' `contradiction,'} and {\bf `consistent.'}
+\end{block}
+\end{frame}
+
+\subsubsection{And so\dots}
+\begin{frame}{What does this mean?}
+\begin{enumerate}
+\item Recognize our subjectivity \begin{itemize} \item biases, \item assumptions, \item world view, \item ethics/ethos, \item opinions/pathos
+\end{itemize}
+\item Assess our subjectivity in relation to interpretation of an argument
+\end{enumerate}
+\begin{exampleblock}{This results in\dots}
+\pause
+the ability to use our subjective interpretations as a tool for assessment. It helps guarantee that our interpretations approximate {\bf `truth,' `fact,'} and {\bf `reality.'} 
+\end{exampleblock}
+\end{frame}
+
+
+\section{Writing Classical Arguments}
+
+\subsection{Practical considerations}
+\begin{frame}{How does this apply to us?}
+Let's be practical:\pause
+\begin{itemize}[<+-| alert@+>]
+\item Most of you simply to need to pass the class
+\item Most of you will not write professionally
+\item Most of you just want to finish your paper
+\item Learning to recognize subjective interpretation and provide an assessment of your opinion goes far outside this class:  ==>
+\end{itemize}
+\begin{enumerate}
+\item<+-> Voting
+\item<+-> Co-workers and bosses (interpersonal)
+\item<+-> Dating
+\item<+-> Career (advancement)
+\item<+-> \ldots other areas
+\end{enumerate}
+\end{frame}\label{Application}
+
+
+\subsection{Concrete things to look for}
+\subsubsection{Refined Argument}
+\begin{frame}\frametitle{The 3 conditions}
+A refined argument must meet the following conditions.\pause
+\begin{enumerate}[<+-| alert@+>]
+\item \textbf{Setting}: Set of assumptions about the world; assumed rules, principles, propositions, opinions, ethics.
+\item \textbf{Targets}: The goal (to establish some particular proposition or position). 
+\item \textbf{Reasoning Structures}: A sequence of statements meant to reach a Target in a specific Setting; (Syllogism is a type of reasoning structure). 
+\end{enumerate}
+\begin{exampleblock}{\textbf{Argument}, from Parsons (1996)}
+ is a `task' that employs a reasoning structure in a setting with a target.
+\end{exampleblock}
+\end{frame}
+
+
+\subsubsection{What we want}
+\begin{frame}{Successfully, yours}
+A \textbf{successful} argument must meet the following criteria. \pause
+\begin{enumerate}[<+-| alert@+>]
+\item Every premise is among the statements assumed in the setting.
+\item Every inference is in accordance with a principle of inference assumed in the setting.
+\item The conclusion is the target identified in the goal.
+\item The reasoning structure is noncircular.
+\item There is no infinite regress of justifications for any step.
+\end{enumerate}
+\end{frame}
+
+\subsubsection{The basics: Recap} 
+\begin{frame}\frametitle{An argument table}
+\begin{center}
+\begin{tabular}{|l|c|r|}
+\hline
+\textbf{Setting} & \textbf{Target} & \textbf{Reasoning Structure}\\
+\hline 
+assumptions & goal & statements sequence\\
+\hline 
+explicit? & achieved? & coherent, consistent?\\
+\hline
+implicit? & not? & support setting and goal? \\
+\hline
+\end{tabular}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+
+% Since this a solution template for a generic talk, very little can
+% be said about how it should be structured. However, the talk length
+% of between 15min and 45min and the theme suggest that you stick to
+% the following rules:  
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+
+\end{document}
+
+

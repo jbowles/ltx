@@ -1,0 +1,169 @@
+%% Based on a TeXnicCenter-Template by Gyorgy SZEIDL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------
+%
+\documentclass[a4paper,10pt]{book}%
+%
+%----------------------------------------------------------
+% This is a sample document for the AMS LaTeX Book or Monograph Class
+% Class options
+%       --  Body text point size:
+%                        8pt, 9pt, 10pt (default), 11pt, 12pt
+%       --  Paper size:  letterpaper (8.5x11 inch, default), a4paper
+%       --  Orientation: portrait(default), landscape
+%       --  Print side:  oneside, twoside (default)
+%       --  Quality:     final(default), draft
+%       --  Title page:  titlepage, notitlepage
+%       --  Start chapter on left:
+%                        openright (no, default), openany
+%       --  Columns:     onecolumn (default), twocolumn
+%       --  Omit extra math features:
+%                        nomath
+%       --  AMS fonts (noamasfonts available):
+%                        noamsfonts
+%       --  PSAMSfonts (fewer AMSfontsizes)
+%                        psamsfonts
+%       --  Equation numbering (equation numbers on the left is the default)
+%                        leqno (default), reqno
+%       --  Equation centering (equations centered is the default)
+%                        centeredtags (default}, tbtags (top, bottom)
+%       --  Displayed equations (centered is the default)
+%                        fleqn (flush left)
+% For instance the command
+%          \documentclass[a4paper,12p,reqno]{amsbook}
+% ensures that the paper size is a4, fonts are typeset at the size 12p
+% and the equation numbers are on the right side.
+%
+\usepackage[utf8x]{inputenc}
+\usepackage{fancyhdr}
+\lhead{\scriptsize Joshua Bowles} % force lhead all the way left
+\rhead{\scriptsize Page \thepage}  % put page number at right
+\chead{\scshape \scriptsize \ttfamily Last updated: \today}
+\cfoot{} % the footer is empty
+\pagestyle{fancy}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{natbib,times,latexsym}
+\usepackage{makeidx}
+\usepackage{graphicx,wrapfig}
+%--------------------------------------------
+
+
+\usepackage[usenames]{xcolor}
+\definecolor{jblinkcolor}{rgb}{.0,.2,.4}
+\usepackage[bookmarksdepth=3,colorlinks,breaklinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			plainpages=false,
+			bookmarks=false]{hyperref}
+			\urlstyle{rm}
+		
+\makeindex
+%-----------------------------------------BEGIN DOCUMENT---------------------------------
+\begin{document}
+
+\frontmatter 
+\title{\Huge Ocean}
+\author{\includegraphics[height=.15\textheight,width=1\textwidth]{ocean1}\\ \LARGE Joshua Bowles\\ \date{}}
+
+\maketitle   
+\thanks{\begin{center}{To all that matter.}
+\end{center}}  
+        
+
+
+\tableofcontents
+
+
+
+\chapter*{Preface}
+I have wanted to begin this project many times; I finally started on Christmas eve of two-thousand nine. The guiding motivation behind such a project is to leave a record of my life for my children. 
+
+Our children come to our lives knowing only a part of us. Much of a parent's early life, whether before having children or when the children were too young to remember who we were, is better not told; and rarely is. I understand this latter sentiment, but I also understand the importance of leaving a record. I also believe in children \textsl{eventually} knowing about their parents' lives. In many ways, our struggles as human individuals become thier struggles too. The failures and frustrations, false starts, dreams, and dark hours that have molded us into the people we are today also mold our children in ways not always obvious. Our successes as parents and individuals are singularities in the backdrop of the ocean of life: our private discovery of what it means to have a life is seldom passed on to our children in substantive form. It is a shame that our children rarely have access to the horizon of our past, that they cannot explore our own vast journey. 
+
+This book is meant to make up for the lack of access children have to their parents' past. And though I have not written it yet, I am sure there will be things about me they wished were not true, but I beleive in the end they will be glad for the perspective. I hope my children do not read this until they are grown, and I hope that once they do read it, the book will shed light on their own lives and their own continuous journey through life.
+
+\begin{flushright}
+\noindent Joshua Bowles\\
+\today
+\end{flushright}
+
+\begin{table}[!b]\caption{Timeline}
+\begin{center}
+\begin{tabular}{|l||l|}
+\hline
+Utah & Somewhere\\
+\hline \hline
+\textbf{Started} \date{December 24, 2009} & \textbf{Finished} Sometime\\
+Jade: 14 & Jade: ? \\
+Sophiamary: 3 & Sophiamary: ? \\
+Isabella: 1 & Isabella: ? \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+ 
+\mainmatter
+
+\chapter[What I Want To Be?]{What I Want To Be?}\begin{wrapfigure}{R}{0.99\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[height=.5\textheight,width=0.99\textwidth]{research2}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+\include{what-i-want-to-be}
+
+\chapter[Love, Words, and Math]{Love, Words, and Math}\begin{wrapfigure}{R}{0.99\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[height=.6\textheight,width=0.99\textwidth]{mathy6}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+
+\include{love-words-math}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\bibliographystyle{linquiry2}
+%\bibliography{myrefs}
+
+%\printindex
+
+
+\end{document}

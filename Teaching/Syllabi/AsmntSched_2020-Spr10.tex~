@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}
+
+\usepackage[usenames]{xcolor}
+
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Eng 2020 Spring 2010 Schedule}
+\date{January, 14 2010}
+
+
+\maketitle
+
+   {\bf The schedule here is {\it tentative} and will most likely be modified. It is your responsibility to keep track of the changes as I announce them in class.}\\
+   \begin{enumerate}
+\item JAN 6 W: (week 1): Introductions; find syllabus, register UV link and e-mail; \textbf{Read Blog; Scholar I}
+\item[] JAN 8 F: Open discussion
+\item  JAN 11 M (week 2): Mathematical Induction and Rational Inference 
+\item[] JAN 13 W: \textcolor{red}{\texttt{Blog Response DUE;}} Lecture on convention and language  
+\item[] JAN 15 F: Research questions A\&B:243-5; A\&B:579, 602-4
+
+\item  JAN 18 M (week 3): \textcolor{magenta}{MARTIN LUTHER KING JR. DAY}
+\item[] JAN 20 W: Mathematical Symmetry ({\sl Illuminated} video); Thesis statement\ldots bring on Friday; \textbf{Read DK:102-3,146-7.}
+\item[] JAN 22 F: EXERCISE---A\&B:223\ldots work on extending thesis statement; \textbf{Read DK:102-113}
+
+\item  JAN 25 M (week 4): Begin paper \#1: formats, questions, thesis statements; Mathematical Probability ({\sl Illuminated} video)
+\item[] JAN 27 W: What is evidence? DEMO---Python {\sl Genesis, Innaguaral, Chat}: Evidence to support thesis statements; \textbf{Read A\&B:41-47}
+\item[] JAN 29 F: Essay \#1 peer review (1st); \textcolor{red}{\texttt{Scholar I Response DUE}} 
+
+\item FEB 1 M (week 5): What is evidence? Ranking Evidence Types; Mathematical Probability ({\sl Illuminated} video)
+\item[] FEB 3 W: Essay \#1 peer review (2nd)
+\item[] FEB 5 F: \textcolor{olive}{Library Day---Research/Writing}
+
+\item FEB 8 M (week 6): \textcolor{red}{\texttt{\#1 Informative and Surprising (4-6 pgs) DUE;}} What is Analysis/Synthesis; \textcolor{teal}{{\sc find two articles for Essay \#2}}; \textbf{Read DK:88-96} 
+\item[] FEB 10 W: What is Rhetoric? EXERCISE---A\&B:350 1-6; {\bf Read A\&B ch. 13, DK:2-13}
+\item[] FEB 12 F: Essay \#2 peer review (1st) 
+
+\item FEB 15 M (week 7): \textcolor{magenta}{PRESIDENT'S DAY}
+\item[] FEB 17 W: DEMO---``Computational'' Rhetoric and Statistics
+\item[] FEB 19 F: Essay \#2 peer review (2nd); \textcolor{red}{\texttt{Summaries to research articles (2 pgs; 1 per article) DUE}}
+
+\item FEB 22 M (Week 8): \textcolor{olive}{Writing Day}
+\item[] FEB 24 W: Workshop on analysis and generating ideas for rhetorical strategies--A\&B:362
+\item[]  FEB 26 F: \textcolor{red}{\texttt{\#2 Analysis and Synthesis (4-6 pgs) DUE}}; Read \textsl{TSIS} Chapter 4
+
+\item MARCH 1 M (week 9): Proposals, Abstracts, Annotated Bibliographies; Read {\sl TSIS} Chapter 5
+\item[] MARCH 3 W: Draft proposals/abstracts
+\item[] MARCH 5 F: Meet in Library; {\bf Look over DK:18-87, 360}; Read {\sl TSIS} Chapters 2, 3
+
+\item MARCH 8 M (week 10): \textcolor{olive}{Library day DO YOUR RESEARCH!!}
+\item[] MARCH 10 W: \textcolor{red}{\texttt{\#3 Abstract (1 pg) and Annotated Bibliography DUE}}; {\bf Read A\&B ch. 14}, {\sl TSIS} Chapters 6, 7
+\item[] MARCH 12 F: Essay\#4 peer review (1st); start making presentations (use \#4 draft as guideline)
+
+\item MARCH 15 M (week 11): DEMO---Coprora results on {\sl TSIS}; Research Presentations (5-10 minutes) 
+\item[] MARCH 17 W: \textcolor{magenta}{SPRING BREAK}, begins on 16th
+\item[] MARCH 19 F: \textcolor{magenta}{SPRING BREAK}
+
+\item MARCH 22 M (week 12): Research Presentations (5-10 minutes)
+\item[] MARCH 24 W: Research Presentations (5-10 minutes)
+\item[] MARCH 26 F: Research Presentations (5-10 minutes); \textcolor{red}{\texttt{Response Y DUE}}
+
+\item MARCH 29 M (week 13): Light Week: Research Presentations (5-10 minutes)
+\item[] MARCH 31 W: \#4 peer review (2nd)
+\item[] APRIL 2 F: \#4 peer review (2.2nd)
+
+\item APRIL 5 M (week 14): Syllogistic Logic; Read {\sl TSIS} Part 3---(Chapters 8, 9, 10)
+\item[] APRIL 7 W: Syllogisms and Fallacies
+\item[] APRIL 9 F: Inference and Pressuposition; \textcolor{red}{\texttt{Response Z DUE}}
+
+\item APRIL 12 M (week 15): Essay \#4 peer review (3rd); directions for \textcolor{blue}{Portfolio}
+\item[] APRIL 14 W: Workshop---supporting claims with evidence
+\item[] APRIL 16 F: Workshop---style, voice, audience
+
+\item APRIL 19 M (week 16): Essay \#4 peer review (4th and last one)
+\item[] APRIL 21 W:  Open discussion about logic, style, voice, audience---will accept Portfolios
+\item[] APRIL 23 F: STUDY DAY
+
+\item APRIL 26 M (FINALS WEEK!!): open
+\item[] APRIL 28 W: \textcolor{red}{\texttt{Portfolio, Classical Argument (10-12pgs) DUE}}
+\item[] APRIL 29 F: \textcolor{green}{FALL 2009 SEMESTER ENDS}
+\end{enumerate}
+
+\end{document}

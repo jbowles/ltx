@@ -1,0 +1,890 @@
+\documentclass{article}
+
+\usepackage{paperp,paperc}
+
+\begin{document}
+
+\title{Lecture Notes: Scientific Writing\\
+\small ENG 2020 Intermediate Composition: Science and Technology}
+\author{Joshua Bowles\\
+Utah Valley University}
+
+\date{\today}
+ 
+\maketitle
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\part{Preliminary Comments}
+This class is unconventional in many ways. The most obvious unconventionality in this class will be the disonance between what you expect to see in this class and what you actually see. That is, you may expect to focus on writing in an explicit and direct way---writing in class everyday, receiving comments from me about how to make a sentence better, and being introduced to models of writing as types to put into practice (or genres, e.g., expository essay, technical report, \textsl{et cetera}\ldots) and styles to be emulated. And while these things are certainly discussed and introduced, we do not spend the bulk of our time with them. These more conventional tools function as the necessary background support for our prime objective: analysis. In other words, the conventional tools of the rhetorician are necessary but NOT alltogether sufficient to get us where we want to be.\footnote{Much of the Rhetorician's toolkit is introduced in the textbooks. Class lectures presuppose your being introduced to them---without reading the texts you will not grasp why we are doing what we are doing in class.}
+
+What you {\bf do} see in this class is an \textcolor{teal}{\textbf{explicit focus on the way we think, how we think, how we process information, how we validate information, how we come to accept the warrant for claims, how we evaluate types of evidence, and so on}}. The bulk of these topics are covered in a fairly informal way, which means you may not actually be aware of what we are doing until later. The reasoning for this `unconventional' way of doing things actually comes from following the example of ancient Greek scholars:
+
+\begin{equation}
+\begin{split}
+ \text{Speech is an outward expression of thought, and if your}\\ 
+\text{speech is disorganized, then so is your thought}
+\end{split}
+\end{equation}
+
+We can turn this around by saying that if your thoughts are disorganized, then only by a rare stroke of luck will your speech be organized. Extending this to the modern day where writing is a more widely distributed technology for spreading thoughts and ideas, we can say that good writing only follows good thinking. Therefore, the following stands to reason:
+
+\begin{equation}
+ \begin{split}
+\text{If your thoughts are well-organized, then your writing} \\
+\text{may also \textbf{become} well-organized.}
+ \end{split}
+\end{equation}
+
+ 
+I have let everything hang on the notion of `organized' or `well-organized' thought: this is the domain of logic.\footnote{We will bypass the task of defining `(well-)organized' and simply get down to business.} If you make assumptions in your thinking, you will make them in your writing. If you make generaliztions in your thinking, you will make them in your writing. 
+
+The last crucial piece to understanding is this: it takes a very long time to become a good writer---16 weeks is not sufficient time to make you a good writer. But in 16 weeks we can evaluate the way we think and connect this to how we express our thinking in our writing. Also, the best way to becoming a good writer is by doing it over and over again year after year; and even then, you must rely on peer-review and editors. 
+
+To sum up, learning how to write is learning how to evaluate thinking. You will become a better writer by becoming a better thinker. But the obverse does not hold: you can employ models of good writing and emulate the sentences, templates, and vocaublary suggested by all the books and still not be a very good writer. The reason for this is simple: by the doing the latter you become a clone. Instead, we begin at the source of writing: the structure of thought. If you cannot think well, no turn-of-phrase, no syllogism, no well-crafted sentence will save you from real mediocrity.
+
+ 
+------------------------------------
+\part{Induction}
+\textsl{I have provided a brief excerpt from my own personal notes on mathematics because induction is a very crucial concept. It has a formalized description that has been widely used in just every about every formal system and it is also one of the major types of informal logic used in making arguments (the others being Deduction and Abduction). The concept of induction, as well as deduction and abduction, will inform our use of the concept of INFERENCE throughout the semeseter. In other words, when we say inference, we refer to either induction, deduction, or abduction. I provide this excerpt here to demostrate that types of inference \textsl{can} be expressed in very rigorous ways.} 
+
+A general definition for mathematical induction is based on the successor function. This is a now classic method made standard by Giuseppe Peano around the beginning of the 20th century; in which the arithmetic of cardinal numbers of axiomatized. Typically, we define a primitive and some kind of binary combinatoric operation (i.e., addition and/or multiplication), and then simply iterate the primtive and combining operation.\footnote{It is hard to overemphasize the importance of the use of induction to contemporary formalization.}
+
+A very common model for successor functions and induction is the domain of the whole numbers. The primitive is zero and the combinatory operation is addition (or multiplication). To this model we apply the axioms of Peano.
+Begin with three primitive (undefined and unmotivated) terms: \textbf{number}, \textbf{zero}, and \textbf{immediate successor of}. The following axioms can be given:
+
+\newtheorem{peanoaxiom}{Peano Axiom}
+\begin{peanoaxiom}
+    Zero is a number
+\end{peanoaxiom}
+\begin{peanoaxiom}
+    The immediate successor of a number is a number.
+\end{peanoaxiom}
+\begin{peanoaxiom}
+    Zero is not the immediate successor of a number.
+\end{peanoaxiom}
+\begin{peanoaxiom}
+    No two numbers have the same immediate successor.
+\end{peanoaxiom}
+\begin{peanoaxiom}\label{induction}
+    Any property belonging to zero, and also to the immediate successor for every number that has the property, belongs to all numbers.
+\end{peanoaxiom}
+
+The last axiom is referred to as the \textsc{Principle of Mathematical Induction}; this reflects that understanding that the last `axiom' is not technically an axiom; it may also be a called an \textsc{Induction Axiom Scheme}. Peano's axioms can be formally represented as follows.
+
+\subsection{A Formalized Induction Scheme for Peano's Axioms} 
+
+\begin{align}
+    \text{Peano Axiom 3} \ \quad \neg0 &= sx \label{rpaxiom3}\\
+   \text{Peano Axiom 4} \ \quad sx &= sy \rightarrow x = y \label{rpaxiom4}
+\end{align}
+\ref{rpaxiom3} says that the \textcolor{teal}{negation of zero is a number with a successor}, or conversely, \textcolor{olive}{if a number has no successor, then it must be zero}, or that \textcolor{blue}{zero is not the successor of any number}. \ref{rpaxiom4} says that \textcolor{teal}{if the successor of x equals the successor of y, then x equals y}, or in other words, \textcolor{blue}{given any number, its predecessor is unique}. Now we can provide representations for axioms of the binary operations addition, $+$, and multiplication, $*$, 
+\begin{align}
+    x + 0 &= x\label{add0}\\
+   x + sy &= s(x + y)\label{adds}\\
+   x * 0 &= 0\label{times0}\\
+   x * sy &= x * y + x\label{timess}
+\end{align}
+\ref{add0} is the identity of addition (any number $x$ added to zero sums to that number $x$); \ref{adds} says that any number $x$ plus the successor of $y$ is equivalent to the successor of $x + y$; \ref{times0} is straightforward, and \ref{timess} says that any number $x$ times the sucessor of the number $y$ is equivalent to $x * y$ plus the number $x$.
+
+To the representations in \ref{rpaxiom3}--\ref{timess} we can add the following instance of the induction scheme, or principle of mathematical induction, from \ref{induction}.
+
+Given any formula with a free variable $x$, $P(x)$, we can get the following instance of induction
+\begin{equation}
+    (P(0) \& \forall x(P(x)) \rightarrow P(s(x))) \longrightarrow \forall xP(x)
+\end{equation}
+What this says is that \textcolor{teal}{for the property $P$ that belongs to $0$, and for all $x$ with that property, then the successor of $x$, $sx$, also has that property, $P(s(x))$; If the latter is the case, then this will hold for all $x$}.
+
+\subsubsection{Writing numerals inductively}
+The common way of writing the Arabic numerals in the set of whole numbers, ${0, 1, \ldots, n}$, implies the inductive principle and is an efficient way to compact the information in that principle. A more explicit way to write the set whole numbers is the following (I also show the correlation with Arabic numerals):
+\begin{equation}
+    \begin{split}
+        0 = 0\\
+	 0s = 1\\
+	 0ss = 2\\
+	 0sss = 3
+\end{split}
+\end{equation}	
+
+Addition of $2 + 2 = 4$ looks like this (the second representation is in Polish notation and is equivalent with the first):
+\begin{align*} 
+s(s(0)) + s(s(0)) &= s(s(s(s(0)))).\\
+&\text{or,}\\
+ +(s(s(0)), \ s(s(0)) &= s(s(s(s(0))))).
+\end{align*}
+
+
+\paragraph{Division in a formalized induction scheme}
+Induction is defined for binary combinatoric operations multiplication and addition. But we can also define division as (assume the definitions \ref{add0}--\ref{timess}):
+\begin{equation}
+    \exists z(x *z = y)
+\end{equation}
+
+\textsl{Notice that we can draw a relationship with induction and observation: given $n$ observations of the phenomena $x$, we may inductively conclude that $x$ is indeed the case for $n + m$ events. Induction is also useful for understanding how we get statistical data: we take a sample of $n$ people and iductively generalize those results to the actual (or larger) population $n * m$; given that sample $n$ is {\sl representative}. It also works for classification heirarchies: if $a \in A$, $a$ belongs in $A$, and $\beta \in a$, then we might expect that properties belonging to $a$ also belong to $\beta$, or {\sl vice versa}. These three cases are very complicated and require a lot of analysis that we won't bother to go into---it is enough to know that induction relates to real world thinking and that methods using induction are much more complicated than they first appear to be.}
+%------------------------------------
+\part{`Expressives' and `Argumentation' in Genres of Writing}\label{genre}
+I this part we will look at `expressive' words (or content) as well as `argumentation' words. I will develop some techniques to look at how language is used in large collections of text that belong to three basic genres.\footnote{A genre of writing is a style, domain, or type. Genres are typically defined in relation to each other. Notice this implies that more diverse your reading experiences, the richer your view of genres that exist. That is, if all you read are newspaper articles, then you have no reason to expect that writing outside of newspapers is any different. And when we write, we emulate what we read. That is, if all you read is newspapers, chances are you are going to write like newspaper writing becuase that is your only model.} These are what I will refer to as (i) \texttt{expressdom}: EXPRESSIVE DOMAIN = e-mail, blog, chatroom, and other digital media related text; we will assume that this genre is informal and does not consist of things like e-mail between you and your boss, or between client and lawyer, {\sl et cetera}; (ii) \texttt{acadom}: ACADEMIC DOMAIN = transcriptions of university lectures, PhD dissertations, and academic journal articles; and (iii) \texttt{rhetdom}: RHETORICAL DOMAIN = a random sample of excerpts from your Analysis and Synthesis papers.   
+
+\section{What are Expressives and Why Should we Care?}
+Expressive words are lexical items that contain some emotive content. They do not, however, impact the truth or falsity of a statement (usually called propositional content). For more on expressives in the context of formal pragmatics and semantics, as well as corpus linguistics, see \cite{Constant:etal08}, \cite{Potts06TARGET}, \cite{Potts03NELS}, or \cite{Potts08HSK}. Potts' faculty page has most of these as downloadable pdfs: \url{http://www.stanford.edu/~cgpotts/}.  
+
+Expressives are relevant to us because we typically want to present our research through writing that is both neutral and negotiates its emotional investment. Through using expressive terms we reveal bias by revealing emotional investment. This is certainly one way to argue against using expressive terms in scientific writing. But there is, I argue, an even stronger reason: as we will see in the examples below, expressive terms do not appear to be compatible with making precise statements. Use of expressive content seems to mask precision and encourge vague reference to the world and data.   
+
+\section{Some Examples and Data}
+\subsection{Examples}
+\begin{exe}
+\ex Expressive words used in this study:
+\begin{xlist}
+\ex like, damn, soo, wow, crap, super, hell, awesome, totally, really, literally, idiot, stupid, dumb, amazing\label{exp}
+\end{xlist}
+\ex Common expressives
+\begin{xlist}
+\ex swears, exclamatives, intensives
+\end{xlist}
+\ex The cheetah can run {\bf so} fast.
+\begin{xlist}
+\ex The cheetah can run {\bf so} 60 miles per hour.\label{cheetah2}
+\end{xlist}
+\ex Pluto is {\bf really} far away.
+\begin{xlist}
+\ex Pluto is {\bf really} 5,913,520,000 kilometers away.\label{pluto2} 
+\end{xlist}
+\ex Toyota gas-pedal problems are {\bf freakin'} rare.
+\begin{xlist}
+\ex Toyota gas-pedal problems are {\bf freakin'} 0.00001\%. 
+\end{xlist}
+\end{exe}
+
+Notice also that here we are addressing a problem that has come up before: vague language. We replace the terms \textsl{fast, far, rare} with measurable quantities. Notice what happens to the expressives -- in some cases, problems \ref{cheetah2} and \ref{pluto2}, they appear to act like an appeal to/for credibility.
+
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{acadom-plot.png}
+\caption{Cumulative plot for acadom}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{expressdom-plot.png}
+\caption{Cumulative plot for expressdom}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.7\textwidth]{acadom-plot-i-count.png}
+\caption{Individual counts for acadom}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.7\textwidth]{expressdom-plot-i-count.png}
+\caption{Individual counts for expressdom}
+\end{figure}       
+
+
+\begin{table}[!ht]
+\caption{Individual counts for `expressives'}\label{icounts}
+\begin{center}
+\begin{tabular}{|l|l|r|l|}
+    \hline
+\textbf{Word} & \textbf{Academic} & Ac-mod &\textbf{Chat}\\
+\hline \hline
+like& 5047& (5410) & 17010 \\ 
+damn& 9 & (167) & 64 \\
+soo& 1 & (151) & 13 \\
+wow& 15 & (30) & 224 \\
+crap& 10 & (10) & 63 \\
+super& 20 & (21) & 10 \\
+hell& 45 & (45) & 162 \\
+totally& 114 & (118) & 206 \\
+really& 2666 & (2734) & 3305 \\
+literally& 48 & (51) & 28 \\
+idiot& 8 & (16) & 13 \\
+stupid& 32 & (50) & 166 \\
+dumb& 2 & (2) & 22 \\
+amazing& 33 & (33) & 25 \\
+awesome& 0 & (0) & 39\\
+   \hline
+\end{tabular}
+\end{center}
+\end{table} 
+
+\section{Description of Method}
+Frequency counts of the words in example (\ref{exp}) are made in two different collections of texts. One collection (or corpus) contains lectures by academics and runs a total of about 4 million words; the other corpus is based on collections of emails, blogs, chatrooms, and reviews (i.e., movie, product, restaurant reviews) and runs about 1 million. I wrote some Python scripts to search through each corpora and count the total number of instances of the set of 'expressives' from (\ref{exp}) (which were lowercased beforehand). The total sample was divided by the total number of word instances for each corpora.
+\subsection{Corpora}
+The academic and chat corpora were built by me using pre-existing corpora.
+\subsection{Academic Corpus}\label{acadom}
+For the academic corpus I used the British Academic Spoken English (BASE) \url{http://www2.warwick.ac.uk/fac/soc/al/research/collect/base/}. According the BASE conditions the following must be stated: ``The recordings and transcriptions used in this study come from the British Academic Spoken English (BASE) corpus. The corpus was developed at the Universities of Warwick and Reading under the directorship of Hilary Nesi and Paul Thompson. Corpus development was assisted by funding from BALEAP, EURALEX, the British Academy and the Arts and Humanities Research Council.'' Some additional information about BASE comes the corpus' own description, which I quote in full:
+\begin{quote}
+    The BASE corpus consists of 160 lectures and 39 seminars recorded in a variety of university departments. Holdings are distributed across four broad disciplinary groups, each represented by 40 lectures and 10 seminars. These groups are: Arts and Humanities, Social Studies and Sciences, Physical Sciences, and Life and Medical Sciences. The lectures and seminars have been transcribed and annotated using a system devised in accordance with the TEI Guidelines. There is a DTD file which must be kept in the same folder as the corpus files, named 'base.dtd'. The transcription and mark-up conventions are described in the 'BASE manual' document which is in PDF format, and the holdings are described in the Excel spreadsheet, 'BASE corpus holdings.xls'. The token count for the entire corpus is 1.6 million, and the files contain the transcripts of nearly 200 hours of recording.
+\end{quote}
+
+\subsection{Chat Corpus}
+The e-mail, blog, chat, and reviews corpus was built by me out of 3 pre-existing corpora.
+\subsubsection{Loyola CMC} 
+The first is Loyola Computer-Mediated Communication (CMC) Corpus, \url{http://cmccorpus.cs.loyola.edu/}, which describes itself as
+\begin{quote}
+    This site provides access to a corpus of over 800 text samples gathered from test subjects at Loyola College, Baltimore, Maryland, in 2006 and 2007.  Twenty-one subjects provide a completely correlated corpus in which each subject provided their opinion in each of six predetermined topics in each of six genres: blog, chat, discussion, email, essay, and interview.
+\end{quote}
+
+\subsubsection{NPS Chat, Brown, and NLTK}
+The second collection is the NPS Chat Corpus, \url{http://faculty.nps.edu/cmartell/NPSChat.htm}, which was accessed through the Natural Language Toolkit (NLTK), \url{http://www.nltk.org/Home}, which is an open source project that uses the programming and scripting language Python. It consists of many modules designed to educate, facilitate, and support development of natural language processing for linguistic data for Windows, Mac OSX, and Linux operating systems.
+The third collection comes from the `Reviews' category in the Brown Corpus, \url{http://icame.uib.no/brown/bcm.html}. While there are many places to get the Brown Corpus, I accessed it through use of the NLTK. 
+
+\section{Problems and Caveats}\label{problem}
+There are a number of caveats and problems that accompany this short demonstration; I will name some here.
+
+\begin{problem} The academic corpus consists of sampling from one pre-existing corpus which is composed entirely of academic lectures. 
+\end{problem}
+This is problematic becuase we can assume with some confidence that one is more likely to use expressives in discussion versus writing---even in academic lectures. This means the percentage of 'expressive' words may actually be lower than 0.2\%. Generally, the chat corpus has a better sampling, consisting of three pre-existing corpora I put together.
+
+\begin{problem}\label{base}
+    The structure of the BASE is such that each xml file consists of the same introduction.
+\end{problem}
+This is only a problem becuase I did not filter out the BASE introductions to each xml; there a quite a number of xml files. The result is that is the 4 million plus total sample count is not accurate --- though I did check to make sure that the 'expressive' words I used did not occur in the BASE introductions.
+
+\begin{problem}
+    The words I use as the set of 'expressives' was compiled quickly by myself with little forethought
+\end{problem}
+Though it is not reasonable to compile a a list of every single expressive term, we should expect a great deal of thought to go into selection for the set. The choices I made were intuitive and were I pushed to justify some choices over others I probably could not provide satisfactory argument for the choices I made.
+
+\section{The Moral}\label{moral}
+These problems mean that my 4 million total count of the academic corpus is not accurate; 8,050 divided by 1.6 million is 0.5\%. The numbers given in class and above are mere sketches of what we expect to find, and, should not be used to make actual arguments about the nature of expressive content in academic language (also given the assumption that discourse is more likely to yield a higher content of expressives, even in university lectures --- and the chat corpus consists only of written material. The more accurate number, 0.5\% is probably lower given the discursive nature of hte acadmeic corpus---all things equal, the 0.2\% number I give in the graphs, then, is probably not too far off. Nonetheless, it is still not accurate and serves at best as a demonstration.) 
+
+What should be taken from this demostration is that we have pretty good circumstatial evidence that expressives are not used a lot in academic language. The reason for this is twofold: the obvious assertion that expressives are `revealing,' AND, more interestingly, expressives don't seem to modfiy precise statments very well (though they do license vague statements), and consequently, scientists don't use expressives much because scientists are more concerned with precise statements than vague ones.
+
+\section{Comparing Academic Terms in Three Corpora}
+For this demonstration I have taken the corpora and methods used to examine `expressive' words; see the beginning of part \ref{genre} of the lectures for discussion of expressives. I have extended these methods to allow our own writing to be compared against the other two corpora. Specifically, a number of words from \pgposscitet{theysay}{174-175} have been selected and termed `argumentation', or \texttt{arg}, words. Additionally, the \texttt{rhetdom} corpus is brought---remember that this is a collection of randmomly selected excerpts from your Analysis and Synthesis papers.
+\subsubsection{A Note on Selection Criteria}
+In selecting excerpts from your papers I followed the following method: before grading or reading you papers I flipped to teh 2nd or 3rd page and picked the first paragraph I saw. I hand-typed this paragraph into the text editor Emacs, which produced a common \texttt{.txt} file that I named \texttt{excerpts.txt}. I then went through the papers a second round and selected a paragraph from the first page. Next, while I was grading the papers I selected another paragraph: my selection was of both good and bad paragraphs. Section titles were included but author names were not.
+
+I then took the \texttt{excerpts.txt} file and sorted it by paragraph using the UNIX command \texttt{sort}.
+
+\begin{exe}
+ \ex \texttt{sort-R -o OUTPUTFILE INPUTFILE}
+\end{exe}
+
+I ran the file through this command multiple times and wrote it to an external file called \texttt{excerptRandom.txt}.
+
+% output_file = open('excerptsToken.txt', 'w')
+% >>> words = set(tokens)
+% >>> for word in sorted(words):
+% 	output_file.write(word)
+% 
+% >>> output_file = open('excerptsToken.txt', 'w')
+% >>> words = set(tokens)
+% >>> for word in sorted(words):
+% 	output_file.write(word)
+% 
+% 	
+% >>> output_file = open('excerptsToken.txt', 'w')
+% >>> words = set(tokens)
+% >>> for word in sorted(words):
+% 	output_file.write(word + "\n")
+% 
+% 	
+% >>> f = open('excerptsToken.text')
+% 
+% Traceback (most recent call last):
+%   File "<pyshell#36>", line 1, in <module>
+%     f = open('excerptsToken.text')
+% IOError: [Errno 2] No such file or directory: 'excerptsToken.text'
+% >>> len(words)
+% 4593
+% >>> output_file = open('excerptsToken2.txt', 'w')
+% >>> words = tokens
+% >>> for word in sorted(words):
+% 	output_file.write(word + "\n")
+% 
+% 	
+% >>> len(sorted(words))
+% 35622
+% >>> 
+   
+\subsection{Tables, graphs, and images}
+\begin{table}[H]
+\caption{Individual counts for `argumentation'}\label{arg-i-counts}
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+    \hline
+\textbf{\texttt{arg} Word} & \textbf{expressdom} &\textbf{acadom} & \textbf{rhetdom}\\
+\hline \hline
+accordingly & 10 & 16 & 0\\
+\hline
+as a result & 0 & 0 & 0\\  
+\hline
+\textcolor{blue}{consequently} & \textcolor{blue}{2 ({\bf 0.0001}\%)} & \textcolor{blue}{18 ({\bf 0.0009}\%)} & \textcolor{blue}{{\bf $\diamond$ 3 (0.0068}\%)}\\ 
+\hline
+hence & 21 & 134 & 0\\
+\hline
+it follows & 0 & 0 & 0\\
+\hline
+since & 482 & 372 & 12\\
+\hline
+so & 6174 & 17546 & 85 \\
+\hline
+then & 2992 & 5475 & 86\\
+\hline
+\textcolor{blue}{therefore} & \textcolor{blue}{102 ({\bf 0.0062}\%)} & \textcolor{blue}{{\bf $\diamond$ 560 (0.0282}\%)} & \textcolor{blue}{3 ({\bf 0.0068}\%)}\\
+\hline
+thus & 103 & 293 & 0\\
+\hline
+as a result & 0 & 0 & 0\\
+\hline
+in conclusion & 0 & 0 & 0\\
+\hline
+in short & 0 & 0 & 0\\
+\hline
+in sum & 0 & 0 & 0\\
+\hline
+to summarize & 0 & 0 & 0\\
+\hline
+likewise & 10 & 30 & 0\\
+\hline
+similarly & 11 & 116 & 0\\
+\hline
+\textcolor{blue}{although} & \textcolor{blue}{177 ({\bf 0.0108}\%)} & \textcolor{blue}{715 ({\bf 0.0360}\%)} & \textcolor{blue}{{\bf $\diamond$ 22 (0.0502}\%)}\\
+\hline
+by contrast & 0 & 0 & 0\\
+\hline
+conversely & 2 & 21 & 0\\
+\hline
+despite & 22 & 71 & 0\\
+\hline
+nevertheless & 4 & 73 & 0\\
+\hline
+whereas & 99 & 287 & 0\\
+\hline \hline
+\textcolor{blue}{TOTALS} & \textcolor{blue}{10211} & \textcolor{blue}{25727} & \textcolor{blue}{211} \\
+   \hline
+\end{tabular}
+\end{center}
+\end{table} 
+
+\begin{table}[H]
+\caption{Totals for corpora}\label{corpcount}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+    \hline
+\textbf{acadom} &\textbf{expressdom} & \textbf{rhetdom}\\
+\hline \hline
+BASE = 1.6 million & Loyola = 1,541,497 & Rhetcomp = 43,778\\
+journal = 169,236 & NPS = 45,010 & {} \\
+books = 123,383 & Brown reviews = 40,704 & {} \\
+diss = 88,883 & {} & {} \\
+\hline \hline
+\textcolor{red}{TOTAL} = \textcolor{red}{1,981,502} & \textcolor{red}{TOTAL} = \textcolor{red}{1,627,211} & \textcolor{red}{TOTAL} = \textcolor{red}{43,778}\\
+   \hline
+\end{tabular}
+\end{center}
+\end{table} 
+
+\begin{table}[!ht]
+\caption{Averages for \texttt{arg}}\label{argaverage}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+    \hline
+\textbf{acadom} &\textbf{expressdom} & \textbf{rhetdom}\\
+\hline
+\textcolor{blue}{25727} $\div$ & \textcolor{blue}{10211} $\div$ & \textcolor{blue}{211} $\div$ \\
+\textcolor{red}{1,981,502} & \textcolor{red}{1,627,211} & \textcolor{red}{43,778}\\
+\hline \hline
+$\approx 1.29\%$ & $\approx 0.58\%$ & $\approx 0.48\%$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table} 
+ 
+
+\begin{figure}[!ht]
+\includegraphics[width=0.7\textwidth]{argExpressdomPlot-i-count.png}
+\caption{Individual counts for \texttt{arg} in expressdom}
+\end{figure}       
+
+\begin{figure}[!ht]
+\includegraphics[width=0.7\textwidth]{argAcadomPlot-i-count.png}
+\caption{Individual counts for \texttt{arg} in acadom}
+\end{figure}       
+
+\begin{figure}[!ht]
+\includegraphics[width=0.7\textwidth]{argPlotRhetdom.png}
+\caption{Cumulative counts for \texttt{arg} in rhetdom}
+\end{figure}       
+
+\subsection{Description}
+For this study I am using the same basic corpora as the expressives study above. I will be a bit more specific about the corpora as we move on. For one, the Academic corpus is called \texttt{acadom}: \texttt{aca}(demic) \texttt{dom}(ain), the Chat corpus is called \texttt{expressdom}: \texttt{express}(ive) \texttt{dom}(ain), and the corpus compiled from student writing is called \texttt{rhetdom}: \texttt{rhet}(oric) \texttt{dom}(ain).
+
+Here we are looking at what I will call `argumentation' words. I have taken these from \pgposscitet{theysay}{174-175} index on templates, namely the Commonly Used Transitions. I specifically took small phrases or single words for ease of search and presentation (but there may more to come in the future that looks for distributional evidence of the templates themselves).
+
+Totals for corpora can be seen in table \ref{corpcount}; the set of words in \texttt{arg} is in table \ref{arg-i-counts}.
+
+\subsubsection{A Last Note}
+For this look at `argumentation' words I have added to the Academic corpus, \texttt{acadom}, but the Chat corpus, \texttt{expressdom}, has stayed the same. Although the Academic corpus has the same name as it does in the analysis of expressive, the actual content is different. Also, I still have not filtered the BASE portion of acadom --- that is, filtered out the intro on every xml file in BASE --- and so total counts will not be accurate. For this reason I give the token counts in table \ref{corpcount} and have calculated all arithmetic means according to the totals in that table.
+
+When we account for the redundancy in BASE (see sections \ref{acadom}, \ref{problem}, and \ref{moral}; also problem \ref{base} for discussion), taking the BASE count at 1.6 million instead of 4.4 million, we see that the sample of `argumentation' words for the total count of \texttt{acadom} is actually around 1.2\% (25,144/1,981,502; the expressdom sample/total is 8,691/1,627,221).
+
+\newpage
+\subsection{Code Samples}
+Here are a snippets of Python code used to analyze various data in the corpora.
+\begin{figure}[!h]
+\includegraphics[width=1\textwidth]{code-snippet.png}
+\caption{Piece of Python code showing sample/total percentage}
+\end{figure}
+
+\begin{figure}[!h]
+\includegraphics[width=0.9\textwidth]{argPycode.png}
+\caption{Piece of Python code for argumentation}
+\end{figure}
+
+%%\begin{figure}[!h]
+%%\includegraphics[width=1\textwidth]{expressivePycode.png}
+%%\caption{Piece of Python code for expressive}
+%%\end{figure}
+
+%%\begin{figure}[!h]
+%%\includegraphics[width=1\textwidth]{rhetcompPycode.png}
+%%\caption{Piece of Python code for argumentation}
+%%\end{figure}
+
+
+
+\newpage
+\section{Sample Introductions: what to shoot for}
+In this class we are defining a very strict style of sci-tech writing: one that is clear, concise, and gets to the point in an efficient manner. This kind of style is fairly counter-intuitive to what one is normally taught about writing. For example, in this style, repetition is often a good thing---it highlights the major points (and reminds the reader of the major points), and it also reflects consistency and gives the reader a sense that you know what you are doing.
+
+The following excerpts are from academic papers published in peer-reviewed journals. The topics represent issues within my field of research, namely formal and computational lingusitics. All selections were pretty much random (whatever I had in my current reading file and my desktop). The excerpts are all from the last paragraph of the introduction (and in some cases I provide the last two paragraphs).
+
+The purpose here is to get a sense of the essential pieces of what many academic introductions include. Notice that the introductions below are on averge 1.6 pages long (single-spaced); the papers are average 43.75 pages long (I added in one paper not below; intro = 2 pgs, paper = 78).\footnote{5 page double-spaced paper $\approx$ 1,385 words ::  $\frac{277 \ words}{page}$ :: about half of the first page should be intro, which means your introduction \textbf{should} 277 to $\frac{277}{2} \approx 138$; one-half to one page. Why?} The excerpts below are average 176.25 words ($^{705}/_4$) 
+
+\subsection{\cite{etxepareevd10}} 
+(intro = 1 pg; paper = 24)\\
+``The paper is organized as follows: section 2 compares the Spanish main que-clauses with hearsay evidentials,
+taking as a basis Faller’s (2002) careful study of theQuechuan reportative evidential. It is shown that both phenomena
+share a number of semantic and syntactic properties. Section 3 shows that, despite those commonalities, hearsay
+evidentials and Spanish que-clauses differ in several important respects, and cannot be lumped together. Section 4
+introduces the proposed analysis of main que-clauses, and suggests a possible connection with so-called quotative
+constructions cross-linguistically. Section 5 develops the syntactic analysis introduced in the previous section.
+Section 6 puts the proposed analysis in a comparative perspective and suggests a way to accommodate syntactic
+variation in the domain of quotative constructions. Section 7 presents a remaining case of reporting main clause that
+does not immediately fall under the proposed analysis, and provides a minimal extension of the analysis. Section 8
+concludes.''
+
+\subsection{\cite{parisetaldiscourse09}}
+(intro = 1 pg; paper = 38)\\
+``This paper presents Myriad, a platform for information delivery that is based on
+NLG principles, in particular discourse planning principles, while being driven by
+engineering concerns. Myriad integrates a service-based architecture for data access,
+not unlike those provided by mash-up tools, with an NLG-based discourse planner
+that aggregates and tailors that information for the user in context. The paper starts
+with related work in NLG and discourse planning and then describes the Myriad
+platform in detail, using a specific application as a running example. Particular
+attention is paid to reusable mechanisms for data access and discourse planning.
+The paper then illustrates the use of the platform in the context of two additional
+and different applications and concludes with a discussion of the utility of the
+Myriad platform and its implications for integrated delivery platforms in general.''
+
+
+\subsection{\cite{zeschgurevychsemrelate09}}
+(intro = 2.5 pgs; paper = 35)\\
+``In this article, we focus only on knowledge based methods for computing
+semantic relatedness, as opposed to distributional methods (Weeds 2003). However,
+distributional methods showed competitive performance on some evaluation datasets
+(the interested reader may refer to Mohammad et al. 2007).
+The article is structured as follows: In Section 2, we describe the state of the art
+in computing semantic relatedness as well as the knowledge sources used. Section 3
+introduces the evaluation framework that was used for our experiments, whose
+results are presented in Section 4. Section 5 briefly explains the software tools that
+were used to conduct the experiments. The article concludes with a summary and
+future research directions in Section 6.''
+
+\begin{remark}
+    Note the references below, formatted in the S\&P style (\textsl{Semantics and Pragmatics}), and its use of \textcolor{blue}{DOI}s: Digital Object Identifier --- a unique id for digital archiving and very important for online journals. 
+\end{remark}
+
+\newpage
+%-------------------------------------
+\section{Informal Logic}
+\section{Definition of Terms}
+The syllogism has been a form of logic since Aristotle (about 2,000 years ago) and has been studied instensively for most of that time\footnote{\cite{barker03logic} says there are ``64 possible kinds of premises that the 256 possible forms of the syllogism can have'' (pg. 51). He also notes that it would take 32 Venn diagrams to show them.}. Note that the use of the term \textbf{logic} here is technical. It does not have the normal meaning, roughly of ``common-sensical,'' as expressed in the phrases
+
+\begin{exe}
+\ex Let's be \textsl{logical} for a minute.
+\ex That is a \textsl{logical} proposal.
+\ex The board of trustees' policy is not very \textsl{logical}.
+\end{exe}
+
+Of course, these phrases may also refer to the logical structure of the argumentation and reasoning of the speakers, and there certainly are links between common sense and technical logic. But as we'll see, this is not always the case. Needless to say, informal logic deals with the abstract structure of argumentation and reasoning in normal, every day, language. However, informal logic does result in counter-intuitive rules, or laws. This is why ``logic'' cannot always have its normal, every day, meaning.
+
+\subsection{A Primer on the History of Logic}
+Informal logic has been around for a long time, and still is. At the end of the 19 century it started to change, mostly in the hands of George Boole. Boole was able to construct an algebraic system on the back of syllogistic reasoning, thus opening the door to the creation of what is called Mathematical Logic. As a side note, Boole's algebraic system was also the foundation of a binary digit algebra that was later to find itself at the center of the computer revolution.
+
+For a while Mathematical Logic (also called symbolic logic, or even first-order predicate calculus---though the latter is only a a kind of system within symbolic logic) ruled the day. Many logicians saw no real value in doing work on informal logic, especially when philosophers were also doing their own work on logic (called Philosophical Logic). Recently, there has been a reivival of informal logic, due mostly to the current pedagogical interests in rhetoric-composition studies and the near universal requirement for undergraduate students\footnote{Mind you, near universal in American colleges and universities, I don't know what European or Asian systems require.} to take two sememsters of writing and research. Informal logic begins with the paradigm example of traditional, classic, logic: the Aristotelian categorical syllogism.
+
+
+\subsection{Main Definitions}
+Most writing contains some form of syllogism, but it is usually a complex mixture of various forms. In other words, it's not always easy to find a syllogism in a text. Here is the definition.
+
+\begin{definition}\label{syllogism}
+\textsc{Syllogism}:\\
+A logical form of argument in which the conclusion follows directly from the premises.
+\end{definition}
+
+
+\begin{subdefinition} \cite{barker03logic}\\
+``An argument is a \textsl{categorical syllogism} (or \textsl{syllogism}, for short) just in case it consists of three categorical sentences containing three terms in all, each term appearing in two different sentences'' (pg. 44)
+\end{subdefinition}
+
+
+\begin{subdefinition} \cite{boole1854laws}\\
+``By syllogism is meant the deduction from two such propositions having a common term, whether subject or predicate, of some third proposition inferentially involved in the two, and forming the `conclusion''' (pp. 237-238).
+\end{subdefinition}
+
+
+\begin{subdefinition} \cite{aristotle66syllogism}\\
+``A syllogism is discourse in which, certain things being stated, something other than what is stated follows of necessity from thier being so. I mean by the last phrase that they produce the consequence, and by this, that no further term is required from without in order to make the consequence necessary.
+I call that a perfect syllogism which needs nothing other than what has been stated to make plain what necessarily follows; a syllogism is imperfect, if it needs either one or more propositions, which are indeed the necessary consequences of the terms set down, but have not been expressly stated as premises'' (pp. 95-96).
+\end{subdefinition}
+
+Next is the Premise. Most real world syllogisms contain many premises, while the classic syllogism usually has only two.
+
+\begin{definition}\label{premise}
+\textsc{Premise}:\\
+The propositions that come before the conclusion.
+\end{definition}
+
+\begin{subdefinition} \cite{aristotle66syllogism}\\
+``A premiss [sic] then is a sentence affirming or denying one thing of another. This is either universal or particular or indefinite'' (pg. 95).
+\end{subdefinition}
+
+Finally, the conclusion. Note that in a syllogism the conclusion is completely determined by the information in the premises. There is \textbf{no new} information in the conclusion.
+
+\begin{definition}\label{conclusion}
+\textsc{Conclusion}:\\
+The final proposition that is \textsl{derived} from the premises as a necessary consequence.
+\end{definition}
+
+
+\subsection{Some Other Helpful Definitions}
+\begin{definition}
+\textsc{Proposition}\\
+We can think of propositions as sentences that state a suppossed fact, or simply state anything.
+\end{definition}
+
+\begin{definition}
+\textsc{Derive}\\
+We can think of the term \textbf{derive} as referring to a mechanistic procedure. That is, if a numerical sum is derivable from it parts, then we assume there exists a procedure for stating what that sum is; even though we are not required to say what that procedure is.
+\end{definition}
+
+
+
+\subsection{Some Remarks on Definitions}
+\begin{remark} On syllogism:\\
+Note that the premises do not have to correspond to any known facts or definitions \textsl{in} the world. A syllogism is a \textbf{closed} form in the sense that any inferences to be drawn from it depend entirely on the form itself. You may already begin to see weaknesses in the application of the syllogism.
+\end{remark}
+
+\begin{remark} On conclusions:\\
+In most cases of a syllogism it should be obvious what the conclusion is. For simple syllogisms there should be no need, hypothetically, to have to state the conclusion. This is because it is derivable from the premises, and therefore, can be done mechanistically.
+\end{remark} 
+
+\begin{remark} On the term `derive:'\\
+Although the example given for a \textsl{derivation} above is mathematical, it works as a good analogy for the notion that a conclusion \textsl{must} follow from its premises. In other words, the sum 4 \textsl{must} follow from 2 + 2 = $x$ (in the normal mathematical world).
+\end{remark} 
+
+\begin{remark} \cite{boole1854laws} criticizes universality of syllogistic form:\\
+``It is maintained by most writers on Logic, that these processes [Syllogism and ``Conversion''], and according to some, the single process of Syllogism, furnish the universal types of reasoning, and that it is the business of the mind, in any train of demonstration, to conform itself, whether consciously or unconsciously, to the particular models of the processes which have been classified in the writings of logicians'' (pg. 238).
+\end{remark}
+
+\newpage
+\section{Examples of Syllogisms}
+
+\begin{syllogism} The classic example\\\label{syll:socrates}
+\begin{tabular}{|p{6cm}|}
+\hline
+\hline
+All humans are mortal\\
+Socrates is a human\\
+Therefore, Socrates is mortal.\\
+\hline
+\hline
+\end{tabular}
+\end{syllogism}
+
+
+\begin{syllogism} Cats\\\label{syll:cats}
+\begin{tabular}{|p{6cm}|}
+\hline
+\hline
+All felines are spineless\\
+All cats are felines\\
+All cats are spineless.\\ 
+\hline
+\hline
+\end{tabular}
+\end{syllogism}
+
+\subsection{More Detail}
+
+\begin{syllogism}Classic\\
+All humans\footnote{Middle term.} are mortal\footnote{Major term.}---\texttt{Major Premise}\\
+Socrates\footnote{Minor term.} is a human---\texttt{Minor Premise}\\
+Therefore, Socrates is mortal.
+\end{syllogism}
+
+Notice that the conclusion is composed \textbf{only} of elements from the premises. Namely, the minor term \textsl{Socrates} and the major term \textsl{mortal} are now in a Subject-Predicate relation. 
+
+\begin{remark} On Frege's Advance:\\
+One of the major advance that Gottlob Frege made in logic was the re-formulate the subject-predicate relation of propositions in terms of a function-argument relation. At the time this was a tremendous leap because it meant that propositions could find epxression in mathematicized terms as functions. This kind of re-formulation has found great success and wide-spread adoption in the modern linguistic approach of formal semantic theory, such as \cite{chmg:2000} or \cite{heimkratzer98semantics}.
+\end{remark} 
+
+
+\section{Problems and Excercises}
+Look at the following syllogisms\footnote{Many of the examples are adapted from \cite{barker03logic}. Also, a syllogism, both technically and classically, only has two premises. When it has more, or an argument is composed of a series of syllogisms, it is called a \textbf{sorite}, a Greek word meaning `pile.'} and answer the questions as either Yes or No.
+
+\begin{exe}
+\ex Do the conclusions follow from the premises?
+\ex Are the conclusions true in the real world?
+\ex Are there any examples where the conclusions follow from the premises, but either the conclusions or the premises are not true in the real world?
+\begin{xlist}
+\ex Which examples are these?
+\ex How do you know the premises/conclusions are not true?
+\end{xlist}
+\end{exe}
+
+
+\begin{syllogism} Pakistani\\
+All Pakistanis are Moslems\\
+No Sinhalese are Moslems\\
+Therefore, no Sinhalese are Pakistani's.\\
+\end{syllogism}
+
+\begin{syllogism} Accidents\\
+Accidents are frequent\\
+Getting struck by lighteing is an accident\\
+Therefore, getting struck by lightening is frequent.\\
+\end{syllogism}
+
+\begin{syllogism} Mormons\\
+All Mormons are pious persons\\
+No Samoans are Mormons\\
+Therefore, no Samoans are pious persons.\\
+\end{syllogism}
+
+\begin{syllogism} Identity\\
+All cells die and regenerate,\\
+X is composed of cells,\\
+(Therefore,) X is always dying and regenerating,\\
+X is always dying and regenerating,\\
+There exists an identity which is a property of X,\\
+Therefore, The identity of X is always dying and regenerating.\\
+\end{syllogism}
+
+\begin{syllogism} Numbers\\
+Some prime numbers are integers\\
+All rational numbers are real numbers\\
+All integers are rational numbers\\
+Some prime numbers are real numbers.\\
+\end{syllogism}
+
+
+\section{Fallacies}
+There a many types of fallacies and there is no need to go into all the various kinds here. Instead, we will look at some of the more common ones. Before categorizing and defining the various fallacies, look at some examples.
+
+\begin{exe}
+\ex \textsc{Drink I say!}\\
+A - You should not drink liquor.\\
+B - Why do you say that?\\
+A - Because God does not like it.\\
+B - How do you know that?\\
+A - My scriptures tell me so.\\
+B - But how do you know the scriptures are right?\\
+A - Because everything in the scriptures is right.\\
+B - How do you know that?\\
+A - Because scripture is divinely inspired.\\
+B - But how do you know that?\\
+A - Because scripture itself says it is divinely inspired.\\
+B - Yes, but why believe that?\\
+A - You have to believe the scriptures, everything in it is right!
+
+\ex \textsc{Directions from nowhere!}\\
+How do you get to Hyde Park?
+There is a straight road from Blythe Park to Hyde Park. Blythe is exactly 100 miles north of Hyde. Gorky Park is on the way to Hyde and is exactly 20 miles south of Blythe. Green Park is also on the way to Hyde and is 80 miles south of Gorky. Once you get to Green park you are only fifteen miles North of Hyde Park.
+
+\ex \textsc{I'm sick of this!}\\
+If people are not deathly sick, then healthcare unnecessary.\\
+And if people are deathly sick, then healthcare is ineffectual.\\
+Now, people are either deathly sick or they're not deathly sick.\\
+Therefore, healthcare is either unnecessary or ineffectual. 
+
+\ex \textsc{My friend said so!}\\
+My friend always speeds and never gets a ticket. That means that either police are not giving tickets for speeding or we can get away with speeding. Either way, I'm gonna start speeding.
+
+\ex \textsc{You socialist!}\\
+The U.S. government wants to give healthcare to everyone. Only socialistic systems give healthcare to everyone. Therefore, the U.S. is going to become a socialistic system.
+
+\ex \textsc{He's not Muslim, he's a decent guy!}\\
+That guy over there is a Muslim. No he's not. I know him and he's a decent guy with morals and everything.
+\end{exe}
+
+\begin{definition} \cite{barker03logic}
+\begin{quote}
+``Any logically defective argument that is capable of misleading people into thinking that it is logically correct'' (pg. 260).
+\end{quote}
+\end{definition}
+
+\begin{remark}
+Note that you do not have to intentionally deceive someone. A fallacy can arise from a mistake in reasoning. That is, one can intend to to be logically correct but through defective application of reasoning principles still mislead people. Of course, one can also only pretend ignorance when caught in a fallacious deception.
+\end{remark}
+
+\newpage
+
+\subsection{Fallacious Reasoning: How to be a Con-artist}
+A con-artist exploits momentary lapses of good judgment and sound reasoning. A scam is the mechanism by which the con-artist propagates their deceit. Apparently, this is a huge problem---but it should not be. I am constantly \textsl{shocked} at the lack of good judgment shown by people who have been conned. Expectedly, these same people recognize their lapse of good judgment in hindsight---but clearly too late. And as I constantly say to my wife (who is also shocked and appalled) ``I hope that person (the one who got conned) is not a college graduate. If they are, then their education failed them.'' For this reason, I feel compelled to provide a small lecture on the ``art'' of scamming. This ``art'' consists of nothing but the ability to take advantage of fallacious reasoning.
+
+Below are some proposals. We are going to look at them and discuss certain assumptions that, once clear, should prove without a doubt that they are ``too good to be true.'' I also encourage you to contribute any scams you have come across---I am sure you have received some sort of e-mail scam at one time or another\footnote{Notice that con-artists can only stay in business if they can sucker people. The fact that scams are so prevalent in our society is an indication that such scams are actually working and the people proposing them are actually making money. What is so horrific is that these scams take little more than a minute of thought to reveal their clear absurdities/fallacies.}.
+
+\begin{exe}
+\ex You receive a check in the mail for \$4,000 with the following directions:
+\begin{xlist}
+\ex Welcome. You have been selected to participate in an elite secret shopper program. The check you have received is real!! In order to get your free money simply follow three easy steps.
+\ex Deposit the check and wait for it to clear.
+\ex Wait for an e-mail from us to tell you where your shopping assignments are.
+\ex Once you complete the shopping assignments, you will send us two processing fees (one for \$1500 and one for \$2300) and you are done!
+\end{xlist}
+
+\ex You receive a letter in the mail from Publisher's Clearing House informing you that you are the winner of a special random search award: your name was picked randomly from a list of millions and you have won \$5,000!!! You just need to send a processing fee of \$600 to receive your check.
+
+\ex You receive an e-mail from the IRS asking you to update your information. The need you social-security number along with credite card numbers and the security codes. This information will allow the IRS to quickly process your stimulus package reward based on your credit debt.
+
+\ex You receive an e-mail from the Prince of Congolese. His country is in turmoil and the government is collapsing. He and his extended family must escape soon. But there is one problem! The Prince's money (over 6 million U.S. dollars) is in a Swiss bank account and he cannot withdraw it unless he has a co-withdrawal agent. Would you please act as this agent, you will be rewarded!! Please respond quickly, thank you for saving the Prince's life. Yes, one more thing, there is a small processing fee of \$6,000 and the Prince has no money at all!!! If you can provide this fee you will receive the fee back, plus 25\% interest. Please help!!!!
+
+\ex You receive a text message from a friend. She is major trouble. She has been mugged at gun point! Please wire \$500 dollars, and make sure to spell the name right so that she is the only one who can receive it (sorry she can't call you in person, her cell phone is acting weird and will only let her text message). Please help, she is stranded and scared! 
+
+\ex An investor with an good reputation wants you to invest in his stock portfolio. The return is an amazing 12\%!! This is a great opportunity and only a select group has been hand-picked to invest. Think of it, with any other investment you will see at best 2\% - 3\% returns---at best! With Playdoff investment you are guaranteed 10\% - 12\% returns over the life of you investment, perhaps even more. 
+
+
+\ex You see a job advertisement:
+Work from home. Make Money!! Make your own hours. Tired of living up to someone else's schedule for hardly any money? Data entry for \$35 an hour. Simple data entry for websites. No experience necessary, will train. Reply to \texttt{www.greenenvyjobs.com}.
+\end{exe}
+
+\newpage
+
+\section{Terrence Parsons on What an Argument Is (and is not)}
+\cite{parsons96argument} discusses the basic and intuitive notion of what an argument is. This article was published in \textsl{The Journal of Philosophy}, and so, we can assume he is talking to philosophers---people who, we might also assume, already \textsl{know} what an `argument' is. The first questions that might entertain us are below.  
+
+\begin{exe}
+\ex \sffamily{Why to do philosophers need to know what an argument is?}
+\ex \sffamily{Why does Parsons need to tell philosophers what an argument is?} 
+\ex \sffamily{Are we philosophers?} (If not, why should we care what an `argument' is!)
+\end{exe}
+
+
+Why do we need to know what an argument is? Surely I can argue with my parents, or girlfriend, or wife. But is this what Parsons means my `argument?' \textbf{No}. There is a parallel here with the use of the term `logic' discussed earlier. Here, the technical term `argument' can be satisfied by the following:
+
+\begin{definition} \textsc{Argument}\\
+An argument refers to the abstract structure of reasoning employed in the process of analyzing various concepts, ideas, opinions, \ldots. It may be dialogical (requiring two or more speakers) but it does not have to be. In any case, it is dialectical\footnote{Thesis : Antithesis : Synthesis$\longrightarrow$Thesis : Antithesis : Synthesis\ldots}.
+\end{definition}
+ 
+With all this in mind I turn now to some lengthy discussion based on details and quotes in P's paper.
+ 
+ 
+\subsection{I see that I don't really see}
+\cite{parsons96argument} begins his paper with the following bit of hypothetical (but all too real) statement.\footnote{Page numbers refer to the Word document retrieved from Parsons' UCLA faculty site: http://admin.cdh.ucla.edu/facwebpage.php?par=91}
+
+\begin{quote}
+``I see what your premises are,'' says the philosopher, ``and I see your conclusion.  But I just don't see how you get there.  I don't see the \textsl{argument}.'' 
+\end{quote}
+
+Directly following this hypothetical piece of conversation he goes on to elaborate
+
+\begin{quote}
+We hear such comments often.  They indicate that there is a notion of ``argument'' in philosophy in which an argument does not consist just of premises and conclusion; it has additional structure.  This distinguishes the notion of argument in philosophy from the technical notion most commonly found in logic texts, where an argument is an ordered pair consisting of the premises and the conclusion.  The philosopher's argument is something with more structure, more akin to the logician's notion of \textsl{derivation}: a series of statements with intermediate steps providing the transition from premises to conclusion.  
+\end{quote}
+
+Notice here that we have another definition of \textsl{derivation} that can be compared to the one given previously. Also notice, the Parsons here catches the informal and intuitive sense that we all have when writing papers: Sure the syllogistic logic is cool, but nobody writes---let alone talks or thinks---like that; at least not naturally and intuitively with little to no training! It may be one thing to be able to put your research into a (series of) syllogism(s), but it is another thing to string those premises together in a coherent prosaic heap. And in fact, you may be thinking, if good arguments really were just \textbf{sorites}\footnote{Series of syllogisms.}, then why are we not taught to write research papers that way? Clearly, there is more to argument than sound premises and valid derivations of conclusions from them.
+
+\begin{remark}
+For example, in most writing the conclusion is made explicit at he beginning of the text, usually in the abstract and/or introduction. You then proceed through a series of premises and justifications (and evidence) in order to reach your conclusion in a justifiably satisfactory way.
+\end{remark}
+
+Here we can see that Parsons is not only concerned with the holistic form of arguments, but in the relationship between the logic and the language of arguments\footnote{Not surprising, given that Parsons could be classified as a Philosopher-Logician-Linguist, a \textsc{philoguist}, if you will permit.}---and he wants to get at what falls between the cracks of normal deductive reasoning. Parsons, it seems, assumes that even philosophers suffer from bad reasoning and fallacious thinking in their written and spoken texts. And in fact, this assumption can easily be verified. P is also concerned with, it seems, the status of \textsc{informal logic} as a tool for the `stuff between' the premises and conclusions of typical syllogistic reasoning. Obviously, he does not limit his sense of logic to the syllogism---it merely stands as a concrete example of (stereo)typical deductive reasoning and logical structure. We might assume from all of this that P sees informal logic as taking up the ground between the premises and conclusions. It forms the prosaic heap that gets us from introducing premises, explaining them, justifying them, and deriving the conclusions. In fact, informal logic is what is doing the `derivation.' In just the same way that we might say it is number theory (or recursive definitions, or the definition of the successor function, or inductive mathematical definitions) that do the `derivation' in the arithmetical sequence ``2 + 2 = 4'' in the example for derivations given earlier. 
+
+
+\subsection{Interpreting and Assessing are like Analysis and Synthesis}
+\textsl{Interpretation} is always subjective. It cannot be otherwise. Even in such fields as mathematics or physics, the form of a proof or the observation of some phenomenon are subject to interpretation. For example,
+
+\begin{exe}
+\ex There are many ways to solve `2 + 2 = x,' but some are more elegant, efficient, and simply more beautiful than others. You don't hear people commonly refer to the solution of addition problems in these ways, mostly because people who do solve them are not mathematicians. But in high-powered mathematics where abstraction is the norm and practical application is of little to no consequence, elegance is a powerful evaluation tool. But `elegance' is subjective. (Or is it? If you think elegance is not subjective, then you are interpreting the nature of mathematics in specific way: i.e., constructive or intuitive versus Platonic or realist. These interpretations about the reality of mathematics are matter of personal evaluation.)
+
+\ex Quantum effects and phenomena have typically found two distinct interpretations that have a bearing on the nature of reality. Currently, we can see two modern interpretations in the form of the Multiple Universes model and the Single Universe model. These are extended to, or underly, arguments for the general design features of Order in Reality, call it $\Omega$: Did GOD create $\Omega$ by design, or is $\Omega$ a product of nature. More concretely, (i) did God design beehives, or design bees to make beehives---or even, do bees make beehives because the are the most efficient way to pack lots of material in small spaces, or (ii) is the shape of beehives a natural product of packing stuff together, i.e., reality is such that when you try to pack a lot of stuff together you tend get certain shapes and designs, like the beehive.
+\end{exe}
+
+Recognition of the subjective nature of interpretation is not an allowance to BE purely subjective. Instead, it acts as a \textsl{checks-and-balances}---if we know that interpretations cannot help but be subjective, we then ask, How much subjectivity is in my interpretation? Although there is not way to quantify such an answer, asking in the first place is what is crucial here. Recognizing a subjective bias does not necessitate the reflex to eliminate it; only to negotiate it. That is, once I realize I have a subjective bias towards the notion that nature is not random---that there must be some underlying principle to the apparent probability of quantal reality---then I can continue with my argument knowing full well that I am going to require an extra stringent standard of evidence for quantal behavior. If I make my bias epxlicit, and seek to be fair in my stringent standards, then I am not in trouble. That is, there is nothing wrong with being critical about things, and thus, requiring stringent standards of proof. As long as I make clear my reasons for requiring extra-strength proof, then I can continue on. But for the quantum scientist, some degree of weakening the standards for proof is needed in order to explore various hypotheses. In this sense, then, I am actively engaging in the academic process---I am the extra strength counter-weight evidence, or the check-and-balance, to the quantum scientist's weakening standard of evidence. I am the critic. The scientist needs me. But she also needs to have a fairly weak sense of evidence in order to experiment and hypothesize. Once an experiment goes well, or a hypothesis seems to work out, she must strengthen her standard for evidence. But since she doesn't really spend her time worrying about how strong her standard must be---instead she is just trying to make her theory work---she can turn to the critic for help. Obviously, she is'nt going to adopt all the extra-strength standards of evidence the critic has set forth, but she knows if she can meet some of the criteria the critic has set forth, then she is making progress. Thus, the critic helps make progress possible bu giving an impossible standard of evidence or confirmation for the scientist to meet. But if the scientist can meet some of those standards, then we might call that progress. Of course, defining \textsl{some} is also a matter of interpretation. 
+
+For example, making quantum computers is a hard thing. No one has yet made one compute for a longish period of time (not even for 24 hours). But this (perhaps impossible) requirement does not hamper scientists from experimenting. In fact, simply making a quantum computer run for a few minutes is considered progress. Clearly, this does not meet the criterion set forth, but it satisfies if partially and this is good enough to call progress. another interesting issue here is that a scientist may be their own critic, setting standards and goals that they may never actually accomplish---like establishing lunar communities. In one sense, you never know until you try. But in an even greater way, setting high critical standards gives an interpretive measure for progress. In this sense, I would think that all successful scientists, philosophers, writers, and researchers are their own critics. But you cannot be your own critic unless you can recognize your own subjective interpretations---to which your self-critic would offer contrary interpretations. This is what P is getting at when he refers to interpretation, and especially when says things like
+
+\begin{quote}
+The first step, interpreting the text, is a sophisticated scholarly task.  It is typically underdetermined by all available evidence, evidence must often be balanced against counterevidence, and there may be an ineliminable element of subjectivity to it.  The second step is the logical task of assessing an argument.  This is mostly clear and objective.  
+\end{quote}  
+ 
+The ``mostly clear and objective'' \textsl{assessment} of an interpretation does not need rely so much on subjectivity. It can proceed by relying on models of logic---i.e., artificial languages that have been constructed on purpose to contain mathematical rigor and delete unfortunate structures in natural languages, like ambiguity, in order to investigate notions like `true,' `false,' `contradiction,' and `consistent.'
+
+P introduces what he calls an `ur-argment' (or `source-argument'), which is the basic structural `thing' we find when looking for an argument in a text---either spoken or written. This ur-argument may be incomplete and might require the reader/listener to fill-in gaps and steps. P states that the ur-argument is what is interpreted by the reader. It signals to the reader that there exists a more refined argument: it is an overt manifestation, he says, of a refined argument. The refined argument has a more developed and definite structure, but is mediated by our first introduction to the ur-argument, which we must interpret. Such interpretation, P remarks, goes
+
+\begin{quote}
+beyond the ur-argument, seeing it [the ur-argument] as the overt manifestation of a refined argument, one with a more developed and more definite structure, (or sometimes seeing it as an equally good manifestation of several such developed arguments).  This involves filling in steps that are not articulated in the ur-argument, and it involves clarifying meanings, e.g. so as to resolve ambiguity (pp. 2-3). 
+\end{quote} 
+\begin{remark}
+For our purposes, we can think of the abstract and the introduction as the ur-argument. It asserts multiple things (claims, warrants, evidence, opinions, conclusions) without really supporting such assertions. In this way, the reader is left to interpret such assertions, waiting until the more fully developed body of the argument for your (the author's) evidence/justification/support.
+\end{remark} 
+
+\subsubsection{Refined Argument}
+A refined argument must meet the following conditions.
+
+\textbf{Setting}\\
+Set of assumptions about the world; assumed rules, principles, propositions. (\textbf{Do we want our setting to explicit? Why? Why not?})
+\\
+ 
+\textbf{Targets}\\
+The goal (to establish some particular proposition or position). An argument is \textsc{redundant} if its target is assumed in the setting.
+\\ 
+
+\textbf{Reasoning Structures}\\
+A sequence of statements meant to reach a {\bf Target} in a specific {\bf Setting}. See {\sc Derivation}, to which this is similar. Also, a {\sc Syllogism} is a type of reasoning structure. 
+
+\begin{remark}
+Technically, P requires that Reasoning Structures be annotated so that premises and conclusions are overtly identified by the annotation.
+\end{remark}
+
+Based on the conditions of a refined argument, we can define an argument as the following (refer the previous definition of {\sc Argument}, Are these two definitions the same? What is different? Why?):
+
+
+\begin{definition} \textsc{Argument}, \cite[5]{parsons96argument}\\
+An argument is a `task' that employs a reasoning structure in a setting with a target.
+\end{definition}
+
+A \textsl{successful} argument must meet the following criteria.
+
+\begin{criterion}
+Every premise is among the statements assumed in the setting.
+\end{criterion}
+
+\begin{criterion}
+Every inference is in accordance with a principle of inference assumed in the setting.
+\end{criterion}
+
+\begin{criterion}
+The conclusion is the target identified in the goal.
+\end{criterion}
+
+\begin{criterion}
+The reasoning structure is noncircular.
+\end{criterion}
+
+\begin{criterion}
+There is no infinite regress of justifications for any step.
+\end{criterion}
+
+
+
+\part{Syntax, Semantics, Pragmatics}
+
+\bibliography{myrefs}
+\end{document}

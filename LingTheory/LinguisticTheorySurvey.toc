@@ -1,0 +1,101 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}What \textsl {is} Language?}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}What is a `linguist' and where do I find one?}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Brief Detour: Material and Immaterial}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Back to the Question}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}A Brief Note on Evolutionary Adaptation and Exaptation}{8}{subsection.1.2.3}
+\contentsline {part}{I\hspace {1em}Exploration}{11}{part.1}
+\contentsline {chapter}{\numberline {2}World in a Leaf}{13}{chapter.2}
+\contentsline {chapter}{\numberline {3}Nature is a Computer}{15}{chapter.3}
+\contentsline {part}{II\hspace {1em}Functionalism and its Adherents}{17}{part.2}
+\contentsline {chapter}{\numberline {4}The Functionalist Program}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}}{20}{section.4.2}
+\contentsline {section}{\numberline {4.3}}{20}{section.4.3}
+\contentsline {chapter}{\numberline {5}Why Communicate?}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Why do we communicate?}{22}{section.5.1}
+\contentsline {subsubsection}{Talmy Givon}{22}{section*.3}
+\contentsline {section}{\numberline {5.2}The World of Typology}{22}{section.5.2}
+\contentsline {subsubsection}{Martin Haspelmath}{22}{section*.4}
+\contentsline {subsubsection}{Bernard Comrie}{22}{section*.5}
+\contentsline {section}{\numberline {5.3}Structuralism}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Bloomfield, Sapir, and Harris}{22}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Documenting Languages}{22}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Boas and Sapir}{22}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}The Ethical Imperative: Endangerment and Revitalization}{22}{subsection.5.4.2}
+\contentsline {subsubsection}{Lyle Campbell}{22}{section*.6}
+\contentsline {subsubsection}{Marianne Mithun}{22}{section*.7}
+\contentsline {subsubsection}{Greg Anderson, David Harrison, and Popular Media}{22}{section*.8}
+\contentsline {subsubsection}{The Dynamic Duo: Aikhenvald and Dixon}{22}{section*.9}
+\contentsline {subsubsection}{}{22}{section*.10}
+\contentsline {subsubsection}{}{22}{section*.11}
+\contentsline {part}{III\hspace {1em}Formal Considerations}{23}{part.3}
+\contentsline {chapter}{\numberline {6}The Minimalist Program}{25}{chapter.6}
+\contentsline {chapter}{\numberline {7}Optimality Theory}{27}{chapter.7}
+\contentsline {chapter}{\numberline {8}Other Approaches}{29}{chapter.8}
+\contentsline {section}{\numberline {8.1}Head-driven Phrase Structure Grammar(HPSG)}{30}{section.8.1}
+\contentsline {section}{\numberline {8.2}Generalized Phrase Structure Grammar (GPSG)}{30}{section.8.2}
+\contentsline {section}{\numberline {8.3}Lexical Functional Grammar (LFG)}{30}{section.8.3}
+\contentsline {section}{\numberline {8.4}Combinatory Categorical Grammar (CCG)}{30}{section.8.4}
+\contentsline {section}{\numberline {8.5}}{30}{section.8.5}
+\contentsline {section}{\numberline {8.6}}{30}{section.8.6}
+\contentsline {section}{\numberline {8.7}}{30}{section.8.7}
+\contentsline {chapter}{\numberline {9}Infinity to Biology}{31}{chapter.9}
+\contentsline {section}{\numberline {9.1}Why Logic Matters to Linguistics}{32}{section.9.1}
+\contentsline {section}{\numberline {9.2}Cantor: Infinity Comes in Different Sizes}{32}{section.9.2}
+\contentsline {section}{\numberline {9.3}Search for Boole}{33}{section.9.3}
+\contentsline {section}{\numberline {9.4}Frege}{33}{section.9.4}
+\contentsline {section}{\numberline {9.5}Carnap and the Logical Syntax}{33}{section.9.5}
+\contentsline {section}{\numberline {9.6}Tell them G\"odel Sent You}{33}{section.9.6}
+\contentsline {section}{\numberline {9.7}Tarski, Metamathematics, and Truth}{34}{section.9.7}
+\contentsline {section}{\numberline {9.8}Montague}{34}{section.9.8}
+\contentsline {chapter}{\numberline {10}Modern Semantics}{35}{chapter.10}
+\contentsline {section}{\numberline {10.1}Models and Functions}{36}{section.10.1}
+\contentsline {subsubsection}{Barbara Partee}{36}{section*.12}
+\contentsline {subsubsection}{Irene Heim and Angelika Kratzer}{37}{section*.13}
+\contentsline {subsubsection}{Carlson and Cheirchia}{37}{section*.14}
+\contentsline {subsubsection}{Horwich}{37}{section*.15}
+\contentsline {section}{\numberline {10.2}Events Really Happen}{37}{section.10.2}
+\contentsline {subsubsection}{Terrance Parsons}{37}{section*.16}
+\contentsline {section}{\numberline {10.3}Concepts are Crucial}{37}{section.10.3}
+\contentsline {subsubsection}{Ray Jackendoff $\equiv $ Conceptual Semantics}{37}{section*.17}
+\contentsline {section}{\numberline {10.4}Cognition's the Thing---Cognitive Linguistic Semantics}{37}{section.10.4}
+\contentsline {subsubsection}{Gilles Fauconnier, Mark Turner, and Conceptual Blending}{37}{section*.18}
+\contentsline {subsubsection}{Mark Johnson, George Lakoff and the Embodied Mind}{37}{section*.19}
+\contentsline {section}{\numberline {10.5}Is that My Lexicon Over There?}{37}{section.10.5}
+\contentsline {subsubsection}{Pustejovsky's Lexical Frontier}{37}{section*.20}
+\contentsline {subsubsection}{John Lyons}{37}{section*.21}
+\contentsline {subsubsection}{Beth Levin}{37}{section*.22}
+\contentsline {section}{\numberline {10.6}Innate Ideas, Innate Meaning}{37}{section.10.6}
+\contentsline {subsubsection}{Wolfram Hinzen}{37}{section*.23}
+\contentsline {subsubsection}{Paul Pietroski}{37}{section*.24}
+\contentsline {subsubsection}{Paul Hagstrom}{37}{section*.25}
+\contentsline {section}{\numberline {10.7}The Neural Theory of Language}{37}{section.10.7}
+\contentsline {subsubsection}{Jerome Feldman}{37}{section*.26}
+\contentsline {subsubsection}{Srinivas Narayanan}{37}{section*.27}
+\contentsline {section}{\numberline {10.8}}{37}{section.10.8}
+\contentsline {section}{\numberline {10.9}}{37}{section.10.9}
+\contentsline {section}{\numberline {10.10}}{37}{section.10.10}
+\contentsline {part}{IV\hspace {1em}Cross-disciplinary Inspiration}{39}{part.4}
+\contentsline {chapter}{\numberline {11}Galaxies, Flowers, and Snowflakes}{41}{chapter.11}
+\contentsline {chapter}{\numberline {12}Formal Conjecture}{45}{chapter.12}
+\contentsline {section}{\numberline {12.1}Human Language and Mathematical Systems}{46}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Ambiguity and Redundancy}{47}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Competence-Performance, Internal-External}{49}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}Mathematicization}{52}{subsection.12.1.3}
+\contentsline {section}{\numberline {12.2}On With the Formalities}{54}{section.12.2}
+\contentsline {section}{\numberline {12.3}$\alpha $Merge and symmetry}{56}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Ambiguous Merge}{56}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Fib(\emph {n}) levels and the X-ratio}{59}{subsection.12.3.2}
+\contentsline {subsubsection}{Rationale and justification}{59}{section*.28}
+\contentsline {subsubsection}{The golden sequence (GS)}{60}{section*.29}
+\contentsline {subsubsection}{Symmetry in syntax}{65}{section*.30}
+\contentsline {subsubsection}{A conceptual rationalization for GT and symmetry}{66}{section*.31}
+\contentsline {section}{\numberline {12.4}Strong Minimalist Thesis}{67}{section.12.4}
+\contentsline {subsection}{\numberline {12.4.1}Merge is not a formal object}{68}{subsection.12.4.1}
+\contentsline {subsubsection}{Assumptions and the Church-Turing Principle}{70}{section*.32}
+\contentsline {subsection}{\numberline {12.4.2}Normative use of the term ``computability''}{71}{subsection.12.4.2}
+\contentsline {subsection}{\numberline {12.4.3}GT and syntax}{74}{subsection.12.4.3}
+\contentsline {section}{\numberline {12.5}Final Remarks}{77}{section.12.5}
+\contentsline {part}{V\hspace {1em}Conclusion}{81}{part.5}
+\contentsline {chapter}{\numberline {13}Conclusion}{83}{chapter.13}

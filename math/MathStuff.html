@@ -1,0 +1,4007 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>Mathematical Formalizations: A brief study guide</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html --> 
+<meta name="src" content="MathStuff.tex"> 
+<meta name="date" content="2011-10-16 08:58:00"> 
+<link rel="stylesheet" type="text/css" href="MathStuff.css"> 
+</head><body 
+>
+   <div class="maketitle">
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+
+<h2 class="titleHead">Mathematical Formalizations: A brief study guide</h2>
+       <div class="author" >
+<br /><span 
+class="cmr-12">Joshua Bowles</span><br /></div><br />
+<span 
+class="cmr-12">October 16, 2011</span>
+                                                                  
+
+                                                                  
+   </div>
+                                                                  
+
+                                                                  
+   <h2 class="likechapterHead"><a 
+ id="x1-1000"></a>Contents</h2> <div class="tableofcontents">
+   <span class="chapterToc" >1 <a 
+href="#x1-60001" id="QQ2-1-6">Arithmetic</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.1 <a 
+href="#x1-70001.1" id="QQ2-1-7">Percent</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.2 <a 
+href="#x1-80001.2" id="QQ2-1-8">Average and Arithmetic Mean</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >1.2.1 <a 
+href="#x1-90001.2.1" id="QQ2-1-9">Range</a></span>
+<br />   <span class="chapterToc" >2 <a 
+href="#x1-100002" id="QQ2-1-10">Basic Geometry</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.1 <a 
+href="#x1-110002.1" id="QQ2-1-11">Area, Perimeter, Volume</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >2.1.1 <a 
+href="#x1-120002.1.1" id="QQ2-1-12">Area</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >2.1.2 <a 
+href="#x1-130002.1.2" id="QQ2-1-13">Perimeter</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >2.1.3 <a 
+href="#x1-140002.1.3" id="QQ2-1-14">Volume</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.2 <a 
+href="#x1-150002.2" id="QQ2-1-15">The Circle</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.3 <a 
+href="#x1-160002.3" id="QQ2-1-16">Pythagorean theorem</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.4 <a 
+href="#x1-170002.4" id="QQ2-1-17">Polygons</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >2.4.1 <a 
+href="#x1-180002.4.1" id="QQ2-1-18">Sums for interior polygon angles</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >2.4.2 <a 
+href="#x1-190002.4.2" id="QQ2-1-19">Area and Perimeter for Polygons</a></span>
+<br />   <span class="chapterToc" >3 <a 
+href="#x1-210003" id="QQ2-1-21">Elementary Algebra: Equations and Formulas</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.1 <a 
+href="#x1-220003.1" id="QQ2-1-22">The Quadratic Equation</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.1.1 <a 
+href="#x1-230003.1.1" id="QQ2-1-23">Factoring quadratics</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.1.2 <a 
+href="#x1-240003.1.2" id="QQ2-1-24">Quadratic Formula</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.2 <a 
+href="#x1-250003.2" id="QQ2-1-26">Two maxims for inequalities</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.3 <a 
+href="#x1-260003.3" id="QQ2-1-27">Sequences</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.4 <a 
+href="#x1-280003.4" id="QQ2-1-29">Arithmetic and Geometric Sequences</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.4.1 <a 
+href="#x1-290003.4.1" id="QQ2-1-30">A-Sequence</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.4.2 <a 
+href="#x1-320003.4.2" id="QQ2-1-33">G-Sequence</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.4.3 <a 
+href="#x1-350003.4.3" id="QQ2-1-36">Infinite Geometric Sequences</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.5 <a 
+href="#x1-360003.5" id="QQ2-1-37">Binomials and the Theorem</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.5.1 <a 
+href="#x1-370003.5.1" id="QQ2-1-38">Expanding binomials</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.5.2 <a 
+href="#x1-390003.5.2" id="QQ2-1-41">Binomial Theorem</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.6 <a 
+href="#x1-400003.6" id="QQ2-1-42">Summation</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.6.1 <a 
+href="#x1-410003.6.1" id="QQ2-1-43">Three Basic Properties of Summation</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.6.2 <a 
+href="#x1-420003.6.2" id="QQ2-1-44">Binomial theorem as summation</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.7 <a 
+href="#x1-430003.7" id="QQ2-1-45">Induction</a></span>
+<br />   &#x00A0;&#x00A0;<span class="subsectionToc" >3.7.1 <a 
+href="#x1-440003.7.1" id="QQ2-1-46">A Formalized Induction Scheme for Peano&#8217;s Axioms</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.8 <a 
+href="#x1-470003.8" id="QQ2-1-49">Induction and Sequences</a></span>
+   </div>
+                                                                  
+
+                                                                  
+<!--l. 16--><p class="indent" >
+                                                                  
+
+                                                                  
+   <h2 class="likechapterHead"><a 
+ id="x1-2000"></a>List of Figures</h2><div class="tableofcontents"><span class="lofToc" >3.1&#x00A0;<a 
+href="#x1-370121">Pascal and Sierpinski Triangle</a></span><br />
+   </div>
+                                                                  
+
+                                                                  
+<!--l. 17--><p class="indent" >
+                                                                  
+
+                                                                  
+   <h2 class="likechapterHead"><a 
+ id="x1-3000"></a>List of Tables</h2><div class="tableofcontents"><span class="lotToc" >3.1&#x00A0;<a 
+href="#x1-240091">Solutions to Quadratic</a></span><br />
+   </div>
+                                                                  
+
+                                                                  
+<!--l. 20--><p class="indent" >
+                                                                  
+
+                                                                  
+   <h2 class="likechapterHead"><a 
+ id="x1-4000"></a>Preface</h2>
+     <div class="quote">
+     <!--l. 22--><p class="noindent" ><span 
+class="cmsl-10">Immature poets imitate; mature poets steal; bad poets deface what</span>
+     <span 
+class="cmsl-10">they take, and good poets make it into something better, or at least</span>
+     <span 
+class="cmsl-10">something different</span>.<br 
+class="newline" />&#8211;T.S. Eliot</div>
+<!--l. 26--><p class="noindent" >I would imagine the quote from Eliot could apply also to world of mathematics; one
+might addend it with the line &#8220;and genius creates directly from nature.&#8221; I am far
+from a mature mathematician, and hope one day to be a good one; at least in terms
+of my respective field of application and theory of mathematical formaliztions to the
+study of natural language linguistics. If the quote above were truely accurate here
+then I would be doing more imitating then stealing&#x2026;, but the truth is that I do more
+stealing than anything.
+<!--l. 28--><p class="indent" >   This book is intended as a study guide for myself; if you are reading it then I have
+made it public for whatever reason. <span id="textcolor1"><span 
+class="cmbx-10">Please do not cite this reference guide</span></span>. I
+have taken liberally from multiple sources and have not been too cautious in making
+sure that I have not plagiarized. The reason for this is becuase I want to make
+sure the mathematics I present here is credible: proofs, examples, theorems,
+and so on. I have modified many examples and such, but only when I was
+sure of the outcome; if there was every any question on my part I simply
+copied freely in order to ensure that this personal study guide was true to the
+facts.
+<!--l. 30--><p class="indent" >   The following sources have both inspired and guided me, and represent sources
+that I have either borrowed from, or flatly taken taken material out of (without
+permission by the way): <span 
+class="cmbx-10">?</span>, <span 
+class="cmbx-10">?</span>, <span 
+class="cmbx-10">?</span>, <span 
+class="cmbx-10">?</span>, and &#x2026;. Of particular note is <span 
+class="cmbx-10">?</span>, originally
+written in 1910, and commendable for its Prologue which bears quoting in
+length.
+<!--l. 32--><p class="indent" >   <center class="quotation"><table class="quotation" 
+border="0" cellpadding="0" cellspacing="15"><tr><td>
+        <div class="quotation">
+     <!--l. 33--><p class="indent" >    Considering how many fools can calculate, it is surprising tha tit
+     should be thought either a difficult or a tedious task for any other
+     fool to learn how to master the same tricks.
+     <!--l. 35--><p class="indent" >    Some  calculus-tricks  are  quite  easy.  Some  are  enormously
+     difficult.   The   fools   who   write   the   text-books   of   advanced
+                                                                  
+
+                                                                  
+     mathematics&#8212;and they are mostly clever fools&#8212;seldom take the
+     trouble to show you how easy the calculations are. On the contrary,
+     the see to desire to impress you with their tremendous cleverness by
+     going about it in the msot difficult way.
+     <!--l. 37--><p class="indent" >    Being myself a remarkably stupid fellow, I have had to unteach
+     myself the difficulties, and now beg to present to my fellow fools the
+     parts that are not hard. &#x2026;What one fool can do, another can.</div>
+<!--l. 38--><p class="noindent" ></td></tr></table></center>
+                                                                  
+
+                                                                  
+   <h2 class="likechapterHead"><a 
+ id="x1-5000"></a>Prologue</h2> The quotation by Silvanus Thompson was written in time when a
+calculator (or better yet, a calculat-er) was an individual hired to plug variables into
+algorithms and perform other kinds of calculations. One could possibly see on a day
+to day basis, in Silvanus&#8217; day, that one did not need to be exceptionally bright in
+order to perform calculations. Today, we have sophisticated tools like scientitifc
+calculators, computational software, and computers to do the calculating for
+us. It is easy to be mistified by the process of brute calculation and from
+the depths of this mistification even easier to be lead into beleiving that
+calculation is an entirely difficult acitivty. Silvanus&#8217; humor, self-deprecation,
+and ease of exposition should be a model in both teaching and learning
+math. His all-around attitude is far too uncommon in a world that more
+resembles priests of some high-order who have secret knowledge of symbols
+and stand guard at the gates, waiting to dispel the weakest of underlings
+who dares try to join thier society than a mysterious world full of puzzles
+and beauty waiting to be explored by active young minds with rigorous
+tools developed thorugh the amazing history of human consciousness. One
+rarely hears about how mathematical developments rival the beauty and
+creativity of other human achievments in art, literature, music, and architecture.
+Silvanus&#8217; distinct attitude towards mathematics is conducive to the latter
+musings, and I hope to emulate his strength of character and appreciation for
+formalization.
+<!--l. 43--><p class="noindent" >I prefer to think of math like I often tell my daughters: doing math is like digging a
+ditch. It seems simple when you think about what needs to be done; that is,
+combining like properties or solving variables or employing various binary
+combinations on vaalues, <span 
+class="cmsl-10">et cetera</span>. What is hard is the actual work involved &#8211; and
+the patience, discipline, and strength building that is necessitated by such
+work.
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;1</span><br /><a 
+ id="x1-60001"></a>Arithmetic</h2> In this chapter I sketch the basic materials of arithmetic.
+   <h3 class="sectionHead"><span class="titlemark">1.1   </span> <a 
+ id="x1-70001.1"></a>Percent</h3>
+<!--l. 9--><p class="noindent" >Any percent<a 
+ id="dx1-7001"></a> can be transformed into a rational number fraction by dividing by 100,
+which also gives a decimal:
+   <center class="math-display" >
+<img 
+src="MathStuff0x.png" alt="40% = -40 = .4
+      100
+" class="math-display" ></center>
+<!--l. 10--><p class="nopar" > Multiplying decimal values by other numerical values will yield a percentage
+relation. For example,
+   <center class="math-display" >
+<img 
+src="MathStuff1x.png" alt="                (    )       (   )
+                  30-          3-    1,050
+30% of 350 = (350) 100 = (350)  10  =   10  = 105
+" class="math-display" ></center>
+<!--l. 12--><p class="nopar" > or,
+   <center class="math-display" >
+<img 
+src="MathStuff2x.png" alt="30% of 350 = .3&#x00D7; 350 = 105
+" class="math-display" ></center>
+<!--l. 14--><p class="nopar" >
+<!--l. 16--><p class="indent" >   Increases (equation <a 
+href="#x1-7002r1">1.1.1<!--tex4ht:ref: greater --></a>) and decreases (equation <a 
+href="#x1-7003r2">1.1.2<!--tex4ht:ref: less --></a>) of percentages are
+handled by the following; assume that x and y are positive numbers and that
+<span 
+class="cmmi-10">x &#x003C; y</span>:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-7002r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff3x.png" alt="    (     )
+y is y---x  (100) percent greater than x
+       x
+" class="math-display" ></center></td><td class="equation-label">(1.1.1)</td></tr></table>
+<!--l. 19--><p class="nopar" >
+   <table 
+class="equation"><tr><td><a 
+ id="x1-7003r2"></a>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff4x.png" alt="    (      )
+x is  y--x- (100) percent less than y
+        y
+" class="math-display" ></center></td><td class="equation-label">(1.1.2)</td></tr></table>
+<!--l. 22--><p class="nopar" >
+For example, an <span 
+class="cmbx-10">increase </span>from 600 to 750 is found by dividing the difference of the
+increase (750 - 600 = 150) by the first or <span 
+class="cmbx-10">smaller </span>of the two initial values, known as
+the <span 
+class="cmsl-10">base</span>, or the denominator:
+   <center class="math-display" >
+<img 
+src="MathStuff5x.png" alt="(    )
+  150
+  600  (100) = 25%
+" class="math-display" ></center>
+<!--l. 24--><p class="nopar" > Whereas a <span 
+class="cmbx-10">decrease </span>from 500 to 400 is found by dividing the difference of the
+decrease (500 - 400 = 100) by the first or <span 
+class="cmbx-10">larger </span>of the two initial values, also known
+as the <span 
+class="cmsl-10">base</span>, or the denominator:
+   <center class="math-display" >
+<img 
+src="MathStuff6x.png" alt="(    )
+  100  (100) = 20%
+  500
+" class="math-display" ></center>
+<!--l. 26--><p class="nopar" >
+<!--l. 28--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">1.2   </span> <a 
+ id="x1-80001.2"></a>Average and Arithmetic Mean</h3>
+<!--l. 29--><p class="noindent" >
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                       <tr><td 
+class="align-odd"><img 
+src="MathStuff7x.png" alt="x1 + y2 + z3
+----3------"  class="frac" align="middle"></td>                       <td 
+class="align-even"> = average</td>                                              <td 
+class="align-label"><a 
+ id="x1-8001r1"></a>(1.2.1)
+                       </td></tr><tr><td 
+class="align-odd"><img 
+src="MathStuff8x.png" alt="nm-
+m"  class="frac" align="middle"></td>                               <td 
+class="align-even"> = average</td>                                              <td 
+class="align-label"><a 
+ id="x1-8002r2"></a>(1.2.2)                       </td></tr></table>
+   <div class="newtheorem">
+<!--l. 33--><p class="noindent" ><span class="head">
+<a 
+ id="x1-8003r1"></a>
+<span 
+class="cmbx-10">Example 1.</span>  </span>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-8004r3"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff9x.png" alt="51 + 82 + 83 + 144 +155 + 106
+------------6-------------= Average(x)
+                       60
+                       -6 = 10
+" class="math-display" ></center></td><td class="equation-label">(1.2.3)</td></tr></table>
+<!--l. 39--><p class="nopar" >
+   </div>
+<!--l. 43--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">1.2.1   </span> <a 
+ id="x1-90001.2.1"></a>Range</h4>
+<!--l. 44--><p class="noindent" >Range is defined as the greatest measurement minus the least measurement, iff all
+numerical values are a discrete set.
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                     <tr><td 
+class="align-odd"><span id="textcolor2">5</span><span 
+class="cmmi-10">,</span>8<span 
+class="cmmi-10">,</span>8<span 
+class="cmmi-10">,</span>14<span 
+class="cmmi-10">,</span><span id="textcolor3">15</span><span 
+class="cmmi-10">,</span>10</td>                     <td 
+class="align-even"> = <span 
+class="cmmi-10">Range</span>(<span 
+class="cmmi-10">x</span>)</td>                                          <td 
+class="align-label"><a 
+ id="x1-9001r4"></a>(1.2.4)
+                     </td></tr><tr><td 
+class="align-odd">15 <span 
+class="cmsy-10">- </span>5</td>                             <td 
+class="align-even"> = 10</td>                                                <td 
+class="align-label"><a 
+ id="x1-9002r5"></a>(1.2.5)                     </td></tr></table>
+Notice that it is a coincidence that the <span 
+class="cmsl-10">range </span>and the <span 
+class="cmsl-10">average </span>are the same value.
+Range by itself is not very useful, but has been used as the starting intuition for
+developing the <span 
+class="cmsl-10">standard deviation</span>.
+                                                                  
+
+                                                                  
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;2</span><br /><a 
+ id="x1-100002"></a>Basic Geometry</h2>
+   <h3 class="sectionHead"><span class="titlemark">2.1   </span> <a 
+ id="x1-110002.1"></a>Area, Perimeter, Volume</h3>
+<!--l. 60--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">2.1.1   </span> <a 
+ id="x1-120002.1.1"></a>Area</h4>
+<!--l. 61--><p class="noindent" >Triangle:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-12001r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff10x.png" alt="    bh
+A = 2-    b = base, h = height
+" class="math-display" ></center></td><td class="equation-label">(2.1.1)</td></tr></table>
+<!--l. 64--><p class="nopar" >
+Square:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-12002r2"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff11x.png" alt="A = l2    l = length
+" class="math-display" ></center></td><td class="equation-label">(2.1.2)</td></tr></table>
+<!--l. 68--><p class="nopar" >
+Rectangle:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-12003r3"></a>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff12x.png" alt="A = bh   b = base, b = height
+" class="math-display" ></center></td><td class="equation-label">(2.1.3)</td></tr></table>
+<!--l. 72--><p class="nopar" >
+Regular Polygons: Add this later&#x2026;<br 
+class="newline" />Circle:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-12004r4"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff13x.png" alt="A = &#x03C0;r2    r = radius
+" class="math-display" ></center></td><td class="equation-label">(2.1.4)</td></tr></table>
+<!--l. 78--><p class="nopar" >
+<!--l. 80--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">2.1.2   </span> <a 
+ id="x1-130002.1.2"></a>Perimeter</h4>
+<!--l. 81--><p class="noindent" >Triangle:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-13001r5"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff14x.png" alt="P = l + l +l     l = length
+     a  b   c
+" class="math-display" ></center></td><td class="equation-label">(2.1.5)</td></tr></table>
+                                                                  
+
+                                                                  
+<!--l. 84--><p class="nopar" >
+Square:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-13002r6"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff15x.png" alt="P = 4l   l = length
+" class="math-display" ></center></td><td class="equation-label">(2.1.6)</td></tr></table>
+<!--l. 88--><p class="nopar" >
+Rectangle:<span class="footnote-mark"><a 
+href="MathStuff2.html#fn1x3"><sup class="textsuperscript">1</sup></a></span><a 
+ id="x1-13003f1"></a> 
+   <table 
+class="equation"><tr><td><a 
+ id="x1-13004r7"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff16x.png" alt="P = 2(b+ h)    b = base, h = height
+" class="math-display" ></center></td><td class="equation-label">(2.1.7)</td></tr></table>
+<!--l. 92--><p class="nopar" >
+Regular Polygons:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-13005r8"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff17x.png" alt="P = nl    l = length, n = number of sides
+" class="math-display" ></center></td><td class="equation-label">(2.1.8)</td></tr></table>
+<!--l. 96--><p class="nopar" >
+Circle (<span 
+class="cmsl-10">circumfrence</span>):
+   <table 
+class="equation"><tr><td><a 
+ id="x1-13006r9"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff18x.png" alt="C = 2*&#x03C0; *r    C = circumfrence, r = radius
+" class="math-display" ></center></td><td class="equation-label">(2.1.9)</td></tr></table>
+<!--l. 100--><p class="nopar" >
+   <h4 class="subsectionHead"><span class="titlemark">2.1.3   </span> <a 
+ id="x1-140002.1.3"></a>Volume</h4>
+<!--l. 103--><p class="noindent" >Cone or Pyramid:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-14001r10"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff19x.png" alt="V =  1(bh)    b = base, h = height
+     3
+" class="math-display" ></center></td><td class="equation-label">(2.1.10)</td></tr></table>
+<!--l. 106--><p class="nopar" >
+Cube:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-14002r11"></a>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff20x.png" alt="V = l3    l = length
+" class="math-display" ></center></td><td class="equation-label">(2.1.11)</td></tr></table>
+<!--l. 110--><p class="nopar" >
+Rectangular prism:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-14003r12"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff21x.png" alt="V = bwh    b = base, w = width, h = height
+" class="math-display" ></center></td><td class="equation-label">(2.1.12)</td></tr></table>
+<!--l. 114--><p class="nopar" >
+Sphere:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-14004r13"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff22x.png" alt="V = 4 &#x03C0;r3   r = radius
+    3
+" class="math-display" ></center></td><td class="equation-label">(2.1.13)</td></tr></table>
+<!--l. 118--><p class="nopar" >
+Cylinder:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-14005r14"></a>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff23x.png" alt="V = Abase *h   Abase = area of base, h = height
+" class="math-display" ></center></td><td class="equation-label">(2.1.14)</td></tr></table>
+<!--l. 122--><p class="nopar" >
+<!--l. 124--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">2.2   </span> <a 
+ id="x1-150002.2"></a>The Circle</h3>
+<!--l. 125--><p class="noindent" >For a circle, the <span 
+class="cmsl-10">radius </span>is measured from the midpoint to an edge, <span 
+class="cmsl-10">diameter </span>is any
+line that meets two edges and passes through the center point; any line
+that touches two edges but does not pass through the mid point is called a
+<span 
+class="cmsl-10">chord</span>.
+<!--l. 127--><p class="indent" >   The ration of circumference to diameter of a circle is
+   <table 
+class="equation"><tr><td><a 
+ id="x1-15001r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff24x.png" alt="c
+-&#x03C0;
+d
+" class="math-display" ></center></td><td class="equation-label">(2.2.1)</td></tr></table>
+<!--l. 130--><p class="nopar" >
+Circumference, given above in <a 
+href="#x1-130002.1.2">2.1.2<!--tex4ht:ref: perimeter --></a>, is repeated here:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-15002r2"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff25x.png" alt="c = 2&#x03C0;r
+" class="math-display" ></center></td><td class="equation-label">(2.2.2)</td></tr></table>
+<!--l. 134--><p class="nopar" >
+<!--l. 136--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">2.3   </span> <a 
+ id="x1-160002.3"></a>Pythagorean theorem</h3>
+<a 
+ id="dx1-16001"></a>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-16002r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff26x.png" alt="a2 + b2 = c2
+" class="math-display" ></center></td><td class="equation-label">(2.3.1)</td></tr></table>
+<!--l. 139--><p class="nopar" >
+   <h3 class="sectionHead"><span class="titlemark">2.4   </span> <a 
+ id="x1-170002.4"></a>Polygons</h3>
+<!--l. 141--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">2.4.1   </span> <a 
+ id="x1-180002.4.1"></a>Sums for interior polygon angles</h4>
+<!--l. 142--><p class="noindent" >The sum of the interior angles for any <span 
+class="cmmi-10">n</span>-sided polygon<a 
+ id="dx1-18001"></a> is:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-18002r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff27x.png" alt="(n- 2)(180&#x2218;)
+" class="math-display" ></center></td><td class="equation-label">(2.4.1)</td></tr></table>
+<!--l. 145--><p class="nopar" >
+For example, where <span 
+class="cmmi-10">n </span>equals any real value for triangle, quadrilateral, pentagon,
+hexagon, etc.:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-18003r2"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff28x.png" alt="          &#x2218;      &#x2218;
+ (3- 2)(180&#x2218;) = 180&#x2218;
+ (4- 2)(180 ) = 360
+ (5- 2)(180&#x2218;) = 540&#x2218;
+ (6- 2)(180&#x2218;) = 720&#x2218;
+          &#x2218;      &#x2218;
+ (7- 2)(180&#x2218;) = 900 &#x2218;
+ (8- 2)(180 ) = 1080
+ (9- 2)(180&#x2218;) = 1260&#x2218;
+(10- 2)(180&#x2218;) = 1440&#x2218;
+" class="math-display" ></center></td><td class="equation-label">(2.4.2)</td></tr></table>
+<!--l. 158--><p class="nopar" >
+Notice the the difference between <span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">± </span>1 side for the sum of interior angles is 180<sup><span 
+class="cmsy-7">&#x2218;</span></sup>,
+that is, adding or subtracting one side to a polygon is equivalent to increasing or
+decreasing the sum of the interior angles by 180<sup><span 
+class="cmsy-7">&#x2218;</span></sup>. We can state this as a co-variation,
+where the number of sides varies directly<a 
+ id="dx1-18004"></a> with the value 180; where <span 
+class="cmmi-10">k </span>= 180 and is
+the constant:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-18005r3"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff29x.png" alt="y = kx   or    y-= k
+               x
+" class="math-display" ></center></td><td class="equation-label">(2.4.3)</td></tr></table>
+<!--l. 162--><p class="nopar" >
+The following show the direct variation<a 
+ id="dx1-18006"></a> of the sum of interior angles for polygons<a 
+ id="dx1-18007"></a>;
+first a quadrilateral, then a pentagon:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-18008r4"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff30x.png" alt="                          360
+360 = (180)(4- 2)   or    4-- 2-= 180
+" class="math-display" ></center></td><td class="equation-label">(2.4.4)</td></tr></table>
+<!--l. 166--><p class="nopar" >
+and,
+   <table 
+class="equation"><tr><td><a 
+ id="x1-18009r5"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff31x.png" alt="                         -540-
+540 = (180)(5- 2)   or    5 - 2 = 180
+" class="math-display" ></center></td><td class="equation-label">(2.4.5)</td></tr></table>
+<!--l. 170--><p class="nopar" >
+An interesting thing that falls out of this series for polygons is the definition of
+line.<span class="footnote-mark"><a 
+href="MathStuff3.html#fn2x3"><sup class="textsuperscript">2</sup></a></span><a 
+ id="x1-18010f2"></a> 
+Defining a line by this method could be used as a proof for why a line is not a
+polygon; I leave this up to imagination.
+                                                                  
+
+                                                                  
+   <h4 class="subsectionHead"><span class="titlemark">2.4.2   </span> <a 
+ id="x1-190002.4.2"></a>Area and Perimeter for Polygons</h4>
+<!--l. 174--><p class="noindent" >The <span 
+class="cmsl-10">perimeter </span>of a polygon is the sum of the lengths of its sides. The <span 
+class="cmsl-10">area </span>of a
+polygon is the measure of enclosed region.
+<!--l. 176--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-200002.4.2"></a>Triangles</h5>
+   <div class="newtheorem">
+<!--l. 177--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20001r1"></a>
+<span 
+class="cmbx-10">Maxim 1.</span>  </span>No triangle can have a longest side that is greater than the sum to
+the two shortest sides.
+   </div>
+   <div class="newtheorem">
+<!--l. 180--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20002r2"></a>
+<span 
+class="cmbx-10">Example 2.</span>  </span><span 
+class="cmti-10">If  triangle  </span><span 
+class="cmsy-10">&#x25B3;</span><span 
+class="cmti-10">ABC  has  </span><span 
+class="cmmi-10">A  </span>=  4<span 
+class="cmti-10">,  </span><span 
+class="cmmi-10">B  </span>=  7<span 
+class="cmti-10">,  then  </span><span 
+class="cmmi-10">C</span><span 
+class="cmmi-10">&#x2260;</span>12<span 
+class="cmti-10">.  That  is,</span>
+4 + 7 = 11<span 
+class="cmti-10">, and since no side of a triangle can be greater than the sum of two</span>
+<span 
+class="cmti-10">other sides, C cannot be greater than </span>11<span 
+class="cmti-10">. In other words, take the longest side</span>
+<span 
+class="cmti-10">of </span>&#x0394;<span 
+class="cmti-10">ABC, the sum of the other sides cannot be greater.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 183--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20003r1"></a>
+<span 
+class="cmbx-10">Definition 1.</span>  </span><span 
+class="cmcsc-10">E<span 
+class="small-caps">q</span><span 
+class="small-caps">u</span><span 
+class="small-caps">i</span><span 
+class="small-caps">l</span><span 
+class="small-caps">a</span><span 
+class="small-caps">t</span><span 
+class="small-caps">e</span><span 
+class="small-caps">r</span><span 
+class="small-caps">a</span><span 
+class="small-caps">l</span> T<span 
+class="small-caps">r</span><span 
+class="small-caps">i</span><span 
+class="small-caps">a</span><span 
+class="small-caps">n</span><span 
+class="small-caps">g</span><span 
+class="small-caps">l</span><span 
+class="small-caps">e</span></span><br 
+class="newline" />Has all three sides equal
+   </div>
+   <div class="newtheorem">
+<!--l. 186--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20004r3"></a>
+<span 
+class="cmbx-10">Example 3.</span>  </span><span 
+class="cmti-10">For equilateral </span><span 
+class="cmsy-10">&#x25B3;</span><span 
+class="cmti-10">ABC, all angles must equal </span>60<sup><span 
+class="cmsy-7">&#x2218;</span></sup><span 
+class="cmti-10">. If any angle is</span>
+<span 
+class="cmti-10">more or less than 60, then </span><span 
+class="cmsy-10">&#x25B3;</span><span 
+class="cmti-10">ABC</span> <span 
+class="cmmi-10">&#x2260;</span>180<span 
+class="cmti-10">.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 190--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20005r2"></a>
+                                                                  
+
+                                                                  
+<span 
+class="cmbx-10">Definition 2.</span>  </span><span 
+class="cmcsc-10">I<span 
+class="small-caps">s</span><span 
+class="small-caps">o</span><span 
+class="small-caps">s</span><span 
+class="small-caps">c</span><span 
+class="small-caps">e</span><span 
+class="small-caps">l</span><span 
+class="small-caps">e</span><span 
+class="small-caps">s</span> T<span 
+class="small-caps">r</span><span 
+class="small-caps">i</span><span 
+class="small-caps">a</span><span 
+class="small-caps">n</span><span 
+class="small-caps">g</span><span 
+class="small-caps">l</span><span 
+class="small-caps">e</span></span><br 
+class="newline" />Has two sides of equal length.
+   </div>
+   <div class="newtheorem">
+<!--l. 193--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20006r4"></a>
+<span 
+class="cmbx-10">Example 4.</span>  </span><span 
+class="cmti-10">For isosceles </span><span 
+class="cmsy-10">&#x25B3;</span><span 
+class="cmti-10">ABC, angle ABC and angle BCA = </span>50<sup><span 
+class="cmsy-7">&#x2218;</span></sup><span 
+class="cmti-10">, then</span>
+<table 
+class="align-star">
+                         <tr><td 
+class="align-odd">50 + 50 + <span 
+class="cmmi-10">x</span></td>                         <td 
+class="align-even"> = 180</td>                         <td 
+class="align-label"></td>                         <td 
+class="align-label">
+                         </td></tr><tr><td 
+class="align-odd">100 + <span 
+class="cmmi-10">x</span></td>                             <td 
+class="align-even"> = 180</td>                         <td 
+class="align-label"></td>                         <td 
+class="align-label">
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">x</span></td>                                  <td 
+class="align-even"> = 80</td>                          <td 
+class="align-label"></td>                         <td 
+class="align-label"></td></tr></table>
+   </div>
+   <div class="newtheorem">
+<!--l. 202--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20007r3"></a>
+<span 
+class="cmbx-10">Definition 3.</span>  </span><span 
+class="cmcsc-10">R<span 
+class="small-caps">i</span><span 
+class="small-caps">g</span><span 
+class="small-caps">h</span><span 
+class="small-caps">t</span> T<span 
+class="small-caps">r</span><span 
+class="small-caps">i</span><span 
+class="small-caps">a</span><span 
+class="small-caps">n</span><span 
+class="small-caps">g</span><span 
+class="small-caps">l</span><span 
+class="small-caps">e</span></span><br 
+class="newline" />Has one interior angle that equals 90<sup><span 
+class="cmsy-7">&#x2218;</span></sup>. For right <span 
+class="cmsy-10">&#x25B3;</span>DEF, say DF is hypotenuse
+(side oposite of the right angle), then Pythogorean theorem says that (<span 
+class="cmmi-10">DF</span>)<sup><span 
+class="cmr-7">2</span></sup> =
+(<span 
+class="cmmi-10">DE</span>)<sup><span 
+class="cmr-7">2</span></sup> + (<span 
+class="cmmi-10">EF</span>)<sup><span 
+class="cmr-7">2</span></sup>
+                                                                  
+
+                                                                  
+   </div>
+   <div class="newtheorem">
+<!--l. 205--><p class="noindent" ><span class="head">
+<a 
+ id="x1-20008r5"></a>
+<span 
+class="cmbx-10">Example 5.</span>  </span><span 
+class="cmti-10">For right </span><span 
+class="cmsy-10">&#x25B3;</span><span 
+class="cmti-10">DEF, DE = 5, DF = 8 and is the hypotenuse, and EF = x,</span>
+<span 
+class="cmti-10">then</span>
+<table 
+class="align-star">
+                            <tr><td 
+class="align-odd">8<sup><span 
+class="cmr-7">2</span></sup></td>                            <td 
+class="align-even"> = 5<sup><span 
+class="cmr-7">2</span></sup> + <span 
+class="cmmi-10">x</span><sup><span 
+class="cmr-7">2</span></sup></td>                            <td 
+class="align-label"></td>                            <td 
+class="align-label">
+                            </td></tr><tr><td 
+class="align-odd">64</td>                            <td 
+class="align-even"> = 25 + <span 
+class="cmmi-10">x</span><sup><span 
+class="cmr-7">2</span></sup></td>                            <td 
+class="align-label"></td>                            <td 
+class="align-label">
+                            </td></tr><tr><td 
+class="align-odd">39</td>                            <td 
+class="align-even"> = <span 
+class="cmmi-10">x</span><sup><span 
+class="cmr-7">2</span></sup></td>                                <td 
+class="align-label"></td>                            <td 
+class="align-label"></td></tr></table>
+   </div>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--l. 2--><p class="indent" >   book mathpackages,mathcommands
+                                                                  
+
+                                                                  
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;3</span><br /><a 
+ id="x1-210003"></a>Elementary Algebra: Equations and Formulas</h2>
+   <h3 class="sectionHead"><span class="titlemark">3.1   </span> <a 
+ id="x1-220003.1"></a>The Quadratic Equation</h3>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-22001r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff32x.png" alt="ax2 + bx+ c = 0
+" class="math-display" ></center></td><td class="equation-label">(3.1.1)</td></tr></table>
+<!--l. 9--><p class="nopar" >
+There are two main ways of solving: by factoring or by the quadratic formula.
+<!--l. 12--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.1.1   </span> <a 
+ id="x1-230003.1.1"></a>Factoring quadratics</h4>
+<!--l. 13--><p class="noindent" >The following quadratic equation<a 
+ id="dx1-23001"></a> is solved by factoring and setting the factors to
+zero.
+   <table 
+class="equation"><tr><td><a 
+ id="x1-23002r2"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff33x.png" alt="  2
+2x - x - 6 = 0
+" class="math-display" ></center></td><td class="equation-label">(3.1.2)</td></tr></table>
+<!--l. 16--><p class="nopar" >
+<div class="center" 
+>
+<!--l. 18--><p class="noindent" >
+                                                                  
+
+                                                                  
+<div class="tabular"> <table id="TBL-2" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-2-1g"><col 
+id="TBL-2-1"></colgroup><colgroup id="TBL-2-2g"><col 
+id="TBL-2-2"></colgroup><colgroup id="TBL-2-3g"><col 
+id="TBL-2-3"></colgroup><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-1"  
+class="td11">Factor                </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-2"  
+class="td11">Set to 0; solve</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-3"  
+class="td11">Set to 0; solve</td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-1"  
+class="td11">(2<span 
+class="cmmi-10">x </span>+ 3)(<span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">- </span>2) = 0</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-2"  
+class="td11">2<span 
+class="cmmi-10">x </span>+ 3 = 0     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-3"  
+class="td11"><span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">- </span>2 = 0      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-1"  
+class="td11">                </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-2"  
+class="td11">2<span 
+class="cmmi-10">x </span>+ 3 = 0     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-3"  
+class="td11"><span id="textcolor4"><span 
+class="cmmi-10">x </span>= 2</span>           </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-1"  
+class="td11">                </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-2"  
+class="td11">2<span 
+class="cmmi-10">x </span>= <span 
+class="cmsy-10">-</span>3       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-3"  
+class="td11">            </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-1"  
+class="td11">                </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-2"  
+class="td11"><span id="textcolor5"><span 
+class="cmmi-10">x </span>= <span 
+class="cmsy-10">-</span><img 
+src="MathStuff34x.png" alt="2
+3" ></span>        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-3"  
+class="td11">            </td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-1"  
+class="td11">                </td></tr></table></div></div>
+<!--l. 30--><p class="noindent" >Other factorable quadratics are:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-23003r3"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff35x.png" alt="x2 + 8x+ 15 = 0
+" class="math-display" ></center></td><td class="equation-label">(3.1.3)</td></tr></table>
+<!--l. 33--><p class="nopar" >
+<div class="center" 
+>
+<!--l. 35--><p class="noindent" >
+<div class="tabular"> <table id="TBL-3" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-3-1g"><col 
+id="TBL-3-1"></colgroup><colgroup id="TBL-3-2g"><col 
+id="TBL-3-2"></colgroup><colgroup id="TBL-3-3g"><col 
+id="TBL-3-3"></colgroup><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-1-1"  
+class="td11">Factor               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-1-2"  
+class="td11">Set to 0; solve</td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-1-3"  
+class="td11">Set to 0; solve</td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-2-1"  
+class="td11">(<span 
+class="cmmi-10">x </span>+ 3)(<span 
+class="cmmi-10">x </span>+ 5) = 0</td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-2-2"  
+class="td11"><span 
+class="cmmi-10">x </span>+ 3 = 0      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-2-3"  
+class="td11"><span 
+class="cmmi-10">x </span>+ 5 = 0      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-3-1"  
+class="td11">               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-3-2"  
+class="td11"><span id="textcolor6"><span 
+class="cmmi-10">x </span>= <span 
+class="cmsy-10">-</span>3</span>         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-3-3"  
+class="td11"><span id="textcolor7"><span 
+class="cmmi-10">x </span>= <span 
+class="cmsy-10">-</span>5</span>         </td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-4-1"  
+class="td11">               </td></tr></table></div></div>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-23004r4"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff36x.png" alt="4x2 - 9x[±0 ] = 0
+" class="math-display" ></center></td><td class="equation-label">(3.1.4)</td></tr></table>
+<!--l. 48--><p class="nopar" >
+Notice that this quadratic&#8217;s third term can be plus or minus zero, and also that it can
+be factored as the difference of two squares <span 
+class="cmmi-10">x</span><sup><span 
+class="cmr-7">2</span></sup> and 3<sup><span 
+class="cmr-7">2</span></sup>.
+                                                                  
+
+                                                                  
+<div class="center" 
+>
+<!--l. 50--><p class="noindent" >
+<div class="tabular"> <table id="TBL-4" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-4-1g"><col 
+id="TBL-4-1"></colgroup><colgroup id="TBL-4-2g"><col 
+id="TBL-4-2"></colgroup><colgroup id="TBL-4-3g"><col 
+id="TBL-4-3"></colgroup><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-1-1"  
+class="td11">Factor                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-1-2"  
+class="td11">Set to 0; solve</td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-1-3"  
+class="td11">Set to 0; solve</td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-2-1"  
+class="td11">(2<span 
+class="cmmi-10">x </span>+ 3)(2<span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">- </span>3) = 0</td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-2-2"  
+class="td11">2<span 
+class="cmmi-10">x </span>+ 3 = 0     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-2-3"  
+class="td11">2<span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">- </span>3 = 0     </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-3-1"  
+class="td11">                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-3-2"  
+class="td11">2<span 
+class="cmmi-10">x </span>= 3          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-3-3"  
+class="td11">2<span 
+class="cmmi-10">x </span>= <span 
+class="cmsy-10">-</span>3       </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-4-1"  
+class="td11">                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-4-2"  
+class="td11"><span id="textcolor8"><span 
+class="cmmi-10">x </span>= <img 
+src="MathStuff37x.png" alt="3
+2" ></span>           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-4-3"  
+class="td11"><span id="textcolor9"><span 
+class="cmmi-10">x </span>= <span 
+class="cmsy-10">-</span><img 
+src="MathStuff38x.png" alt="3
+2" ></span>        </td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-5-1"  
+class="td11">                 </td></tr></table></div></div>
+<!--l. 62--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.1.2   </span> <a 
+ id="x1-240003.1.2"></a>Quadratic Formula</h4>
+<!--l. 63--><p class="noindent" >A quadratic expression <span 
+class="cmmi-10">ax</span><sup><span 
+class="cmr-7">2</span></sup> + <span 
+class="cmmi-10">bx </span>+ <span 
+class="cmmi-10">c </span>= 0 can also be solved by randomly assigning
+numerical values to the variables in the following quadratic formula<a 
+ id="dx1-24001"></a>; although true
+random assigment is not possible, as I make clear below.
+   <table 
+class="equation"><tr><td><a 
+ id="x1-24002r5"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff39x.png" alt="         &#x221A;-2-----
+x = - b-±-b---4ac
+         2a
+" class="math-display" ></center></td><td class="equation-label">(3.1.5)</td></tr></table>
+<!--l. 67--><p class="nopar" >
+<!--l. 69--><p class="indent" >   For example, the equation <span id="textcolor10">2<span 
+class="cmmi-10">x</span><sup><span 
+class="cmr-7">2</span></sup> <span 
+class="cmsy-10">-</span><span 
+class="cmmi-10">x</span><span 
+class="cmsy-10">- </span>6 = 0</span>; where <span id="textcolor11">a = 2</span>, <span id="textcolor12">b = -1</span>, and <span id="textcolor13">c = -6</span> yields
+the following:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-24003r6"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff40x.png" alt="            &#x2218; --------------      &#x221A; --
+x = - (--1)±--(--1)2---4(2)(- 6)-= 1±--49=  1±-7-
+              2(2)                4       4
+" class="math-display" ></center></td><td class="equation-label">(3.1.6)</td></tr></table>
+                                                                  
+
+                                                                  
+<!--l. 74--><p class="nopar" >
+<!--l. 76--><p class="indent" >   The <span 
+class="cmsy-10">± </span>solutions are then <span id="textcolor14"><span 
+class="cmmi-10">x </span>= <img 
+src="MathStuff41x.png" alt="1+7-
+ 4"  class="frac" align="middle"> = 2</span> and <span id="textcolor15"><span 
+class="cmmi-10">x </span>= <img 
+src="MathStuff42x.png" alt="1-7
+ 4"  class="frac" align="middle"> = <span 
+class="cmsy-10">-</span><img 
+src="MathStuff43x.png" alt="3
+2"  class="frac" align="middle"></span>. As usual with
+fractionals, apparent solutions that produce a zero denominator are undefined and
+incorrect. For example, <span 
+class="cmmi-10">a</span><span 
+class="cmmi-10">&#x2260;</span>0. If so, the denominator is 2(0) = 0, giving <img 
+src="MathStuff44x.png" alt="X-
+ 0"  class="frac" align="middle">, which is
+undefined.
+<!--l. 79--><p class="indent" >   Lastly, most quadratics have at most two real solutions, but some only have one.
+For example, the following equation has one solution, <span id="textcolor16">x = -2</span>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-24004r7"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff45x.png" alt="x2 + 4x + 4 = 0
+" class="math-display" ></center></td><td class="equation-label">(3.1.7)</td></tr></table>
+<!--l. 82--><p class="nopar" >
+   <center class="math-display" >
+<img 
+src="MathStuff46x.png" alt="- 22 + 4(- 2)+ 4 = 0
+" class="math-display" ></center>
+<!--l. 83--><p class="nopar" >
+   <center class="math-display" >
+<img 
+src="MathStuff47x.png" alt="4 + - 8 +4 = 0
+" class="math-display" ></center>
+<!--l. 84--><p class="nopar" >
+   <center class="math-display" >
+<img 
+src="MathStuff48x.png" alt="- 4+ 4 = 0
+" class="math-display" ></center>
+<!--l. 86--><p class="nopar" >
+<!--l. 88--><p class="indent" >   Some quadratic<a 
+ id="dx1-24005"></a> problems have no solution.
+   <table 
+class="equation"><tr><td><a 
+ id="x1-24006r8"></a>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff49x.png" alt=" 2
+x + x+ 5 = 0
+" class="math-display" ></center></td><td class="equation-label">(3.1.8)</td></tr></table>
+<!--l. 91--><p class="nopar" >
+ A simple way to find out how many solutions to a quadratic<a 
+ id="dx1-24007"></a> exist is to find the value
+of the <span id="textcolor17"><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">2</span></sup> <span 
+class="cmsy-10">- </span>4<span 
+class="cmmi-10">ac</span></span> portion of the formula; this is called the discriminant<a 
+ id="dx1-24008"></a> and is
+symbolized by &#x0394;.
+   <div class="table">
+                                                                  
+
+                                                                  
+<!--l. 94--><p class="indent" >   <a 
+ id="x1-240091"></a><hr class="float"><div class="float" 
+>
+                                                                  
+
+                                                                  
+<br /> <div class="caption" 
+><span class="id">Table&#x00A0;3.1: </span><span  
+class="content">Discriminant value for number of solutions to quadratic</span></div><!--tex4ht:label?: x1-240091 -->
+<div class="center" 
+>
+<!--l. 95--><p class="noindent" >
+<div class="tabular"> <table id="TBL-5" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-5-1g"><col 
+id="TBL-5-1"></colgroup><colgroup id="TBL-5-2g"><col 
+id="TBL-5-2"></colgroup><tr 
+class="hline"><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-1-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-1-1"  
+class="td11">          If &#x0394; <span 
+class="cmmi-10">&#x003E; </span>0</td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-1-2"  
+class="td11">there are two unique real solutions</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-2-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-2-1"  
+class="td11">           If &#x0394; = 0</td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-2-2"  
+class="td11">there is one unique real solution   </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-3-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-3-1"  
+class="td11">           If &#x0394; <span 
+class="cmmi-10">&#x003C; </span>0</td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-3-2"  
+class="td11">there are two unique, conjugate    </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-4-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-4-1"  
+class="td11">                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-4-2"  
+class="td11">imaginary solutions                    </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-5-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-5-1"  
+class="td11">If &#x0394; is perfect square</td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-5-2"  
+class="td11">two solutions are rational,           </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-6-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-6-1"  
+class="td11">                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-6-2"  
+class="td11">otherwise irrational conjugates     </td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-7-"><td  style="white-space:nowrap; text-align:right;" id="TBL-5-7-1"  
+class="td11">                  </td></tr></table></div></div>
+                                                                  
+
+                                                                  
+   </div><hr class="endfloat" />
+   </div>
+   <h3 class="sectionHead"><span class="titlemark">3.2   </span> <a 
+ id="x1-250003.2"></a>Two maxims for inequalities</h3>
+<!--l. 111--><p class="noindent" >Inequalities<a 
+ id="dx1-25001"></a> work like most equations. The two maxims below give the rules for
+direction of inequality when a combinatory operation is done on both sides. The
+maxims can also be defined in a different way by the the corollary that follows
+them.
+   <div class="newtheorem">
+<!--l. 112--><p class="noindent" ><span class="head">
+<a 
+ id="x1-25002r2"></a>
+<span 
+class="cmbx-10">Maxim 2.</span>  </span><span 
+class="cmbx-10">Additive Maxim</span><br 
+class="newline" />When the same constant is added to (or subtracted from) both sides of the
+inequality, the direction of inequality is preserved. And, the new inequality is
+equivalent to the old inequality.
+   </div>
+   <div class="newtheorem">
+<!--l. 115--><p class="noindent" ><span class="head">
+<a 
+ id="x1-25003r3"></a>
+<span 
+class="cmbx-10">Maxim 3.</span>  </span><span 
+class="cmbx-10">Multiplicative Maxim</span><br 
+class="newline" />When the same constant is multiplied to (or divided from) both sides of the
+inequality, <span 
+class="cmsl-10">the direction of inequality is preserved iff the constant is positive,</span>
+<span 
+class="cmsl-10">but reversed if the constant is negative</span>. In both cases, the new inequality is
+equivalent to the old inequality.
+   </div>
+   <div class="newtheorem">
+<!--l. 120--><p class="noindent" ><span class="head">
+<span 
+class="cmbx-10">Corollary to Inequality Maxims.</span>  </span><span 
+class="cmti-10">An  inequality  can  change  direction  iff</span>
+<span 
+class="cmti-10">both sides of the inequality are multiplied (or divided) by the same negative</span>
+<span 
+class="cmti-10">constant.</span>
+   </div>
+                                                                  
+
+                                                                  
+<!--l. 124--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3.3   </span> <a 
+ id="x1-260003.3"></a>Sequences</h3>
+   <div class="newtheorem">
+<!--l. 125--><p class="noindent" ><span class="head">
+<a 
+ id="x1-26001r4"></a>
+<span 
+class="cmbx-10">Definition 4.</span>  </span>A <span 
+class="cmbx-10">sequence</span><a 
+ id="dx1-26002"></a> can be defined as a <span 
+class="cmcsc-10"><span 
+class="small-caps">f</span><span 
+class="small-caps">u</span><span 
+class="small-caps">n</span><span 
+class="small-caps">c</span><span 
+class="small-caps">t</span><span 
+class="small-caps">i</span><span 
+class="small-caps">o</span><span 
+class="small-caps">n</span> </span>whose <span id="textcolor18">domain</span><a 
+ id="dx1-26003"></a> is the
+set of real numbers.
+   </div>
+<!--l. 128--><p class="noindent" >Sequences are typically given as lists or series. For example, the function
+<span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>) = 2<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1 will output a range over the real numbers. Notice that the
+function defines a sequence of the real numbers as a kind of subsequence
+that the function<a 
+ id="dx1-26004"></a> is supposed to use as the domain/input &#8211; this is why the
+definition explicitly mentions the set of real of numbers as the domain. But the
+presuppostion is stronger than simply assigning by definition the domain<a 
+ id="dx1-26005"></a> for the
+function; it in fact assumes that where one begins the subsequence is arbitrary.
+In other words, in the following example, I arbitrarily decided to start the
+subsequence at 0; also notice that it is possible to have my subsequence
+running at non-regular (perhaps even random) intervals such as 1<span 
+class="cmmi-10">,</span><img 
+src="MathStuff50x.png" alt="12"  class="frac" align="middle"><span 
+class="cmmi-10">,</span><img 
+src="MathStuff51x.png" alt="23"  class="frac" align="middle"><span 
+class="cmmi-10">,</span><img 
+src="MathStuff52x.png" alt="&#x221A; -
+  3"  class="sqrt" ><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span>
+.
+<table 
+class="align-star">
+ <tr><td 
+class="align-odd"><span id="textcolor19"><span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>)</span></td> <td 
+class="align-even"> = <span id="textcolor20">2<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1</span></td>                                                    <td 
+class="align-label"></td> <td 
+class="align-label">
+ </td></tr><tr><td 
+class="align-odd"><span id="textcolor21"><span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>)</span></td> <td 
+class="align-even"> = [<span id="textcolor22">2(1) <span 
+class="cmsy-10">- </span>1</span> = 1]<span 
+class="cmmi-10">,</span>[<span id="textcolor23">2(2) <span 
+class="cmsy-10">- </span>1</span> = 3]<span 
+class="cmmi-10">,</span>[<span id="textcolor24">2(3) <span 
+class="cmsy-10">- </span>1</span> = 5]<span 
+class="cmmi-10">,</span>[<span id="textcolor25">2(4) <span 
+class="cmsy-10">- </span>1</span> = 7]<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span></td>        <td 
+class="align-label"></td> <td 
+class="align-label">
+ </td></tr><tr><td 
+class="align-odd"></td>     <td 
+class="align-even"> = 1<span 
+class="cmmi-10">,</span>3<span 
+class="cmmi-10">,</span>5<span 
+class="cmmi-10">,</span>7<span 
+class="cmmi-10">,</span>9<span 
+class="cmmi-10">,</span>11<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span></td>                                            <td 
+class="align-label"></td> <td 
+class="align-label">
+ </td></tr><tr><td 
+class="align-odd"><span id="textcolor26"><span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>)</span></td> <td 
+class="align-even"> = [<span id="textcolor27">2(1) <span 
+class="cmsy-10">- </span>1</span> = 1]<span 
+class="cmmi-10">,</span>[<span id="textcolor28">2(<img 
+src="MathStuff53x.png" alt="1
+2"  class="frac" align="middle">) <span 
+class="cmsy-10">- </span>1</span> = 0]<span 
+class="cmmi-10">,</span>[<span id="textcolor29">2(<img 
+src="MathStuff54x.png" alt="2
+3"  class="frac" align="middle">) <span 
+class="cmsy-10">- </span>1</span> = <span 
+class="cmmi-10">.</span><span class="bar-css">3</span>]<span 
+class="cmmi-10">,</span>[<span id="textcolor30">2(<img 
+src="MathStuff55x.png" alt="&#x221A;3"  class="sqrt" >) <span 
+class="cmsy-10">- </span>1</span> = 2<span 
+class="cmmi-10">.</span>464]<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span></td> <td 
+class="align-label"></td> <td 
+class="align-label">
+ </td></tr><tr><td 
+class="align-odd"></td>     <td 
+class="align-even"> = 1<span 
+class="cmmi-10">,</span>0<span 
+class="cmmi-10">,.</span><span class="bar-css">3</span><span 
+class="cmmi-10">,</span>2<span 
+class="cmmi-10">.</span>464<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span></td>                                             <td 
+class="align-label"></td> <td 
+class="align-label"></td></tr></table>
+                                                                  
+
+                                                                  
+<!--l. 137--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-270003.3"></a>A Recursive Definition</h5>
+<!--l. 138--><p class="noindent" >Any sequence can be given a recursive definition<a 
+ id="dx1-27001"></a> by giving the first term and a
+rule that shows how to obtain further terms; i.e., how to get the (<span 
+class="cmmi-10">n </span>+ 1)<span 
+class="cmmi-10">th</span>
+term from the <span 
+class="cmmi-10">n</span>th term. Here is a general formulation followed by a specific
+example.
+<table 
+class="align">
+                      <tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub></td>                          <td 
+class="align-even"> = <span 
+class="cmmi-10">x</span><span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor31">(<span 
+class="cmmi-10">n</span>th term)</span></td>                          <td 
+class="align-label"></td>                      <td 
+class="align-label">
+                      </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span></sub> + 1</td>                      <td 
+class="align-even"> = <span 
+class="cmmi-10">y</span><span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor32">(recursive rule)</span></td>                                            <td 
+class="align-label"><a 
+ id="x1-27002r1"></a>(3.3.1)                      </td></tr></table>
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                  <tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub></td>                        <td 
+class="align-even"> = 5<span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor33">(<span 
+class="cmmi-10">n</span>th term)</span></td>                           <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span></sub> + 1</td>                     <td 
+class="align-even"> = 3<span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span></sub> <span 
+class="cmsy-10">- </span>2<span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor34">(recursive rule)</span></td>                  <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd">therefore,</td>                  <td 
+class="align-even"></td>                                        <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub></td>                        <td 
+class="align-even"> = <span id="textcolor35">5</span></td>                                    <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">2</span></sub></td>                        <td 
+class="align-even"> = 3(<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub>(= <span id="textcolor36">5</span>)) <span 
+class="cmsy-10">- </span>2 = <span id="textcolor37">13</span></td>                     <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">3</span></sub></td>                        <td 
+class="align-even"> = 3(<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">2</span></sub>(= <span id="textcolor38">13</span>)) <span 
+class="cmsy-10">- </span>2 = <span id="textcolor39">37</span></td>                    <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">4</span></sub></td>                        <td 
+class="align-even"> = 3(<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">3</span></sub>(= <span id="textcolor40">37</span>)) <span 
+class="cmsy-10">- </span>2 = <span id="textcolor41">109</span></td>                   <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">5</span></sub></td>                        <td 
+class="align-even"> = 3(<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">4</span></sub>(= <span id="textcolor42">109</span>)) <span 
+class="cmsy-10">- </span>2 = <span id="textcolor43">325</span></td>                                    <td 
+class="align-label"><a 
+ id="x1-27003r2"></a>(3.3.2)                  </td></tr></table>
+Here we can see the details in the popular generative linguistic<a 
+ id="dx1-27004"></a> definition of
+recursiveness<a 
+ id="dx1-27005"></a> that points out that a certain kind of recursion (tail-recursion) provides
+input<a 
+ id="dx1-27006"></a> for the new function from the output<a 
+ id="dx1-27007"></a> of the previous function<a 
+ id="dx1-27008"></a>. For example, the
+new function <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">2</span></sub> is given the input <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub> = 5 (where 5 is the output of the function <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub>)
+according to the recursive rule<a 
+ id="dx1-27009"></a>.
+<!--l. 155--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3.4   </span> <a 
+ id="x1-280003.4"></a>Arithmetic and Geometric Sequences</h3>
+<!--l. 156--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.4.1   </span> <a 
+ id="x1-290003.4.1"></a>A-Sequence</h4>
+<!--l. 156--><p class="noindent" >An <span 
+class="cmbx-10">arithmetic sequence</span><a 
+ id="dx1-29001"></a> is in the form
+   <table 
+class="equation"><tr><td><a 
+ id="x1-29002r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff56x.png" alt="(a)1,  (a+ d)2,  (a+ 2d)3,  (a + 3d)4,...,(a + (n - 1)d)n,...
+" class="math-display" ></center></td><td class="equation-label">(3.4.1)</td></tr></table>
+<!--l. 159--><p class="nopar" >
+where <span id="textcolor44"><span 
+class="cmmi-10">a </span>= first term</span> of the sequence, <span id="textcolor45"><span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d </span>= <span 
+class="cmmi-10">n</span>th term</span> of the sequence, <span id="textcolor46"><span 
+class="cmmi-10">n </span>=
+number of terms</span>, and <span id="textcolor47"><span 
+class="cmmi-10">d </span>= common difference</span> of the terms. I have subscripted the
+seuqential terms in order to point out the fact that the first term <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub> has an addend of
+0, the second term is <span 
+class="cmmi-10">d</span>, or 1, the third term 2<span 
+class="cmmi-10">d</span>, or 2, the fourth term is 3<span 
+class="cmmi-10">d </span>and so
+on. This is why the <span 
+class="cmmi-10">n</span>th term is <span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1. Some examples of adding sequences<a 
+ id="dx1-29003"></a>
+follow.
+   <div class="newtheorem">
+<!--l. 161--><p class="noindent" ><span class="head">
+<a 
+ id="x1-29004r6"></a>
+<span 
+class="cmbx-10">Example 6.</span>  </span><span 
+class="cmti-10">Write  the  first  6  terms  and  the  10th  term  of  an  arithmetic</span>
+<span 
+class="cmti-10">sequence with a first term of 7 and a common difference of 5.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 165--><p class="noindent" ><span class="head">
+<a 
+ id="x1-29005r1"></a>
+<span 
+class="cmbx-10">Solution 1.</span>  </span>Since the first term is 7 and the common difference is 5, we can get the
+first 6 terms:<br 
+class="newline" />      7, 7 + 5, 7 + 2(5), 7 + 3(5), 7 + 4(5), 7 + 5(5)<br 
+class="newline" />or<br 
+class="newline" />      7, 12, 17, 22, 27, 32<br 
+class="newline" />Finding the 10th term requires substituting 10 for <span 
+class="cmmi-10">n </span>in the formula for arithmetic
+sequence in <a 
+href="#x1-29002r1">3.4.1<!--tex4ht:ref: aseq --></a>:
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                      <tr><td 
+class="align-odd"><span 
+class="cmmi-10">n</span>th term</td>                       <td 
+class="align-even"> = <span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d</span></td>                       <td 
+class="align-label"></td>                      <td 
+class="align-label">
+                      </td></tr><tr><td 
+class="align-odd">21st term</td>                      <td 
+class="align-even"> = 7 + (10 <span 
+class="cmsy-10">- </span>1)5</td>                      <td 
+class="align-label"></td>                      <td 
+class="align-label">
+                      </td></tr><tr><td 
+class="align-odd"></td>                              <td 
+class="align-even"> = 7 + (9)5 = 52</td>                                            <td 
+class="align-label"><a 
+ id="x1-29006r2"></a>(3.4.2)                      </td></tr></table>
+   </div>
+<!--l. 178--><p class="indent" >   Of course, if given the first term <span 
+class="cmmi-10">a </span>and the common difference <span 
+class="cmmi-10">d </span>one can just
+simply add terms until getting to the <span 
+class="cmmi-10">n</span>th term. The next example shows how this
+method would become tedious.
+   <div class="newtheorem">
+<!--l. 180--><p class="noindent" ><span class="head">
+<a 
+ id="x1-29007r7"></a>
+<span 
+class="cmbx-10">Example 7.</span>  </span><span 
+class="cmti-10">Find the 98th term of an arithmetic sequence whose first three</span>
+<span 
+class="cmti-10">terms are 2, 6, 10.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 183--><p class="noindent" ><span class="head">
+<a 
+ id="x1-29008r2"></a>
+<span 
+class="cmbx-10">Solution 2.</span>  </span>First step is to find common difference <span 
+class="cmmi-10">d </span>: 10 <span 
+class="cmsy-10">- </span>6 = <span id="textcolor48">4</span><span 
+class="cmmi-10">,</span>6 <span 
+class="cmsy-10">- </span>2 = <span id="textcolor49">4</span><span 
+class="cmmi-10">.</span><span 
+class="cmmi-10">&#x00A0;d </span>= <span id="textcolor50">4</span>.
+Then we can substitute variables in formula <a 
+href="#x1-29002r1">3.4.1<!--tex4ht:ref: aseq --></a>: <span 
+class="cmmi-10">a </span>= 2<span 
+class="cmmi-10">,n </span>= 98. Now plug in the
+solution.
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                     <tr><td 
+class="align-odd"><span 
+class="cmmi-10">n</span>th term</td>                      <td 
+class="align-even"> = <span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d</span></td>                        <td 
+class="align-label"></td>                     <td 
+class="align-label">
+                     </td></tr><tr><td 
+class="align-odd">98th term</td>                     <td 
+class="align-even"> = 2 + (98 <span 
+class="cmsy-10">- </span>1)4</td>                       <td 
+class="align-label"></td>                     <td 
+class="align-label">
+                     </td></tr><tr><td 
+class="align-odd"></td>                             <td 
+class="align-even"> = 2 + (97)4 = 390</td>                                          <td 
+class="align-label"><a 
+ id="x1-29009r3"></a>(3.4.3)                     </td></tr></table>
+Adding terms by 4 for 97 consequentive terms would be a waste of time, even on a
+calculator.
+   </div>
+<!--l. 193--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-300003.4.1"></a>Arithmetic means</h5>
+<!--l. 194--><p class="noindent" >These are numbers inserted between a first and last term to form a segment of an
+a-sequence. The method here is to assume a <span id="textcolor51">last term <span 
+class="cmmi-10">l</span></span> as the <span 
+class="cmmi-10">n</span>th term of the
+arithemtic sequence in <a 
+href="#x1-29002r1">3.4.1<!--tex4ht:ref: aseq --></a>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-30001r4"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff57x.png" alt="l = a +(n - 1)d
+" class="math-display" ></center></td><td class="equation-label">(3.4.4)</td></tr></table>
+<!--l. 197--><p class="nopar" >
+   <div class="newtheorem">
+<!--l. 198--><p class="noindent" ><span class="head">
+<a 
+ id="x1-30002r8"></a>
+<span 
+class="cmbx-10">Example 8.</span>  </span><span 
+class="cmti-10">Insert three means between -3 and 12.</span>
+                                                                  
+
+                                                                  
+   </div>
+   <div class="newtheorem">
+<!--l. 201--><p class="noindent" ><span class="head">
+<a 
+ id="x1-30003r3"></a>
+<span 
+class="cmbx-10">Solution 3.</span>  </span>To insert three terms between the two we already have gives a total of 5
+terms such that <span 
+class="cmmi-10">n </span>= 5. We are given the first and last terms: <span 
+class="cmmi-10">a </span>= 3<span 
+class="cmmi-10">,l </span>= 12. What we
+do not know is the common difference <span 
+class="cmmi-10">d</span>:
+<table 
+class="align">
+                   <tr><td 
+class="align-odd"><span 
+class="cmmi-10">l</span></td>                     <td 
+class="align-even"> = <span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d</span></td>                                <td 
+class="align-label"></td>                   <td 
+class="align-label">
+                   </td></tr><tr><td 
+class="align-odd">12</td>                   <td 
+class="align-even"> = <span 
+class="cmsy-10">-</span>3 + (5 <span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d</span></td>                              <td 
+class="align-label"></td>                   <td 
+class="align-label">
+                   </td></tr><tr><td 
+class="align-odd">15</td>                   <td 
+class="align-even"> = 4<span 
+class="cmmi-10">d</span>   <span id="textcolor52">(Add 3 to both sides)</span></td>                    <td 
+class="align-label"></td>                   <td 
+class="align-label">
+                   </td></tr><tr><td 
+class="align-odd"><img 
+src="MathStuff58x.png" alt="15
+-4"  class="frac" align="middle"></td>                   <td 
+class="align-even"> = <span 
+class="cmmi-10">d</span>   <span id="textcolor53">(Divide both sides by 4)</span></td>                                      <td 
+class="align-label"><a 
+ id="x1-30004r5"></a>(3.4.5)                   </td></tr></table>
+Now with <span 
+class="cmmi-10">d </span>= <img 
+src="MathStuff59x.png" alt="154-"  class="frac" align="middle"> we plug in variables for finding the three middle terms which is
+really just part of the formula for arithmetic sequences in <a 
+href="#x1-29002r1">3.4.1<!--tex4ht:ref: aseq --></a> and can be
+represented as (<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">d</span>)<sub><span 
+class="cmr-7">2</span></sub><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>(<span 
+class="cmmi-10">a </span>+ 2<span 
+class="cmmi-10">d</span>)<sub><span 
+class="cmr-7">3</span></sub><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>(<span 
+class="cmmi-10">a </span>+ 3<span 
+class="cmmi-10">d</span>)<sub><span 
+class="cmr-7">4</span></sub>, which is the sequence minus the first
+and <span 
+class="cmmi-10">n</span>th (last) term.
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                  <tr><td 
+class="align-odd"><span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">d</span></td>                   <td 
+class="align-even"> = <span 
+class="cmsy-10">-</span>3 + <img 
+src="MathStuff60x.png" alt="15
+-4"  class="frac" align="middle"> = <img 
+src="MathStuff61x.png" alt="3
+4"  class="frac" align="middle"></td>                             <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a </span>+ 2<span 
+class="cmmi-10">d</span></td>                  <td 
+class="align-even"> = <span 
+class="cmsy-10">-</span>3 + 2<img 
+src="MathStuff62x.png" alt="15
+-4"  class="frac" align="middle"> = <span 
+class="cmsy-10">-</span>3 + <img 
+src="MathStuff63x.png" alt="30
+4-"  class="frac" align="middle"> = 4<img 
+src="MathStuff64x.png" alt="1
+2"  class="frac" align="middle"></td>                  <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a </span>+ 3<span 
+class="cmmi-10">d</span></td>                  <td 
+class="align-even"> = <span 
+class="cmsy-10">-</span>3 + 3<img 
+src="MathStuff65x.png" alt="15
+-4"  class="frac" align="middle"> = <span 
+class="cmsy-10">-</span>3 + <img 
+src="MathStuff66x.png" alt="45
+4-"  class="frac" align="middle"> = 8<img 
+src="MathStuff67x.png" alt="1
+4"  class="frac" align="middle"></td>                                    <td 
+class="align-label"><a 
+ id="x1-30005r6"></a>(3.4.6)                  </td></tr></table>
+The whole sequence, then, is &#x00A0;<span id="textcolor54">-3, <img 
+src="MathStuff68x.png" alt="3
+4"  class="frac" align="middle"><span 
+class="cmmi-10">,</span>4<img 
+src="MathStuff69x.png" alt="1
+2"  class="frac" align="middle"><span 
+class="cmmi-10">,</span>8<img 
+src="MathStuff70x.png" alt="1
+4"  class="frac" align="middle">, 12</span>
+   </div>
+<!--l. 217--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-310003.4.1"></a>Sum of first <span 
+class="cmmi-10">n </span>a-sequence terms</h5>
+<!--l. 218--><p class="noindent" >The first <span 
+class="cmmi-10">n </span>terms of an arithmetical sequence<a 
+ id="dx1-31001"></a> can also be calculated.
+   <table 
+class="equation"><tr><td><a 
+ id="x1-31002r7"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff71x.png" alt="     n(a+-l)
+Sn =    2
+" class="math-display" ></center></td><td class="equation-label">(3.4.7)</td></tr></table>
+<!--l. 221--><p class="nopar" >
+where, as above, <span id="textcolor55"><span 
+class="cmmi-10">a </span>= first term</span> of the sequence, <span id="textcolor56"><span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d </span>= <span 
+class="cmmi-10">n</span>th term</span>
+(or <span id="textcolor57"><span 
+class="cmmi-10">l </span>= [<span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d</span>] = last term</span>) of the sequence, and <span id="textcolor58"><span 
+class="cmmi-10">n </span>= number of
+terms</span>.
+   <div class="newtheorem">
+<!--l. 223--><p class="noindent" ><span class="head">
+<a 
+ id="x1-31003r9"></a>
+<span 
+class="cmbx-10">Example 9.</span>  </span><span 
+class="cmti-10">Find the sum of the first 30 terms of the arithmetic sequence 5,</span>
+<span 
+class="cmti-10">8, 11, </span><span 
+class="cmti-10">&#x2026;.</span>
+                                                                  
+
+                                                                  
+   </div>
+   <div class="newtheorem">
+<!--l. 226--><p class="noindent" ><span class="head">
+<a 
+ id="x1-31004r4"></a>
+<span 
+class="cmbx-10">Solution 4.</span>  </span>Plug-in the variables: <span 
+class="cmmi-10">a </span>= 5<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;n </span>= 30<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;d </span>= 3<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;l </span>= [5 + (30 <span 
+class="cmsy-10">- </span>1)3] = 92<br 
+class="newline" />and substitute into the formula from <a 
+href="#x1-31002r7">3.4.7<!--tex4ht:ref: sum-of-first-n --></a> to get
+<table 
+class="align">
+                        <tr><td 
+class="align-odd"><span 
+class="cmmi-10">S</span><sub><span 
+class="cmmi-7">n</span></sub></td>                         <td 
+class="align-even"> = <img 
+src="MathStuff72x.png" alt="n(a+-l)
+   2"  class="frac" align="middle"></td>                             <td 
+class="align-label"></td>                        <td 
+class="align-label">
+                        </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">S</span><sub><span 
+class="cmr-7">30</span></sub></td>                        <td 
+class="align-even"> = <img 
+src="MathStuff73x.png" alt="30(5-+-92)
+    2"  class="frac" align="middle"></td>                           <td 
+class="align-label"></td>                        <td 
+class="align-label">
+                        </td></tr><tr><td 
+class="align-odd"></td>                           <td 
+class="align-even"> = 15(97) = 1<span 
+class="cmmi-10">,</span>455</td>                                                <td 
+class="align-label"><a 
+ id="x1-31005r8"></a>(3.4.8)                        </td></tr></table>
+   </div>
+<!--l. 237--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.4.2   </span> <a 
+ id="x1-320003.4.2"></a>G-Sequence</h4>
+<!--l. 238--><p class="noindent" >A <span 
+class="cmbx-10">geometric sequence</span><a 
+ id="dx1-32001"></a> is in the form
+   <table 
+class="equation"><tr><td><a 
+ id="x1-32002r9"></a>
+   <center class="math-display" >
+                                                                  
+
+                                                                  
+<img 
+src="MathStuff74x.png" alt="(a)1,  (ar)2,  (ar2)3,  (ar3)4,...,(arn-1)n,...
+" class="math-display" ></center></td><td class="equation-label">(3.4.9)</td></tr></table>
+<!--l. 241--><p class="nopar" >
+where <span id="textcolor59"><span 
+class="cmmi-10">a </span>= first term</span> of the sequence, <span id="textcolor60"><span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup> = <span 
+class="cmmi-10">nth </span>term</span> of sequence, and <span id="textcolor61"><span 
+class="cmmi-10">r </span>=
+common ratio</span>. Just as arithmetical sequences, I have numbered the terms by
+subscript to highlight the fact that the first term <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub> has no power, the second term
+<span 
+class="cmmi-10">ar</span><sub><span 
+class="cmr-7">2</span></sub> has power of 1, the third has power of 2, and so on. This is why the <span 
+class="cmmi-10">n</span>th term
+power is <span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1.
+   <div class="newtheorem">
+<!--l. 243--><p class="noindent" ><span class="head">
+<a 
+ id="x1-32003r10"></a>
+<span 
+class="cmbx-10">Example 10.</span>  </span><span 
+class="cmti-10">Write  the  first  6  terms  and  the  25th  term  of  the  geometric</span>
+<span 
+class="cmti-10">sequence whose first term = 3 and common ratio = 2.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 246--><p class="noindent" ><span class="head">
+<a 
+ id="x1-32004r5"></a>
+<span 
+class="cmbx-10">Solution 5.</span>  </span>Plugin the variables:<br 
+class="newline" />      3<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>3(2)<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>3(2)<sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>3(2)<sup><span 
+class="cmr-7">3</span></sup><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>3(2)<sup><span 
+class="cmr-7">4</span></sup><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;</span>3(2)<sup><span 
+class="cmr-7">5</span></sup><br 
+class="newline" />or<br 
+class="newline" />      3, 6, 12, 24, 48, 96<br 
+class="newline" />For the 25th term simple computation is a waste of time. Instead, substitute 25 for <span 
+class="cmmi-10">n</span>;
+as well as the other variables in the formula for the <span 
+class="cmmi-10">n</span>th term that is at the end of the
+formula in <a 
+href="#x1-32002r9">3.4.9<!--tex4ht:ref: gseq --></a>.
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                       <tr><td 
+class="align-odd"><span 
+class="cmmi-10">n</span>th term</td>                        <td 
+class="align-even"> = <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>                           <td 
+class="align-label"></td>                       <td 
+class="align-label">
+                       </td></tr><tr><td 
+class="align-odd">25th term</td>                       <td 
+class="align-even"> = 3(2)<sup><span 
+class="cmr-7">25</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>                         <td 
+class="align-label"></td>                       <td 
+class="align-label">
+                       </td></tr><tr><td 
+class="align-odd">3(2)<sup><span 
+class="cmr-7">24</span></sup></td>                          <td 
+class="align-even"> = 50<span 
+class="cmmi-10">,</span>331<span 
+class="cmmi-10">,</span>648</td>                                              <td 
+class="align-label"><a 
+ id="x1-32005r10"></a>(3.4.10)                       </td></tr></table>
+   </div>
+<!--l. 259--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-330003.4.2"></a>Geometric means</h5>
+<!--l. 260--><p class="noindent" >Geometric means are similar to arithmetical means.
+   <div class="newtheorem">
+<!--l. 261--><p class="noindent" ><span class="head">
+<a 
+ id="x1-33001r11"></a>
+<span 
+class="cmbx-10">Example 11.</span>  </span><span 
+class="cmti-10">Insert two geometric means between 4 and 256.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 265--><p class="noindent" ><span class="head">
+<a 
+ id="x1-33002r6"></a>
+<span 
+class="cmbx-10">Solution 6.</span>  </span>Inserting two means within two terms give us a total of 4; <span 
+class="cmmi-10">n </span>= 4.
+Plug-in the rest of the variables: first term <span 
+class="cmmi-10">a </span>= 4; last term is assumed to be the <span 
+class="cmmi-10">n</span>th
+term. What we need is <span 
+class="cmmi-10">r</span>:
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                <tr><td 
+class="align-odd"><span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>                <td 
+class="align-even"> = <span 
+class="cmmi-10">l</span></td>                                           <td 
+class="align-label"></td>                <td 
+class="align-label">
+                </td></tr><tr><td 
+class="align-odd">4<span 
+class="cmmi-10">r</span><sup><span 
+class="cmr-7">3</span></sup></td>                  <td 
+class="align-even"> = 256</td>                                        <td 
+class="align-label"></td>                <td 
+class="align-label">
+                </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">r</span><sup><span 
+class="cmr-7">3</span></sup></td>                   <td 
+class="align-even"> = 64<span 
+class="cmmi-10">&#x00A0;</span><span id="textcolor62">(Divide both sides by 4)</span></td>                    <td 
+class="align-label"></td>                <td 
+class="align-label">
+                </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">r</span></td>                    <td 
+class="align-even"> = 4<span 
+class="cmmi-10">&#x00A0;</span><span id="textcolor63">(Find cube root on both sides)</span></td>                                <td 
+class="align-label"><a 
+ id="x1-33003r11"></a>(3.4.11)                </td></tr></table>
+Now that we have <span 
+class="cmmi-10">r</span>, just plug-in variables for the second and third terms in the
+geometric sequence in <a 
+href="#x1-32002r9">3.4.9<!--tex4ht:ref: gseq --></a>.
+<table 
+class="align">
+                     <tr><td 
+class="align-odd">(<span 
+class="cmmi-10">ar</span>)<sub><span 
+class="cmr-7">2</span></sub></td>                      <td 
+class="align-even"> = 4 <span 
+class="cmsy-10">* </span>4 = 16</td>                             <td 
+class="align-label"></td>                     <td 
+class="align-label">
+                     </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">ar</span><sup><span 
+class="cmr-7">2</span></sup>)<sub>
+<span 
+class="cmr-7">3</span></sub></td>                     <td 
+class="align-even"> = 4 <span 
+class="cmsy-10">* </span>4<sup><span 
+class="cmr-7">2</span></sup> = 4 <span 
+class="cmsy-10">* </span>16 = 64</td>                                          <td 
+class="align-label"><a 
+ id="x1-33004r12"></a>(3.4.12)                     </td></tr></table>
+   </div>
+<!--l. 279--><p class="indent" >   The final sequence is 4, 16, 64, 256.
+                                                                  
+
+                                                                  
+<!--l. 281--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-340003.4.2"></a>Sum of first <span 
+class="cmmi-10">n </span>g-sequence terms</h5>
+<!--l. 282--><p class="noindent" >The sum of the first <span 
+class="cmmi-10">n </span>terms of a geometric sequence can be found by the following
+formula:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-34001r13"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff75x.png" alt="     a--arn-
+Sn =  1- r   r &#x2044;= 1
+" class="math-display" ></center></td><td class="equation-label">(3.4.13)</td></tr></table>
+<!--l. 285--><p class="nopar" >
+The usual variables for sequences applies: where <span id="textcolor64"><span 
+class="cmmi-10">a </span>= first term</span> of the sequence,
+<span id="textcolor65"><span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n</span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d </span>= <span 
+class="cmmi-10">n</span>th term</span> (or <span id="textcolor66"><span 
+class="cmmi-10">l </span>= [<span 
+class="cmmi-10">a </span>+ (<span 
+class="cmmi-10">n</span><span 
+class="cmsy-10">- </span>1)<span 
+class="cmmi-10">d</span>] = last term</span>) of the sequence, and <span id="textcolor67"><span 
+class="cmmi-10">n </span>=
+number of terms</span>.
+<!--l. 288--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.4.3   </span> <a 
+ id="x1-350003.4.3"></a>Infinite Geometric Sequences</h4>
+<!--l. 289--><p class="noindent" >Under certain conditions, we can find the sum of all the terms in an <span 
+class="cmbx-10">infinite</span>
+<span 
+class="cmbx-10">g-sequence</span>. To define this sum, consider the following g-sequence <span id="textcolor68"><span 
+class="cmmi-10">a,</span><span 
+class="cmmi-10">&#x00A0;ar,</span><span 
+class="cmmi-10">&#x00A0;ar</span><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span><span style="margin-left:0.3em" class="thinspace"></span></span>
+<table 
+class="align-star">
+  <tr><td 
+class="align-odd"><span 
+class="cmmi-10">a</span></td>                        <td 
+class="align-even"> = <span 
+class="cmmi-10">S</span><sub><span 
+class="cmr-7">1</span></sub>    <span id="textcolor69">The first partial sum of the sequence</span></td>    <td 
+class="align-label"></td>  <td 
+class="align-label">
+  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">ar</span></td>                   <td 
+class="align-even"> = <span 
+class="cmmi-10">S</span><sub><span 
+class="cmr-7">2</span></sub>    <span id="textcolor70">The second partial sum of the sequence</span></td>  <td 
+class="align-label"></td>  <td 
+class="align-label">
+  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">ar </span>+ <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmr-7">2</span></sup> + <img 
+src="MathStuff76x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>  <td 
+class="align-even"> = <span 
+class="cmmi-10">S</span><sub>
+<span 
+class="cmmi-7">n</span></sub>   <span id="textcolor71">The <span 
+class="cmmi-10">n</span>th partial sum of the sequence</span></td>    <td 
+class="align-label"></td>  <td 
+class="align-label"></td></tr></table>
+                                                                  
+
+                                                                  
+   <div class="newtheorem">
+<!--l. 295--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35001r5"></a>
+<span 
+class="cmbx-10">Definition 5 </span>(<span 
+class="cmcsc-10">S<span 
+class="small-caps">u</span><span 
+class="small-caps">m</span> <span 
+class="small-caps">o</span><span 
+class="small-caps">f</span> I<span 
+class="small-caps">n</span><span 
+class="small-caps">f</span><span 
+class="small-caps">i</span><span 
+class="small-caps">n</span><span 
+class="small-caps">i</span><span 
+class="small-caps">t</span><span 
+class="small-caps">e</span> G<span 
+class="small-caps">e</span><span 
+class="small-caps">o</span><span 
+class="small-caps">m</span><span 
+class="small-caps">e</span><span 
+class="small-caps">t</span><span 
+class="small-caps">r</span><span 
+class="small-caps">i</span><span 
+class="small-caps">c</span> S<span 
+class="small-caps">e</span><span 
+class="small-caps">q</span><span 
+class="small-caps">u</span><span 
+class="small-caps">e</span><span 
+class="small-caps">n</span><span 
+class="small-caps">c</span><span 
+class="small-caps">e</span>)</span><span 
+class="cmbx-10">.</span>  </span>If <span 
+class="cmmi-10">S</span><sub><span 
+class="cmmi-7">n</span></sub> of an infinite
+g-sequence approaches some number <span 
+class="cmmi-10">S </span>as <span 
+class="cmmi-10">n </span>approaches <span 
+class="cmsy-10">&#x221E;</span>, then <span 
+class="cmmi-10">S </span>is called the
+<span id="textcolor72"><span 
+class="cmbx-10">sum of the infinite geometric sequence</span></span>.
+   </div>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-35002r14"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff77x.png" alt="    &#x221E;&#x2211;    n-1
+S =    ar
+   n=1
+" class="math-display" ></center></td><td class="equation-label">(3.4.14)</td></tr></table>
+<!--l. 300--><p class="nopar" >
+To develop a formula for finding the sum of all the terms in an infinite g-sequence,
+consider the formula used for finding the sum of the first <span 
+class="cmmi-10">n </span>terms in a g-sequence in
+<a 
+href="#x1-34001r13">3.4.13<!--tex4ht:ref: sum-first-n-g-seq --></a>
+   <center class="math-display" >
+<img 
+src="MathStuff78x.png" alt="--------------------
+|     a- arn       |
+|Sn = -1--r-- r &#x2044;= 1|
+--------------------
+" class="math-display" ></center>
+<!--l. 304--><p class="nopar" >
+   <div class="newtheorem">
+<!--l. 305--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35003r1"></a>
+<span 
+class="cmbx-10">Remark 1.</span>  </span>If  <span 
+class="cmsy-10">|</span><span 
+class="cmmi-10">r</span><span 
+class="cmsy-10">| </span><span 
+class="cmmi-10">&#x003C;  l </span>and  <span 
+class="cmmi-10">a </span>is  a  constant,  then  as  <span 
+class="cmmi-10">n </span>approaches  <span 
+class="cmsy-10">&#x221E;</span>,  <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span></sup>
+approaches 0, and the term <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span></sup> above can be dropped:
+   </div>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-35004r15"></a>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff79x.png" alt="S = -a--- |r| &#x003C; 1
+    1- r
+" class="math-display" ></center></td><td class="equation-label">(3.4.15)</td></tr></table>
+<!--l. 310--><p class="nopar" >
+where, as just noted, <span 
+class="cmsy-10">|</span><span 
+class="cmmi-10">r</span><span 
+class="cmsy-10">| </span><span 
+class="cmmi-10">&#x003C; l</span>; also, as previously stated, <span id="textcolor73"><span 
+class="cmmi-10">a </span>= first term</span> and <span id="textcolor74"><span 
+class="cmmi-10">r </span>=
+common ratio</span>.
+   <div class="newtheorem">
+<!--l. 312--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35005r2"></a>
+<span 
+class="cmbx-10">Remark 2.</span>  </span>If <span 
+class="cmsy-10">|</span><span 
+class="cmmi-10">r</span><span 
+class="cmsy-10">|&#x2265; </span><span 
+class="cmmi-10">l</span>, the terms get larger and the sum <span 
+class="cmmi-10">S </span>does not approach a
+number. The result: theorem <a 
+href="#x1-35004r15">3.4.15<!--tex4ht:ref: sum-inf-g-seq --></a> does not apply.
+   </div>
+<!--l. 316--><p class="indent" >   Some examples will be helpful here.
+   <div class="newtheorem">
+<!--l. 317--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35006r12"></a>
+<span 
+class="cmbx-10">Example 12.</span>  </span><span 
+class="cmti-10">Change </span>0<span 
+class="cmmi-10">.</span><span class="bar-css">3</span> <span 
+class="cmti-10">to a common fraction</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 320--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35007r7"></a>
+<span 
+class="cmbx-10">Solution 7.</span>  </span>Write the decimal as an infinite geometric series,
+                                                                  
+
+                                                                  
+<table 
+class="align-star">
+           <tr><td 
+class="align-odd"><span 
+class="cmmi-10">S</span></td>           <td 
+class="align-even"> = <img 
+src="MathStuff80x.png" alt=" 3
+10"  class="frac" align="middle"> + <img 
+src="MathStuff81x.png" alt=" 3
+100"  class="frac" align="middle"> + <img 
+src="MathStuff82x.png" alt="  3
+1,000"  class="frac" align="middle"> + <img 
+src="MathStuff83x.png" alt="  3
+10,000-"  class="frac" align="middle"> + <span 
+class="cmmi-10">&#x2026;</span></td>                       <td 
+class="align-label"></td>           <td 
+class="align-label">
+           </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">S</span></td>           <td 
+class="align-even"> = <span id="textcolor75"><img 
+src="MathStuff84x.png" alt="-3
+10"  class="frac" align="middle"> + <img 
+src="MathStuff85x.png" alt="3-
+10"  class="frac" align="middle"><span style="margin-left:0.3em" class="thinspace"></span><img 
+src="MathStuff86x.png" alt="(   )
+  1-
+  10"  class="left" align="middle"> + <img 
+src="MathStuff87x.png" alt="3-
+10"  class="frac" align="middle"><span style="margin-left:0.3em" class="thinspace"></span><img 
+src="MathStuff88x.png" alt="(   )
+  1-
+  10"  class="left" align="middle"><sup><span 
+class="cmr-7">2</span></sup> + <img 
+src="MathStuff89x.png" alt="-3
+10"  class="frac" align="middle"><span style="margin-left:0.3em" class="thinspace"></span><img 
+src="MathStuff90x.png" alt="(  )
+ -1
+ 10"  class="left" align="middle"><sup><span 
+class="cmr-7">3</span></sup> + <span 
+class="cmmi-10">&#x2026;</span></span></td>           <td 
+class="align-label"></td>           <td 
+class="align-label"></td></tr></table>
+Since the common ratio <span 
+class="cmmi-10">r </span>= <img 
+src="MathStuff91x.png" alt="110"  class="frac" align="middle"> : <span 
+class="cmsy-10">|</span><img 
+src="MathStuff92x.png" alt="110"  class="frac" align="middle"><span 
+class="cmsy-10">| </span><span 
+class="cmmi-10">&#x003C; </span>1, formula <a 
+href="#x1-35004r15">3.4.15<!--tex4ht:ref: sum-inf-g-seq --></a> is relevant for finding the
+sum of the infinite geometric series:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-35008r16"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff93x.png" alt="     a       3-     3-  3   1
+S = -----= --101-= -109-= - = -
+    1- r   1-  10    10   9   3
+" class="math-display" ></center></td><td class="equation-label">(3.4.16)</td></tr></table>
+<!--l. 329--><p class="nopar" >
+   </div>
+   <div class="newtheorem">
+<!--l. 331--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35009r13"></a>
+<span 
+class="cmbx-10">Example 13.</span>  </span><span 
+class="cmti-10">A town with a population of 3500 has a predicted growth rate of</span>
+<span 
+class="cmti-10">6% per year for the next 20 years. How many people are expected to live in the</span>
+<span 
+class="cmti-10">town 20 years from now?</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 335--><p class="noindent" ><span class="head">
+<a 
+ id="x1-35010r8"></a>
+                                                                  
+
+                                                                  
+<span 
+class="cmbx-10">Solution 8.</span>  </span>Let <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub> be the initial population. After 1 year the population <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub> will be
+the initial population (<span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub>) plus the growth (the product of <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub> and the rate of growth
+<span 
+class="cmmi-10">r</span>).
+<table 
+class="align">
+                    <tr><td 
+class="align-odd"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub></td>                    <td 
+class="align-even"> = <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub> + <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub><span 
+class="cmmi-10">r</span></td>                                  <td 
+class="align-label"></td>                    <td 
+class="align-label">
+                    </td></tr><tr><td 
+class="align-odd"></td>                      <td 
+class="align-even"> = <span id="textcolor76"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub>(1 + <span 
+class="cmmi-10">r</span>)</span>   <span id="textcolor77">Factor out <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub></span></td>                                        <td 
+class="align-label"><a 
+ id="x1-35011r17"></a>(3.4.17)                    </td></tr></table>
+The population <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">2</span></sub> at the end of 2 years will be
+<table 
+class="align">
+                  <tr><td 
+class="align-odd"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">2</span></sub></td>                  <td 
+class="align-even"> = <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub> + <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">r</span></td>                                    <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">2</span></sub></td>                  <td 
+class="align-even"> = <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub>(1 + <span 
+class="cmmi-10">r</span>)   <span id="textcolor78">(Factor out <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub>)</span></td>                     <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">2</span></sub></td>                  <td 
+class="align-even"> = <span id="textcolor79"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub>(1 + <span 
+class="cmmi-10">r</span>)</span>(1 + <span 
+class="cmmi-10">r</span>)   <span id="textcolor80">(Sub for <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">1</span></sub>)</span></td>                  <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">2</span></sub></td>                  <td 
+class="align-even"> = <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub>(1 + <span 
+class="cmmi-10">r</span>)<sup><span 
+class="cmr-7">2</span></sup></td>                                                     <td 
+class="align-label"><a 
+ id="x1-35012r18"></a>(3.4.18)                  </td></tr></table>
+                                                                  
+
+                                                                  
+The population at the end of year 3 will be <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">3</span></sub> = <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub>(1 + <span 
+class="cmmi-10">r</span>)<sup><span 
+class="cmr-7">3</span></sup>. Writing the terms in a
+sequence gives
+   <table 
+class="equation"><tr><td><a 
+ id="x1-35013r19"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff94x.png" alt="|--------------------------------------------|
+|p , p (1+ r), p (1+ r)2, p (1+ r)3,p (1+ r)4,...
+--0--o--------0---------0--------0-----------
+" class="math-display" ></center></td><td class="equation-label">(3.4.19)</td></tr></table>
+<!--l. 351--><p class="nopar" >
+This geometric sequence with <span id="textcolor81"><span 
+class="cmmi-10">a </span>= [<span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub>] = first term</span>, and <span id="textcolor82"><span 
+class="cmmi-10">r </span>= [1 + <span 
+class="cmmi-10">r</span>] = common ratio</span>.
+In other words, <span 
+class="cmmi-10">p</span><sub><span 
+class="cmr-7">0</span></sub> = <span id="textcolor83"><span 
+class="cmmi-10">a </span>= 3500</span>, 1 + r = <span id="textcolor84"><span 
+class="cmmi-10">r </span>= 1.06</span>, and <span id="textcolor85"><span 
+class="cmmi-10">n </span>= 21</span> (for the total number of
+terms to reach 20). To find the last term we assume the <span 
+class="cmmi-10">n</span>th term (<span id="textcolor86"><span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></span>) is <span 
+class="cmmi-10">l </span>such
+that <span id="textcolor87"><span 
+class="cmmi-10">l </span>= <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></span>.
+<table 
+class="align">
+                         <tr><td 
+class="align-odd"><span 
+class="cmmi-10">l</span></td>                         <td 
+class="align-even"> = <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>                                <td 
+class="align-label"></td>                         <td 
+class="align-label">
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">l</span></td>                         <td 
+class="align-even"> = 3500(1<span 
+class="cmmi-10">.</span>06)<sup><span 
+class="cmr-7">21</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>                         <td 
+class="align-label"></td>                         <td 
+class="align-label">
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">l</span></td>                         <td 
+class="align-even"> = 3500(1<span 
+class="cmmi-10">.</span>06)<span 
+class="cmmi-10">r</span><sup><span 
+class="cmr-7">20</span></sup></td>                          <td 
+class="align-label"></td>                         <td 
+class="align-label">
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">l</span></td>                         <td 
+class="align-even"> = <span 
+class="cmmi-10">ar</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup></td>                                <td 
+class="align-label"></td>                         <td 
+class="align-label">
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">l</span></td>                         <td 
+class="align-even"> <span 
+class="cmsy-10">&#x2248; </span>11<span 
+class="cmmi-10">,</span>224<span 
+class="cmmi-10">.</span>97415</td>                                                    <td 
+class="align-label"><a 
+ id="x1-35014r20"></a>(3.4.20)                         </td></tr></table>
+                                                                  
+
+                                                                  
+   </div>
+<!--l. 361--><p class="indent" >   The population after 20 years of annual growth of 6% is approximately
+11,225.
+<!--l. 365--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3.5   </span> <a 
+ id="x1-360003.5"></a>Binomials and the Theorem</h3>
+<!--l. 366--><p class="noindent" >Expanding a binomial<a 
+ id="dx1-36001"></a> is integral to working with probability<a 
+ id="dx1-36002"></a> and statistics<a 
+ id="dx1-36003"></a>. The
+following section shows how to expand a binomial, (<span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">y</span>)<sup><span 
+class="cmmi-7">n</span></sup>, and fleshes out some
+interesting properties.
+   <h4 class="subsectionHead"><span class="titlemark">3.5.1   </span> <a 
+ id="x1-370003.5.1"></a>Expanding binomials</h4>
+<!--l. 368--><p class="noindent" >If we take a binomial and expand its power, (<span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">y</span>)<sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">&#x2192;</span><span 
+class="cmmi-7">n</span><span 
+class="cmr-7">+1</span><span 
+class="cmmi-7">&#x2026;</span></sup>, some interesting patterns<a 
+ id="dx1-37001"></a>
+develop. The expansion is as follows:
+<table 
+class="align-star">
+        <tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">0</span></sup> =</td>        <td 
+class="align-even">1<span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor88">(riase to zero is 1)</span></td>                                  <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">1</span></sup> =</td>        <td 
+class="align-even"><span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span><span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor89">(riase to 1 is identity)</span></td>                            <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">2</span></sup> =</td>        <td 
+class="align-even"><span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">2</span></sup> + 2<span 
+class="cmmi-10">ab </span>+ <span 
+class="cmmi-10">b</span><sub>
+<span 
+class="cmr-7">3</span></sub><sup><span 
+class="cmr-7">2</span></sup></td>                                      <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"> =</td>               <td 
+class="align-even"><span id="textcolor90">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">1</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">2</span></sub></span></td>                                     <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">3</span></sup> =</td>        <td 
+class="align-even"><span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">3</span></sup> + 3<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">b </span>+ 3<span 
+class="cmmi-10">ab</span><sup><span 
+class="cmr-7">2</span></sup> + <span 
+class="cmmi-10">b</span><sub>
+<span 
+class="cmr-7">4</span></sub><sup><span 
+class="cmr-7">3</span></sup></td>                               <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"> =</td>               <td 
+class="align-even"><span id="textcolor91">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">1</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">2</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">3</span></sub></span></td>                               <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">4</span></sup> =</td>        <td 
+class="align-even"><span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">4</span></sup> + 4<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">3</span></sup><span 
+class="cmmi-10">b </span>+ 6<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">2</span></sup> + 4<span 
+class="cmmi-10">ab</span><sup><span 
+class="cmr-7">3</span></sup> + <span 
+class="cmmi-10">b</span><sub>
+<span 
+class="cmr-7">5</span></sub><sup><span 
+class="cmr-7">4</span></sup></td>                         <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"> =</td>               <td 
+class="align-even"><span id="textcolor92">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">1</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">2</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">3</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">4</span></sub></span></td>                        <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">5</span></sup> =</td>        <td 
+class="align-even"><span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">5</span></sup> + 5<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">4</span></sup><span 
+class="cmmi-10">b </span>+ 10<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">3</span></sup><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">2</span></sup> + 10<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">3</span></sup> + 5<span 
+class="cmmi-10">ab</span><sup><span 
+class="cmr-7">4</span></sup> + <span 
+class="cmmi-10">b</span><sub>
+<span 
+class="cmr-7">6</span></sub><sup><span 
+class="cmr-7">5</span></sup></td>                <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"> =</td>               <td 
+class="align-even"><span id="textcolor93">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">1</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">2</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">3</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">4</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">5</span></sub></span></td>                  <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sup><span 
+class="cmr-7">6</span></sup> =</td>        <td 
+class="align-even"><span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">6</span></sup> + 6<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">5</span></sup><span 
+class="cmmi-10">b </span>+ 15<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">4</span></sup><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">2</span></sup> + 20<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">3</span></sup><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">3</span></sup> + 15<span 
+class="cmmi-10">a</span><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">4</span></sup> + 6<span 
+class="cmmi-10">ab</span><sup><span 
+class="cmr-7">5</span></sup> + <span 
+class="cmmi-10">b</span><sub>
+<span 
+class="cmr-7">7</span></sub><sup><span 
+class="cmr-7">6</span></sup></td>        <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"> =</td>               <td 
+class="align-even"><span id="textcolor94">(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">1</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">2</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">3</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">4</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">5</span></sub>(<span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b</span>)<sub><span 
+class="cmr-7">6</span></sub></span></td>           <td 
+class="align-label"></td>        <td 
+class="align-label"></td></tr></table>
+                                                                  
+
+                                                                  
+There are at least four patterns that can be found in this sequence:
+     <ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x1-37003x1">After the power of 2: Each expansion has one more term than the power
+     of the binomial (e.g., the <span 
+class="cmmi-10">b</span><sub><span 
+class="cmmi-7">n</span><span 
+class="cmr-7">+1</span></sub><sup><span 
+class="cmmi-7">n</span></sup> term). As an array, each expansion has
+     one more row and column than the number of terms.
+     </li>
+     <li 
+  class="enumerate" id="x1-37005x2">The degree of each term in each expansion equals the exponent of the
+     binomial.
+     </li>
+     <li 
+  class="enumerate" id="x1-37007x3">The first term in each expansion is <span 
+class="cmmi-10">a </span>raised to the power of the binomial.
+     </li>
+     <li 
+  class="enumerate" id="x1-37009x4">The  exponents  of  <span 
+class="cmmi-10">a </span>decrease  by  1  in  each  successive  term,  and  the
+     exponents on <span 
+class="cmmi-10">b</span>, beginning with <span 
+class="cmmi-10">b</span><sup><span 
+class="cmr-7">0</span></sup> in the first term, increase by 1 in each
+     successive term.</li></ol>
+<!--l. 390--><p class="noindent" >Another pattern can be found by making an array<a 
+ id="dx1-37010"></a> out the coefficent&#8217;s successive
+expansion<a 
+ id="dx1-37011"></a>. This pattern produces the following:
+   <center class="math-display" >
+<img 
+src="MathStuff95x.png" alt=" Column ||1 |2| 3 | 4 | 5 |6 |7
+  Row   ||  | |   |   |   |  |
+----1---||1-|-|---|---|---|--|---
+--------||--|-|---|---|---|--|---
+----2---||1-|1|---|---|---|--|---
+----3---||1-|2|-1-|---|---|--|---
+----4---||1-|3|-3-|-1-|---|--|---
+----5---||1-|4|-6-|-4-|-1-|--|---
+----6---||1-|5|10-|10-|-5-|1-|---
+    7     1  6 15  20  15  6  1
+" class="math-display" ></center>
+<!--l. 410--><p class="nopar" >
+<!--l. 412--><p class="indent" >   A more visually friendly image of what is known as Pascal&#8217;s triangle is shown in
+figure <a 
+href="#x1-370121">3.1<!--tex4ht:ref: pascal --></a>. This pretty image shows (and implies) some of the stunning patterns that
+arise from expanding binomials. It is easy, perhaps, to see why such systematic
+patterned expansion of numerical values would be useful for modeling systems and
+patterns in nature and society. <hr class="figure"><div class="figure" 
+>
+                                                                  
+
+                                                                  
+<a 
+ id="x1-370121"></a>
+                                                                  
+
+                                                                  
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;3.1: </span><span  
+class="content">Pascal and Sierpinski Triangle</span></div><!--tex4ht:label?: x1-370121 -->
+                                                                  
+
+                                                                  
+<!--l. 415--><p class="indent" >   </div><hr class="endfigure">
+<a 
+ id="dx1-37013"></a>
+<!--l. 417--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-380003.5.1"></a><span 
+class="cmbx-10">Factorials</span></span>
+   If <span 
+class="cmmi-10">n </span>is a natural number, then <span 
+class="cmmi-10">n</span>! is defined as
+   <table 
+class="equation"><tr><td><a 
+ id="x1-38001r1"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff96x.png" alt="|----------------------------------|
+-n! =-n(n---1)(n-- 2)(n--3)&#x22C5;&#x22C5;&#x22C5;(3)(2)(1)
+" class="math-display" ></center></td><td class="equation-label">(3.5.1)</td></tr></table>
+<!--l. 421--><p class="nopar" >
+Two properties of factorials<a 
+ id="dx1-38002"></a> include
+   <div class="newtheorem">
+<!--l. 423--><p class="noindent" ><span class="head">
+<a 
+ id="x1-38003r1"></a>
+<span 
+class="cmbx-10">Property 1.</span>  </span><span 
+class="cmbx-10">Identity </span>By definition, 0! = 1.
+   </div>
+   <div class="newtheorem">
+<!--l. 426--><p class="noindent" ><span class="head">
+<a 
+ id="x1-38004r2"></a>
+<span 
+class="cmbx-10">Property 2.</span>  </span><span 
+class="cmbx-10">Equivalence </span>If n is a natural number, then <span 
+class="cmmi-10">n</span>(<span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">- </span>1)! = <span 
+class="cmmi-10">n</span>!.
+   </div>
+<!--l. 429--><p class="indent" >   A couple examples should suffice:
+   <table 
+class="equation"><tr><td><a 
+ id="x1-38005r2"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff97x.png" alt="          3! = 3* 2*1 = 6
+6! = 6*5 *4* 3* 2*1 = 720
+   3(3- 1)! = 3* 2 = 6= 3!
+" class="math-display" ></center></td><td class="equation-label">(3.5.2)</td></tr></table>
+<!--l. 437--><p class="nopar" >
+<!--l. 439--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.5.2   </span> <a 
+ id="x1-390003.5.2"></a>Binomial Theorem</h4>
+<!--l. 440--><p class="noindent" >If <span 
+class="cmmi-10">n </span>is any positive number, then
+   <table 
+class="equation-star"><tr><td>
+   <center class="math-display" >
+<img 
+src="MathStuff98x.png" alt="##########
+#(a+b#)n =#
+" class="math-display" ></center></td></tr></table>
+<!--l. 443--><p class="nopar" >
+   <table 
+class="equation"><tr><td><a 
+ id="x1-39001r3"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff99x.png" alt=" n  ----n!--- n-1   ----n!--  n-22
+a + 1!(n - 1)!)a   b+ 2!(n- 2)!a   b+
+                n!
+            ---------an-3b3 + &#x22C5;&#x22C5;&#x22C5;+ bn
+            3!(n- 3)!)
+                                                                  
+
+                                                                  
+" class="math-display" ></center></td><td class="equation-label">(3.5.3)</td></tr></table>
+<!--l. 449--><p class="nopar" >
+<!--l. 451--><p class="indent" >   There is a more compact way to write the theorem using summation notation. I
+give the compact version here but lead up to it in the next section; see equation
+<a 
+href="#x1-420003.6.2">3.6.2<!--tex4ht:ref: bin-summation --></a>.
+   <table 
+class="equation-star"><tr><td>
+   <center class="math-display" >
+<img 
+src="MathStuff100x.png" alt=" n
+&#x2211;  ----n!--an- rbr
+r=0r!(n- r!)
+" class="math-display" ></center></td></tr></table>
+<!--l. 454--><p class="nopar" >
+<!--l. 457--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3.6   </span> <a 
+ id="x1-400003.6"></a>Summation</h3>
+<a 
+ id="dx1-40001"></a>
+<!--l. 458--><p class="noindent" >A shorthand way to indicate the sum of the first <span 
+class="cmmi-10">n </span>terms, or the <span 
+class="cmmi-10">n</span>th partial term, of
+a sequence<a 
+ id="dx1-40002"></a>. Notice that because summation<a 
+ id="dx1-40003"></a> shows which <span 
+class="cmmi-10">n</span>th terms are to be used
+the arbitrariness of subsequences noted above no longer applies. That is, in <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">n</span></sub><sup><span 
+class="cmmi-7">m</span></sup> the
+<span 
+class="cmmi-10">n </span>value tells us where to start the numerical sequence<a 
+ id="dx1-40004"></a> and the <span 
+class="cmmi-10">m </span>term tells us how
+far to go in the sequence.
+                                                                  
+
+                                                                  
+<table 
+class="align">
+           <tr><td 
+class="align-odd"><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">n</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmr-7">3</span></sup>(2<span 
+class="cmmi-10">n</span><sup><span 
+class="cmr-7">2</span></sup> + 1)</td>           <td 
+class="align-even"></td>                                            <td 
+class="align-label"></td>           <td 
+class="align-label">
+           </td></tr><tr><td 
+class="align-odd"></td>                          <td 
+class="align-even"> = [2(<span id="textcolor95">1</span>)<sup><span 
+class="cmr-7">2</span></sup> + 1] + [2(<span id="textcolor96">2</span>)<sup><span 
+class="cmr-7">2</span></sup> + 1] + [2(<span id="textcolor97">3</span>)<sup><span 
+class="cmr-7">2</span></sup> + 1]</td>           <td 
+class="align-label"></td>           <td 
+class="align-label">
+           </td></tr><tr><td 
+class="align-odd"></td>                          <td 
+class="align-even"> = 3 + 9 + 19</td>                                 <td 
+class="align-label"></td>           <td 
+class="align-label">
+           </td></tr><tr><td 
+class="align-odd"></td>                          <td 
+class="align-even"> = 31</td>                                                   <td 
+class="align-label"><a 
+ id="x1-40005r1"></a>(3.6.1)           </td></tr></table>
+In this example there is no arbitrariness about where to begin the subsequence and
+how far to go in the sequence; nor about the systematicity of the interval partitions &#8211;
+at least not in this example (i.e., by numerical values of 1). The bottom domain<a 
+ id="dx1-40006"></a> tells
+us where to start (e.g., <span 
+class="cmmi-10">n </span>= 1: start at 1), and the upper domain tells us how far to go
+(e.g., numerical value 3). One more example should suffice; notice that the
+upper domain is 5 and the lower one is 3. This does not mean start at 3
+and continue 5 sequence steps, such as <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">5</span></sub>. Instead, it means start at 3 and
+work our way up to 5, which is three sequential steps <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">3</span></sub>; or more acurately
+<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">3</span></sub> <span 
+class="cmsy-10">&#x2192; </span><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">4</span></sub> <span 
+class="cmsy-10">&#x2192; </span><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">5</span></sub>.
+<table 
+class="align">
+             <tr><td 
+class="align-odd"><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">n</span><span 
+class="cmr-7">=3</span></sub><sup><span 
+class="cmr-7">5</span></sup>(3<span 
+class="cmmi-10">n </span>+ 2)</td>             <td 
+class="align-even"></td>                                                        <td 
+class="align-label"><a 
+ id="x1-40007r2"></a>(3.6.2)
+             </td></tr><tr><td 
+class="align-odd"></td>                           <td 
+class="align-even"> = [3(<span id="textcolor98">3</span>) + 2] + [3(<span id="textcolor99">4</span>) + 2] + [3(<span id="textcolor100">5</span>) + 2]</td>             <td 
+class="align-label"></td>             <td 
+class="align-label">
+             </td></tr><tr><td 
+class="align-odd"></td>                           <td 
+class="align-even"> = 11 + 14 + 7</td>                               <td 
+class="align-label"></td>             <td 
+class="align-label">
+             </td></tr><tr><td 
+class="align-odd"></td>                           <td 
+class="align-even"> = 42</td>                                       <td 
+class="align-label"></td>             <td 
+class="align-label">             </td></tr></table>
+                                                                  
+
+                                                                  
+<!--l. 473--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.6.1   </span> <a 
+ id="x1-410003.6.1"></a>Three Basic Properties of Summation</h4>
+<a 
+ id="dx1-41001"></a>
+   <div class="newtheorem">
+<!--l. 474--><p class="noindent" ><span class="head">
+<a 
+ id="x1-41002r3"></a>
+<span 
+class="cmbx-10">Property 3.</span>  </span><span 
+class="cmbx-10">Summation of a constant.</span><a 
+ id="dx1-41003"></a> The summation of constant (c) as
+the value k runs from 1 to n is n times the constant.
+   </div>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-41004r3"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff101x.png" alt="|--------------------------|
+|                 &#x2211;n       |
+If c is constant, then c = nc.
+------------------k=1-------
+" class="math-display" ></center></td><td class="equation-label">(3.6.3)</td></tr></table>
+<!--l. 479--><p class="nopar" >
+For example,
+   <table 
+class="equation"><tr><td><a 
+ id="x1-41005r4"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff102x.png" alt="|------------------------------------------|
+|&#x2211;5                                        |
+|   13 = 131 + 132 + 133 +134 + 135 = 5(13) = 65
+-k=1-----------------------------------------
+" class="math-display" ></center></td><td class="equation-label">(3.6.4)</td></tr></table>
+                                                                  
+
+                                                                  
+<!--l. 483--><p class="nopar" >
+<!--l. 484--><p class="noindent" >
+   <div class="proof">
+<!--l. 485--><p class="indent" >   <span class="head">
+<span 
+class="cmti-10">Proof.</span> </span>Because <span 
+class="cmmi-10">c </span>is a constant, each term <span 
+class="cmmi-10">c </span>is constant for each value <span 
+class="cmmi-10">k </span>as <span 
+class="cmmi-10">k</span>
+runs from 1 to <span 
+class="cmmi-10">n</span>.
+   <center class="math-display" >
+<img 
+src="MathStuff103x.png" alt="&#x2211;n    &#x25DC;----n-numb&#x25DE;er&#x25DF; of ck--&#x25DD;
+   c = c+ c+ c +c + c+ &#x22C5;&#x22C5;&#x22C5;+ c = nc
+k=1
+" class="math-display" ></center>
+<!--l. 488--><p class="nopar" >                                                                __
+   </div>
+   <div class="newtheorem">
+<!--l. 492--><p class="noindent" ><span class="head">
+<a 
+ id="x1-41006r4"></a>
+<span 
+class="cmbx-10">Property 4.</span>  </span><span 
+class="cmbx-10">Summation of a product.</span><a 
+ id="dx1-41007"></a> A constant factor can be brought
+outside a summation sign.
+   </div>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-41008r5"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff104x.png" alt="|------------------------------------|
+|                 &#x2211;n         &#x2211;n      |
+|If c is constant, then cf(k) = c  f (k).|
+------------------k=1--------k=1------
+" class="math-display" ></center></td><td class="equation-label">(3.6.5)</td></tr></table>
+<!--l. 497--><p class="nopar" >
+For example,
+   <table 
+class="equation-star"><tr><td>
+                                                                  
+
+                                                                  
+   <center class="math-display" >
+<img 
+src="MathStuff105x.png" alt="|----------3--------3----|
+|Show that&#x2211;  5k2 = 5&#x2211;  k2|
+|         k=1      k=1   |
+-------------------------|
+" class="math-display" ></center></td></tr></table>
+<!--l. 501--><p class="nopar" >
+<table 
+class="align">
+     <tr><td 
+class="align-odd"> <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmr-7">3</span></sup><span id="textcolor101">5</span><span 
+class="cmmi-10">k</span><sup><span 
+class="cmr-7">2</span></sup></td>     <td 
+class="align-even"> = <span id="textcolor102">5</span>(1)<sup><span 
+class="cmr-7">2</span></sup> + <span id="textcolor103">5</span>(2)<sup><span 
+class="cmr-7">2</span></sup> + <span id="textcolor104">5</span>(3)<sup><span 
+class="cmr-7">2</span></sup></td>     <td 
+class="align-odd"><span id="textcolor105">5</span><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmr-7">3</span></sup><span 
+class="cmmi-10">k</span><sup><span 
+class="cmr-7">2</span></sup></td>     <td 
+class="align-even"> = <span id="textcolor106">5</span>[(1)<sup><span 
+class="cmr-7">2</span></sup> + (2)<sup><span 
+class="cmr-7">2</span></sup> + (3)<sup><span 
+class="cmr-7">2</span></sup>]</td>     <td 
+class="align-label"></td>     <td 
+class="align-label"></td>     <td 
+class="align-label"></td>     <td 
+class="align-label">
+     </td></tr><tr><td 
+class="align-odd"></td>               <td 
+class="align-even"> = <span id="textcolor107">5</span> + 20 + 45</td>             <td 
+class="align-odd"></td>               <td 
+class="align-even"> = <span id="textcolor108">5</span>[1 + 4 + 9]</td>            <td 
+class="align-label"></td>     <td 
+class="align-label"></td>     <td 
+class="align-label"></td>     <td 
+class="align-label">
+     </td></tr><tr><td 
+class="align-odd"></td>               <td 
+class="align-even"> = <span 
+class="cmbx-10">70</span></td>                    <td 
+class="align-odd"></td>               <td 
+class="align-even"> = <span id="textcolor109">5</span>(14) = <span 
+class="cmbx-10">70</span></td>                           <td 
+class="align-label"><a 
+ id="x1-41009r6"></a>(3.6.6)     </td></tr></table>
+<!--l. 507--><p class="noindent" >
+   <div class="proof">
+<!--l. 508--><p class="indent" >   <span class="head">
+<span 
+class="cmti-10">Proof.</span> </span>
+                                                                  
+
+                                                                  
+<table 
+class="align-star">
+        <tr><td 
+class="align-odd"><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">cf</span>(<span 
+class="cmmi-10">k</span>)</td>        <td 
+class="align-even"> = <span 
+class="cmmi-10">cf</span>(1) + <span 
+class="cmmi-10">cf</span>(2) + <span 
+class="cmmi-10">cf</span>(3) + <img 
+src="MathStuff106x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">cf</span>(<span 
+class="cmmi-10">n</span>)</td>                  <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"></td>                    <td 
+class="align-even"> = <span 
+class="cmmi-10">c</span>[<span 
+class="cmmi-10">f</span>(1) + <span 
+class="cmmi-10">f</span>(2) + <span 
+class="cmmi-10">f</span>(3) + <img 
+src="MathStuff107x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>)]<span style="margin-left:2.77695pt" class="tmspace"></span><span style="margin-left:2.77695pt" class="tmspace"></span><span id="textcolor110">(Factor out <span 
+class="cmmi-10">c</span>)</span></td>        <td 
+class="align-label"></td>        <td 
+class="align-label">
+        </td></tr><tr><td 
+class="align-odd"></td>                    <td 
+class="align-even"> = <span 
+class="cmmi-10">c</span><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">k</span>)</td>                                    <td 
+class="align-label"></td>        <td 
+class="align-label"></td></tr></table>
+                                                                __
+   </div>
+   <div class="newtheorem">
+<!--l. 516--><p class="noindent" ><span class="head">
+<a 
+ id="x1-41010r5"></a>
+<span 
+class="cmbx-10">Property 5.</span>  </span><span 
+class="cmbx-10">Summation of a sum.</span><a 
+ id="dx1-41011"></a> The summation of a sum is equal to the
+sum of the summations.
+   </div>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-41012r7"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff108x.png" alt="|--------------------------------|
+|&#x2211;n             &#x2211;n        n&#x2211;      |
+|  [f(k)+ g(k)] =    f(k) +    g(k).|
+-k=1-------------k=1-------k=1------
+" class="math-display" ></center></td><td class="equation-label">(3.6.7)</td></tr></table>
+<!--l. 521--><p class="nopar" >
+For example,
+                                                                  
+
+                                                                  
+   <table 
+class="equation-star"><tr><td>
+   <center class="math-display" >
+<img 
+src="MathStuff109x.png" alt="|---------------------------------|
+|        &#x2211;3          &#x2211;3     &#x2211;3    |
+Show that   (k+ k2) =    k +   k2 |
+---------k=1---------k=1----k=1----
+" class="math-display" ></center></td></tr></table>
+<!--l. 525--><p class="nopar" >
+<table 
+class="align">
+              <tr><td 
+class="align-odd"> <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmr-7">3</span></sup><span id="textcolor111">(<span 
+class="cmmi-10">k </span>+ <span 
+class="cmmi-10">k</span><sup><span 
+class="cmr-7">2</span></sup>)</span></td>                   <td 
+class="align-even"> = (1 + 1<sup><span 
+class="cmr-7">2</span></sup>) + (2 + 2<sup><span 
+class="cmr-7">2</span></sup>) + (3 + 2<sup><span 
+class="cmr-7">2</span></sup>)</td>              <td 
+class="align-label"></td>              <td 
+class="align-label">
+              </td></tr><tr><td 
+class="align-odd"></td>                                 <td 
+class="align-even"> = 2 + 6 + 12 = <span 
+class="cmbx-10">20</span></td>                         <td 
+class="align-label"></td>              <td 
+class="align-label">
+              </td></tr><tr><td 
+class="align-odd"><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmr-7">3</span></sup><span id="textcolor112"><span 
+class="cmmi-10">k</span><span 
+class="cmmi-10">&#x00A0;</span>+</span><span 
+class="cmex-10">&#x2211;</span>
+<sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmr-7">3</span></sup><span id="textcolor113"><span 
+class="cmmi-10">k</span><sup><span 
+class="cmr-7">2</span></sup></span></td>              <td 
+class="align-even"> = (1 + 2 + 3) + (1<sup><span 
+class="cmr-7">2</span></sup> + 2<sup><span 
+class="cmr-7">2</span></sup> + 3<sup><span 
+class="cmr-7">2</span></sup>)</td>               <td 
+class="align-label"></td>              <td 
+class="align-label">
+              </td></tr><tr><td 
+class="align-odd"></td>                                 <td 
+class="align-even"> = 6 + 14 = <span 
+class="cmbx-10">20</span></td>                                          <td 
+class="align-label"><a 
+ id="x1-41013r8"></a>(3.6.8)              </td></tr></table>
+<!--l. 532--><p class="noindent" >
+   <div class="proof">
+<!--l. 533--><p class="indent" >   <span class="head">
+                                                                  
+
+                                                                  
+<span 
+class="cmti-10">Proof.</span> </span>
+<table 
+class="align-star">
+   <tr><td 
+class="align-odd"><span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup>[<span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">k</span>) + <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">k</span>)]</td>   <td 
+class="align-even"></td>                                                  <td 
+class="align-label"></td>   <td 
+class="align-label">
+   </td></tr><tr><td 
+class="align-odd"></td>                     <td 
+class="align-even"> = [<span 
+class="cmmi-10">f</span>(1) + <span 
+class="cmmi-10">g</span>(1)] + [<span 
+class="cmmi-10">f</span>(2) + <span 
+class="cmmi-10">g</span>(2)] + <img 
+src="MathStuff110x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + [<span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>) + <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">n</span>)]</td>       <td 
+class="align-label"></td>   <td 
+class="align-label">
+   </td></tr><tr><td 
+class="align-odd"></td>                     <td 
+class="align-even"> = [<span 
+class="cmmi-10">f</span>(1) + <span 
+class="cmmi-10">f</span>(2) + <img 
+src="MathStuff111x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">n</span>)] + [<span 
+class="cmmi-10">g</span>(1) + <span 
+class="cmmi-10">g</span>(2) + <img 
+src="MathStuff112x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">n</span>)]</td>   <td 
+class="align-label"></td>   <td 
+class="align-label">
+   </td></tr><tr><td 
+class="align-odd"></td>                     <td 
+class="align-even"> = <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">k</span>) + <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">k</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">k</span>)</td>                        <td 
+class="align-label"></td>   <td 
+class="align-label"></td></tr></table>
+                                                                __
+   </div>
+<!--l. 542--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">3.6.2   </span> <a 
+ id="x1-420003.6.2"></a>Binomial theorem as summation</h4>
+<a 
+ id="dx1-42001"></a>
+   <table 
+class="equation"><tr><td><a 
+ id="x1-42002r9"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff113x.png" alt=" n
+&#x2211;  ----n!--an- rbr
+r=0r!(n- r!)
+" class="math-display" ></center></td><td class="equation-label">(3.6.9)</td></tr></table>
+                                                                  
+
+                                                                  
+<!--l. 545--><p class="nopar" >
+<!--l. 547--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3.7   </span> <a 
+ id="x1-430003.7"></a>Induction</h3>
+<!--l. 548--><p class="noindent" >A general definition for mathematical induction is based on the successor function. This
+is a now classic method made standard by Giuseppe Peano around the beginning of
+the 20th century; in which the arithmetic of cardinal numbers of axiomatized.
+Typically, we define a primitive and some kind of binary combinatoric operation (i.e.,
+addition and/or multiplication), and then simply iterate the primtive and combining
+operation.<span class="footnote-mark"><a 
+href="MathStuff4.html#fn1x4"><sup class="textsuperscript">1</sup></a></span><a 
+ id="x1-43001f1"></a> 
+<!--l. 550--><p class="indent" >   A very common model for successor functions and induction is the domain of the
+whole numbers. The primitive is zero and the combinatory operation is addition (or
+multiplication). To this model we apply the axioms of Peano. Begin with three
+primitive (undefined and unmotivated) terms: <span 
+class="cmbx-10">number</span>, <span 
+class="cmbx-10">zero</span>, and <span 
+class="cmbx-10">immediate</span>
+<span 
+class="cmbx-10">successor of</span>. The following axioms can be given:
+   <div class="newtheorem">
+<!--l. 554--><p class="noindent" ><span class="head">
+<a 
+ id="x1-43002r1"></a>
+<span 
+class="cmbx-10">Peano Axiom 1.</span>  </span><span 
+class="cmti-10">Zero is a number</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 557--><p class="noindent" ><span class="head">
+<a 
+ id="x1-43003r2"></a>
+<span 
+class="cmbx-10">Peano Axiom 2.</span>  </span><span 
+class="cmti-10">The immediate successor of a number is a number.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 560--><p class="noindent" ><span class="head">
+<a 
+ id="x1-43004r3"></a>
+<span 
+class="cmbx-10">Peano Axiom 3.</span>  </span><span 
+class="cmti-10">Zero is not the immediate successor of a number.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 563--><p class="noindent" ><span class="head">
+<a 
+ id="x1-43005r4"></a>
+                                                                  
+
+                                                                  
+<span 
+class="cmbx-10">Peano Axiom 4.</span>  </span><span 
+class="cmti-10">No two numbers have the same immediate successor.</span>
+   </div>
+   <div class="newtheorem">
+<!--l. 566--><p class="noindent" ><span class="head">
+<a 
+ id="x1-43006r5"></a>
+<span 
+class="cmbx-10">Peano Axiom 5.</span>  </span> <span 
+class="cmti-10">Any property belonging to zero, and also to the immediate</span>
+<span 
+class="cmti-10">successor for every number that has the property, belongs to all numbers.</span>
+   </div>
+<!--l. 570--><p class="indent" >   The last axiom is referred to as the <span 
+class="cmcsc-10">P<span 
+class="small-caps">r</span><span 
+class="small-caps">i</span><span 
+class="small-caps">n</span><span 
+class="small-caps">c</span><span 
+class="small-caps">i</span><span 
+class="small-caps">p</span><span 
+class="small-caps">l</span><span 
+class="small-caps">e</span> <span 
+class="small-caps">o</span><span 
+class="small-caps">f</span> M<span 
+class="small-caps">a</span><span 
+class="small-caps">t</span><span 
+class="small-caps">h</span><span 
+class="small-caps">e</span><span 
+class="small-caps">m</span><span 
+class="small-caps">a</span><span 
+class="small-caps">t</span><span 
+class="small-caps">i</span><span 
+class="small-caps">c</span><span 
+class="small-caps">a</span><span 
+class="small-caps">l</span> I<span 
+class="small-caps">n</span><span 
+class="small-caps">d</span><span 
+class="small-caps">u</span><span 
+class="small-caps">c</span><span 
+class="small-caps">t</span><span 
+class="small-caps">i</span><span 
+class="small-caps">o</span><span 
+class="small-caps">n</span></span>;
+this reflects that understanding that the last &#8216;axiom&#8217; is not technically an axiom; it
+may also be a called an <span 
+class="cmcsc-10">I<span 
+class="small-caps">n</span><span 
+class="small-caps">d</span><span 
+class="small-caps">u</span><span 
+class="small-caps">c</span><span 
+class="small-caps">t</span><span 
+class="small-caps">i</span><span 
+class="small-caps">o</span><span 
+class="small-caps">n</span> A<span 
+class="small-caps">x</span><span 
+class="small-caps">i</span><span 
+class="small-caps">o</span><span 
+class="small-caps">m</span> S<span 
+class="small-caps">c</span><span 
+class="small-caps">h</span><span 
+class="small-caps">e</span><span 
+class="small-caps">m</span><span 
+class="small-caps">e</span></span>. Peano&#8217;s axioms can be formally
+represented as follows.
+   <h4 class="subsectionHead"><span class="titlemark">3.7.1   </span> <a 
+ id="x1-440003.7.1"></a>A Formalized Induction Scheme for Peano&#8217;s Axioms</h4>
+<!--l. 574--><p class="noindent" >
+<table 
+class="align">
+                  <tr><td 
+class="align-odd">Peano Axiom 3<span 
+class="cmmi-10">&#x00A0;   </span><span 
+class="cmsy-10">¬</span>0</td>                  <td 
+class="align-even"> = <span 
+class="cmmi-10">sx</span></td>                                            <td 
+class="align-label"><a 
+ id="x1-44001r1"></a>(3.7.1)
+                  </td></tr><tr><td 
+class="align-odd">Peano Axiom 4<span 
+class="cmmi-10">&#x00A0;   sx</span></td>                  <td 
+class="align-even"> = <span 
+class="cmmi-10">sy </span><span 
+class="cmsy-10">&#x2192; </span><span 
+class="cmmi-10">x </span>= <span 
+class="cmmi-10">y</span></td>                                    <td 
+class="align-label"><a 
+ id="x1-44002r2"></a>(3.7.2)                  </td></tr></table>
+<a 
+href="#x1-44001r1">3.7.1<!--tex4ht:ref: rpaxiom3 --></a> says that the <span id="textcolor114">negation of zero is a number with a successor</span>, or conversely, <span id="textcolor115">if a
+number has no successor, then it must be zero</span>, or that <span id="textcolor116">zero is not the successor of
+any number</span>. <a 
+href="#x1-44002r2">3.7.2<!--tex4ht:ref: rpaxiom4 --></a> says that <span id="textcolor117">if the successor of x equals the successor of y, then x
+equals y</span>, or in other words, <span id="textcolor118">given any number, its predecessor is unique</span>. Now we can
+provide representations for axioms of the binary operations addition, +, and
+multiplication, <span 
+class="cmsy-10">*</span>,
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                         <tr><td 
+class="align-odd"><span 
+class="cmmi-10">x </span>+ 0</td>                          <td 
+class="align-even"> = <span 
+class="cmmi-10">x</span></td>                                                        <td 
+class="align-label"><a 
+ id="x1-44003r3"></a>(3.7.3)
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">sy</span></td>                         <td 
+class="align-even"> = <span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">y</span>)</td>                                                   <td 
+class="align-label"><a 
+ id="x1-44004r4"></a>(3.7.4)
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">* </span>0</td>                           <td 
+class="align-even"> = 0</td>                                                         <td 
+class="align-label"><a 
+ id="x1-44005r5"></a>(3.7.5)
+                         </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">* </span><span 
+class="cmmi-10">sy</span></td>                          <td 
+class="align-even"> = <span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">* </span><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">x</span></td>                                                  <td 
+class="align-label"><a 
+ id="x1-44006r6"></a>(3.7.6)                         </td></tr></table>
+<a 
+href="#x1-44003r3">3.7.3<!--tex4ht:ref: add0 --></a> is the identity of addition (any number <span 
+class="cmmi-10">x </span>added to zero sums to that number
+<span 
+class="cmmi-10">x</span>); <a 
+href="#x1-44004r4">3.7.4<!--tex4ht:ref: adds --></a> says that any number <span 
+class="cmmi-10">x </span>plus the successor of <span 
+class="cmmi-10">y </span>is equivalent to the
+successor of <span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">y</span>; <a 
+href="#x1-44005r5">3.7.5<!--tex4ht:ref: times0 --></a> is straightforward, and <a 
+href="#x1-44006r6">3.7.6<!--tex4ht:ref: timess --></a> says that any number <span 
+class="cmmi-10">x</span>
+times the sucessor of the number <span 
+class="cmmi-10">y </span>is equivalent to <span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">* </span><span 
+class="cmmi-10">y </span>plus the number
+<span 
+class="cmmi-10">x</span>.
+<!--l. 587--><p class="noindent" >To the representations in <a 
+href="#x1-44001r1">3.7.1<!--tex4ht:ref: rpaxiom3 --></a>&#8211;<a 
+href="#x1-44006r6">3.7.6<!--tex4ht:ref: timess --></a> we can add the following instance of the
+induction scheme, or principle of mathematical induction, from <a 
+href="#x1-43006r5">5<!--tex4ht:ref: induction --></a>.
+<!--l. 589--><p class="indent" >   Given any formula with a free variable <span 
+class="cmmi-10">x</span>, <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>), we can get the following instance
+of induction
+   <table 
+class="equation"><tr><td><a 
+ id="x1-44007r7"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff114x.png" alt="(P (0)&amp; &#x2200;x(P(x)) &#x2192; P (s(x))) -&#x2192; &#x2200;xP(x)
+" class="math-display" ></center></td><td class="equation-label">(3.7.7)</td></tr></table>
+<!--l. 592--><p class="nopar" >
+What this says is that <span id="textcolor119">for the property <span 
+class="cmmi-10">P </span>that belongs to 0, and for all <span 
+class="cmmi-10">x </span>with that
+property, then the successor of <span 
+class="cmmi-10">x</span>, <span 
+class="cmmi-10">sx</span>, also has that property, <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">x</span>)); If the latter is
+the case, then this will hold for all <span 
+class="cmmi-10">x</span></span>.
+                                                                  
+
+                                                                  
+<!--l. 595--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a 
+ id="x1-450003.7.1"></a>Writing numerals inductively</h5>
+<!--l. 596--><p class="noindent" >The common way of writing the Arabic numerals in the set of whole numbers,
+0<span 
+class="cmmi-10">,</span>1<span 
+class="cmmi-10">,</span>2<span 
+class="cmmi-10">,</span>3<span 
+class="cmmi-10">,</span>4<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x2026;</span><span 
+class="cmmi-10">,n</span>, implies the inductive principle and is an efficient way to
+compact the information in that principle. A more explicit way to write the set
+whole numbers is the following (I also show the correlation with Arabic
+numerals):
+   <table 
+class="equation"><tr><td><a 
+ id="x1-45001r8"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff115x.png" alt="   0 = 0
+
+  0s = 1
+ 0ss = 2
+0sss = 3
+" class="math-display" ></center></td><td class="equation-label">(3.7.8)</td></tr></table>
+<!--l. 604--><p class="nopar" >
+<!--l. 606--><p class="indent" >   Addition of 2 + 2 = 4 looks like this (the second representation is in Polish
+notation and is equivalent with the first):
+                                                                  
+
+                                                                  
+<table 
+class="align-star">
+                  <tr><td 
+class="align-odd"><span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(0)) + <span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(0))</td>                     <td 
+class="align-even"> = <span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(0))))<span 
+class="cmmi-10">.</span></td>                   <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"></td>                                   <td 
+class="align-even">or,</td>                              <td 
+class="align-label"></td>                  <td 
+class="align-label">
+                  </td></tr><tr><td 
+class="align-odd"> + (<span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(0))<span 
+class="cmmi-10">,</span><span 
+class="cmmi-10">&#x00A0;s</span>(<span 
+class="cmmi-10">s</span>(0))</td>                  <td 
+class="align-even"> = <span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(<span 
+class="cmmi-10">s</span>(0)))))<span 
+class="cmmi-10">.</span></td>                  <td 
+class="align-label"></td>                  <td 
+class="align-label"></td></tr></table>
+<!--l. 614--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-460003.7.1"></a><span 
+class="cmbx-10">Division in a formalized induction scheme</span></span>
+   Induction is defined for binary combinatoric operations multiplication
+and addition. But we can also define division as (assume the definitions
+<a 
+href="#x1-44003r3">3.7.3<!--tex4ht:ref: add0 --></a>&#8211;<a 
+href="#x1-44006r6">3.7.6<!--tex4ht:ref: timess --></a>):
+   <table 
+class="equation"><tr><td><a 
+ id="x1-46001r9"></a>
+   <center class="math-display" >
+<img 
+src="MathStuff116x.png" alt="&#x2203;z(x* z = y)
+" class="math-display" ></center></td><td class="equation-label">(3.7.9)</td></tr></table>
+<!--l. 618--><p class="nopar" >
+<!--l. 620--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3.8   </span> <a 
+ id="x1-470003.8"></a>Induction and Sequences</h3>
+<!--l. 621--><p class="noindent" >Another way to get at induction is through arithmetical sequences (a-sequences); see
+section <a 
+href="#x1-280003.4">3.4<!--tex4ht:ref: a-seq --></a>. As a transition I show an alternate way to write the addition of numerals
+as an inductive scheme:
+                                                                  
+
+                                                                  
+<table 
+class="align">
+                           <tr><td 
+class="align-odd"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">0</span></sub><sup><span 
+class="cmr-7">3</span></sup></td>                           <td 
+class="align-even"> = 3 + 0 = 3</td>                           <td 
+class="align-label"></td>                           <td 
+class="align-label">
+                           </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">1</span></sub><sup><span 
+class="cmr-7">3</span></sup></td>                           <td 
+class="align-even"> = 3 + 1 = 4</td>                           <td 
+class="align-label"></td>                           <td 
+class="align-label">
+                           </td></tr><tr><td 
+class="align-odd"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">2</span></sub><sup><span 
+class="cmr-7">3</span></sup></td>                           <td 
+class="align-even"> = 3 + 2 = 5</td>                                                      <td 
+class="align-label"><a 
+ id="x1-47001r1"></a>(3.8.1)                           </td></tr></table>
+Another way to write this would be as
+<table 
+class="align-star">
+          <tr><td 
+class="align-odd"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">0</span></sub><sup><span 
+class="cmr-7">3</span></sup></td>          <td 
+class="align-even"> = 3 + 0 = 3</td>                                           <td 
+class="align-label"></td>          <td 
+class="align-label">
+          </td></tr><tr><td 
+class="align-odd"><span id="textcolor120"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">1</span></sub><sup><span 
+class="cmr-7">3</span></sup></span></td>          <td 
+class="align-even"> = <span id="textcolor121">(3 + 1) = (3 + 0<span 
+class="cmmi-10">s</span>) = (3 + 0)<span 
+class="cmmi-10">s </span>= 4</span></td>                       <td 
+class="align-label"></td>          <td 
+class="align-label">
+          </td></tr><tr><td 
+class="align-odd"><span id="textcolor122"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">2</span></sub><sup><span 
+class="cmr-7">3</span></sup></span></td>          <td 
+class="align-even"> = <span id="textcolor123">(3 + 2) = (3 + 0<span 
+class="cmmi-10">ss</span>) = (3 + 0<span 
+class="cmmi-10">s</span>)<span 
+class="cmmi-10">s </span>= ((3 + 0)<span 
+class="cmmi-10">s</span>)<span 
+class="cmmi-10">s </span>= 5</span></td>          <td 
+class="align-label"></td>          <td 
+class="align-label"></td></tr></table>
+The first line needs no explanation. The second line says that <span id="textcolor124">three plus one is equal
+to three plus the successor of zero, which itself is equal to the successor of three
+plus zero</span>, which is 4. The third line says that <span id="textcolor125">three plus two is equal to
+three plus the successor of the successor of 0, which itself is equal to the
+successor of three plus the successor of zero, which is itself equal to the
+                                                                  
+
+                                                                  
+successor of the successor of three plus 0</span>, which is 5. If ever there was a
+motivation for using Arabic numerals, this would be one: Arabic numerals
+implicitly provide the inductive information contained in their respective
+numerical values. In fact, the information is so implicit and assumed, that most
+college educated people are unable to provide a proof of why simple addition
+works. This is because we don&#8217;t need to, the additive operation already
+contains the information needed for proof of the mathematical inductive
+principle.
+<!--l. 635--><p class="indent" >   A still yet more explicit way of writing this is
+<table 
+class="align-star">
+                   <tr><td 
+class="align-odd"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">0</span></sub><sup><span 
+class="cmr-7">0</span><span 
+class="cmmi-7">sss</span></sup></td>                    <td 
+class="align-even"> = (0<span 
+class="cmmi-10">sss </span>+ 0) = (0<span 
+class="cmmi-10">sss</span>) = 3</td>                     <td 
+class="align-label"></td>                   <td 
+class="align-label">
+                   </td></tr><tr><td 
+class="align-odd"><span id="textcolor126"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">0</span><span 
+class="cmmi-7">s</span></sub><sup><span 
+class="cmr-7">0</span><span 
+class="cmmi-7">sss</span></sup></span></td>                   <td 
+class="align-even"> = <span id="textcolor127">(0<span 
+class="cmmi-10">sss </span>+ 0<span 
+class="cmmi-10">s</span>) = (0<span 
+class="cmmi-10">ssss</span>) = 4</span></td>                   <td 
+class="align-label"></td>                   <td 
+class="align-label">
+                   </td></tr><tr><td 
+class="align-odd"><span id="textcolor128"><span 
+class="cmmi-10">A</span><sub><span 
+class="cmr-7">0</span><span 
+class="cmmi-7">ss</span></sub><sup><span 
+class="cmr-7">0</span><span 
+class="cmmi-7">sss</span></sup></span></td>                   <td 
+class="align-even"> = <span id="textcolor129">0<span 
+class="cmmi-10">sss </span>+ 0<span 
+class="cmmi-10">ss </span>= (0<span 
+class="cmmi-10">sssss</span>) = 5</span></td>                   <td 
+class="align-label"></td>                   <td 
+class="align-label"></td></tr></table>
+What this suggests is that we can think of numerals defined through an induction
+scheme, or induction principle, as similar to a-sequences. That is, adding
+the sequence of successors defines the cardinality of the numerical value.
+This is an interesting point of relation between induction and a-sequences: a
+numerical value itself, say 4, can be derived through adding all the successors
+together.<span class="footnote-mark"><a 
+href="MathStuff5.html#fn2x4"><sup class="textsuperscript">2</sup></a></span><a 
+ id="x1-47002f2"></a> 
+    
+</body></html> 
+
+                                                                  
+
+

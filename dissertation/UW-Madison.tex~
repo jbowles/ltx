@@ -1,0 +1,53 @@
+%HANDOUT
+
+\documentclass[11pt]{article}
+
+
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Statement of Purpose: UW Madison}
+\date{\today}
+
+
+\maketitle
+\section{Personal}
+I am applying for the Chancellor's Fellowship for admission to the PhD program with special focus on theoretical syntax and documentation of an endangered native language of Wisconsin. My linguistics background consists of the following: typological-functional approaches (undergraduate work with Robin Quizar; MA thesis work with Lyle Campbell, who was my thesis chair), and Minimalist Program approaches (graduate study with Aniko Csirmaz and Ed Rubin). I have training and proficiency in symbolic and mathematical logic; as well as proficiency in the Python programming language and some areas of natural language processing needed for collection and analysis of natural language corpora.  
+
+\subsection{Specific Comments on the Fellowship}
+I am not certain which of the five languages I would specialize in, but part of the criteria for my selection would depend on, at least, the following: current state of documentation of the language; how many speakers are alive (and their ages); availability, willingness, and needs of the community relative to the reasonableness of a successful project; long-term (20 plus years) successfulness of the project given my goals and the goals of the community; and lastly, typological and theoretical phenomena of the language related to my own background and interests (i.e., I have done research on evidentials, nominal classifiers, and left-periphery structures such as tense, modality, and discourse items). 
+
+The language I would choose, if awarded the Fellowship, would become a life-long commitment for me. In other words, I do not select languages to study \textsl{ad hoc}, and given many assumptions about the nature and philosophy of documentation, I believe it is appropriate for the documenter to learn to speak the language as well as possible.
+
+\subsubsection{My Qualifications}
+I am particularly well-suited to take up this Fellowship and am capable of meeting both (i) the long-term goals of sustaining good relations with native communities for documentation projects, and (ii) many short-term project goals such as the ability to write and present papers, communicate to the larger linguistic community our activities, and finish course work and a dissertation. I have training and experience in the following areas of native American linguistics: field work, grammar design, documentation, typology, history and classification, and theoretical syntax. I also have a diverse undergraduate education (and appropriate field experience) that allows me to recognize the sometimes nuanced political, social, and cultural issues that permeate native and minority communities relative to documentation projects.
+
+\section{Research}
+I have a good foundation in theories and applications of morpho-syntax. My MA thesis was an extended argument about the morphosyntax of evidentiality in Tuyuca (Eastern Tukanaon) based essentially on Mark Baker's Mirror Principle. The thesis incorporated insights from both typological and theoretical approaches to morphology and syntax. It also doubled as a basic introduction to the Tuyuca language. It incorporated various texts for documentation, resulting in a catalogue of the largest up to date line-by-line morphological glossing of Tuyuca in one text (I am still working on the documentation).
+
+I have learned to balance the need for documentation with the need for theory making and testing. This distinction is very important when dealing with endangered languages and I have a good amount of experience with it. 
+
+My current research has been incorporating computational linguistics techniques needed for large-scale data collection, organization, archiving, and analysis (I have been acquiring the necessary mathematical and programming language skills needed to employ these techniques). I am broadly interested in using many widely available types of data and techniques in order to test theoretical models of syntax. Many current drafts of my papers, listed below, represent this hybrid approach to testing theoretical models in syntax and morphology.
+
+\subsection{Recent Projects}
+
+\ex. \textsl{English Corpus of Evidentiality Data} (goal of 1 million sentences/clauses; presently at about .02\% of goal). {\bf Future plans}: To be extended to include the Tuyuca language---which I have a number of documentary materials---and, if possible, a native Wisconsin language. 
+
+\ex. \textsl{Evidentiality and the Human Mind: Language, Information, and Human Discourse} (\texttt{Project under review for funding by the NEH Summer Stipend 2010}). 
+
+\ex. \textsl{Some Syntax, Semantics, and Pragmatics of Evidentiality}. Ms., 29 pgs: version 1.3. 
+
+\ex. \textsl{Recursion for Computation's Sake}. Ms., 24 pgs: version 1.
+
+\ex. \textsl{Ambiguous Merge, Symmetry, and Group Theory}. Ms., 27 pgs: version 2. 
+\a.  \small{Revision in progress for future squib submission. \textsl{A Note on Ideal Structure for a Hypothetical Operation}. 9 pgs: version 1}..
+
+  
+ 
+
+\end{document}  

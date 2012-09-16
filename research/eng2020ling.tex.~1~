@@ -1,0 +1,230 @@
+\documentclass{article}
+\usepackage{articlep, articlec}
+
+\begin{document}
+%\part
+
+\title{Syntax, Semantics, Pragmatics}
+\author{Joshua Bowles}
+\maketitle
+\section{Introduction}
+...
+\section{Syntax}
+\begin{quote}
+``You cannot end a sentence in a preposition''
+\end{quote}
+\begin{center}
+Syntax is\ldots \\
+{\bf Lingustic study of the patterns and principles of clause \& constituent structure}
+\end{center}
+
+Syntax covers many sentence and constituent structure issues, which includes a massive array of topics: word order, noun phrases, verb phrases, prepositional phrases, grammatical relations (subjects, objects, direct objects),  . Generally, anything with relevance to how words are composed in linear orders falls within the domain of syntax.
+\\
+
+\underline{Areas of Application:} 
+\begin{itemize}
+\item computer programming
+\item artificial intelligence
+\item philosophy
+\item composition
+\item grammar instruction (1st \& 2nd languages)
+\item linguistics
+\end{itemize}
+
+\subsection{Examples}
+
+\subsubsection{Constiuents}
+\pex \a don't
+\a don't care
+\a don't tell him
+\a don't celebrate with them
+\a don't go to the store
+\a don't store go the to
+\xe
+
+\pex \a Visiting relatives can be lame.
+\a \textcolor{blue}{((visiting relatives)} can be lame)
+\a \textcolor{blue}{(visiting} \textcolor{red}{(relatives} (can be lame)))
+\a I don't like my (lame) {\bf visiting relatives}.
+\xe
+
+\pex \a new drug technologies
+\a \textcolor{blue}{((new drug)} technologies)
+\a $\models$ technolgies for new drugs
+\a \textcolor{blue}{(new} (drug technologies))
+\a $\models$ drug technologies that are new
+\xe
+
+\ex colorless green ideas sleep furiously \xe
+
+\subsubsection{Grammatical Relations}
+\pex \a The dog bit the man.
+\a The man bit the dog.
+\a Get married and have children.
+\a Have children and get married.
+\a I went to the store.
+\a The store came to me.
+\a I broke the vase.
+\a The vase broke.
+\a I am made a mistake.
+\a Mistakes were made.
+\a There are three angels in the garden.
+\a Three angels are in the garden.
+\xe
+
+\subsubsection{Passive, Active, and ``assertive''}
+\pex \a I proved the theorem
+\a The theorem was proved by me
+\a That I proved the theorem
+\a That the theorem was proved by me
+\a I proved that the theorem
+\a The theorem was proved by me that
+\a I saw Jon wash his car
+\a I see that Jon washes his car
+\a That I saw Jon wash his car
+\a That I saw that Jon washes his car
+\a In this paper I will prove the theorem
+\a In this paper I prove the theorem
+\a In this paper I will prove that the theorem
+\a In this paper I prove prove the theorem that
+\xe
+
+\subsubsection{Common Prescriptive Advice}
+\pex \a Who does this go to?
+\a (?) To whom does this go?
+\a Whom is responsible for this mess? 
+\a Who is responsible for this mess?
+\xe
+
+\section{Semantics}
+\begin{quote}
+``...''
+\end{quote}
+\begin{center}
+Semantics is\ldots \\
+{\bf Study of the meaning of words and their relations.}
+\end{center}
+
+Semantics deals with many areas of language meaning and {\sl interacts with syntax and pragmatics in many ways}: lexical meaning of words, lexicon (vocabulary), anaphora (and all reference), quantifiers (`all,' `every'), definite/indefinite terms (`the', `a'), synonomy (and polysemy, homonymy, and antonymy), thematic roles, truth conditions, metaphor, propositions. Generally, it will deal with anything of relevence to how one knows (or comes to know) linguistically recoverable meaning---by this I mean recoverable from the words or structures used.
+\\
+
+\underline{Areas of Application:} 
+\begin{itemize}
+\item computer programming
+\item artificial intelligence
+\item philosophy
+\item sociology
+\item philology
+\item semiotics
+\item communication
+\item advertising
+\item psychology
+\item linguistics
+\end{itemize}
+
+
+\section{Pragmatics}
+\begin{quote}
+``It's not what you said, it's {\sl how} you said it.''
+\end{quote}
+\begin{center}
+Pragmatics is\ldots \\
+{\bf Lingustic study of how context influence or determines meaning}
+\end{center}
+
+Pragmatics covers a lot of ground: from conversational implicature, conventional implicature, presuppostion, ambiguity, anaphora (how language makes reference), evidentiality, fallacies, and new/given information. Generally, phenomena dealing with time, space, context, and intention in language and communication are relevent to the applied study of pragmatics.
+\\
+
+\underline{Areas of Application:} 
+\begin{itemize}
+\item computer programming
+\item artificial intelligence
+\item philosophy
+\item sociology
+\item linguistics
+\end{itemize}
+
+\subsection{Examples}
+All examples are context-dependent. Although these examples do not come from scientific literature, they exemplify the concepts we are trying to get at. The most important thing to note here is the following:
+
+\begin{quote}
+\textbf{In order to get at the purpose of what a writer is trying to do we must understand the context. In order to be successful in our writing goals we must develop the ability to construct the context in which the audience is to interpret our purposes and intentions.}
+\end{quote} 
+
+\subsubsection{Idioms}
+\pex \a Mary kicked the bucket.
+\a You've got the green light.
+\a 
+\xe
+
+\subsubsection{Reference (deixis, indexicality, anaphor, cataphora}
+\pex \a {\bf I} am here right now. $= indexical$
+\a {\bf I} said over {\bf there} {\bf that} was an amazing story {\bf then}. $= indexical/person, place, discourse, time $
+\a He was the one who took a picture of her but only after they dated. $= anaphora$
+\a She is the one, yes, Susan. $= cataphora$
+\xe
+
+\subsubsection{Ambiguity}
+\pex \a You are a scoundrel. 
+\a You are so smart.
+\xe
+
+\subsubsection{Implicature (conversational or conventional)}
+{\bf Conversational}
+\pex \a Can you pass the salt?
+\a $\vdash$ Pass the salt to me.
+\xe
+
+\noindent {\bf Conventional}
+\pex \a Honestly, has Ed fled?
+\a $\approx$ Provide me with an honest answer to {\sl Has Ed fled?}.
+\xe
+
+\pex \a {\sl Even} Lenny Bruce passed the test.
+\a $\approx$ Lenny Bruce was among the least likely to pass the test.
+\xe
+
+\pex \a Sarah went to the store but bought nothing.
+\a $\approx$ Sarah went to the store to buy something.
+\xe
+
+Conventional Implicatures are often associated with presuppositions in that an implicature sometimes requires presupposed content; this is not always the case.
+
+\subsubsection{Presupposition}
+We can simply refer to presupposition as `assuming' or `implying.' It happens in the case where we take for granted the {\sl assumed truth} of the presumed content as a pre-condition for the utterance to be felicitous.
+
+\pex \a John saw the man with two heads.
+\a {\bf Presupposed Content:} There exists a man with two heads.
+\xe
+
+\pex \a I don't know about politician X, he's a Muslim you know.
+\a Oh no, he is not, he's a great guy with family values and everything!
+\a {\bf Presupposed Content:} Muslim men are not ``geat guys''and have no family values.
+\xe
+
+\subsubsection{Fallacies}
+\pex \a Senator X, have you stopped taking bribes yet?
+\a No, yes, well uhh \ldots.
+\a {\bf Presupposed Content:} Senator X has taken bribes.
+\xe
+
+\pex \a I have never gotten a speeding ticket, therefore I will never get one.
+\a {\bf Presupposed Content:} The future is the same as the past.
+\xe
+
+\section{References}
+An interview with Dan Sperber at \href{http://www.philosophytalk.org/pastShows/LanguageInAction.html}{Philoso?hy Talk}, from 08/22/2006; the interview begins at time 8:50; before that is an explanation and small piece on Mae West; also a quick look at rhetoric: time 50:00.
+
+An interview with Geoff Nunberg\ldots
+
+\subsubsection{Information: New and Given}
+Which of these do you think is appropriate? Why?
+\pex \a The research done by (Potts 2007) was influential. It has been used extensively.
+\a The research done by Potts (2007) was influential. Potts (2007) has been used extensively.
+\a It was done by Potts (2007) and was influential. It has been used extensively.
+
+\section{Interface Conditions}
+\subsection{Syntax-Semantics}
+Ambiguity \ldots
+
+\end{document}

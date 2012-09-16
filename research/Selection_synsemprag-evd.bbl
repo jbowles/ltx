@@ -1,0 +1,243 @@
+\begin{thebibliography}{42}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Aikhenvald(2004)}]{aikhenvald04evd}
+Aikhenvald, Alexandra~Y. 2004.
+\newblock \emph{Evidentiality}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Anderson(1999)}]{anderson99formalist}
+Anderson, Stephen~R. 1999.
+\newblock A formalist's reading of some functionalist work in syntax.
+\newblock In M.~Darnell, E.~Moravcsik, F.~Newmeyer, M.~Noonan \protect\BIBand{}
+  K.~Wheatley (eds.) \emph{Functionalism and formalism in linguistics}, vol.~1,
+  111--135. Amsterdam: John Benjamins.
+
+\bibitem[{Barnes(1984)}]{barnes84evd}
+Barnes, Janet. 1984.
+\newblock Evidentials in the \textsc{T}uyuca verb.
+\newblock \emph{International Journal of American Linguistics} 50: 255--271.
+
+\bibitem[{Barnes(1994)}]{barnes94negation}
+Barnes, Janet. 1994.
+\newblock Tuyuca.
+\newblock In Peter Kahrel \protect\BIBand{} Ren{\`e} {van den Berg} (eds.)
+  \emph{Typological studies in negation}, 325--342. Amsterdam: John Benjamins.
+
+\bibitem[{Barnes(1996)}]{barnes96autosegments}
+Barnes, Janet. 1996.
+\newblock Autosegments with three-way lexical contrasts in \textsc{T}uyuca.
+\newblock \emph{International Journal of American Linguistics} 62: 31--58.
+
+\bibitem[{Blain \protect\BIBand{} D{\`e}chaine(2007)}]{blaindechaine07evdtypes}
+Blain, Eleanor~M. \protect\BIBand{} Ros-Marie D{\`e}chaine. 2007.
+\newblock Evidential types: Evidence from \textsc{C}ree dialects.
+\newblock \emph{International Journal of American Linguistics} 73(3): 257--291.
+
+\bibitem[{Bowles(2007)}]{bowles07phieta}
+Bowles, Joshua. 2007.
+\newblock Phi and \textsc{E}ta interactions in \textsc{T}uyuca.
+\newblock \textsc{M}s., University of Utah.
+
+\bibitem[{Bowles(2008)}]{bowles08thesis}
+Bowles, Joshua. 2008.
+\newblock \emph{Agreement in \textsc{{\it T}}uyuca}.
+\newblock Master's thesis, University of Utah.
+
+\bibitem[{Bowles(2009{\natexlab{a}})}]{bowles09amerge}
+Bowles, Joshua. 2009{\natexlab{a}}.
+\newblock \textsc{M}erge, symmetry, and group theory$\alpha$.
+\newblock \textsc{M}s., University of Utah and Utah Valley University.
+
+\bibitem[{Bowles(2009{\natexlab{b}})}]{bowles09tuyucadata}
+Bowles, Joshua. 2009{\natexlab{b}}.
+\newblock Tuyuca data set.
+\newblock \textsc{M}s., University of Utah and Utah Valley University.
+
+\bibitem[{Bowles(2010)}]{bowles10wccfl28}
+Bowles, Joshua. 2010.
+\newblock \textsc{M}erge, groups, (anti)symmetry, and evidentiality:
+  Heirarchical relations in information structure$\alpha$.
+\newblock \textsc{U}nder review for presentation at the \textsc{WCCFL 28}.
+
+\bibitem[{Bowles(to appear)}]{bowles08fusedte}
+Bowles, Joshua. to appear.
+\newblock The morphosyntax of fused tense-evidentials: An initial model.
+\newblock \emph{Linguistic Student Organization Working Papers in Linguistics}
+  8.
+\newblock \urlprefix\url{http://ling.wisc.edu/lso/wpl-main.html}.
+
+\bibitem[{Campbell(1991)}]{campbell91grammestonian}
+Campbell, Lyle. 1991.
+\newblock Some grammaticalization changes in estonian and their implications.
+\newblock In Elizabeth~C. Traugott \protect\BIBand{} Bernd Heine (eds.)
+  \emph{Approaches to Grammaticalization}, vol.~1, 285--299. Amsterdam: John
+  Benjamins.
+
+\bibitem[{Chung(2005)}]{chung05space}
+Chung, Kyung-Sook. 2005.
+\newblock \emph{Space in Tense: The interaction of tense, aspect,
+  evidentiality, and speech act in Korean}.
+\newblock Ph.D. thesis, Simon Fraser University.
+
+\bibitem[{Cinque(1999)}]{cinque99adverbs}
+Cinque, Guglielmo. 1999.
+\newblock \emph{Adverbs and functional heads}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Dornhoff \protect\BIBand{} Hohn(1978)}]{dornhoffhohn:1978}
+Dornhoff, Larry~L. \protect\BIBand{} Franz~E. Hohn. 1978.
+\newblock \emph{Applied modern algebra}.
+\newblock New York: Macmillian Publishing Co., Inc.
+
+\bibitem[{Dymetman(1998{\natexlab{a}})}]{dymetman98groupcompling}
+Dymetman, Marc. 1998{\natexlab{a}}.
+\newblock Group theory and computational linguistics.
+\newblock \emph{Journal of Logic, Language, and Information} 7: 461--497.
+
+\bibitem[{Dymetman(1998{\natexlab{b}})}]{dymetman98grouplingprocess}
+Dymetman, Marc. 1998{\natexlab{b}}.
+\newblock Group theory and linguistic processing.
+\newblock In \emph{\textsc{{\sl COLING-ACL}}}, 348--352.
+
+\bibitem[{Faller(2002)}]{faller02evd}
+Faller, Martina. 2002.
+\newblock \emph{Semantics and pragmatics of evidentials in Cuzco Quechua}.
+\newblock Ph.D. thesis, Simon Fraser University.
+
+\bibitem[{Garrett(2001)}]{garrett01evd}
+Garrett, Edward. 2001.
+\newblock \emph{Evidentiality and assertion in Tibetan}.
+\newblock Ph.D. thesis, University of California, Los Angeles.
+
+\bibitem[{Gisborne \protect\BIBand{} Holmes(2007)}]{gisborneholmes:2007}
+Gisborne, Nikolas \protect\BIBand{} Jasper Holmes. 2007.
+\newblock A history of \textsc{E}nglish evidential verbs of appearance.
+\newblock \emph{English Language and Linguistics} 11(1): 1--29.
+
+\bibitem[{Harris \protect\BIBand{} Campbell(1995)}]{harriscampbell95syntax}
+Harris, Alice \protect\BIBand{} Lyle Campbell. 1995.
+\newblock \emph{Historical Syntax in a Cross-linguistic Perspective}.
+\newblock Cambridge: Cambridge University Press.
+
+\bibitem[{Hirst(2000)}]{hirst00spuriouscontext}
+Hirst, Graeme. 2000.
+\newblock Context as a spurious concept.
+\newblock In \emph{Proceedings of the Conference on Intelligent Text Processing
+  and Computational Linguistics}, 273--287.
+\newblock
+  \urlprefix\url{http://ftp.cs.toronto.edu/pub/gh/Hirst-CICLing-2000.pdf}.
+
+\bibitem[{Johnson \protect\BIBand{} Utas(2000)}]{johnsonutas:2000}
+Johnson, Lars \protect\BIBand{} Bo~Utas (eds.) . 2000.
+\newblock \emph{Evidentials: Turkic, Iranian and neighboring languages}.
+\newblock Berlin: Mouton de Gruyter.
+
+\bibitem[{Karn(1976)}]{karn:1976}
+Karn, Gloria~Jean. 1976.
+\newblock \emph{Tuyuca plot structure: A pilot study}.
+\newblock Master's thesis, University of Texas, Arlington.
+
+\bibitem[{Kaye(1970)}]{kaye:1970}
+Kaye, Jonathan~D. 1970.
+\newblock \emph{The Desano verb: problems in semantics, syntax and phonology}.
+\newblock Ph.D. thesis, Department of Philosophy, Columbia University.
+
+\bibitem[{Kleene(2002 [1967])}]{kleene:1967}
+Kleene, Stephen. 2002 [1967].
+\newblock \emph{Mathematical logic}.
+\newblock New York: Dover.
+
+\bibitem[{Kratzer(2008)}]{kratzer08situations}
+Kratzer, Angelika. 2008.
+\newblock Situations in natural languages semantics.
+\newblock In Edward~N. Zalta (ed.) \emph{The Stanford Encyclopedia of
+  Philosophy}. Stanford University: Metaphysics Research Lab, CSLI.
+\newblock
+  \urlprefix\url{http://plato.stanford.edu/entries/situations-semantics/}.
+
+\bibitem[{McCarthy(1996)}]{mccarthy96logicaicontext}
+McCarthy, John. 1996.
+\newblock A logical \textsc{AI} approach to context.
+\newblock \urlprefix\url{http://www-formal.stanford.edu/jmc/}.
+\newblock \textsc{U}npublished note, Stanford University.
+
+\bibitem[{Milne(2008)}]{milne:2008}
+Milne, James~S. 2008.
+\newblock Group theory.
+\newblock Lecture Notes, Univeristy of Michigan.
+
+\bibitem[{Partee et~al.(1990)Partee, {ter Meulen} \protect\BIBand{}
+  Wall}]{pmw:1990}
+Partee, Barbara, Alice {ter Meulen} \protect\BIBand{} Robert~E. Wall. 1990.
+\newblock \emph{Mathematical methods in linguistics}.
+\newblock Dordrecht: Kluwer Academic Publishers, 2nd edn.
+
+\bibitem[{Rizzi(1997)}]{rizzi97fine}
+Rizzi, Luigi. 1997.
+\newblock The fine structure of the left periphery.
+\newblock In Liliane Haegeman (ed.) \emph{Elements of grammar}, 281--338.
+  Dordrecht: Kluwer Publications.
+
+\bibitem[{Rosen(1995)}]{rosen:1995}
+Rosen, Joe. 1995.
+\newblock \emph{Symmetry in science: An introduction to the general theory}.
+\newblock New York: Springer-Verlag.
+
+\bibitem[{Simons(2007)}]{simons07obs}
+Simons, Mandy. 2007.
+\newblock Observations on embedding verbs, evidentiality, and presupposition.
+\newblock \emph{Lingua} 117(6): 1034--1056.
+
+\bibitem[{Speas(2004)}]{speas04evdparadigms}
+Speas, Margaret. 2004.
+\newblock Evidential paradigms, world variables and person agreement features.
+\newblock \emph{Italian Journal of Linguistics} 16(1): 104--135.
+
+\bibitem[{Speas(2007)}]{speas07evdfunctional}
+Speas, Margaret. 2007.
+\newblock Evidentials as generalized functional heads.
+\newblock \textsc{M}s., University of Massachusetts, Amherst.
+
+\bibitem[{Stabler(2004)}]{stabler04tpg}
+Stabler, Edward. 2004.
+\newblock Tupled pregroup grammars.
+\newblock
+  \urlprefix\url{http://www.linguistics.ucla.edu/people/stabler/epspub.htm}.
+\newblock \textsc{D}raft., University California Los Angeles.
+
+\bibitem[{Stenzel(2004)}]{stenzel04wanano}
+Stenzel, Kristine. 2004.
+\newblock \emph{A reference grammar of Wanano}.
+\newblock Ph.D. thesis, University of Colorado, Boulder.
+
+\bibitem[{{van Gelderen}(2001)}]{vangelderen01force}
+{van Gelderen}, Elly. 2001.
+\newblock The force of \textsc{F}orce\textsc{P}.
+\newblock \emph{Southwest Journal of Linguistics} 20(2): 107--120.
+
+\bibitem[{{van Gelderen}(2005)}]{vangelderen05cpsplit}
+{van Gelderen}, Elly. 2005.
+\newblock The \textsc{CP} and split \textsc{CP} cross-linguistically.
+\newblock \emph{WORD} 55(3): 369--403.
+
+\bibitem[{{von Fintel} \protect\BIBand{}
+  Gillies(2009)}]{vonfintelgillies09must}
+{von Fintel}, Kai \protect\BIBand{} Anthony~S. Gillies. 2009.
+\newblock \textsl{Must} {\l}dots stay {\l}dots strong!
+\newblock \urlprefix\url{http://mit.edu/fintel/fintel-gillies-2009-mss.pdf}.
+\newblock \textsc{M}s., draft version of July 17, 2009, MIT, and Rutgers
+  University.
+
+\bibitem[{{von Fintel} \protect\BIBand{} Matthewson(2008)}]{fintelmatt08unisem}
+{von Fintel}, Kai \protect\BIBand{} Lisa Matthewson. 2008.
+\newblock Universals in semantics.
+\newblock \emph{The Linguistic Review} 25(1-2): 139--201.
+
+\end{thebibliography}

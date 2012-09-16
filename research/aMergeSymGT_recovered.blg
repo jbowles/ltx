@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Arch Linux)
+The top-level auxiliary file: aMergeSymGT_recovered.aux
+The style file: sp.bst
+Database file #1: myrefs.bib
+Warning--I didn't find a database entry for "ppuriagereka:2008"
+Warning--I didn't find a database entry for "kayne:1994"
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+You've used 71 entries,
+            3166 wiz_defined-function locations,
+            1000 strings with 12481 characters,
+and the built_in function-call counts, 34921 in all, are:
+= -- 2815
+> -- 1018
+< -- 69
++ -- 390
+- -- 289
+* -- 1975
+:= -- 5619
+add.period$ -- 292
+call.type$ -- 71
+change.case$ -- 438
+chr.to.int$ -- 78
+cite$ -- 71
+duplicate$ -- 2915
+empty$ -- 3072
+format.name$ -- 419
+if$ -- 7055
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 622
+newline$ -- 366
+num.names$ -- 296
+pop$ -- 1301
+preamble$ -- 1
+purify$ -- 376
+quote$ -- 0
+skip$ -- 1046
+stack$ -- 0
+substring$ -- 1426
+swap$ -- 1186
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 537
+warning$ -- 0
+while$ -- 273
+width$ -- 0
+write$ -- 901
+(There were 2 warnings)

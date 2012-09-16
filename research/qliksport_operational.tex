@@ -1,0 +1,112 @@
+% Operational: $0,000 Foot Perspectives'
+% Author: Josh Bowles
+\documentclass[10pt]{article}
+\usepackage{tikz}
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{100pt}%
+%%%>
+\begin{comment}
+:Title: Operational: 40,000 Foot Perspective
+:Tags: Systems
+:Author: Josh Bowles
+\end{comment}
+\usetikzlibrary{positioning,decorations.pathreplacing,shapes}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage[hmargin=1.5cm,vmargin=1cm]{geometry}
+\usepackage{amsmath}
+\DeclareMathOperator{\p}{p}
+\newcommand*{\sys}{\text{sys}}
+\newcommand*{\testp}{\text{test}+}
+\begin{document}
+\begin{tikzpicture}[%
+  % common options for blocks:
+  block/.style = {draw, fill=blue!30, align=center, anchor=west,
+              minimum height=0.65cm, inner sep=0},
+  % common options for the circles:
+  ball/.style = {circle, draw, align=center, anchor=north, inner sep=0}]
+
+% text explaining how p{SQL} and p{NoSQL} behave as they
+% pass through the sieves
+\node[anchor=west,text width=12cm] (note1) at (-1,3) {\huge{Operational Sketch: 40,000 foot view.}};
+%Layers indicate areas of focus.\\ \sl{Time frame: 1 year fully operational}
+
+% 	API LAYER
+\node[inner sep=0,anchor=east,text width=3.3cm] (note1) at (1.2,-1.5) {
+   \textbf{API Layer}};
+
+% Circle for API
+\node[ball,text width=2.5cm,fill=gray!50] (all) at (6,0) {API\\ From world (twitter, facebook, ...)};
+
+%     PERSISTENCE LAYER
+\node[inner sep=0,anchor=east,text width=3.3cm] (note1) at (1.2,-4) {
+   \textbf{Persistence Layer}};
+
+% two circles showing split
+\node[ball,fill=gray!10,text width=2.3cm,anchor=base] (pcan) at (3.5,-6) {Batch Processing};
+\node[ball,fill=gray!10,text width=2.3cm,anchor=base] (pncan) at (8.5,-6)
+   {Transactional Processing};
+
+% arrows showing split from API to batch & SQL
+\draw[->,thick,draw=purple!80] (all.south) to [out=270,in=90] (pcan.north);
+\draw[->,thick,draw=purple!80] (all.south) to [out=270,in=90] (pncan.100);
+
+
+% transition split from API
+\node[anchor=north,text width=10cm,inner sep=.05cm,align=center,fill=white]
+  (why1) at (6,-3.7) {Persistence splits to transactional and batch};
+
+
+% draw the WEBSOCKET PUBLISHER
+\node[block,anchor=north,text width=9.0cm,fill=green!20] (tray1) at
+   (6,-8.8) {Web Socket Publisher (colored nodes are subscribers)};
+
+% Background Jobs
+%\node[anchor=north,text width=10cm,inner sep=.05cm,align=center,fill=white]
+ %(why1) at (6,-8.2) {Background Job Processing};
+
+%     PUB SUB LAYER
+\node[inner sep=0,anchor=east,text width=3.3cm] (note1) at (1.2,-9) {
+   \textbf{Pub-Sub Layer}};
+
+% text explaining Pub Sub
+% pass through the sieves
+\node[anchor=west,text width=8cm] (note1) at (-6,-10.6) {Web socket Publisher waits for socket subscribers. Colored nodes are subscribers. Overlapping similar colored nodes represent sockets with similar content.};
+
+%     DESIGN LAYER
+\node[inner sep=0,anchor=east,text width=3.3cm] (note1) at (1.2,-12) {
+   \textbf{Design Layer}};
+
+% arrows showing the circles passing through the sockets
+\draw[->,thick,draw=purple!80] (3.5,-7.3) -- (3.5,-8.6);
+\draw[->,thick,draw=purple!80] (8.5,-7.3) -- (8.5,-8.6);
+\draw[<->,thick,draw=black!100] (4.4,-7) -- (7.6,-7);
+
+% websocket nodes
+\node[ball,text width=1.2cm,fill=red!100] (can) at (7,-11.5) {A.1};
+\node[ball,text width=1.2cm,fill=red!50] (can2) at (8,-11.5) {A.2};
+\node[ball,text width=1.2cm,fill=yellow!50] (can3) at (9.9,-11.5) {B.1};
+\node[ball,text width=1.2cm,fill=yellow!20] (can4) at (10.9,-11.5) {B.2};
+\node[ball,text width=1.2cm,fill=yellow!100] (can5) at (11.9,-11.5) {B.3};
+\node[ball,text width=1.2cm,fill=blue!20] (can6) at (1.2,-11.5) {C.1};
+\node[ball,text width=1.2cm,fill=blue!100] (can7) at (2.2,-11.5) {C.2};
+\node[ball,text width=1.2cm,fill=blue!50] (can8) at (3.2,-11.5) {C.3};
+\node[ball,text width=1.2cm,fill=green!50] (can9) at (5,-11.5) {D.1};
+
+
+% arrows showing the output of the sieves formed the fraction
+\draw[->,thick,draw=red!100] (tray1.south) to [out=0,in=75] (can);
+\draw[->,thick,draw=red!50] (tray1.south) to [out=0,in=75] (can2);
+\draw[->,thick,draw=yellow!50] (tray1.south) to [out=0,in=75] (can3);
+\draw[->,thick,draw=yellow!20] (tray1.south) to [out=0,in=75] (can4);
+\draw[->,thick,draw=yellow!100] (tray1.south) to [out=0,in=75] (can5);
+\draw[->,thick,draw=blue!20] (tray1.south) to [out=0,in=75] (can6);
+\draw[->,thick,draw=blue!100] (tray1.south) to [out=0,in=75] (can7);
+\draw[->,thick,draw=blue!50] (tray1.south) to [out=0,in=75] (can8);
+\draw[->,thick,draw=green!50] (tray1.south) to [out=0,in=75] (can9);
+
+\end{tikzpicture}
+\end{document}

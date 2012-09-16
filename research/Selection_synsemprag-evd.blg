@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Arch Linux)
+The top-level auxiliary file: Selection_synsemprag-evd.aux
+The style file: sp.bst
+Database file #1: myrefs.bib
+Warning--I didn't find a database entry for "davispottsspeas07pragevd"
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+You've used 42 entries,
+            3166 wiz_defined-function locations,
+            877 strings with 10442 characters,
+and the built_in function-call counts, 20995 in all, are:
+= -- 1786
+> -- 583
+< -- 44
++ -- 226
+- -- 164
+* -- 1153
+:= -- 3374
+add.period$ -- 179
+call.type$ -- 42
+change.case$ -- 271
+chr.to.int$ -- 43
+cite$ -- 42
+duplicate$ -- 1743
+empty$ -- 1753
+format.name$ -- 239
+if$ -- 4249
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 342
+newline$ -- 225
+num.names$ -- 179
+pop$ -- 732
+preamble$ -- 1
+purify$ -- 219
+quote$ -- 0
+skip$ -- 658
+stack$ -- 0
+substring$ -- 933
+swap$ -- 729
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 354
+warning$ -- 0
+while$ -- 170
+width$ -- 0
+write$ -- 556
+(There was 1 warning)

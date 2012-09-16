@@ -1,0 +1,107 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Arch Linux) (format=latex 2010.3.23)  7 MAY 2010 22:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\input LI-Squib_CompMerge.tex
+(./LI-Squib_CompMerge.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/11/07 8.31a (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/linguex/linguex.sty
+(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-dist/tex/latex/gb4e/cgloss4e.sty
+\lineone=\box26
+\linetwo=\box27
+\linethree=\box28
+\wordone=\box29
+\wordtwo=\box30
+\wordthree=\box31
+\gline=\box32
+\glossglue=\skip45
+)
+\c@ExNo=\count88
+\c@SubExNo=\count89
+\c@SubSubExNo=\count90
+\c@FnExNo=\count91
+\c@ABC=\count92
+\currentlabel=\skip46
+\lessthanten=\skip47
+\lessthanhundred=\skip48
+\lessthanthousand=\skip49
+\@Exleftmargin=\skip50
+\Exlabelwidth=\skip51
+\Extopsep=\skip52
+\Exindent=\skip53
+\SubExleftmargin=\skip54
+\SubSubExleftmargin=\skip55
+\Exlabelsep=\skip56
+\alignSubExnegindent=\skip57
+\Exredux=\skip58
+\digitwidth=\skip59
+\mindigitwidth=\skip60
+\c@ExDepth=\count93
+\c@TempExDepth=\count94
+\CollectTokens=\toks14
+LaTeX Info: Redefining \b on input line 295.
+LaTeX Info: Redefining \c on input line 299.
+LaTeX Info: Redefining \d on input line 301.
+\c@tmpaEx=\count95
+)
+(/usr/share/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/share/texmf-dist/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+
+! LaTeX Error: File `pict2e.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.96     \catcode
+                 `\^=\svcatcode@up@ \relax^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 808 strings out of 493848
+ 9438 string characters out of 3154002
+ 57966 words of memory out of 3000000
+ 4148 multiletter control sequences out of 15000+200000
+ 3940 words of font info for 15 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 21i,0n,19p,187b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

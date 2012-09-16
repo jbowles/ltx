@@ -1,0 +1,106 @@
+%Template <LingArticle-linguex> for mathematical or philosophical papers.
+
+%Runs hyperref.style, linguex.style, and a bit of ams.xx stuff.
+\documentclass[11pt]{article}
+
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage[normalem]{ulem}
+% Allow \wh-word, \wh-phrases, \wh-movement, etc., to italicize the "wh"----Paul Hagstrom------
+\newcommand{\wh}{\emph{wh}}
+\newcommand{\Wh}{\emph{Wh}}
+% Some X-bar stuff from gb4e==================
+\newcommand{\oxbar}{{\sc X$^{\circ}$}}
+\newcommand{\ixbar}{{\sc X$'$}}
+\newcommand{\maxbar}{{\sc X$^{max}$}}
+%=============
+% From sp.cl and Paul Hagstrom***********************************************
+\usepackage{natbib}
+\bibpunct[: ]{(}{)}{;}{a}{}{,}
+\newcommand{\BIBand}{\&}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{doi:#1}}
+\setlength{\bibsep}{0pt}
+\setlength{\bibhang}{0.25in}
+\bibliographystyle{sp}%-----------------------sp.bst------------------
+\newcommand{\posscitet}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\possciteauthor}[1]{\citeauthor{#1}'s}
+\newcommand{\pgposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~#2)}
+\newcommand{\secposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~$\S$#2)}
+\newcommand{\pgcitealt}[2]{\citealt{#1}:~#2}
+\newcommand{\seccitealt}[2]{\citealt{#1}:~$\S$#2}
+\newcommand{\pgcitep}[2]{(\citealt{#1}:~#2)}
+\newcommand{\seccitep}[2]{(\citealt{#1}:~$\S$#2)}
+\newcommand{\pgcitet}[2]{\citeauthor{#1} (\citeyear{#1}:~#2)}
+\newcommand{\seccitet}[2]{\citeauthor{#1} (\citeyear{#1}:~$\S$#2)}
+%***********************************************************sp.bst****************
+\usepackage{amsmath,amsthm,amsfonts}
+\theoremstyle{plain}
+\newtheorem{thesis}{Thesis}
+\newtheorem{axiom}{Axiom}
+\newtheorem{claim}{Claim}
+\newtheorem{conditon}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\theoremstyle{definition}
+\newtheorem{phrase string}{Phrase String}
+\newtheorem{notation}{Notation}
+% Paper/text size option:
+%\paperwidth=8.5in \textwidth=5.5in \paperheight=11in \textheight=8in 
+% From sp.cl*****************************************
+\usepackage[usenames]{xcolor}
+\definecolor{jblinkcolor}{rgb}{.0,.2,.4}
+\usepackage[pdftex,colorlinks,breaklinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			plainpages=false,
+			bookmarks=false,
+			hypertexnames=false]{hyperref}
+			\urlstyle{rm}
+%****************************************************
+
+\begin{document} 
+\title{\texttt{linguex}}
+
+\author{Joshua Bowles\\
+University}
+\date{\today}
+\maketitle
+
+\section{Some actual examples}
+
+\ex. A governs B iff
+\a. no barrier intervenes between A and B
+\b. blah blah blah
+\a. blah blah blah blah
+\b. blah blah blah
+\b. blah blah blah
+\z.
+\d. a barrier is category with \maxbar{} projection
+
+
+\exi. *[CP Wen$_{i}$ [C$'$ liebt$_{j}$ [IP [NP seine$_{i}$ Mutter ]%
+[VP t$_{i}$ t$_{j}$ ]]]]
+
+\exi.\a. [[NP Fritz ][ snores ]]S
+\b. [[NP Fritz][snores]]S
+\c. [ [NP Fritz ][snores]]S
+\d. [[NP Fritz {][}snores ]]S
+\e. {[[+N,--V]} Fritz ][VP snores ] \hfill{} [NP Structure]
+\f. *[{}[+N,--V] Fritz ][VP snores ] \hfill [NP-Structure]
+
+
+\section{Examples}
+I have no examples yet for the \texttt{linguex} package. So far I prefer the {\tt gb4e} but am disappointed that it is not compatible with [colorlinks=true] in {{\sl hypereff}}.
+
+Soon\footnote{But define this term: soon to what?} I will do some examples from \posscitet{chomsky86knowledge} book and possibly find some \wh-examples. 
+
+If you think {\sc X$^{\circ}$} and {\sc X$'$} and {\sc X$^{max}$} are cool ways to show X-bar, then\ldots see these shortcuts I made for \ixbar , \maxbar and \oxbar.
+
+\newpage
+%\bibliographystyle{linquiry2}
+\bibliography{myrefs}
+
+\end{document}

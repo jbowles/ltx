@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{paperp}
+\usepackage{paperc}
+
+\begin{document}
+\title{Statement of Purpose}
+\author{Joshua Bowles}
+\date{\today}
+
+\maketitle
+
+\section{Research}
+My research focus is syntax, semantics, and pragmatics. Specifically, I want to focus on `context' in human language; this includes tense, modality, evidentials, illocutionary force, deixis, and the nature of adverbs; as well as other phenomena related to space and time in natural language (i.e., topics usually dealt with in situation and event semantics, dynamic/udpate semantics, epistemic logics, modal logics, tense logics, left-periphery cartography, functional categories, {\sl et cetera}). My interest in `context' derives from work I did on evidentiality in my master's thesis. %page 85{}
+Realistically, any detailed research focus I decide on for my dissertation would attempt to highlight, complement, or extend current faculty research. 
+
+I  am also dedicated to employing various methods of data collection and analysis as a means to testing hypothetical claims in theoretical linguistics. I am not committed to one theory or the other, but am committed to finding solutions to both real-world problems and theoretical problems. Currently, I have been acquiring proficiency in a number of programming languages and applications designed to deal with large corpora of language data. To that end I have found work in computational linguistics interesting and relevant to core linguistic work and I hope to continue to use and develop these new skills within the broader goals of linguistic inquiry. Interest in computational tools derives from my two-year hiatus from graduate school, in which I taught {\sl Science and Technical Writing} courses and started experimenting with computational tools for natural language processing.
+
+
+\section{Personal}
+\ldots depends on program   
+
+\section{Languages}
+My interest in computational techinques for dealing with large sets of language data drives my specific language interests, which can be split into two major categories: (i) languages with large web-presence (i.e., English, Mandarin, Spanish, German); (ii) endangered languages that both need and define standard methods and practices for digital archiving. The latter type of language, for me, is Tuyuca. My master's thesis included an appendix of Tuyuca sentences that I had collected from various academic sources; I am still committed to to collecting all the available Tuyuca sources into a digital format for preservation in a standard archive.
+ I do not yet know which of the langauges I will focus on for doctoral work.  
+\end{document}

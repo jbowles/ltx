@@ -1,0 +1,193 @@
+%Template <LingArticle-linguex> for mathematical or philosophical papers.
+
+%Runs hyperref.style, linguex.style, and a bit of ams.xx stuff.
+\documentclass[11pt,twosided]{article}
+
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage[normalem]{ulem}
+% Allow \wh-word, \wh-phrases, \wh-movement, etc., to italicize the "wh"----Paul Hagstrom------
+\newcommand{\wh}{\emph{wh}}
+\newcommand{\Wh}{\emph{Wh}}
+% Some X-bar stuff from gb4e==================
+\newcommand{\oxbar}{{\sc X$^{\circ}$}}
+\newcommand{\ixbar}{{\sc X$'$}}
+\newcommand{\maxbar}{{\sc X$^{max}$}}
+%=============
+% From sp.cl and Paul Hagstrom***********************************************
+\usepackage{natbib}
+\bibpunct[: ]{(}{)}{;}{a}{}{,}
+\newcommand{\BIBand}{\&}
+\setlength{\bibsep}{0pt}
+\setlength{\bibhang}{0.25in}
+\bibliographystyle{sp}%-----------------------sp.bst------------------
+\newcommand{\posscitet}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\possciteauthor}[1]{\citeauthor{#1}'s}
+\newcommand{\pgposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~#2)}
+\newcommand{\secposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~$\S$#2)}
+\newcommand{\pgcitealt}[2]{\citealt{#1}:~#2}
+\newcommand{\seccitealt}[2]{\citealt{#1}:~$\S$#2}
+\newcommand{\pgcitep}[2]{(\citealt{#1}:~#2)}
+\newcommand{\seccitep}[2]{(\citealt{#1}:~$\S$#2)}
+\newcommand{\pgcitet}[2]{\citeauthor{#1} (\citeyear{#1}:~#2)}
+\newcommand{\seccitet}[2]{\citeauthor{#1} (\citeyear{#1}:~$\S$#2)}
+%***********************************************************sp.bst****************
+\usepackage{amsmath,amsthm,amsfonts}
+\theoremstyle{plain}
+\newtheorem{thesis}{Thesis}
+\newtheorem{axiom}{Axiom}
+\newtheorem{claim}{Claim}
+\newtheorem{conditon}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\theoremstyle{definition}
+\newtheorem{phrase string}{Phrase String}
+\newtheorem{notation}{Notation}
+% Paper/text size option:
+%\paperwidth=8.5in \textwidth=5.5in \paperheight=11in \textheight=8in 
+% From sp.cl*****************************************
+\usepackage[usenames]{xcolor}
+\definecolor{jblinkcolor}{rgb}{.0,.2,.4}
+\usepackage[pdftex,colorlinks,breaklinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			plainpages=false,
+			bookmarks=false,
+			hypertexnames=false]{hyperref}
+			\urlstyle{rm}
+%****************************************************
+
+\begin{document} 
+\title{\texttt{Course History}}
+
+\author{Joshua Bowles}
+\maketitle
+
+
+
+\section{Undergraduate---selected}
+
+\begin{tabular}{|p{12cm}|}
+\hline
+\textbf{Honors Thesis Title:} \textsl{Dislocated poetics: Towards a neurobiological explanation of poetic language}\\
+\hline 
+\end{tabular}
+\newline
+\newline
+
+\noindent LINGUISTICS\footnote{My degree was a BA in English and Linguistics from Metropolitan State College of Denver. My research there was on language and consciousness, trying to apply functionalist linguistic theories and neuropsychology to a theory of literature.}
+\begin{itemize}
+\item Introduction to Language\\
+(Stephanie Robin Quizar)
+\item Semantics\\
+(Stephanie Robin Quizar)
+\item Language and Society\\
+(Stephanie Robin Quizar)
+\item Morphology and Syntax\\
+(Marina Gorlach)
+\item Language Acquisition\\
+(Catherine Curran)
+\item History of English\\
+(Elizabeth Holtze)
+\item Old English\\
+(Jefferey Taylor)
+\end{itemize}
+
+\noindent PHILOSOPHY
+\begin{itemize}
+\item Philosophy of Language\\
+(Drew Doxsee)
+\item Philosophy of Science\\
+(Antonio Chu)
+\item Epistemology\\
+(Antonio Chu)
+\end{itemize}
+
+\noindent LOGIC 
+\begin{itemize}
+\item Art of Critical Thinking (Logic)\\
+(Paul Saalbach)
+\item Symbolic Logic\\
+(Paul Saalbach)
+\item Symbolic Logic---audited\\
+(Paul Saalbach) 
+\end{itemize}
+
+\noindent BIOLOGY
+\begin{itemize}
+\item Biology I\\
+(Cynthia Chruch)
+\item Biology Lab\\
+(Cynthia Church)
+\end{itemize}
+
+\section{Graduate courses at University of Utah---MA}
+
+\begin{tabular}{|p{12cm}|} 
+\hline
+\textbf{Thesis Title:} \textsl{Agreement in Tuyuca}\\
+Committee: Lyle Campbell (Chair), Edward J. Rubin, Mauricio Mixco\\
+\hline
+\end{tabular}
+\newline
+\newline
+ 
+ 
+\noindent ACADEMIC YEAR 2008-2009\footnote {During my time at Utah I focused on typology and language documentation with Lyle Campbell. I eventually turned to theoretical syntax.}
+\begin{itemize}
+\item LING 6970 Thesis Research\\
+(Lyle Campbell; Fa08)
+\item LING 6991 Individual Research\\
+(Lyle Campbell; Fa08)
+\end{itemize}
+
+\noindent ACADEMIC YEAR 2007-2008
+\begin{itemize}
+\item LING 6050 Typology and Universals\\
+(Lyle Campbell; Spr08)
+\item LING 6080 Seminar: Morphology\\
+(Aniko Csirmaz; Spr08)
+\item LING 6200 Structure of Portuguese\\
+(Mauricio Mixco; Spr08)
+\item LING 6970 Thesis Research\\
+(Lyle Campbell; Spr08)
+\item LING 6012 Advanced Phonology\\
+(Rachel Hayes-Harb; Fa07)
+\item LING 6022 Advanced Syntax\\
+(Aniko Csirmaz; Fa07)
+\item LING 6080 Seminar: Language Documentation\\
+(Lyle Campbell; Fa07)
+\item LING 6070 Thesis Research\\
+(Lyle Campbell; Fa07)
+\end{itemize}
+
+
+ACADEMIC YEAR 2006-2007
+\begin{itemize}
+\item LING 6011 Intermediate Phonology\\
+(Randall Gess; Spr07)
+\item LING 6021 Intermediate Syntax\\
+(Edward J. Rubin; Spr07)
+\item LING 6130 Historical Linguistics\\
+(Lyle Campbell; Spr07)
+\item LING 6010 Phonology\\
+(Randall Eggert; Fa06)
+\item LING 6020 American Indian Languages\\
+(Lyle Campbell; Fa06)
+\item LING 6030 Semantics\\
+(Patricia Hannah; Fa06)
+\end{itemize}
+
+
+
+
+
+
+
+
+\end{document}
+

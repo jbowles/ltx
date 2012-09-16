@@ -1,0 +1,59 @@
+% Cover letter using letter.sty
+\documentclass{letter} % Uses 10pt
+%Use \documentstyle[newcent]{letter} for New Century Schoolbook postscript font
+% the following commands control the margins:
+\topmargin=-1in    % Make letterhead start about 1 inch from top of page 
+\textheight=9in  % text height can be bigger for a longer letter
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6in   % textwidth of 6.5in leaves 1 inch for right margin
+
+\begin{document}
+
+\signature{Joshua W. Bowles}           % name for signature 
+\longindentation=0pt                       % needed to get closing flush left
+\let\raggedleft\raggedright                % needed to get date flush left
+ 
+ 
+\begin{letter}{Job Search Committee \\
+Metropolitan State College of Denver, \\
+Department of English}
+
+
+\begin{flushleft}
+{\large\bf Joshua W. Bowles}
+\end{flushleft}
+\medskip\hrule height 1pt
+\begin{flushright}
+\hfill (801) 420-0884\\ 
+\hfill \texttt{bowlesling@gmail.com}\\ 
+\end{flushright} 
+\vfill % forces letterhead to top of page
+
+ 
+\opening{Dear Job Search Committee,} 
+ 
+\noindent My interest in the Visiting Professorship at MSCD is twofold: (i) my committment to academic excellence, and (ii) my personal committment to advanced urban education. 
+
+\noindent I currently teach second semester composition at an institution very similar in scope to MSCD: small class sizes, dynamic student-teacher interaction, and a focus on research, community, and citizenry. I am also aware of the tenuous position of having to defend scholarly inquiry against the expectation of immediate real-world applicability. Such experiences have shaped my teaching philosophy and guided my day-to-day choices about course content. I am committed to helping students realize that academic discourse is relevant to their daily lives.  
+
+\noindent I am also fully committed to acquiring my PhD in linguistics and am currently applying to the University of Colorado Linguistics Department. I specialize in semantics, pragmatics, and computational linguistics, with a previous MA specialization from the University of Utah in native American Indian languages, morphosyntax, language documentation, and historical linguistics.
+
+\noindent Given my current research, I am interested in introducing students to computational techniques in linguistics insofar as the ability to deal with large text corpora is imperative to an understanding of the future of the field (e.g.; such methods have been used in literature to determine authenticity of poems, or to count rare word usage in the works of James Joyce, or to quickly compare occurrences of {\sl woman}, {\sl man}, and {\sl snake} in the book of Genesis). 
+
+\noindent Not only is access to technology correlated with success in the job market, but even a cursory understanding of linguistic technologies --- such as software applications, programming languages, and formal models of representation --- has the advantage of giving students a practical perspective on modern genres of discourse (e.g., what empirical methods are used to count personal pronouns in political speeches and how do we interpret such methods?). This presents students with a concrete base in which to analyze the nature of language in the context of a ``tech-saavy'' culture; it also shows them the multitude of computer-based methodologies for analyzing large corpora.
+
+
+\noindent As an MSCD alumn I understand the dynamic of the school, the location, and the community. I  realize that students need an education that will benefit both their career advancement and their personal success. For these reasons, I am dedicated to the study and teaching of linguistics and language in a way that yields insight to puzzles about the human mind and human nature, as well as developing practical linguistic tools for the mastery of technical applications in real-world research and employment.  
+
+\closing{Sincerely,} 
+ 
+\end{letter}
+ 
+
+\end{document}
+
+
+
+
+
+

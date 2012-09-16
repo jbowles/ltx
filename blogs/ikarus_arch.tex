@@ -1,0 +1,12 @@
+\documentclass{wpblogentry}
+
+\title{Installing Ikarus in ArchLinux}
+\tags{Linux, Ikarus}
+\category{Computation}
+
+\begin{document}
+Installing the R$^6$RS implemention of Scheme, called Ikarus, is not a difficult thing to do in ArchLinux. If you follow the directions on the Church wiki, or in the Ikarus user's guide, for installation you are almost all the way there. The one extra step you must do is to move (or copy) the \verb=ikarus= executable from the Ikarus \verb=src= directory to a place in your bash \$PATH. You could update your PATH variables to read into the Ikarus \verb=src= directory, (which I have not tried but `should' work), but it seems much easier to simply to move \verb=mv= or copy \verb=cp= the executable to a \$PATH you already have set up... in my case it is \verb=/bin=. I hope this is all it takes for Ikarus to run well. I have not run any of test scripts but did a couple basic Scheme commands to see that it would work (i.e., \verb=(+ 1 1)=); everythign seems fine. 
+
+The benefit of installing the latest version of of Ikarus, preferably through \verb=bzr=, is that for anyone who has tried Geoff Teal's PKGBUILD install of Ikarus through Arch's AUR, you will notice that it will only install an older version of Ikarus that has to installed on 32 bit system, which means you need to to build it in a 32 bit version (which you can do in Arch, see the wiki), or you some extra package(s) support (which I don't what the are). This seems like a lot of trouble to go through when you can simply get the package through \verb=bzr=, or even download the lastest \verb=ikarus-scheme-r*.tgz=, and build it \emph{as per} the directions on the Church wiki or the Ikarus user's guide... AND THEN copy or move the \verb=ikarus= binary from the \verb=src= directory to a directory in your bash path.
+
+\end{document}

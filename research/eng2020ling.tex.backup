@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage{articlep, articlec}
+
+\begin{document}
+%\part
+
+\title{Syntax, Semantics, Pragmatics}
+\author{Joshua Bowles}
+\maketitle
+
+\section{Syntax}
+
+\section{Semantics}
+
+\section{Pragmatics}
+\begin{quote}
+``It's not what you said, it's {\sl how} you said it.''
+\end{quote}
+An interview with Dan Sperber at \href{http://www.philosophytalk.org/pastShows/LanguageInAction.html}{Philoso?hy Talk}, from 08/22/2006; the interview begins at time 8:50; before that is an explanation and small piece on Mae West; also a quick look at rhetoric: time 50:00. 
+
+\begin{center}
+Pragmatics is\ldots \\
+{\bf Lingustic study of how context influence or determines meaning}
+\end{center}
+
+Pragmatics covers a lot of ground: from conversational implicature, conventional implicature, presuppostion, ambiguity, anaphora (how language makes reference), evidentiality, fallacies, and new/given information. Generally, phenomena dealing with time, space, context, and intention in language and communication are relevent to the applied study of pragmatics.
+
+Areas of application: computer programming, artificial intelligence, philosophy, sociology, and linguistics.
+
+\subsection{Examples}
+All examples are context-dependent. 
+
+\subsubsection{Idioms}
+\pex \a
+\a
+\xe
+
+\subsubsection{Reference (deixis, indexicality, anaphor, cataphora}
+\pex \a {\bf I} am here right now. $= indexical$
+\a {\bf I} said over {\bf there} {\bf that} was an amazing story {\bf then}. $= indexical/person, place, discourse, time $
+\a He was the one who took a picture of her but only after they dated. $= anaphora$
+\a She is the one, yes, Susan. $= cataphora$
+\xe
+
+\subsubsection{Ambiguity}
+\pex \a You are a scoundrel. 
+\a You are so smart.
+\xe
+
+\subsubsection{Implicature (conversational or conventional)}
+{\bf Conversational}
+\pex \a Can you pass the salt?
+\a $=$ Pass the salt to me.
+\xe
+
+\noindent {\bf Conventional}
+\pex \a Honestly, has Ed fled?
+\a $neq$ Provide me with an honest answer to {\sl Has Ed fled?}.
+\xe
+
+\pex \a {\sl Even} Lenny Bruce passed the test.
+\a $\neq$ Lenny Bruce was among the least likely to pass the test.
+\xe
+
+\pex \a Sarah went to the store but bought nothing.
+\a $\neq$ Sarah went to the store to buy something.
+\xe
+
+Conventional Implicatures are usually associated with presuppositions in that an implicature requires some presupposed content.
+
+\subsubsection{Presupposition}
+We can simply refer to presupposition as `assuming' or `implying.' It happens in the case where we take for granted the {\sl assumed truth} of the presumed content as a pre-condition for the utterance to be felicitous.
+
+\pex \a John saw the man with two heads.
+\a {\bf Presupposed Content:} There exists a man with two heads.
+\xe
+
+\pex \a I don't know about politician X, he's a Muslim you know.
+\a Oh no, he is not, he's a great guy with family values and everything!
+\a {\bf Presupposed Content:} Muslim men are not ``geat guys''and have no family values.
+\xe
+
+\subsubsection{Fallacies}
+\pex \a Senator X, have you stopped taking bribes yet?
+\a No, yes, well uhh \ldots.
+\a {\bf Presupposed Content:} Senator X has taken bribes.
+\xe
+
+\pex \a I have never gotten a speeding ticket, therefore I will never get one.
+\a {\bf Presupposed Content:} The future is the same as the past.
+\xe
+
+
+\subsubsection{Information: New and Given}
+Which of these do you think is appropriate? Why?
+\pex \a The research done by (Potts 2007) was influential. It has been used extensively.
+\a The research done by Potts (2007) was influential. Potts (2007) has been used extensively.
+\a It was done by Potts (2007) and was influential. It has been used extensively.
+
+\section{Interface Conditions}
+\subsection{Syntax-Semantics}
+Ambiguity \ldots
+
+\end{document}

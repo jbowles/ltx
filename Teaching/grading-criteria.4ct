@@ -1,0 +1,61 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Contents}}{3}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-2}{Introduction}}{4}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-30002}{QQ2-1-3}{The basic explanation}}{4}\relax 
+\doTocEntry\tocsubsection{2.1}{\csname a:TocLink\endcsname{1}{x1-40002.1}{QQ2-1-4}{Structure}}{4}\relax 
+\doTocEntry\tocsubsection{2.2}{\csname a:TocLink\endcsname{1}{x1-50002.2}{QQ2-1-5}{Analysis}}{5}\relax 
+\doTocEntry\tocsubsection{2.3}{\csname a:TocLink\endcsname{1}{x1-60002.3}{QQ2-1-6}{Style}}{5}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-70002.3}{QQ2-1-7}{This}}{5}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-80002.3}{QQ2-1-8}{This}}{5}\relax 
+\doTocEntry\tocsubsection{2.4}{\csname a:TocLink\endcsname{1}{x1-90002.4}{QQ2-1-9}{Originality}}{6}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-100003}{QQ2-1-10}{Scalar Criteria}}{6}\relax 
+\doTocEntry\tocsubsection{3.1}{\csname a:TocLink\endcsname{1}{x1-110003.1}{QQ2-1-11}{}}{6}\relax 
+\doTocEntry\tocsubsubsection{3.1.1}{\csname a:TocLink\endcsname{1}{x1-120003.1.1}{QQ2-1-12}{The Superior Paper (A)}}{6}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-130003.1.1}{QQ2-1-13}{Structure:}}{6}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-140003.1.1}{QQ2-1-14}{Analysis:}}{6}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-150003.1.1}{QQ2-1-15}{Style:}}{6}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-160003.1.1}{QQ2-1-16}{Originality:}}{6}\relax 
+\doTocEntry\tocsubsubsection{3.1.2}{\csname a:TocLink\endcsname{1}{x1-170003.1.2}{QQ2-1-17}{The Very Good Paper (A/B)}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-180003.1.2}{QQ2-1-18}{Structure:}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-190003.1.2}{QQ2-1-19}{Analysis:}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-200003.1.2}{QQ2-1-20}{Style:}}{7}\relax 
+\doTocEntry\tocsubsubsection{3.1.3}{\csname a:TocLink\endcsname{1}{x1-210003.1.3}{QQ2-1-21}{The Good Paper (B)}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-220003.1.3}{QQ2-1-22}{Structure:}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-230003.1.3}{QQ2-1-23}{Analysis:}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-240003.1.3}{QQ2-1-24}{Style:}}{7}\relax 
+\doTocEntry\tocsubsubsection{3.1.4}{\csname a:TocLink\endcsname{1}{x1-250003.1.4}{QQ2-1-25}{The Borderline Paper (B/C)}}{7}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-260003.1.4}{QQ2-1-26}{Structure:}}{8}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-270003.1.4}{QQ2-1-27}{Analysis:}}{8}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-280003.1.4}{QQ2-1-28}{Style:}}{8}\relax 
+\doTocEntry\tocsubsubsection{3.1.5}{\csname a:TocLink\endcsname{1}{x1-290003.1.5}{QQ2-1-29}{The ``Needs Help'' Paper (C)}}{8}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-300003.1.5}{QQ2-1-30}{Structure:}}{8}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-310003.1.5}{QQ2-1-31}{Analysis:}}{8}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-320003.1.5}{QQ2-1-32}{Style:}}{8}\relax 
+\doTocEntry\tocsubsubsection{3.1.6}{\csname a:TocLink\endcsname{1}{x1-330003.1.6}{QQ2-1-33}{The Bad Paper (D or F)}}{8}\relax 
+\doTocEntry\tocsubsection{3.2}{\csname a:TocLink\endcsname{1}{x1-340003.2}{QQ2-1-34}{}}{9}\relax 
+\doTocEntry\tocsubsubsection{3.2.1}{\csname a:TocLink\endcsname{1}{x1-350003.2.1}{QQ2-1-35}{The Unsatisfactory Paper.}}{9}\relax 
+\doTocEntry\tocsubsubsection{3.2.2}{\csname a:TocLink\endcsname{1}{x1-360003.2.2}{QQ2-1-36}{The C Paper.}}{9}\relax 
+\doTocEntry\tocsubsubsection{3.2.3}{\csname a:TocLink\endcsname{1}{x1-370003.2.3}{QQ2-1-37}{The B Paper.}}{9}\relax 
+\doTocEntry\tocsubsubsection{3.2.4}{\csname a:TocLink\endcsname{1}{x1-380003.2.4}{QQ2-1-38}{The A Paper.}}{10}\relax 
+\doTocEntry\tocsubsection{3.3}{\csname a:TocLink\endcsname{1}{x1-390003.3}{QQ2-1-39}{}}{10}\relax 
+\doTocEntry\tocsubsubsection{3.3.1}{\csname a:TocLink\endcsname{1}{x1-400003.3.1}{QQ2-1-40}{An A paper is excellent in nearly all respects:}}{10}\relax 
+\doTocEntry\tocsubsubsection{3.3.2}{\csname a:TocLink\endcsname{1}{x1-410003.3.2}{QQ2-1-41}{B paper is solid in most respects:}}{11}\relax 
+\doTocEntry\tocsubsubsection{3.3.3}{\csname a:TocLink\endcsname{1}{x1-420003.3.3}{QQ2-1-42}{C paper is an adequate response to the topic:}}{11}\relax 
+\doTocEntry\tocsubsubsection{3.3.4}{\csname a:TocLink\endcsname{1}{x1-430003.3.4}{QQ2-1-43}{D paper does not adequately respond to the assignment:}}{12}\relax 
+\doTocEntry\tocsubsubsection{3.3.5}{\csname a:TocLink\endcsname{1}{x1-440003.3.5}{QQ2-1-44}{F or Failing papers}}{12}\relax 
+\doTocEntry\tocsubsection{3.4}{\csname a:TocLink\endcsname{1}{x1-450003.4}{QQ2-1-45}{}}{12}\relax 
+\doTocEntry\tocsubsubsection{3.4.1}{\csname a:TocLink\endcsname{1}{x1-460003.4.1}{QQ2-1-46}{A}}{12}\relax 
+\doTocEntry\tocsubsubsection{3.4.2}{\csname a:TocLink\endcsname{1}{x1-470003.4.2}{QQ2-1-47}{B}}{13}\relax 
+\doTocEntry\tocsubsubsection{3.4.3}{\csname a:TocLink\endcsname{1}{x1-480003.4.3}{QQ2-1-48}{C}}{13}\relax 
+\doTocEntry\tocsubsubsection{3.4.4}{\csname a:TocLink\endcsname{1}{x1-490003.4.4}{QQ2-1-49}{D}}{14}\relax 
+\doTocEntry\tocsubsubsection{3.4.5}{\csname a:TocLink\endcsname{1}{x1-500003.4.5}{QQ2-1-50}{F}}{14}\relax 
+\doTocEntry\tocsubsection{3.5}{\csname a:TocLink\endcsname{1}{x1-510003.5}{QQ2-1-51}{}}{14}\relax 
+\doTocEntry\tocsubsubsection{3.5.1}{\csname a:TocLink\endcsname{1}{x1-520003.5.1}{QQ2-1-52}{A/A–}}{14}\relax 
+\doTocEntry\tocsubsubsection{3.5.2}{\csname a:TocLink\endcsname{1}{x1-530003.5.2}{QQ2-1-53}{B/B+}}{15}\relax 
+\doTocEntry\tocsubsubsection{3.5.3}{\csname a:TocLink\endcsname{1}{x1-540003.5.3}{QQ2-1-54}{B–}}{15}\relax 
+\doTocEntry\tocsubsubsection{3.5.4}{\csname a:TocLink\endcsname{1}{x1-550003.5.4}{QQ2-1-55}{C/C+}}{15}\relax 
+\doTocEntry\tocsubsubsection{3.5.5}{\csname a:TocLink\endcsname{1}{x1-560003.5.5}{QQ2-1-56}{D+/C–}}{15}\relax 
+\doTocEntry\tocsubsubsection{3.5.6}{\csname a:TocLink\endcsname{1}{x1-570003.5.6}{QQ2-1-57}{D}}{15}\relax 
+\doTocEntry\tocsubsubsection{3.5.7}{\csname a:TocLink\endcsname{1}{x1-580003.5.7}{QQ2-1-58}{E}}{15}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-590004}{QQ2-1-59}{Other Sources}}{15}\relax 
+\par 

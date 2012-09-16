@@ -1,0 +1,347 @@
+%% Based on a TeXnicCenter-Template by Gyorgy SZEIDL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------
+%
+\documentclass[11pt]{book}%
+%
+%----------------------------------------------------------
+% This is a sample document for the AMS LaTeX Book or Monograph Class
+% Class options
+%       --  Body text point size:
+%                        8pt, 9pt, 10pt (default), 11pt, 12pt
+%       --  Paper size:  letterpaper (8.5x11 inch, default), a4paper
+%       --  Orientation: portrait(default), landscape
+%       --  Print side:  oneside, twoside (default)
+%       --  Quality:     final(default), draft
+%       --  Title page:  titlepage, notitlepage
+%       --  Start chapter on left:
+%                        openright (no, default), openany
+%       --  Columns:     onecolumn (default), twocolumn
+%       --  Omit extra math features:
+%                        nomath
+%       --  AMS fonts (noamasfonts available):
+%                        noamsfonts
+%       --  PSAMSfonts (fewer AMSfontsizes)
+%                        psamsfonts
+%       --  Equation numbering (equation numbers on the left is the default)
+%                        leqno (default), reqno
+%       --  Equation centering (equations centered is the default)
+%                        centeredtags (default}, tbtags (top, bottom)
+%       --  Displayed equations (centered is the default)
+%                        fleqn (flush left)
+% For instance the command
+%          \documentclass[a4paper,12p,reqno]{amsbook}
+% ensures that the paper size is a4, fonts are typeset at the size 12p
+% and the equation numbers are on the right side.
+%
+\usepackage{fancyhdr}
+\lhead{\scriptsize Joshua Bowles} % force lhead all the way left
+\rhead{\scriptsize Page \thepage}  % put page number at right
+\chead{\scshape \scriptsize \ttfamily Last updated: \today}
+\cfoot{} % the footer is empty
+\pagestyle{fancy}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{natbib,graphicx,times,qtree,latexsym,cgloss4e}
+\usepackage{makeidx}
+\usepackage{graphicx,wrapfig}
+\usepackage{linguex}
+%--------------------------------------------
+\newtheorem{theorem}{Theorem}
+\theoremstyle{plain}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{conclusion}{Conclusion}
+\newtheorem{condition}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{criterion}{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}{Solution}
+\newtheorem{summary}{Summary}
+\numberwithin{equation}{section}
+
+\theoremstyle{definition}
+\newtheorem{phrase string}{Phrase String}
+\newtheorem{notation}{Notation}
+
+
+\usepackage[usenames]{xcolor}
+\definecolor{jblinkcolor}{rgb}{.0,.2,.4}
+\usepackage[bookmarksdepth=3,colorlinks,breaklinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			plainpages=false,
+			bookmarks=false]{hyperref}
+			\urlstyle{rm}
+		
+\makeindex
+%-----------------------------------------BEGIN DOCUMENT---------------------------------
+\begin{document}
+
+\frontmatter 
+\title{\Huge Goethe's Leaf, Computing Galaxies,and the Human Mind: An Exploration of Modern Linguistic Theory}
+\author{\includegraphics[width=0.9\textwidth]{plantsymm}\\ \LARGE Joshua Bowles\\ \date{}}
+
+\maketitle
+   
+\thanks{\begin{center}{To my wife---for hours of patience and endless support. \textsc{Maya!}\\
+Thank you also to Jade May Bowles for use of the beautiful pictures (most photos used here were taken by her).}\end{center}}
+   
+   \begin{figure}[!h]
+   \begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=1\textwidth]{magenta}
+        \caption{Magenta Flower \  \scriptsize Courtesy Jade May Bowles}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+    \end{figure}     
+        
+
+
+\tableofcontents
+
+
+
+\chapter*{Preface}
+
+\begin{quote}
+Before I say anything let me apologize to all linguists of every theoretical persuasion everywhere. I can never do justice to the richness and subtlety of your research. I know at the outset that I have ignored certain persons---this is not out of lack of interest but lack of knowledge. To those linguists who are mentioned in the following pages, I owe an even greater apology: I have condensed your life's work into a few pages of prose. While this is unforgivable, I hope that you are not offended in light the goal of this book---to present the field of linguistics as one of the most vital areas of academic work to the general reader. For this latter intention I do not apologize. A general reader of the almost unthinkable diversity of linguistic theory is, I feel, long overdue. Nonetheless, I apologize for superficial generalizations, omission of crucial details, etc., etc. 
+\end{quote}
+  
+This book is an exploration of fundamentally different theories of grammar. Overall, I do not go into great detail about the specific datum of such theories, opting instead to paint with a broad brush. You will meet the researchers, scientists, and thinkers who compose the field of linguistics, and you will see that they are a very diverse group of people with different goals and backgrounds. Because of the general scope of such a work, many practitioners of the various theories may feel that I have only superficially covered their interests. This is the drawback of a broad exploration and I accept these consequences in return for the special view. It is the scientist's job to deal in details, but for the most part these details cannot be appreciated unless one has the appropriate vision of the larger picture. Just as the painter labors over every stroke and spot of color, the appreciation of such detail comes only in the collected whole. 
+
+There are numerous scientific endeavors that have come to be admired by people who do not practice them. This pop-culture admiration comes not from an appreciation for details, but an appreciation for the scope, magnitude, and daring of the endeavor itself. Fields such as mathematics, physics, and literature are age-old classics. Chemistry, biology, and computer science are new additions. One gets a sense that modern culture feels a certain respect and awe for what chemistry or literature have given us; and what they may potentially offer. The respect and awe, I guess, come from a collective innocence of how exactly the chemist or poet brings their results to fruition. Nonetheless, a general sense of these of endeavors---more than likely harvested from a remembrance of High School or University classes and supported by popular media---promotes an appreciation of them. I hope that by the end of this book you will have gained a general appreciation for what the linguist does.  
+
+In this book you will find a discussion of language death and the attempts to document endangered languages. I will introduce the main tenets of the Functionalist research program, which views language as emerging from, and being directed by, the communication needs of humans and human groups. Closely related to the Functionalist project is the area of Typology---the study of similarity and difference in the world's various languages. Along the way I will introduce the Minimalist Program---currently the dominant theoretical school of thought---and its focus on the idealized concept of ``perfection'' as a guiding tool to future research. I will also introduce the other dominant school of thought, Optimality Theory. This particular theory of grammar views language as arising from competing constraints on conditions for well-formed, ``grammatical,'' units. 
+
+Underlying discussion of the various research programs and theories in linguistics will be some issues close to my heart. These include mathematical logic, the study of biology and nature, concepts associated with ``symmetry of form'' in nature, computability theory, and even a little about fractal geometry and complexity theory. It may seem odd that a linguist would be interested in such things. It may even seem unrealistic that one person could study so many different and complicated sciences without resorting to superficial and overly simplistic generalizations. But with the appropriate focus one can find what is useful for an emerging science of language. I hope to show that one does not need to study the whole of science in order to find useful tools in cross-disciplinary research. Think of a threaded sewing needle: once one has decided on a particular thread of interest, the needle can weave its way through various issues in order to tie together what once appeared to be disparate phenomena. As long as that thread of interest is woven together by various strands that are consistently related it will be strong enough to hold disparate pieces together. More concretely: by showing that there exists a reasonable assumption that natural language is a product of the natural world, then certain types of patterns found in nature can be compared against human language. The assumption of human language being part of the natural world, which can be weakened to the point of non-controversy (i.e., to a fact), practically forces us to accept that there is a high probability that some kind of non-trivial symmetry is encoded into the structure of whatever system allows us to have language in the first place. Given this conclusion, it should not be surprising to speculate that an alien race whose biology happens to be very different from ours might have a much different system of ``language.'' Contrarily, a race of aliens whose biology was similar to ours could very well speak a ``natural'' language as we know it. In this latter case, it would only be a mater of learning the alien language, just like learning any human language such as Czech, Japanese, or Xinka.
+
+I hope to convince you, if you need convincing, that the human language capacity is worth studying in a scientific way. Painting with a broad scope, it does not matter if we consider the science of language a ``social,'' ``formal,'' or ``hard'' science. The mystery of human language is complicated and could benefit from a ``united front'' of scientific approaches. What does matter is that we recognize that human language capacity is a unique and interesting phenomena within the domain of humans and nature. Of course, internal to research on language the question of using social science, formal science, or hard science is a very important question. It will determine, in some cases, the assumptions you must make about the fundamental nature of human language. In other respects, the decision of which domain of science you study language in will clearly delimit certain options you have available in terms of the kinds of evidence allowed---and what importance such evidence will in your theory. It will also effect the kind so methods and testing you can do, dependent on what goals have been set for your investigation. These matters are important when it comes to the details. But this is not a book that will dive into many detailed studies of language or Language---it cannot. Instead, I am more concerned with painting a broad picture of the field of linguistics so that we can get a picture of how diverse this field has become. I hope to impart to you an appreciation for the complexity and diversity of the field of linguistics, and perhaps, a respect for those who dedicate their lives to it. Nonetheless, there is a lot I will be leaving out and this, while regrettable, is also inevitable.\\
+
+\begin{tabular}{|p{5cm}|}
+\hline
+Joshua Bowles\\
+\today\\
+Utah Valley University\\
+\hline
+\end{tabular}
+ 
+\mainmatter
+
+%--------------------------------BEGIN INTRODUCTION---------------------------------------
+\chapter[Introduction]{Introduction: What is Language?}
+    \begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=0.7\textwidth]{greenflower}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+Before asking the question ``What is Language'' we need to make a distinction between `language' (with a lowercase `l') and `Language'\index{Language} (with a capital `L'). Let us agree, as is common in the field of linguistics, that the term `language' refers to any one of the actual human languages spoken on this planet. It may be a dead language like Latin, or a world language like Spanish or English. It can also refer to any signed language like American Sign Language. In general, the term `language' may refer to any language that has been or will be spoken (or signed) by humans; this includes potential languages of the future, for example English in 300 hundred years. A word of caution though, since nobody knows what English (or Spanish, Chinese, Japanese, etc.\ldots) will look like in 300 hundred years---or if the particular language will even be used---linguists don't typically consider potential, probable, or possible languages. While in theory the term refers to any human language, in practice it is restricted to the ones we know about for sure. Another note of caution, the created languages like Klingon, Esperanto, Basic English, and the Tolkien languages\footnote{Languages created by the Oxford linguist and fantasy author J. R. R. Tolkien for his series of popular books.} do not count as \textsl{natural} human languages. In other words, they are not a product of natural forces that were then shaped further by social, cultural, and historical forces. These latter languages were constructed consciously, and therefore, are only a product of social, cultural, and historical forces---but not by natural means.
+
+By contrast, the term `Language' refers to the unique human capacity. Depending on theoretical persuasion, this unique capacity will be explained in different ways. But no linguist---at least generally---will disagree with the notion that humans have a human capacity to learn, acquire, or develop a native language. Furthermore, most linguists agree that little to no instruction is actually required for a child to develop their native tongue. Of course, reinforcement strategies by parents, early reading activities, and early grammar education enhance the child's capacity---but these do not \textsl{cause} a child to learn the language. 
+
+In regards to the uniqueness of this human capacity, there are no examples of any kind of non-human animal \textsl{naturally}\footnote{What is meant by the term ``naturally'' is that little to no instruction is given within a critical period. In other words, within a very short amount of time the basic grammar and sound system is learned. If animals could naturally acquire human languages, then we would expect that spending a sufficient amount of time immersed in a human speaking community would result in fluency. Of course, everyone has pets who have learned certain commands. But this is not learning the language. Flip this example on its head: just because humans have the ability to distinguish an angry and friendly bark from a dog, does not mean we talk `dog'. Or more appropriately, just because we can tell the difference between the smell of one dog over another, does not mean we have fluency in the world of dog scent.} acquiring a language like Spanish or Mayan. With appropriate training, as everyone knows, a parrot can repeat human words, but no parrot has ever just simply acquired Spanish on its own. Or, as shown by the children's cartoon \textsl{Martha Speaks}, which involves a dog who eats alphabet soup and is miraculously able to converse in English, no animal has ever just started talking after spending sufficient time around human speakers. Some scientists will argue that the capacity for animals to communicate has been grossly underestimated by us humans---and I agree---but it seems pretty clear after about 40 years of study that animals do not speak human languages. Even under all kinds of training and learning techniques, animals simply will not learn human languages. As far as the parrot goes, most linguists agree that the parrot, because of its unique physiology, obviously has the capacity to reproduce meaningful human sounds in sequences that sound like words or even sentences. But parrots don't actually ``know'' English---not like a two year old child knows English. Despite whatever difference of opinion people may have about human and animal communication, the fact remains. Animals do not \textsl{naturally} acquire human languages in the same way humans do. Simply put, if you speak German to a human child for a couple years, that child will start to talk back in German. If you do the same thing to a gorilla, chimpanzee, dolphin, whale, mouse, or kangaroo you will not get the same result. 
+
+Throughout the rest of the book I will keep the terminology established here. That is, a distinction exists between `language' and `Language.'  
+
+\section{What \textsl{is} Language?}
+The question \textsc{What is Language?}\index{Language} has a long history; at least 2,000 years, but one can speculate that it goes back much further. Throughout most of this history there have been two conflicting opinions that can be summarized simply by the contrasts in Table \ref{contrasts}.
+
+\begin{table}[!h]
+\caption{Simple Explanatory Contrasts for Language}\label{contrasts}
+\begin{center}
+\begin{tabular}{|r||l|}
+\hline
+\textsc{Left}&\textsc{Right}\\
+\hline
+\hline
+Spirit&Bestial\\
+Immaterial&Material\\
+Designed by Nature&Designed by Society\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+The \textsc{left} side of the contrast includes explanations such as
+\ex. Spirit, Immaterial, and Natural Explanations\label{explnatural}
+\a. Language is a product of God. 
+\b. Language is an ephemeral property of the mind. 
+\c. Language is some kind of system that is \textsl{supervened} onto the materiality of the human brain.
+\d. Language somehow arose from the general physical forces that shape all of nature.\label{explnatural.d}
+ 
+The \textsc{right} of the contrast includes explanations such as 
+\ex. Bestial, Material, and Social Explanations\label{explfunction}
+\a. Language is a product of earthly (and sinful, perhaps) forces which try in vain to express the perfection of God. 
+\b. Language is the product of physical mechanisms that express thought. 
+\c. Language is some kind of system that emerges from the complexity of the brain and body; i.e., the \textsl{embodied brain}.\label{explfunction.c}
+\d. Language is an evolutionary \index{evolutionary} adaptation that arose from some kind of communicative need in social settings.\label{explfunction.d} 
+
+I want to highlight here that the simplistic contrasts given above in Table \ref{contrasts} are just that: simplistic examples. The explanations of Language in \ref{explnatural} and \ref{explfunction} are complex and cannot (in fact \textsl{should not}) be placed into over-simplistic dualisms. The truth is that a proper and complete explanation for Language and languages has to account for \textbf{both} sides. Specifically, I want to point out possible similarities between \ref{explnatural.d} on the one hand and \ref{explfunction.c}, \ref{explfunction.d} on the other. 
+
+
+\section{What is a `linguist' and where do I find one?}\begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=0.7\textwidth]{desk}
+        \end{center}
+         \vspace{-.5cm}
+    \end{wrapfigure}
+The answer to the question in the title depends on what kind of linguist\index{linguist} you are talking about. In other words, there are many different kinds of linguists who employ various tools to study or process various properties of natural language. You might find a linguist in the jungles of Peru or Brazil, the deserts of Mexico, Australia, or Africa. Perhaps in the departments of philosophy, cognitive science, or computer science at any modern university. Or in special labs with soundproof booths asking undergraduate students to decide between certain sounds. Perhaps in other labs conducting some other kind of strange experiment such as a computer simulation based on an algorithm for resolving semantic ambiguity, parsing syllables, running statistical tests on a corpus of data, or looking at geographical spread patterns for of populations for some genetic variant as it relates to spread patterns for some language feature like tone. A linguist might even be found at various intelligence organizations such as the CIA, NSA, or FBI, doing some kind of translation or analytic work on Chinese and Farsi. They can even be found working at Google, Microsoft, Attensity, AT\&T or any number of corporations that need lexicographers or syntacticians. There may even be a linguist around the corner from your house or apartment. 
+
+The most obvious place to find a linguist---if, for example, that linguist is me---is at the library. The term linguist has been, and still is, used to refer to a person who speaks many languages. For example, the U.S. Army hires `linguists' who speak Farsi, Poshtun, or Chinese. This concept of the linguist does not really contradict with what the \textsl{scientific} linguist is, but only limits it. In other words, scientific linguists are very aware of the world's languages---and in fact may speak several of them or specialize in studying many of them---but our interest in these languages is not so that we can, for example, speak Italian when vacationing in Rome or translate a Iranian engineering manual from Farsi to English. Instead, we use languages like Spanish, Mayan, Navajo, or Irish as \textsl{data}. But data for what?
+
+\subsection{Brief Detour: Material and Immaterial}
+Different kinds of linguists use natural language data in different ways. This really boils down to different perspectives of what natural language is and the multiple interpretations of the language data. There are two dominant perspectives of the nature, cause, and origin of natural human languages and they have been around for a very long time. Summarizing a bit, they can be boiled down to the difference in focus between ``material'' and ``immaterial'' effects of language. For example, it is obvious that we don't communicate telepathically---even if telepathic communication were real, it is definitely not used as the major mode of communication. Instead, it is a fact that movement of parts of the body are necessary to produce language. So when someone says, either verbally or in sign language ``I would like to visit space.'' or ``This flower is so pretty!'' they are manipulating the physiology of their lungs, throat, mouth, and tongue in the one case (spoken), and their arms and hands in the other (signed, or even written\footnote{Though it should be noted, written language is an artificial symbol system that has been invented and exploited for practical purposes in a society. Writing is not a natural system; therefore, many languages past and present never had writing systems, and this makes no difference in their status as a language. However, lack of a writing system clearly has an impact on its preservation for the future. Latin is still studied today because not only was it written down (and also codified into legal and medical jargon), but most importantly, there were grammars of Latin written by native or fluent speakers.} language). Additionally, a speaker also manipulates the physics of acoustics (for speaking); and recent evidence has shown that visual perception of spoken speech plays a crucial role in both understanding what is being said between fluent speakers, and in developing the language as a child and acquiring the language as an adult. All of this falls under the umbrella of the``material'' effect of languages. Consequently, one can use language data to ``get at the material'' causes and effects of language and Language. 
+
+The ``immaterial'' effect comes in our understanding the meaning, structure, and sound of the intonation or level of voice---even in sign languages one can communicate intonation or emphasis. The interpretation of utterances on these three levels---meaning, structure, sound---takes place within our heads. It is a mental or cognitive process that includes thoughts and concepts that nobody can actually see. We may communicate some of this mental activity in our body language or facial expression; but this does not make our thoughts visible. An interesting analogy can be made here between this internal ``immaterial'' sense of language and the gravitational force. I often like to begin a lecture by writing on the marker board the following question
+
+\ex. What do Language and gravity have in common?
+
+I anticipate a mild state of confusion in the students. Then I pick up an eraser, holding it in the air, and let go. Predictably, the eraser falls to the ground. Then I ask ``What just happened.'' The usual response is varied but consistent. After some playful comments someone will usually say ``You showed us gravity.'' To which I can respond with ``Where?'' Some more chattering, and finally we all agree that we can't actually see gravity---we are only able to see its effect. The same is true with Language---and even language. I challenge anyone to show me Language/language (Remember, writing systems are artifacts of languages, not languages themselves. Also, watching frequency waves of spoken language is also an artifact). Even though we cannot see the meaning of a sentence, or a sentence itself, or even a meaningful unit of speech like the word `the,' we know without a doubt (or at least are justified to believe) that such things are real because we observe the effect all the time. The study of language data can also try to account for the causes and effects of this reality of meaning.
+
+Tensions between the ``seen'' and ``unseen'' aspects of natural language were usually put into the terms of religion or philosophy by thinkers going back to as little as a few hundred years to as much as thousands. A common view was that the ability to think and reason like rational beings made us separate from the beasts of the world. This rational capacity came from God, or Allah, or the creative force of the universe. As rational beings designed by the omniscient creative God of the Universe we were left to ourselves  to communicate and work through our reasoning ability. The only way to do this was through earthly means: sound. We could hear sound, and this kind of made a ``seen'' or ``material'' thing that belonged to the bestial world. Evidence to support this came directly from the fact that animals appeared to make all kinds of sounds. Some even seemed to communicate in some way or other. Consequently, the difference between ``us'' rational humans and ``those'' earthly beasts was that we had some kind of ``immaterial'' presence within us that could organize our sounds into systems that could communicate our divinely inspired gift of reason---though our ability to represent divinely inspired reason through bestial sounds was not perfect and varied between individuals. The results of centuries of this kind of thinking have prevailed in some form or another even to this day. Furthermore, many people over the centuries have tried to combine the conflict between the ``material'' and ``immaterial.'' This attempt at combination is still underway, though not really in terms of God and beasts.
+
+\subsection{Back to the Question}
+Generally, there are three  modern approaches to language data and all three can be associated with what might be called \textsl{flagship} departments at universities in the United States (though I am sure to offend many linguists either by not mentioning specific approaches or by associating certain approaches with certain American universities---but such are the sorrows of generalizing). These are departments that appear to have made a conscious effort at focusing intensively on a specific approach to language data in the work of their faculty and graduate students. The first approach is called typological-functional and is well-represented by linguistics departments at the University of California at Santa Barbara (UCSB)and the University of Oregon (UO). The second approach is called cognitive linguistics and can be loosely associated with the linguistics departments at University of California at Berkeley (UCB) and University of California at San Diego (UCSD), as well as the cognitive science department at Case Western Reserve University. It is difficult to choose \textsl{the} flagship American university department that represents the functionalist program, mostly because this approach was never centralized at any department. But I feel confident that the universities listed above are representative. Cognitive linguistics and typological-functional approaches to language data are closely related and share some common ideas---especially when viewed in relation to what is generally known as the generative linguistics approach. This approach is strongly rooted in the linguistics department at the Massachusetts Institute of Technology (MIT). The generative approach has changed considerably over the years, and is currently viewed as being more of a research program (versus a theory) called the Minimalist Program (MP). Because the generative approach, and especially the MP, is the dominant abstract theoretical approach it would be difficult to name other flagship university departments. MIT, for historical reasons, is the beginning of it all. Clearly, departments change by way of new faculty and new foci. But for those curious to know more about certain approaches, a good place to start is by looking at the the linguistics departments mentioned here. 
+
+So, what is a linguist? There is no easy answer, but I hope that by the end of this book you have some clear notion of what a linguist is. Specifically, I want to show that field is widely diverse and constitutes a multiplicity of approaches to natural Language and natural language data. A linguist is much more than a person who speaks many languages.
+
+Before moving on, let me clarify some assumptions. There is no more room to go into how human language is unique within the animal kingdom. Instead of giving superficial examples based on a complex web of empirical data and theoretical inquiry, it is more convenient to agree to assume that natural human languages, such as Japanese, Kakchiquel, Winebego, and Portuguese, represent particular examples of a general human system of sound-symbol matching that creatures like dogs, monkeys, parrots, and even mammals like elephants, mice, whales, and dolphins, do not seem to have (though they may have particular aspects, or subsets of the human system---particularly in reference to mammals' capacity to have a syntax). That is, animals may be able to communicate specific messages in the context a present danger or a food source, but they do not seem able to produce messages in the way and of the kind the humans do. So, assumption number one is that natural human languages are unique to humans. Embedded in this assumption is another assumption: that different specific human languages are variations of and elaborations on a basic human system. Let us also agree on this with appeal to an intuitive proof of its reasonableness: Any child who grows up anywhere on the planet will speak the language they are exposed to. If you were born in the United States, but your parents moved to Japan when you were two, then its fairly obvious that you would speak fluent Japanese had you grown to adulthood there. (In fact, you would probably be fluent in both English and Japanese if your parents always spoke English to you at home). One does not have to look far for immigrant families where this has occurred. Now that these two assumptions have been given, we can move on.
+ 
+\subsection{A Brief Note on Evolutionary Adaptation and Exaptation}
+The following question underlies the main debate between the major camps of linguistic theory: Do human beings really speak in order to get messages across to one another? Clearly the answer is Yes. But is it the \textsc{function} of language\index{function of language} to communicate messages? Put another way, did the uniquely human ability to use language arise to meet some pressure to communicate messages between each other? The answer to this is more difficult. On first glance many people feel compelled to answer Yes: language communicates messages, that is its function, and it came to be used by humans because of the external pressure to communicate messages between each other. But there is a complexity here that is often overlooked.
+
+It is a matter of fact that language is used to communicate---that is the primary use to which language is put. The problem lies in thinking that just because something has been used for a specific purpose then it must have been created for that purpose. Take wings on a bird, for example. The evolution of winged animals provides an excellent counter-example to argument that nature is always an \textsl{adaptive} force. If we applied the same reasoning used for explaining language to explain the appearance of winged creatures we would be wrong. Such reasoning would lead to us conclude that wings were developed through evolution so that birds could fly---because this is what wings are primarily used for. Based on this, we might speculate that wings developed through evolution in order to meet some need that certain creatures had, either to get away from prey or to cover large distances in order to find food (or both). However, the evidence is clear that this is not what happened. We might call this the \textsc{function-origin fallacy}, which generally says that it is mistaken to assume that the origin of a thing can be reduced to its current primary function. Such things that fall under the function-origin fallacy are referred to as the products of Exaptation\index{Exaptation}, versus Adaptation. Now drawing the parallel closer to an explanation for language, the function-origin fallacy can only go so far: it only shows us that in some cases when one tries to pin down the origin of a natural object, physiological property, or organ, to its current primary function we come up short. Nothing in the fallacy will tell us what kinds of objects it applies to, including natural objects like language and Language. In other words, with specific reference to language, an argument that appeals to the function-origin fallacy does not by itself give us any reason to think that Language is a product of Exaptation; more is needed. I bring this up at the end of the introduction because it will haunt the rest of book; though I will not not go into detail about the evolution of language. I briefly talk about exaptation in xxxxxxx, but that is the only place I mention these problems explicitly. They are very important and are the subject of much current debate. It would be lacking to not mention such issues---if only to point out that they will not be discussed, they are there nonetheless.   
+
+%-------------------------------End Introduction------------------------------------
+
+
+\part{Exploration}%----------------------------PART ZERO---------------------------------
+\chapter{World in a Leaf}%-----------------------------------------------------------
+Goethe, Thompson, Gould\ldots
+
+
+\chapter{Nature is a Computer}%----------------------------------------------------------
+Turing, Post, Deutsch, Lloyd, Kornai\ldots
+
+
+
+
+
+
+
+\part{Functionalism and its Adherents}%-------------PART ONE------------------------------
+\chapter{The Functionalist Program}%----------------------------------------------------
+\include{FunctionalistProgram}
+
+\chapter{Why Communicate?}%------------------------------------------------------------
+\include{WhyCommunicate}
+
+
+
+
+
+
+
+
+\part{Formal Considerations}%--------------------------PART TWO--------------------------
+\chapter{The Minimalist Program}\label{chap:mp}%---------------------------------------
+\include{MinimalistProgram}
+
+\chapter{Optimality Theory}%------------------------------------------------------------
+
+
+\chapter{Other Approaches}%------------------------------------------------------------
+ \include{OtherApproaches}
+  
+\chapter[Infinity to Biology]{From Infinity to Biology: The Logical Influence of Formal Systems}\label{infinitybiology}%-------------------------------------------------------
+\include{InfinityBiology}
+
+\chapter{Modern Semantics}%------------------------------------------------------------
+\vspace{0.5cm}
+    \begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=0.7\textwidth]{functions}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+\include{ModernSemantics}
+
+
+
+
+
+
+
+
+\part{Cross-disciplinary Inspiration}%--------------PART THREE---------------------------
+\chapter{Galaxies, Flowers, and Snowflakes}\label{galaxiesflowers}%---------------------
+\begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=0.4\textwidth]{redflower}\includegraphics[height=0.2\textheight]{nasa1}
+        \caption{Spiral Galaxy \  \scriptsize Courtesy NASA}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+    
+There are general principles of organizational force in the universe: from the smallness of ice crystals forming into snowflakes, the shape of petal design in flowers, to the massive roundness of galaxies. The general interaction of atomic, molecular, magnetic, and electric forces converge. This convergence results in certain shapes. It may be a funny coincidence that we find these shapes --- hexagonal and pentagonal geometries of snowflakes and beehives, the shape of crystals, the shape of trees and flowers --- pleasing. But it might also be a mixture of some interesting capacity for the human brain to `appreciate' things and the forces of nature to produce optimally efficient repeating patterns. That is, the patterns we find in nature are not beautiful in themselves, but can only be beautiful to an audience ready to appreciate them. Long-term exposure to such patterns in nature would have most certainly affected a human mind. Such interaction between natural environment patterns and a human mind capable of such appreciation is most likely a factor in our finding images of spiral galaxies pleasing. Of course, much of this is speculation, but I don't think many people would deny its intuitive force. There is something between nature, the patterns it produces, and the human mind that is unique and special. Granted, at some point in evolutionary history we may not have been totally predisposed to appreciate patterns, and it may in fact be the case that our ability to appreciate patterns cam directly from selective pressures in the natural world. Nonetheless, no one would argue that we find such patterns pleasing in way that is very different from the way other species are attracted to patterns in nature. Whether or not our brains were already predisposed to find shapes and patterns pleasing is a moot point for us here. What is important to realize here is that such patterns are not `beautiful' in themselves, but only in the context of a mind ready to be pleased. As the Astro-biologist Carl Sagan once said, the human mind is a way for the universe to study and appreciate itself. As a part of nature we should not find it surprising that we are fascinated with its visible geometry and expressive coloration. 
+
+What does this have to do with Language? When we study the abstract structure of Language, through investigation of language data, we have to keep in mind that Language itself is not `beautiful.' That is, from one very abstract perspective, the patterns and asymmetries in language systems imply patterns in the overall structure of Language, but this structure is not due to our sense of what is pleasing, beautiful, or efficient; though nobody denies that aesthetic intentions can shape the form of produced language. The claim, then, is that some abstract biological information (pattern) encoded in the basic building blocks of the human organism is responsible for the general structure of Language, which is in turn responsible for drawing the boundaries possible structures in human languages. This is usually called the language faculty, or Universal Grammar. No form of poetry, no advertising jingle, no cultural movement, no government mandate can change the basic core structure of the language faculty. On the other hand, a more grounded view of Language sees the patterns in language data as coming directly from a long history of refinement of complexity for the purposes of communication. That is, a large part of the structure of languages is due to some sense that humans have for evaluating complexity, efficiency, and in some regards beauty of communicating messages and thoughts. The interplay between the need to communicate and the inherent complexity of language processes converge to shape to overall structure Language. This structure can be gotten at by analyzing language data, but there is no reasonable expectation that we should find ONE overarching structure for ALL languages that have ever existed, ever will exist, and that exist presently. There in fact might be a few different templates that have arisen over the millennia and different languages probably exploit different templates. Both of these approaches are reasonable approaches to the scientific study of human languages and human language capacity. 
+
+What is interesting is that these two approaches do share quite a bit in common, even though they have radically different methods of evaluation and analysis and can come to some very different results. The most obvious similarity --- besides the fact that we have to view languages within the context of humanity, and humans have to be viewed, partly, in the context of nature --- is that both approaches admit of some organizing principles in human languages and Language. However, the have radically different ways explaining these organizing principles: formalists hypothesize one general `cooker cutter' template, while functionalists hypothesize that there really is no `cooker cutter.' This is of course a gross simplification of the very rich theories that exist, but it will do for our general purposes. The similarity here, though, is not really that impressive. If you simply thought about these issues for a few hours you would have to come to the same conclusion. The only choice you really have is which side of the investigation you fall on. In other words, to deny that there are organizing principles in all languages --- and that closely related languages follow some general schema (this is why they are classified as `closely relate') --- would be tantamount to denying that there are organizing principles in the world. You simply would not have a leg to stand on: there would be nothing substantial you could say about languages, and in the end would have to abandon its study. But only a moments reflection will reveal to anyone that languages are organized and do not need our help to stay organized. Most linguistic changes happen over generations and in the presence of strong resistance --- like the loss of the who/whom distinction, which older people will insist on, but younger speakers will only use the distinction (if they memorize it) to please the older generation. Secondly, a native English speaker cannot deny that the typical word order of English Subject, Verb, Object and not Subject Object Verb as in
+
+\ex. Jon kicked the ball 
+
+\ex. Jon the ball kicked
+
+\ex. Kicked the ball Jon
+
+\ex. The ball kicked Jon
+
+Whereas other languages have the typical orders that vary from SVO. Anyone who denies such organizational principles in language must be force then to deny the study of language; and even worse, will have to deny organizational principles in nature and society. 
+
+
+\chapter[Formal Conjecture]{A Formal Conjecture: Symmetry, Syntax, and the Theory of Groups}\label{nontrivialsymmetry}%--------------------------------------------------
+
+\include{FormalConjecture}
+
+
+
+
+
+\part{Conclusion}%---------------------------PART FOUR-----------------------------------
+\chapter{Conclusion}%----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+\bibliographystyle{linquiry2}
+\bibliography{myrefs}
+
+\printindex
+
+
+\end{document}

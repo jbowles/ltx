@@ -1,0 +1,1129 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  8 MAY 2012 00:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ter.tex
+(./ter.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+
+! LaTeX Error: File `paperp.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `paperc.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(./ter.aux)
+\openout1 = `ter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+! Undefined control sequence.
+l.8 \magnification
+                  \magstephalf
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 36.
+[1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+! Undefined control sequence.
+l.104 $$\eqalign
+                {f(-1000000)=f^{\mkern1mu 91}(-999099)=f^{181}(-998198)=\cdots
+? 
+! Misplaced alignment tab character &.
+l.105 &
+       =f^{\mkern1mu 99811}(-791)\cr
+? 
+! Misplaced \cr.
+l.105 &=f^{\mkern1mu 99811}(-791)\cr
+                                    
+? 
+! Misplaced alignment tab character &.
+l.106 &
+       =f^{\mkern1mu 99901}(110)\cr
+? 
+! Misplaced \cr.
+l.106 &=f^{\mkern1mu 99901}(110)\cr
+                                   
+? 
+! Misplaced alignment tab character &.
+l.107 &
+       =f^{\mkern1mu 99900}(100)\cr}$$
+? 
+! Misplaced \cr.
+l.107 &=f^{\mkern1mu 99900}(100)\cr
+                                   }$$
+? 
+
+Overfull \hbox (84.32152pt too wide) detected at line 107
+[]
+ []
+
+! Undefined control sequence.
+l.126 $$\eqalign
+                {F(x)={\bf if}\; x>100\;{\bf then}\;1\;{\bf else}\;1
+? 
+! Misplaced alignment tab character &.
+l.127 +F&
+         (x+901)+F\bigl(f(x+901)\bigr)+\cr
+? 
+! Misplaced \cr.
+l.127 +F&(x+901)+F\bigl(f(x+901)\bigr)+\cr
+                                          
+? 
+! Misplaced \noalign.
+l.128 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.129 &
+       \;\null +F\bigl(f^2(x+901)\bigr)+\cdots
+? 
+! Misplaced \cr.
+l.130 +F\bigl(f^{\mkern1mu 90}(x+901)\bigr)\,.\cr
+                                                 }$$
+? 
+
+Overfull \hbox (141.36525pt too wide) detected at line 130
+[]
+ []
+
+[2]
+! Undefined control sequence.
+l.137 \proclaim
+                Lemma 1. $F(x)=$ {\bf if} $x>100$ {\bf then} $1$ {\bf else}
+? 
+! Undefined control sequence.
+l.170 \proclaim
+                Theorem 1.
+? 
+[3]
+! Undefined control sequence.
+l.218 $$\eqalign
+                {f(x)=\;&{\bf if}\;x>a\;{\bf then}\;x-b\cr
+? 
+! Misplaced alignment tab character &.
+l.218 $$\eqalign{f(x)=\;&
+                         {\bf if}\;x>a\;{\bf then}\;x-b\cr
+? 
+! Misplaced \cr.
+l.218 ...f(x)=\;&{\bf if}\;x>a\;{\bf then}\;x-b\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.219 &
+       {\bf
+? 
+! Misplaced \cr.
+l.220 ...x)\bmod\bigl(d-(c-1)\,b\bigr)\bigr)\,.\cr
+                                                  }$$
+? 
+[4]
+! Undefined control sequence.
+l.276 $$\eqalign
+                {T(x,y,z)=\;&{\bf if}\;x\leq y\;{\bf then}\;0\cr
+? 
+! Misplaced alignment tab character &.
+l.276 $$\eqalign{T(x,y,z)=\;&
+                             {\bf if}\;x\leq y\;{\bf then}\;0\cr
+? 
+! Misplaced \cr.
+l.276 ...z)=\;&{\bf if}\;x\leq y\;{\bf then}\;0\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.277 &
+       {\bf else}\;1+T(x-1,y,z)+T(y-1,z,x)+T(z-1,x,y)\cr
+? 
+! Misplaced \cr.
+l.277 ...e}\;1+T(x-1,y,z)+T(y-1,z,x)+T(z-1,x,y)\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.278 &
+       \phantom{{\bf else}\;1}\null +T\bigl(t(x-1,y,z),\,t(y-1,z,x),
+? 
+! Misplaced \cr.
+l.279 \, t(z-1,x,y)\bigr)\,.\cr
+                               }$$
+? 
+
+Overfull \hbox (245.36098pt too wide) detected at line 279
+[]
+ []
+
+! Undefined control sequence.
+l.283 $$\eqalign
+                {{\cal T}(x,y,z)=\;&{\bf if}\;x\leq y\;{\bf
+? 
+! Misplaced alignment tab character &.
+l.283 $$\eqalign{{\cal T}(x,y,z)=\;&
+                                    {\bf if}\;x\leq y\;{\bf
+? 
+! Misplaced \cr.
+l.284 then}\;1\cr
+                 
+? 
+! Misplaced alignment tab character &.
+l.285 &
+       {\bf else}\;1+{\cal T}(x-1,y,z)+{\cal T}(y-1,z,x)+{\cal
+? 
+! Misplaced \cr.
+l.286 T}(z-1,x,y)\cr
+                    
+? 
+! Misplaced alignment tab character &.
+l.287 &
+       \phantom{{\bf else}\;1}\null +{\cal
+? 
+! Misplaced \cr.
+l.288 ...,z),\,t(y-1,z,x),\,t(z-1,x,y)\bigr)\,.\cr
+                                                  }$$
+? 
+
+Overfull \hbox (249.13829pt too wide) detected at line 288
+[]
+ []
+
+! Undefined control sequence.
+l.292 $$\eqalign
+                {V(x,y,z)=\;&{\bf if}\;x\leq y\;{\bf then}\;0\cr
+? 
+! Misplaced alignment tab character &.
+l.292 $$\eqalign{V(x,y,z)=\;&
+                             {\bf if}\;x\leq y\;{\bf then}\;0\cr
+? 
+! Misplaced \cr.
+l.292 ...z)=\;&{\bf if}\;x\leq y\;{\bf then}\;0\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.293 &
+       {\bf else}\;1+V(x-1,y,z)+V(y-1,z,x)+V(z-1,x,y)\,.\cr}$$
+? 
+! Misplaced \cr.
+l.293 ...;1+V(x-1,y,z)+V(y-1,z,x)+V(z-1,x,y)\,.\cr
+                                                  }$$
+? 
+
+Overfull \hbox (21.05798pt too wide) detected at line 293
+[]
+ []
+
+[5] [6]
+! Undefined control sequence.
+l.358 $$\eqalign
+                {%
+? 
+! Misplaced alignment tab character &.
+l.359 &
+       \sum_{y'=1}^y\,\left(\pmatrix{x+y+1-2y'\cr x-y'}-
+? 
+! Misplaced \cr.
+l.360 \pmatrix{x+y+1-2y'\cr y-y'}\right)\cr
+                                           
+? 
+! Misplaced \noalign.
+l.361 \noalign
+              {\medskip}
+? 
+! Misplaced alignment tab character &.
+l.362 &
+       \qquad =
+? 
+! Misplaced \cr.
+l.364 \pmatrix{x-y-1+2k\cr k-1}\right)\,.\cr
+                                            }$$
+? 
+
+Overfull \hbox (118.31956pt too wide) detected at line 364
+[]
+ []
+
+
+Overfull \hbox (10.16191pt too wide) in paragraph at lines 379--384
+\OT1/cmr/m/n/10 Therefore $\OML/cmm/m/it/10 T[]t\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 b \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0
+\OML/cmm/m/it/10 ; a\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;  a;  t\OT1/cmr/m/n/10 (
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; b; 
+\OT1/cmr/m/n/10 0)[] = 0$; and $\OML/cmm/m/it/10 T[]t\OT1/cmr/m/n/10 (\OML/cmm/
+m/it/10 a \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; b; \OT1/cmr/
+m/n/10 0)\OML/cmm/m/it/10 ;  t\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b \OMS/cmsy/m/n
+/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ;
+ a\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;  a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (15.08594pt too wide) detected at line 393
+\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b; \OT1/cmr/m/n/10 0\OML/cm
+m/m/it/10 ; a\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 a; b; \OT1/cmr/m/n/10 0) + []  []  \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OM
+L/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1
+/cmr/m/n/10 0\OML/cmm/m/it/10 ; a[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 :
+ []
+
+[7]
+! Undefined control sequence.
+l.416 \proclaim
+                Lemma 2. If $\epsilon >0$, we have
+? 
+
+Overfull \hbox (37.73291pt too wide) detected at line 425
+\OML/cmm/m/it/10 T[] > []  T[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 T[] :
+ []
+
+[8]
+! Undefined control sequence.
+l.451 $$\eqalign
+                {%
+? 
+! Misplaced alignment tab character &.
+l.452 ...+1}={V_{n+1}\over (n+1)!}+{1\over n+1}\,&
+                                                  \left(t_n+t_{n-1}+
+? 
+! Misplaced \cr.
+l.453 {n+2\over 2n}\,t_{n-2}\right.\cr
+                                      
+? 
+! Misplaced \noalign.
+l.454 \noalign
+              {\medskip}
+? 
+! Misplaced alignment tab character &.
+l.455 &
+       \qquad\null
+? 
+! Misplaced \cr.
+l.458 +\cdots\;\right)\,.\cr
+                            }$$
+? 
+
+Overfull \hbox (173.62465pt too wide) detected at line 458
+[]
+ []
+
+! Undefined control sequence.
+l.467 \proclaim
+                Theorem 2. When the Takeuchi recursion $t(x,y,z)$ is used
+? 
+[9]
+! Undefined control sequence.
+l.492 $$\eqalign
+                {T(z)&=\sum_n\,T_nz^n\cr
+? 
+! Misplaced alignment tab character &.
+l.492 $$\eqalign{T(z)&
+                      =\sum_n\,T_nz^n\cr
+? 
+! Misplaced \cr.
+l.492 $$\eqalign{T(z)&=\sum_n\,T_nz^n\cr
+                                        
+? 
+! Misplaced \noalign.
+l.493 \noalign
+              {\medskip}
+? 
+! Misplaced alignment tab character &.
+l.494 &
+       =\sum_n\,V_{n+1}z^{n+1}=\sum_{n,k}\,{n+k\choose k}\,T_{n-k}z^{n+1}
+? 
+! Misplaced \cr.
+l.495 ...n,k}\,{n+k\choose k-1}\,T_{n-k}z^{n+1}\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.496 \noalign
+              {\medskip}
+? 
+! Misplaced alignment tab character &.
+l.497 &
+       ={C(z)-1\over 1-z}+\sum_{n,k}\,{n+2k\choose k}\,T_nz^{n+k+1}
+? 
+! Misplaced \cr.
+l.498 ...{n,k}\,{n+2k\choose k-1}\,T_nz^{n+k+1}\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.499 \noalign
+              {\medskip}
+? 
+! Misplaced alignment tab character &.
+l.500 &
+       ={C(z)-1\over 1-z}+\sum_n\,T_nz^{n+1}\,{C(z)^n\over\sqrt{1-4z}\,}
+? 
+! Misplaced \cr.
+l.501 ...^{n+2}\,{C(z)^{n+2}\over\sqrt{1-4z}\,}\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.502 \noalign
+              {\medskip}
+? 
+! Misplaced alignment tab character &.
+l.503 &
+       ={C(z)-1\over 1-z}+{z\bigl(2-C(z)\bigr)\over \sqrt{1-4z}}\,
+? 
+! Misplaced \cr.
+l.504 T\bigl(zC(z)\bigr)\,,\cr
+                              }$$
+? 
+
+Overfull \hbox (745.96329pt too wide) detected at line 504
+[]
+ []
+
+! Undefined control sequence.
+l.521 $$\eqalign
+                {K(x,y,z)=\;&{\bf if}\; x\ge	 y\;{\bf then}\;0\cr
+? 
+! Misplaced alignment tab character &.
+l.521 $$\eqalign{K(x,y,z)=\;&
+                             {\bf if}\; x\ge	 y\;{\bf then}\;0\cr
+? 
+! Misplaced \cr.
+l.521 ...)=\;&{\bf if}\; x\ge	 y\;{\bf then}\;0\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.522 &
+       {\bf else}\;\bigl(1+K(x-1,y,z)+K(y-1,z,x)\cr
+? 
+! Misplaced \cr.
+l.522 ...f else}\;\bigl(1+K(x-1,y,z)+K(y-1,z,x)\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.523 &
+       \phantom{{\bf else}\;\bigl(}\null+\;{\bf if}\;t(x-1,y,z)\leq
+? 
+! Misplaced \cr.
+l.524 t(y-1,z,x)\;{\bf then}\;0\cr
+                                  
+? 
+! Misplaced alignment tab character &.
+l.525 &
+       \phantom{{\bf else}\;\bigl(\null+\,\;\;}{\bf else}\;
+? 
+! Misplaced \cr.
+l.526 ...t(y-1,z,x),\,t(z-1,x,y)\bigr)\bigr)\,.\cr
+                                                  }$$
+? 
+
+Overfull \hbox (492.56978pt too wide) detected at line 526
+[]
+ []
+
+! Undefined control sequence.
+l.532 $$\eqalign
+                {K(x,y,z)&=1+K(x-1,y,z)+K(y-1,z,x)\cr
+? 
+! Misplaced alignment tab character &.
+l.532 $$\eqalign{K(x,y,z)&
+                          =1+K(x-1,y,z)+K(y-1,z,x)\cr
+? 
+! Misplaced \cr.
+l.532 ...lign{K(x,y,z)&=1+K(x-1,y,z)+K(y-1,z,x)\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.533 &
+       =1+K(x-1,y,z)+y-1-z=(x-y)(y-z)\,,\cr}$$
+? 
+! Misplaced \cr.
+l.533 &=1+K(x-1,y,z)+y-1-z=(x-y)(y-z)\,,\cr
+                                           }$$
+? 
+
+Overfull \hbox (78.89244pt too wide) detected at line 533
+[]
+ []
+
+
+Overfull \hbox (38.86536pt too wide) detected at line 553
+\OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/10 ) 
+= [] \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 y [] h\OT1/cmr/m/
+n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/10 ) [] \OML/cmm/m/it/10 v[][]v[]\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm
+/m/it/10 ; y; z\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;  v[]\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; z; x\OT1/c
+mr/m/n/10 )\OML/cmm/m/it/10 ;  v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z \OMS/cmsy
+/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; x; y\OT1/cmr/m/n/10 )[] \OML/cm
+m/m/it/10 :
+ []
+
+[10]
+Overfull \hbox (16.75406pt too wide) in paragraph at lines 582--587
+\OT1/cmr/m/n/10 Indeed, Gabriel's book [2] gives de-tailed tim-ings for the com
+-pu-ta-tion of $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (18\OML/cmm/m/it/10 ; \OT1/cm
+r/m/n/10 12\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6) =
+ []
+
+
+Overfull \hbox (10.84761pt too wide) in paragraph at lines 588--596
+[]\OT1/cmr/m/n/10 The seem-ingly triv-ial change from $\OML/cmm/m/it/10 t\OT1/c
+mr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/10 )$ to $\OML/cmm/m/it/10 g\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/10 )$ ac-tu-ally makes $\OML
+/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/10 )$
+ []
+
+[11]
+! Undefined control sequence.
+l.644 \proclaim
+                Lemma 4. Let $h(x,y,z)$ map arbitrary integers $x,y,z$
+? 
+[12]
+! Undefined control sequence.
+l.711 $$\eqalign
+                {v_h(2,1,4)&=v_h\bigl(h(1,1,4),\;h(0,4,2),\;v_h\bigl(h(2,2,1...
+
+? 
+! Misplaced alignment tab character &.
+l.711 $$\eqalign{v_h(2,1,4)&
+                            =v_h\bigl(h(1,1,4),\;h(0,4,2),\;v_h\bigl(h(2,2,1...
+
+? 
+! Misplaced \cr.
+l.712 h(1,1,3),\,h(0,3,2)\bigr)\bigr)\cr
+                                        
+? 
+! Misplaced \noalign.
+l.713 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.714 &
+       =v_h\bigl(2,5,v_h(2,1,4)\bigr)=16+v_h(2,1,4)\,.\cr}$$
+? 
+! Misplaced \cr.
+l.714 ...(2,5,v_h(2,1,4)\bigr)=16+v_h(2,1,4)\,.\cr
+                                                  }$$
+? 
+
+Overfull \hbox (137.03671pt too wide) detected at line 714
+[]
+ []
+
+! Undefined control sequence.
+l.720 $$\eqalign
+                {h(x,y,z)=\;&{\bf if}\; (x,y,z)=(1,1,4)\;{\bf then}\;4\cr
+? 
+! Misplaced alignment tab character &.
+l.720 $$\eqalign{h(x,y,z)=\;&
+                             {\bf if}\; (x,y,z)=(1,1,4)\;{\bf then}\;4\cr
+? 
+! Misplaced \cr.
+l.720 ...f if}\; (x,y,z)=(1,1,4)\;{\bf then}\;4\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.721 &
+       {\bf else\ if}\;(x,y,z)=(3,3,3)\;{\bf then}\;2\cr
+? 
+! Misplaced \cr.
+l.721 ...e\ if}\;(x,y,z)=(3,3,3)\;{\bf then}\;2\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.722 &
+       {\bf else\ if}\;(x,y)=(2,3)\;{\bf then}\;1\cr
+? 
+! Misplaced \cr.
+l.722 ... else\ if}\;(x,y)=(2,3)\;{\bf then}\;1\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.723 &
+       {\bf else\ if}\;\max(x,y,z)\geq 3\;{\bf then}\;3\cr
+? 
+! Misplaced \cr.
+l.723 ... if}\;\max(x,y,z)\geq 3\;{\bf then}\;3\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.724 &
+       {\bf else}\;\max(x,y,z)\,.\cr}$$
+? 
+! Misplaced \cr.
+l.724 &{\bf else}\;\max(x,y,z)\,.\cr
+                                    }$$
+? 
+
+Overfull \hbox (313.10495pt too wide) detected at line 724
+[]
+ []
+
+[13]
+! Undefined control sequence.
+l.728 $$\eqalign
+                {v_h(x,y,3)&=v_h\bigl(v_h(x-1,y,3),\,v_h(y-1,3,x),\,
+? 
+! Misplaced alignment tab character &.
+l.728 $$\eqalign{v_h(x,y,3)&
+                            =v_h\bigl(v_h(x-1,y,3),\,v_h(y-1,3,x),\,
+? 
+! Misplaced \cr.
+l.729 v_h(2,x,y)\bigr)\cr
+                         
+? 
+! Misplaced \noalign.
+l.730 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.731 &
+       =v_h(3,3,\leq 2)=3\,.\cr}$$
+? 
+! Misplaced \cr.
+l.731 &=v_h(3,3,\leq 2)=3\,.\cr
+                               }$$
+? 
+! Undefined control sequence.
+l.733 $$\eqalign
+                {v_h(3,y,3)&=v_h\bigl(v_h(2,y,3),\,v_h(y-1,3,3),\,
+? 
+! Misplaced alignment tab character &.
+l.733 $$\eqalign{v_h(3,y,3)&
+                            =v_h\bigl(v_h(2,y,3),\,v_h(y-1,3,3),\,
+? 
+! Misplaced \cr.
+l.734 v_h(2,3,y)\bigr)\cr
+                         
+? 
+! Misplaced \noalign.
+l.735 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.736 &
+       =v_h(3,3,1)=3\,.\cr}$$
+? 
+! Misplaced \cr.
+l.736 &=v_h(3,3,1)=3\,.\cr
+                          }$$
+? 
+! Undefined control sequence.
+l.740 $$\eqalign
+                {v_h(4,3,1)&=v_h\bigl(v_h(3,3,1),\,v_h(2,1,4),\,v_h(0,4,3)\b...
+
+? 
+! Misplaced alignment tab character &.
+l.740 $$\eqalign{v_h(4,3,1)&
+                            =v_h\bigl(v_h(3,3,1),\,v_h(2,1,4),\,v_h(0,4,3)\b...
+
+? 
+! Misplaced \cr.
+l.740 ...3,3,1),\,v_h(2,1,4),\,v_h(0,4,3)\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.741 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.742 &
+       =v_h\bigl(3,\,v_h\bigl(v_h(1,1,4),\,v_h(0,4,2),\,v_h(3,2,1)\bigr),3\b...
+
+? 
+! Misplaced \cr.
+l.742 ...,v_h(0,4,2),\,v_h(3,2,1)\bigr),3\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.743 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.744 &
+       =v_h\bigl(3,\,v_h\bigl(4,3,v_h\bigl(v_h(2,2,1),\,%
+? 
+! Misplaced \cr.
+l.745 ...,3),\,v_h(0,3,2)\bigr)\bigr),\,3\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.746 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.747 &
+       =v_h\bigl(3,\,v_h\bigl(4,3,v_h(2,3,3)\bigr),\,3\bigr)\cr
+? 
+! Misplaced \cr.
+l.747 ..._h\bigl(4,3,v_h(2,3,3)\bigr),\,3\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.748 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.749 &
+       =v_h\bigl(3,\,v_h(4,3,1),\,3\bigr)\,.\cr}$$
+? 
+! Misplaced \cr.
+l.749 &=v_h\bigl(3,\,v_h(4,3,1),\,3\bigr)\,.\cr
+                                               }$$
+? 
+
+Overfull \hbox (560.88528pt too wide) detected at line 749
+[]
+ []
+
+! Undefined control sequence.
+l.762 $$\eqalign
+                {k(x,y,z)=\;&{\bf if}\; x\leq y\;{\bf then}\; x\cr
+? 
+! Misplaced alignment tab character &.
+l.762 $$\eqalign{k(x,y,z)=\;&
+                             {\bf if}\; x\leq y\;{\bf then}\; x\cr
+? 
+! Misplaced \cr.
+l.762 ...=\;&{\bf if}\; x\leq y\;{\bf then}\; x\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.763 &
+       {\bf else}\; k\bigl(k(x-1,y,z),\,k(y-1,z,x),\,k(z-1,x,y)\bigr)\,.\cr}$$
+? 
+! Misplaced \cr.
+l.763 ...,z),\,k(y-1,z,x),\,k(z-1,x,y)\bigr)\,.\cr
+                                                  }$$
+? 
+! Undefined control sequence.
+l.770 \proclaim
+                Theorem 3. Let $c$ be any integer. The function
+? 
+! Undefined control sequence.
+l.771 $$\eqalign
+                {k_c(x,y,z)=\;&{\bf if}\; x\leq y\;{\bf then}\;x\cr
+? 
+! Misplaced alignment tab character &.
+l.771 $$\eqalign{k_c(x,y,z)=\;&
+                               {\bf if}\; x\leq y\;{\bf then}\;x\cr
+? 
+! Misplaced \cr.
+l.771 ...)=\;&{\bf if}\; x\leq y\;{\bf then}\;x\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.772 &
+       {\bf else\ if}\; y\leq z+1\;{\bf then}\; c\;\,{\bf
+? 
+! Misplaced \cr.
+l.773 else}\;\min(y,c)\cr
+                         }$$
+? 
+! Undefined control sequence.
+l.779 $$\eqalign
+                {&k_c(x,c,z)=\min(x,c)\,;\cr
+? 
+! Misplaced alignment tab character &.
+l.779 $$\eqalign{&
+                  k_c(x,c,z)=\min(x,c)\,;\cr
+? 
+! Misplaced \cr.
+l.779 $$\eqalign{&k_c(x,c,z)=\min(x,c)\,;\cr
+                                            
+? 
+! Misplaced alignment tab character &.
+l.780 &
+       {\bf if}\;x>y\;{\bf then}\;k_c(x,y,c)=c\,.\cr}$$
+? 
+! Misplaced \cr.
+l.780 ... if}\;x>y\;{\bf then}\;k_c(x,y,c)=c\,.\cr
+                                                  }$$
+? 
+
+Overfull \hbox (37.98166pt too wide) detected at line 785
+\OML/cmm/m/it/10 k[][]k[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^
+^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; y; z\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; 
+ k[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\
+OML/cmm/m/it/10 ; z; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;  k[]\OT1/cmr/m/n/10 (
+\OML/cmm/m/it/10 z \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; x; 
+y\OT1/cmr/m/n/10 )[] = \OML/cmm/m/it/10 k[][]y;  k[]\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; z; y \OT1/cmr
+/m/n/10 + 1)\OML/cmm/m/it/10 ;  k[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z \OMS/cms
+y/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; y \OT1/cmr/m/n/10 + 1\OML/cmm/
+m/it/10 ; y\OT1/cmr/m/n/10 )[] \OML/cmm/m/it/10 :
+ []
+
+[14]
+! Undefined control sequence.
+l.801 \proclaim
+                Corollary. The least fixed point of the recursive definition
+? 
+! Undefined control sequence.
+l.811 $$\eqalign
+                {t(w,x,y,z)=\;&{\bf if}\; w\leq x\;{\bf then}\; x\cr
+? 
+! Misplaced alignment tab character &.
+l.811 $$\eqalign{t(w,x,y,z)=\;&
+                               {\bf if}\; w\leq x\;{\bf then}\; x\cr
+? 
+! Misplaced \cr.
+l.811 ...=\;&{\bf if}\; w\leq x\;{\bf then}\; x\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.812 &
+       {\bf else}\;t\bigl(t(w-1,x,y,z),\,t(x-1,y,z,w),\,t(y-1,z,w,x),\,
+? 
+! Misplaced \cr.
+l.813 t(z-1,w,x,y)\bigr)\cr
+                           }$$
+? 
+
+Overfull \hbox (104.09262pt too wide) detected at line 813
+[]
+ []
+
+! Undefined control sequence.
+l.815 $$\eqalign
+                {t(w,x,y,z)=\;&{\bf if}\; w\leq x\;{\bf then}\; x\;
+? 
+! Misplaced alignment tab character &.
+l.815 $$\eqalign{t(w,x,y,z)=\;&
+                               {\bf if}\; w\leq x\;{\bf then}\; x\;
+? 
+! Misplaced \cr.
+l.816 ... else \ if }\; x\leq y\;{\bf then}\; y\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.817 &
+       {\bf else\ if}\;y\leq z\;{\bf then}\; z\;{\bf else}\; w\,.\cr}$$
+? 
+! Misplaced \cr.
+l.817 ...q z\;{\bf then}\; z\;{\bf else}\; w\,.\cr
+                                                  }$$
+? 
+
+Overfull \hbox (7.51367pt too wide) detected at line 817
+[]
+ []
+
+! Undefined control sequence.
+l.820 $$\eqalign
+                {t(x_1,x_2,\ldots,x_m)=\;&{\bf if}\;x_1\leq x_2\;{\bf
+? 
+! Misplaced alignment tab character &.
+l.820 $$\eqalign{t(x_1,x_2,\ldots,x_m)=\;&
+                                          {\bf if}\;x_1\leq x_2\;{\bf
+? 
+! Misplaced \cr.
+l.821 then}\;x_2\cr
+                   
+? 
+! Misplaced alignment tab character &.
+l.822 &
+       {\bf
+? 
+! Misplaced \cr.
+l.824 x_{m-1})\bigr)\cr
+                       }$$
+? 
+
+Overfull \hbox (76.1829pt too wide) detected at line 824
+[]
+ []
+
+! Undefined control sequence.
+l.826 $$\eqalign
+                {u(x_1,x_2,\ldots,x_m)=\;&{\bf if}\;x_1>\cdots >x_k\leq
+? 
+! Misplaced alignment tab character &.
+l.826 $$\eqalign{u(x_1,x_2,\ldots,x_m)=\;&
+                                          {\bf if}\;x_1>\cdots >x_k\leq
+? 
+! Misplaced \cr.
+l.827 ...\ some}\;k\geq 1\;{\bf then}\; x_{k+1}\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.828 &
+       {\bf else}\;x_1\,.\cr}$$
+? 
+! Misplaced \cr.
+l.828 &{\bf else}\;x_1\,.\cr
+                            }$$
+? 
+! Undefined control sequence.
+l.831 $$\eqalign
+                {t(5,3,2,0,1)&=t\bigl(t(4,3,2,0,1),\,2,\,t(1,0,1,5,3),\,1,\,
+? 
+! Misplaced alignment tab character &.
+l.831 $$\eqalign{t(5,3,2,0,1)&
+                              =t\bigl(t(4,3,2,0,1),\,2,\,t(1,0,1,5,3),\,1,\,
+? 
+! Misplaced \cr.
+l.832 5\bigr)\cr
+                
+? 
+! Misplaced \noalign.
+l.833 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.834 &
+       =t\bigl(t\bigl(3,2,t(1,0,1,4,3),1,4\bigr),\,2,\,t(0,1,\ldots\,),\,
+? 
+! Misplaced \cr.
+l.835 1,\,5\bigr)\cr
+                    
+? 
+! Misplaced \noalign.
+l.836 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.837 &
+       =t\bigl(t\bigl(3,2,t(0,1,\ldots\,),1,4\bigr),\,2,\,1,\,1,\,5\bigr)\cr
+? 
+! Misplaced \cr.
+l.837 ...ots\,),1,4\bigr),\,2,\,1,\,1,\,5\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.838 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.839 &
+       =t\bigl(t(3,2,1,1,4),\,2,\,1,\,1,\,5\bigr)\cr
+? 
+! Misplaced \cr.
+l.839 ...igl(t(3,2,1,1,4),\,2,\,1,\,1,\,5\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.840 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.841 &
+       =t\bigl(t(2,1,1,4,3),\,2,\,1,\,1,\,5\bigr)\cr
+? 
+! Misplaced \cr.
+l.841 ...igl(t(2,1,1,4,3),\,2,\,1,\,1,\,5\bigr)\cr
+                                                  
+? 
+! Misplaced \noalign.
+l.842 \noalign
+              {\smallskip}
+? 
+! Misplaced alignment tab character &.
+l.843 &
+       =t\bigl(t(1,1,4,3,2),\,2,\,1,\,1,\,5\bigr)=t(1,2,1,1,5)=2\,,\cr}$$
+? 
+! Misplaced \cr.
+l.843 ...,2,\,1,\,1,\,5\bigr)=t(1,2,1,1,5)=2\,,\cr
+                                                  }$$
+? 
+
+Overfull \hbox (726.10867pt too wide) detected at line 843
+[]
+ []
+
+[15]
+! Undefined control sequence.
+l.852 $$\eqalign
+                {g_j(x_1,\ldots,x_j)=\;&{\bf if}\;j=2\;{\bf then}\;x_2\cr
+? 
+! Misplaced alignment tab character &.
+l.852 $$\eqalign{g_j(x_1,\ldots,x_j)=\;&
+                                        {\bf if}\;j=2\;{\bf then}\;x_2\cr
+? 
+! Misplaced \cr.
+l.852 ...x_j)=\;&{\bf if}\;j=2\;{\bf then}\;x_2\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.853 &
+       {\bf else\ if} \; x_1=x_2+1\;{\bf then}\;g_{j-1}(x_2,\ldots,x_j)\cr
+? 
+! Misplaced \cr.
+l.853 ...1\;{\bf then}\;g_{j-1}(x_2,\ldots,x_j)\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.854 &
+       {\bf else\ if}\;x_2=x_3+1\;{\bf then}\;\max(x_3,x_j)\;{\bf else}\;
+? 
+! Misplaced \cr.
+l.855 x_j\,.\cr
+               }$$
+? 
+
+Overfull \hbox (184.7144pt too wide) detected at line 855
+[]
+ []
+
+! Undefined control sequence.
+l.857 \proclaim
+                Theorem 4. The function
+? 
+! Undefined control sequence.
+l.858 $$\eqalign
+                {f(x_1,\ldots,x_m)=\;&{\bf if}\;x_1>\cdots >x_k\leq x_{k+1}\;
+? 
+! Misplaced alignment tab character &.
+l.858 $$\eqalign{f(x_1,\ldots,x_m)=\;&
+                                      {\bf if}\;x_1>\cdots >x_k\leq x_{k+1}\;
+? 
+! Misplaced \cr.
+l.859 {\rm for\ some}\;k\geq 1\cr
+                                 
+? 
+! Misplaced alignment tab character &.
+l.860 &
+       {\bf then}\;g_{k+1}(x_1,\ldots,x_{k+1})\;{\bf else}\;x_1\cr}$$
+? 
+! Misplaced \cr.
+l.860 ...}(x_1,\ldots,x_{k+1})\;{\bf else}\;x_1\cr
+                                                  }$$
+? 
+
+Overfull \hbox (40.97707pt too wide) detected at line 860
+[]
+ []
+
+[16]
+Overfull \hbox (8.608pt too wide) in paragraph at lines 915--920
+\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; [] ; x[]; x[]; x[]\O
+T1/cmr/m/n/10 ) = \OML/cmm/m/it/10 z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/c
+mr/m/n/10 (\OML/cmm/m/it/10 x[]; [] ; x[]\OT1/cmr/m/n/10 )$. We have proved tha
+t $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[]; [] ; y[]\OT1/cmr/m/
+n/10 ) =
+ []
+
+! Undefined control sequence.
+l.944 $$\eqalign
+                {T(x_1,\ldots,x_m)=\;&{\bf if}\;x_1\leq x_2\;{\bf then}\;0\cr
+? 
+! Misplaced alignment tab character &.
+l.944 $$\eqalign{T(x_1,\ldots,x_m)=\;&
+                                      {\bf if}\;x_1\leq x_2\;{\bf then}\;0\cr
+? 
+! Misplaced \cr.
+l.944 ...;&{\bf if}\;x_1\leq x_2\;{\bf then}\;0\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.945 &
+       {\bf else}\;1+T(x_1-1,x_2,\ldots,x_m)+T(x_2-1,x_3,\ldots,x_m,x_1)+
+? 
+! Misplaced \cr.
+l.946 \cdots\cr
+               
+? 
+! Misplaced alignment tab character &.
+l.947 &
+       \phantom{{\bf else}\;1}
+? 
+! Misplaced \cr.
+l.948 ...s,x_{m-2})+T(x_m-1,x_1,\ldots,x_{m-1})\cr
+                                                  
+? 
+! Misplaced alignment tab character &.
+l.949 &
+       \phantom{{\bf else}\;1}
+? 
+! Misplaced \cr.
+l.951 \bigr)\cr
+               }$$
+? 
+
+Overfull \hbox (648.51668pt too wide) detected at line 951
+[]
+ []
+
+
+Overfull \hbox (14.55621pt too wide) in paragraph at lines 956--968
+\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; [] ; x[]\OT1/cmr/m/n/1
+0 )$. If $\OML/cmm/m/it/10 x[] > x[] > [] > x[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m
+/it/10 x[]$\OT1/cmr/m/n/10 , the val-ues $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 
+= \OML/cmm/m/it/10 t\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ 
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; x[]; [] ; x[]\OT1/cmr/m/n/10 )$
+ []
+
+[17] [18]
+! Undefined control sequence.
+l.1067 \bye
+           
+? 
+[19] (./ter.aux) ) 
+Here is how much of TeX's memory you used:
+ 233 strings out of 493633
+ 2490 string characters out of 3143378
+ 62245 words of memory out of 3000000
+ 3610 multiletter control sequences out of 15000+200000
+ 5567 words of font info for 20 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 23i,12n,17p,138b,117s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
+10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+>
+Output written on ter.pdf (19 pages, 191083 bytes).
+PDF statistics:
+ 110 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

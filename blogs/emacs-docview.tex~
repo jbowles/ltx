@@ -1,0 +1,14 @@
+\documentclass{wpblogentry}
+
+\title{Notes on Emacs}
+\tags{LaTeX, Emacs, Lisp}
+\category{Latex}
+
+\begin{document}
+Emacs is a really cool application. I had read about it for long time and wondered at the notion of a ``really powerful text-editor.'' I had no idea what people meant by that, nor could I imagine the possibilities (begin new to the computer science world in general meant I had little imagination as to what ``powerful'' could entail). When I decided to start using Emacs, and I mean ``really'' using it---not just opening it up and looking around or simply viewing \verb=.txt= files with it, I soon came to see what ``a powerful text editor'' was. Also, for the first time I started to exercise my imagination in terms of what was possible with computers.
+
+The motivation for this entry comes from something I noticed about the \verb=doc-view= package and its use in \LaTeX. As you may know, using Emacs in \LaTeX mode is very easy and provides some nice off-the-shelf functionality (and of course, if you know Lisp very well, you extend Emacs to do just about anything you want... OR, if you simply look in the right places you find other people's Lisp code extensions for Emacs that they are sharing and begin to learn be reverse-engineering). 
+
+The \LaTeX mode function that I was thrilled about was the ability to compile the \verb=.tex= document inside Emacs: you just do C-c C-c within the \verb=.tex= document. This will split your Emacs into two screens and you will the see the typical output of the \Tex compile (the kind of stuff you can see in any normal \Tex editor like Kile of MiKTeX). But imagine my delight when I did C-c C-c a couple times on the same document and I got the alternative \verb=doc-view= option. This, if you don't know, is truly cool: 
+
+\end{document}

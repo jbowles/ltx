@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: C:\Documents and Settings\Josh\Desktop\LaTeX Documents\Samples\LingAbstract.aux
+I couldn't open database file myrefs.bib
+---line 2 of file C:\Documents and Settings\Josh\Desktop\LaTeX Documents\Samples\LingAbstract.aux
+ : \bibdata{myrefs
+ :                }
+I'm skipping whatever remains of this command
+I couldn't open style file linquiry2.bst
+---line 3 of file C:\Documents and Settings\Josh\Desktop\LaTeX Documents\Samples\LingAbstract.aux
+ : \bibstyle{linquiry2
+ :                    }
+I'm skipping whatever remains of this command
+I found no \citation commands---while reading file C:\Documents and Settings\Josh\Desktop\LaTeX Documents\Samples\LingAbstract.aux
+I found no database files---while reading file C:\Documents and Settings\Josh\Desktop\LaTeX Documents\Samples\LingAbstract.aux
+I found no style file---while reading file C:\Documents and Settings\Josh\Desktop\LaTeX Documents\Samples\LingAbstract.aux
+(There were 5 error messages)

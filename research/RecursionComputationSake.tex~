@@ -1,0 +1,447 @@
+% Template <Ling-Article-_gb4e> for papers with lots of natural language data.
+
+% Runs special commands for morpheme gloss, wh-, and X-bar; but no hypereff.
+\documentclass[11pt]{article}
+
+\usepackage{qtree,tree-dvips}
+\usepackage[usenames]{xcolor}
+\usepackage{amsmath,mathbbol}
+\usepackage[normalem]{ulem}
+\usepackage[safe]{tipa}
+\newcommand{\ipa}{\textipa}
+%quick tipa.style command
+
+%From <sp.cl>=================
+\usepackage{natbib}
+\bibpunct[: ]{(}{)}{;}{a}{}{,}
+\newcommand{\BIBand}{\&}
+\setlength{\bibsep}{0pt}
+\setlength{\bibhang}{0.25in}
+\bibliographystyle{sp}%------------------sp.bst-----------------------
+\newcommand{\posscitet}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\possciteauthor}[1]{\citeauthor{#1}'s}
+\newcommand{\pgposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~#2)}
+\newcommand{\secposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~$\S$#2)}
+\newcommand{\pgcitealt}[2]{\citealt{#1}:~#2}
+\newcommand{\seccitealt}[2]{\citealt{#1}:~$\S$#2}
+\newcommand{\pgcitep}[2]{(\citealt{#1}:~#2)}
+\newcommand{\seccitep}[2]{(\citealt{#1}:~$\S$#2)}
+\newcommand{\pgcitet}[2]{\citeauthor{#1} (\citeyear{#1}:~#2)}
+\newcommand{\seccitet}[2]{\citeauthor{#1} (\citeyear{#1}:~$\S$#2)}
+%=============================
+% Vertical.
+\paperheight=11in
+\topmargin=0in     %
+\headheight=0.2in  % head: 1.5in (margin + head + sep = .5; latex adds 1in)
+\headsep=0.3in     %
+\topskip=0.1in     % included in the textheight
+\textheight=8in    % text is 8in
+\footskip=0.5in    % foot: 1.5in (.5 + 1.0in leftover)
+\parskip=0pt
+
+% Horizontal.
+\paperwidth=8.5in
+\textwidth=5.5in
+\oddsidemargin=0.5in  % 1.5in due to LaTeX's calculations
+\evensidemargin=0.5in % 1.5in due to LaTeX's calculations
+\raggedbottom % constant spacing in the text; cost is a ragged bottom
+\parindent=0.25in
+\leftmargini=0.5in%
+% Tell dvips about the paper:
+%\special{papersize=8.5in,11in}
+% Paper/text size option (another):
+%\paperwidth=8.5 \textwidth=5.5in \paperheight=11 \textheight=8in
+
+%***********************************************************************
+\definecolor{jblinkcolor}{rgb}{.0,.2,.4}
+\usepackage[colorlinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			filecolor=jblinkcolor,
+			plainpages=false,
+			pdfpagelabels,
+			bookmarks=false,
+			pdfstartview=FitH,
+			hyperfootnotes=false]{hyperref}			
+			\urlstyle{rm}			
+			%********************************************************************	
+\usepackage{gb4e}
+%********************************************************************
+
+
+
+\begin{document}
+\title{Recursion for Computation's Sake: xxxx}
+
+\author{Joshua Bowles}
+
+
+
+\date{\today}
+
+\maketitle
+
+\abstract{I show that many claims from \cite{everett05piraha,everett06reply,everett07replynevins,everett09response} are not surprising. Nonetheless, I respectfully disagree with his results and argue that recursion is a reflex of a more primitive feature of human grammar: (a)symmetry. Systematic (a)symmetry of basic syntactic constituents is found in all languages and can easily be captured by the operation Merge. I admit that acceptance of Merge verges on a kind of intuitive hunch or belief, but the motivation behind such a belief is well-justified and goes beyond mere socio-academic conformism. Needless to say, a belief cannot be falsified, but the warrant for its justification can be shown to be false, given relevant empirical data. I provide an admittedly `armchair' analysis of Pirah\~a data in order to show that the warrant for justified belief in Merge is true by showing that basic constituents belonging to Evidentials, `Classificatory Quantifiers' (CQ), and their complements are asymmetrical. Finally, I provide an analysis of certain terms in Pirah\~a that have been analyzed as quantifiers. I interpret them as a form of noun-classifier that operates as kind of quantifier, that is a classificatory quantifier.}
+
+\section{General Idea}
+Overall, the debate on overt recursive structures is an important development in the history of linguistic theory; but I urge caution in the face of contrary positions resulting in the entrenchment of certain positions simply for the sake of contrariness. Additionally, the debates on the theoretical status of `recursion' seem to be reduced to a basic belief in the reality and operability (i.e., computability) of Merge in human syntax. Such a belief, like any belief, certainly must own up to criteria for justification and particular conditions for establishing it as a `truth,' or fact, of reality given appropriate empirical data (and it seems that here the debate may be revolving around issues of the acceptability and reliability of negative versus positive empirical evidence, strikingly similar to arguments about poverty of stimulus.) Despite these issues there is another, orthogonal, way to approach the problem of the universal (i.e., in the domain of human syntax) status of recursiveness as a property of the human mind. The alternative relies on the concept of symmetry in constituent relations. That is, I have argued elsewhere (\citealt{bowles09amerge}) that Merge can be defined symmetrically through an application of rudimentary algebraic group theory. Constituents are combined through simple binary operations defined in a symmetrical manner. Such symmetrical objects are not informationally unique. In other words, symmetrical constituent combinatory operations are necessary for human syntax, but not sufficient. This way of defining the basic combinatory operations leaves the door open for animal communication systems, but no direct claim is made that non-human communication systems are strictly symmetrical. Instead, the claim is that what determines the informational uniqueness of human syntax (e.g., combinations of constituents into phrase structural constituents of increasing complexity) is the particular realization of a symmetry-breaking process. That is, humans are unique in the way that basic binary combinations of constituents violate symmetry relations; this violation of symmetry relations is unique to human cognition among various ways of breaking symmetry relations. I assume that this unique human symmetry-breaking operation is equal to a recursively defined procedure (i.e., can be defined or computed by a recursive procedure and is strictly `computable') and is the realization of the abstract operation Merge derived from X-bar theory and the notion of `projection of a head.' However, I argue, on need not depend on Merge as the definition for the symmetry-breaking procedure; other definitions are possible. The implication for universal status of recursiveness in human syntax, then, follows from
+
+\begin{exe}
+
+\ex Human syntax is defined by a well-constrained set of asymmetries\footnote{This term does not necessarily entail \posscitet{kayne94antisymm} concept of asymmetric c-command. I leave the issue open whether Kayne's overall theory of antisymmetry must be incorporated or not.} unique to human cognition and common to all human languages.
+\end{exe}     
+
+Even in Pirah\~a,\footnote{I agree with \cite{everett07replynevins} that an appreciation of linguistic data cannot be found by syntactic and semantic `eyballing.' That is, sustained exposure to and analysis of data {\bf and} the culture from which the data arises will produce a higher degree of reliable results than the converse. In an ideal world one \textsl{would} write descriptive grammars of languages before engaging in highly abstract theoretical analysis (though even basic grammars require some bit of analysis --- analysis of which is predicated on theoretical constructs and sympathies, but which is downplayed in the interest of cataloging a historical record for the language). However, the progress of science at times necessitates taking risks by following one's hunches. Seeing a particular analysis to the end for the sake of seeing what it might offer is a fruitful way to direct \textsl{some} research (Science for Science's sake). Success aside, the general context in which this kind of scholarly activity takes place is usually beneficial in the long run. And therefore, while I lament not having been able to spend years studying and learning Pirah\~a (as well as Tuyuca, Cariban, Portuguese, and a host of other languages), I also feel great excitement in attempting certain analyses of linguistic data and checking the results against the judgment of experts. Additionally, Because of Everett's unique position \textsl{per} Pirah\~a, and according to his culture-based theory, he has set himself up as one of the most accessible non-Pirah\~a experts (include also, say, Steve Sheldon and the handful of people seriously studying Pirah\~a language). It is, then, a duty to test Everett's claims; whether or not we are experts in his specific and unique knowledge (which in this case, we cannot be). Lastly, ignoring linguistic data because one has not been immersed in it  for years or is not fluent in the language (or the culture from which it arises) seems like a dismal alternative --- particularly for non-descriptivist linguists who attempt to construct rigorous (semi-)mathematical/computational/biological models and, hence, spend a good deal of time acquiring proficiency in those fields also. If such theoreticians applied their insights only to languages in which they had been culturally immersed, I believe the field of linguistics would generally be the poorer for it (also, they would be accused of paying attention only to, say, English; or not basing their theories on empirical data --- accusations that are already quite familiar).} and other languages lacking overt recursive structures, basic asymmetries are empirically observed \ldots
+
+[\texttt{Is this verifiable??; Is there data that ``both sides'' can agree on? Examples here: causatives? evidentials? Is parataxis `conjunction of phrases'... is so, is conjunction defined symmetrically? Would D.L. Everett agree that there are (a)/(anti)symmetries in Pirah\~a syntax? \pgposscitet{everett07replynevins}{4} claim that ``Pirah\~a grammar has no phrase structure''} ]
+
+\ldots for example in argument structure relations (verb internal and verb external arguments for basic transitive sentences, argument relations in (anti-)causatives and other unaccusatives, unergatives, antipassives, \textsl{et cetera}). For example, the simply parsed sentences (taken from \pgcitealt{chomsky86knowledge}{59-61}) 
+
+\begin{exe}
+\ex Jon [threw a party]
+\ex Jon [threw a fit]
+\ex Jon [broke his arm]
+\ex Jon [broke the window]
+\ex {}[Jon's mother] [loves him]\label{jons}
+\end{exe}
+
+and other structures related to them have been used as robust evidence that a basic transitive verb and its complement form a constituent phrase and that the subject/agent of such a transitive verb forms a separable constituent. Seemingly, syntactic, semantic, and prosodic work have converged to provide a fairly clear picture of this.
+
+Even in languages where overt recursive structures such as possession in \ref{jons} or clause embedding in cannot be found, the asymmetrical status of other structures related to the argument structure of transitives, unaccusatives, or causatives does not seem to be a matter of contention. That is, in languages such as Tuyuca and Koreguaje (Tukanoan), Matses (Panoan), Carib (Cariban), Warlpiri (Australian), or Pirah\~a (Muran), that lack some (or all) forms of overt recursion, asymmetrical relations between constituents can be isolated [or can they?].
+
+
+EXAMPLES FROM TUYUCA, KOREGUAJE, MATSES, CARIB, PIRAH\~A.
+
+
+The unfortunate fact is that descriptive and explanatory work on such languages cannot begin to compare to the work done on other languages for which asymmetrical results are more stable. Additionally, native speaker linguists working on such languages are typically not to be found, and thus, work on such languages is entirely lacking in native linguistic judgments. Such judgments come second hand from detailed attention and field work from a small group of linguists. Add to this the fairly uncontroversial position from modern philosophy of science that purely objective pre-theoretical observation is not a reality. In the context of linguistic science where native linguist judgments on natural language data can have quite controversial and contrary results --- a methodology that requires the complementary input from many perspectives in order to solve complicated and non intuitive problems about natural language interpretation and structure --- one cannot help but assume that if more linguists were working on such languages then a multiplicity of judgments could be brought to bare on helping to resolve some basic issues (such as the status of recursion and asymmetrical relations in human languages and the human mind).
+
+With this caveat in mind, I assume the data given above are consistent with the facts that I am highlighting: that asymmetrical relations are to be found in human languages. These asymmetries need not occur in the basic argument structure of transitive verbs or unaccusatives, but these are, I believe, the easiest places to see them. In fact, any asymmetrical relation will do as long as it shows a clear asymmetrical relation between constituents manifested systematically.\footnote{Compared to isolated structures, marked, or rare occurrences.} If this asymmetry can then be coherently defined by a recursively computable procedure (or a procedure equivalent to a computable algorithm), then the status of the universality of recursiveness in human syntax can be tied to asymmetrical relations found in all languages, and thus, implies that something like a computable procedure \textsl{is} a property of the human mind specifically operable in human syntax.\footnote{Of which, note the most (in)famous linguist arguing against recursion in human syntax does not claim that the humans do not think recursively, but that this recursive potentiality is not necessary for human syntax; \pgcitet{everett07replynevins}{4, footnote 3}: ``Once again, however, my claim is not that the Pirah\~a cannot think recursively, but that their syntax is not recursive. This is an argument about thinking and interpreting, not about syntax proper.''} The benefit of this approach is that one does not need to tie the existence of a `recursive' operation in human syntax to overt recursive structures. Instead, the focus is shifted to (a)symmetrical relations and defining a procedure (or finding an explanation) for deriving such relations. If a non-recursive procedure can be found with the same empirical coverage of the recursive procedure Merge, then all the better for scientific discourse. However, it seems that the basic intuition of the operation Merge is a powerful one that, once stripped away of its Minimalist Program (and Government and Binding) context, has a primary attraction across theoretical lines. My personal assumptions are Minimalist in flavor and I believe a Minimalist Merge defined as a computable operation has the most chance of success. However, taking a historical perspective, I am also suspicious of the term `recursive,' given the near ubiquity of contemporary computational analogies, and prefer to use the term `computable;' and there is even some hesitation here. I am much more comfortable with using the term `procedure equivalent to computable algorithm;' but for the sake of brevity I will simply use `computable,' `recursively computable,' `computable algorithm,' and `recursion' interchangeably to refer to a procedure that can be shown to be equivalent to a `recursively' computable algorithm.        
+
+Assuming that other forms of communication do not exhibit the unique symmetry-breaking relations that human syntax does, the particular asymmetries of human syntax can be used as definitive criteria for the uniqueness (in the natural world) of human syntax. The question then becomes one of describing and defining the particular asymmetries one finds. If one uses a computable procedure Merge (i.e., a computable algorithm) to define this asymmetry, then it stands to reason that recursion is inherent in human syntax. In other words, one need not look for overt recursive structures to decide the status of computable algorithms in human syntax, but instead, asymmetries --- as long as such asymmetries as well-described and well-defined by such computable algorithms; for which I believe they are.
+
+
+\section{A Symmetrical Numeration $N$}
+When a numeration $N$ is defined group-theoretically the reduction of items in $N$ is not to zero, but to an inverse. This means that $N$ is a symmetrical object, and so, $N$ can be a natural device for a workspace in any communication system because it is simply composed of elements that are selected by binary operations and in fact, such elements themselves have an abstract internal symmetrical relation. That is, specific to the hypothesis for human syntax, within a numeration $N$ all elements are selected from the lexicon and then further selected for combination by the syntax, typically in sub-arrays specific to a phase derivation (or some kind of cyclic derivational procedure that helps micro-manage the complexity of full derivations). In the original thinking about a numeration $N$ the elements are reduced to zero. That is, while grammars do not count, there must be some way that derivations distinguish between the number of identical elements in $N$. Consider the following sentences:
+
+\begin{exe}
+\ex The car drove to the drive-in.\label{car} 
+\ex The vase broke in the vase store.\label{vase} 
+\ex Candy melted in the candy shop.\label{candy} 
+\ex Garbage goes out on garbage day.\label{garbage} 
+\end{exe}
+
+In \ref{car} there are two instances of the determiner \textsl{the} and one instance of \textsl{car}. The latter is unique and when it is selected by the syntax there is no problem of accounting for it. In the sentences \ref{vase} -- \ref{garbage}, depending on assumptions about how the numeration selects items from the lexicon --- and whether morphologically complex items are composed internal to the lexicon or not --- the case may be that there are two identical item in $N$ that, when selected by the syntax, will have radically different roles in the derivation. Assume here that $N$ contains \text{the vase$_{2}$}, \text{(the) candy$_{2}$}, and \text{(the) garbage$_{2}$}.\footnote{Ignoring here the very interesting properties of causatives, the role of possible external agents, the licensing of prepositional phrases as complements to the apparent causatives, and related issues in the sentences \ref{vase} -- \ref{garbage} above.} However, with two instances of an item we need to propose some device to keep track of them, and while one should not think that grammars literally count, a numerative device is a nice short-hand tool in the lack of clear evidence of how a syntactic derivation actually keeps track of numerous identical items. The determiner DP$_{the}$ is then simply tracked by its having 2 elements, \textsl{the}$_{2}$ in $N$. But there is no reason why a numeration $N$ needs to \textsl{count} items. A symmetrically defined group-theoretic $N$ would reduce items to their inverses instead of zero. For example, instead of \textsl{the}$_{2}$ reducing to \textsl{the}$_{0}$, the group-theoretically defined $N$ reduces \textsl{the}$_{2}$ to \textsl{the}$_{-2}$. A more detailed understanding of group theory may be needed to appreciate the consequences of such an approach, but conceptually, one can at least appreciate the abstract differences between a symmetrical numeration and one that is not, even if such differences are not apparent at this point.       
+
+\section{Notes on Evidentials, Noun-Classifiers, and Recursion}
+Embedding and recursion for the following English sentences.
+
+\begin{exe}
+\ex I see Jon washing the car.\label{seex}
+\ex I see that Jon washes the car.\label{seethat} 
+\end{exe}
+
+Compare this with \pgposscitet{everett09response} notion of lack of embedding correlated with a culturally selective force for `empirically-based reasoning.' This is entailed in his Immediacy of Experience Principle \pgcitet{everett09response}{33}; see especially \cite{everett05piraha,everett06reply,everett07replynevins},
+
+\begin{exe}
+\ex {\bf Immediacy of Experience Principle for Pirah\~a (IEP):}\\
+Declarative Pirah\~a utterances contain only assertions directly related to the moment of speech speech, either experienced (i.e. seen, overheard, deduced, etc. – as per the range of Pirah\~a evidentials, as in Everett (1986, 289)) by the speaker or as witnessed by someone alive during the lifetime of the speaker).
+\end{exe}
+
+To which Everett immediately adds the clarifying note.
+\begin{quote}
+Again, the IEP is a first pass at an explanation. The claim is that the values of the IEP are
+causally implicated in the grammar of Pirah\~a.
+\end{quote} 
+
+One can certainly argue that a cultural \textsl{attitude} toward the relevant notion of evidence can help influence the overwhelming preference of constructions like \ref{seex} over \ref{seethat} in English (for example \cite{bowles09evidence} for arguments that \ref{seex} entails a stronger form of empirically-based evidence because it has a visual evidential interpretation, while \ref{seethat} does not). This is clear even in academia, which exhibits some fairly reliable cultural constraints on the type of sentential constructions used for asserting propositions. For example, in science and technology research classes I always instruct students to refrain from using universally quantified statements like \ref{all} in preference for weaker claims such as \ref{some} or even \ref{suggests}. These merely reflect a standard practice of assertion in the culture of academia.
+
+\begin{exe}
+\ex 
+\begin{xlist}
+\ex All cases of aphasia are caused by environmental factors.\label{all}
+\ex Most cases of aphasia are caused by environmental factors.\label{some}
+\ex Evidence suggests that all cases of aphasia are caused by environmental factors.\label{suggests}
+\end{xlist}
+\end{exe} 
+
+\posscitet{everett09response} clarification of the causal order of things in terms of cultural constraints influencing the type of clausal constructions used in a society is not really controversial; especially a small community in which such influences can be codified quite easily. Nonetheless, Everett seems to be making a stronger claim: the cultural constraints can effect the \textsl{Internal} structure of grammar. That is, much of the debate can be brushed aside by appealing to an Internal versus External notion of language: one might say that Everett's claims really only apply to the external use of language, despite his insistence otherwise. This is a typical generative strategy, but I will not appeal to it here for various reasons; namely, because it is so much more interesting \textsl{not} to appeal the I/E divide. 
+
+As far as Everett's stronger claim --- that culture can literally impose is some architectonic, or overall structural, way on the essential/core structure of grammar --- this should not surprise anyone either. That is, the thesis, at a quick glance, is not that surprising. For example, the case of Genie, who had been isolated in a locked room and forced to sit on a chair until she was discovered/saved around the age of ten, was seminal in providing (understandably unique and non-replicable) evidence for a critical period of language acquisition. Children must acquire \textsl{any} language before a certain, critical, age. There are other examples similar in effect to Genei (what neuroscientists call a `natural' experiment --- some accidental trauma that cannot be replicated because of ethical considerations). It is not unreasonable to imagine a culture that imposes such a constraint on a subclass of children in their society, resulting in children who will not acquire `human' language in the same way Genie did not acquire `human' language. The fact is, we do not know much about such conditions, but a somewhat debased interpretation could claim that Genie's parents were simply enacting a cultural practice which resulted in a constraint that had a profound effect on Genie's acquisition.
+
+However, the above thought experiment does not strike to the heart of what is at stake here. That is, there is no evidence that the innate capacity of Genie's language faculty was actually transmutated. Secondly, abuse, neglect, deformity, or any other action that interrupts normal development does not have the same sense of a `cultural constraint.' It appears such arguments are at an impasse. Nonetheless, it does seem reasonable that a cultural constraint could condition the non-acquisition/non-use of basic arithmetical skills from early in life.\footnote{And of course, Everett repeatedly calls attention to examples of Pirah\~a who have been raised in a different culture and apparently had the skill to use numbers.} There is nothing surprising here, either. If a people do not use numbers or counting then there should be no need for numbers in their lexicon. If a people find an alternate (to numerosity or sets) way to express to quantification then clearly there is no need for typologically regular quantified operators. Everett repeatedly gives examples showing that Pirah\~a can distinguish between groups (or sets, collections, etc.), they just don't do it the way we expect. This would be supported and maintained by (if I understand Everett correctly) a system of spatio-temporal reasoning that selects out salient properties from the environment in qualitatively different ways than Eurocentric `Westerners' (conceptual descendants of early Egyptian, Greek, Roman, and Arabic thinking). That is, size and numerosity may have different relationships given a particular reference of context. To those familiar with noun-classifier systems of South America (and even Africa), this should not sound so far-fetched. Different ways of classifying objects in the world, including sets of objects, have been known to exist for quite some time (e.g., craig, dixon, lakoff.) For the Pirah\~a, as Everett communicates, consistently distinguishing between two large fish and six small fish is not a matter of numerics, but dependent on some other kind of cognitively acceptable criteria. What matters is that the Pirah\~a know what they are doing and do it consistently. Until Dixon had uncovered the various criteria for nominal classification, some Dyrbal categories seemed to make no sense. I suspect that Pirah\~a quantification will eventually have the same outcome: not too surprising once we find out what the criteria are.\footnote{In fact, one can {\bf imagine} a culture that quantifies with relative continuous volume. For example, since two large fish take up more continuous volume relative to, say, six small fish it is larger quantity. And if I take ninety-eight percent of an anaconda skin then the continuous volume (or surface area) is so much more proportionally to the two percent left that it might as well be `all.'}     
+
+The noun-classifier systems of South America (from Mayan languages of Mexico and Guatemala to Tukanoan and Arawakan languages of Brazil) are poorly understood --- especially by generative linguists who are more familiar with Asian (Chinese) and African (Bantu) systems, which appear to be qualitatively different (see gomez-imbert, grinevald (ed.), grinevald/seifert, senft (ed.), silva/bowles, and especially \citealt{aikhenvald03cls}). What is known is that there are specific devices for classifying objects in the world according to shape, material, and other kinds of qualia (the specifics are debatable, but I believe no one would argue against shape and material) that can stand alone or attach basic nouns, determiners, or numerals. Without getting too distracted from the main argument of this paper, it is conceivable that the lack of number in Pirha\~a could be a combination of a cultural constraint that conditions non-acquisition of mathematical skill within a `critical period,' and the possible treatment of numeral terms (and even all quantifiers) as some kind of developed noun classifier system.    
+
+
+\section{Recursive Structure in Functional Hierarchies }
+Throughout this paper I have done my best to minimize the assumption of a hierarchy in the tree representation of syntactic constituency. The reality is that linguistic data is under-determined to the effect that interpretations of empirical data can take various forms depending on the theoretical assumptions one makes. While I do not \textsl{a priori} make my assumptions, one nonetheless needs to `pick a side' and stick with it. I believe that appeal to some computable process of constituent combination holds the most promise for our current understanding of syntax. However, I prefer to interpret this computable process of combination in terms of symmetrical and asymmetrical combination. That is, conjunction may very well be the result of a symmetrical combination, with neither constituent dominating (in tree structure) the other. Under this view, non-configurational languages with `flat' structure should be similar to an iteration of conjunction of phrases and constituents that results in an n-ary tree.
+
+\begin{figure}[!h]
+\Tree [.{\bf A} B b a C c ] 
+\caption{Symmetrical $n$-nary (flat) structure}
+\end{figure}
+
+The interpretation of basic transitive clauses does not need to assume that constituents are built by a `computable combinatory procedure in an endocentric X-bar structure.' This is clearly a theoretical choice and there are other options. The exploration and comparison of such options is the norm in scientific investigation. In this section I provide an analysis of the linear order of (ad)verbal suffixes in Pirah\~a, coupled with an interpretation of the overall regularity of that order. I follow \pgposscitet{legate01config}{81} reasoning and methodology. 
+
+\begin{quote}
+According to a flat-structure account of Warlpiri syntax in which elements are freely base generated in any order, we expect to find no restrictions on the placement of adverbs within the clause. [\dots] systematic restrictions on adverb placement do exist, and [\ldots] they follow crosslinguistic patterns.
+\end{quote}
+
+The result of Legate's study is a constrained ordering relation between functional elements in the morphosyntax, example \ref{warlpiri}, of what has typically been described as a non-configurational language. It leaves the door open as to whether the $v$P or VP is a `flat' structure. The same strategy can be developed for Pirah\~a. That is, a rigid structure in the discourse domain (CP) can be established in the morphosyntax without having to appeal to basic $v$P or VP structures (transitives, etc.), thus leaving the door open for \posscitet{everett09response} claim that there is no verb phrase in Pirah\~a.
+
+\begin{exe}
+\ex The syntactic structure of Warlpiri\label{warlpiri}\\
+TopP$_{HTLD}$ \textgreater{} MoodP$_{evidential}$ \textgreater{} TopP \textgreater{} FocP \textgreater{} FocP$_{wh}$ \textgreater{} TemporalP \textgreater{}
+MoodP$_{irrealis}$ \textgreater{} CP \textgreater{} AspectP$_{(im)perfective}$ \textgreater{} AgrP \textgreater{} AspP$_{celerative}$ \textgreater{} TP$_{anterior}$
+\textgreater{} AspP$_{perfect}$ \textgreater{} AspP$_{completive}$ \textgreater{} AspP$_{repetitive}$ \textgreater{} AspP$_{frequentive}$ \textgreater{}
+AspP$_{frequentive}$ \textgreater{} AspP$_{repetitive}$ \textgreater{} $v$P 
+\end{exe}
+
+The background assumption of this analysis is one in which the linear order of suffixation (\citealt{bybee85morph}, \citealt{rice00scope}) is interpreted as a representation of a somewhat fixed structural hierarchy of syntactic positions in an X-bar tree structure (\citealt{baker85mirror}, \citealt{cinque99adverbs}). It stands to reason that socio-communicative pressures could constrain the order of all constituents, and as far as this reason will go, I am agnostic as to the explanation for the origin of a rigid affix/adverb order (i.e., communicative pressures vs. an initial computational state of the mind). I am simply concerned with establishing such an order and comparing to the typologies that exist.\footnote{Of course, assuming X-bar does put me squarely in the `UG' camp.
+ 
+Also, if socio-communicative pressures are the origin of of such rigid structure then I have always been intrigued by one possibility: the rebel speaker. That is, each community has its dissidents and rebels (and teenagers/young adults might count as constant source of \textsl{status quo} rebellion). I assume that even very small communities such as Pirah\~a have such `rebels.' It seems that socially constrained linguistic structures would be one expression of rebellion and it seems like we should find much more variance in speech norms in the `rebel' or disenfranchised groups. I am not aware of any functional literature that tests such a claim, but it would surely be a source of evidence, and is in sociolinguistics, for establishing a structure as conditioned by socio-communicative pressures.}
+
+\pgcitet{mccloskey07language}{13} notes that
+\begin{quote}
+For at just this point the sceptic (of which there are many) might well charge that all we are doing is playing out the moves of a predictable and self-validating game. We believe that grammatical relations are structurally determined so we say what we have to say to make that work out.We believe that prominence relations are
+structurally defined, so we say what we need to say to make that work out as well. At no point, it might be argued, have we managed to escape from the loop of our own assumptions.
+\end{quote}     
+
+\cite{everett09response} suggests that the IEP constrains declarative reference to a highly controlled spatio-temporal domain that includes, at least, `immediate' passage of time and in relative to kinship one generation before and one after (grandchild to grandparent). Much of this unique reference is mediated by the evidential system and disallows embedded clauses because they cannot (or will not) be encoded by an evidential.
+
+\subsection{Evidentials and deixis} 
+There is reason to believe that all evidential systems encode something of a logophoric relation as well as functioning in some kind of deictic way. Evidentials code the reference for speaker source of information (or evidence\footnote{Although, `evidence' is not a grammatical primitive. \cite{speas04evdparadigms,speas04evdlogophor,speas07evdfunctional,speas08synsemevd} has argued convincingly that `evidence' is not a grammatical primitive, and therefore, evidential categories cannot simply be base-generated types of evidentials; that is, the visual, hearsay, secondhand, or other types of evidentials are not themselves functional heads encoded in some evidential projection. Instead, they arise compositionally from the X-bar strucutre of an EvdP interacting with other systems (in Speas' framework it is the modal base). This is an appealing framework because it also explains why languages can construct evidentiality meanings through interaction of mood, mode, aspect, and tense systems. That is, evidentiality as a general phenomena is composed from specific interactions of various functional systems, while the morphosyntactic realization of this general phenomena is also compositional in the way that it must interact in specific and systematic ways to produce the types of evidentials.}) In most evidential systems there is no morphology for the speaker --- that is, it is understood that the reference of information source refers directly to the speaker and no morphological realization is needed to show this. In some evidential systems there is subject agreement morphology encoded directly on the evidential (however, this is probably a property of the verbal inflection and not inherent to evidential morphology). The subject agreement marking will only co-refer with the speaker when the sentential subject is also the speaker --- and in some cases one can see reduced forms here. Given that there is never any ambiguity about who is the reference `binder' for the source of information, it seems reasonable to assume that evidentials might inherently encode some kind of logophoric relation --- the feature set for an evidential head should include some kind of logophoricity, though it need not include information for the evidential type (visual, hearsay, etc.) because this can be built compositionally in the syntax-semantics-pragmatics. So minimally, evidential heads need some logophoric feature. Additionally, given the referential nature of evidentials, it seem quite apparent that some kind of deixis should be built into the inherent structure. This is consistent with one line of historical research that tracks the origin of evidentials to some kind of aspect (though there are other historical sources, such as nominalizers in Matses). In fact, \pgposscitet{everett86hal}{297} first general description of Pirah\~a in English classifies them as the `Conclusive Aspects' Deduction, Hearsay, and Observation. 
+
+\subsection{Recursion}
+The IEP, based on the evidentiality system, constrains the use of embedded clauses because such clauses cannot (or do not) directly refer to `immediate' experience. This has the effect of essentially wiping out the use of what has been termed `recursion.' There are generally three linguistic types of recursion defined in the literature.\footnote{I have found only three definitions for recursion in the linguistic literature, none of them cite their original source. Also, I have not found these `linguistic' definitions of recursion in any of the standard mathematical logic or computability theory literature that deals with this technology.} They are `tail recursion' in, e.g., \pgcitet{jp:2005}{xx}, `system recursion' in, e.g., \pgcitet{everett09response}{xx}, and `iterative/nested recursion' in, e.g., \pgcitet{parker06recursion}{xx} (though Kinsella does not actually call it `iterative recursion'). I have not found these terms formally defined in the literature on recursion that I am familiar with, and therefore, will refer to these three types of recursion as `linguistic recursion.' 
+
+\subsubsection{Tail recursion}
+\begin{exe}
+\ex
+S $\longrightarrow$ NP VP (S)
+\\VP $\longrightarrow$ V (NP/S')
+\\NP $\longrightarrow$ ([Det $\rightarrow$ D (N)]) N (S)\Tree [.S [\qroof{D, N}.NP ] [.VP [.V ] [.NP \qroof{D, N}.Det [.(S') [.(NP) ] [.(VP) (NP) ]]]]] 
+\end{exe}
+             
+\subsubsection{Iterative/Nested recursion}
+\pgcitet{parker06recursion}{3} defines iterative and recursion separately.
+
+\begin{quote}
+{\bf Iteration}: the simple unembedded repetition of an action or object an arbitrary
+number of times.\\
+{\bf Recursion}: the embedding at the edge or in the centre of an action or object one
+of the same type. Further, nested recursion leads to long-distance dependencies
+and the need to keep track, or add to memory.
+\end{quote}
+
+\cite{parker06recursion} states that nested recursion produces center-embedding, while tail recursion produces the more familiar (relative) clause and possessor embedding. As far as I can tell, iterative/nested recursion is the same as system recursion because center-embedding can be derived from it; for example Figures \ref{twobin}, \ref{twotern}, and \ref{twonary}.
+
+\subsubsection{System recursion}
+
+\begin{exe}
+\ex {}{\tt A} $\rightarrow$ BC
+\ex {}{\tt B} $\rightarrow$ DE
+\ex {}{\tt C} $\rightarrow$ AF
+\end{exe}
+
+\begin{exe}
+\ex
+\begin{xlist} 
+\ex One-level embedding
+\ex {}[ {\tt A} (B C) + {\tt B} (D E) + {\tt C} (A F) ]
+\ex Two-level embedding
+\ex {}[{\tt A} (B (d e) C (a f)) + {\tt B} (D E) + {\tt C} (A (b c) F) ]
+\end{xlist}
+\end{exe}
+
+\begin{figure}
+\small
+\Tree [.{\tt A} [[.B d e ] [.C a f ]] [.{\tt B} [[.D x x ] [.E x x ]] [.{\tt C} [[.A b c ] [.F x x ]]]]]
+\caption{Two-level Embedding System Recursion: Binary}\label{twobin}
+\end{figure}
+
+\begin{figure}
+\small
+\Tree [.{\tt A} [.B d e ] [.C a f ] [.{\tt B} [.D x x ] [.E x x ] [.{\tt C} [.A b c ] [.F x x ]]]]
+\caption{Two-level Embedding System Recursion: Ternary}\label{twotern}
+\end{figure}
+
+\begin{figure}
+\small
+\Tree [.{\tt A} [B [d e ] C [a f ] ]  [.{\tt B} [D E ]  [.{\tt C} A [b c ] F ]]]
+\caption{Two-level Embedding System Recursion: $n$-nary}\label{twonary}
+\end{figure}
+
+\begin{figure}
+\small
+\Tree [.{\tt A} [B C ]  [.{\tt B} [D E ]  [.{\tt C} A F ]]]
+\caption{One-level Embedding System Recursion: Binary}
+\end{figure}
+
+\begin{figure}
+\small
+\Tree [.{\tt A} B C [.{\tt B} D E [.{\tt C} A F ]]] 
+\caption{One-level Embedding System Recursion: Ternary}
+\end{figure}
+
+\subsection{Merge} 
+
+\begin{exe}
+\ex $\{\{\alpha\}, \{\beta\}\} \stackrel{merge}{\longrightarrow} \{\Lambda, \{\alpha, \beta\}\}$ = $K$ = $\alpha$Merge \label{amerge}
+\footnote{Where $\Lambda$ = exclusively the label either $\{\alpha\}$ or $\{\beta\}$. Also, where $\alpha$ and $\beta$ are two independent syntactic objects, $K$ is the new object output of Merge: so \{$\alpha$, $\beta\} \in K$, but only \{\{$\alpha$, $\beta\}, \Lambda\} \subseteq K$; see \cite{chomsky95mp}.}
+\end{exe}   
+
+\begin{figure}
+\Tree [.$\Lambda$ $\alpha$ $\beta$ ]      = $K$
+\caption{$\alpha$Merge tree produces object $K$}\label{k}
+\end{figure}
+
+
+\begin{figure}
+\Tree [.$\Lambda$ $\alpha$ [ $\beta$ [ $\gamma$ $\delta$ ] ] ]   = $K'$
+\caption{Iterated $\alpha$Merge tree produces object $K'$}\label{k'}
+\end{figure}
+
+\section{Classificatory Quantification: A beginning}
+
+\ldots provide initial arguments for `classificatory quantification' (CQ): a first stab explaining the lack of typical quantifiers in the language --- CQ is based on noun-classifiers (like those commonly found in South America) that uses certain spatio-temporal qualities of the salient environment as a means of quantification; e.g., something like Everett's `bigness' for `all.'
+
+The semantics for CQ could be handled by typical quantification techniques in addition to the use of some formal tools from topological semantics, (e.g., possibly `Cantor Space;' see \cite{kremer06cantorspace} and other such things (\citealt{}, \citealt{}, \citealt{})), and some tools from group theory, e.g., \posscitet{} formulation of groups, but also \cite{}, \cite{}, and \cite{}.
+
+
+\section{The formal notion of recursion}
+
+Boolos and Jeffries\\
+Martin Davis\\
+Kleene\\
+G\"odel\\
+Hofstadter\\
+Turing\\
+Post\\
+Soare\\
+
+\section{The informal notion of recursion}
+In talking informally about `recursion' one needs to be careful about what kinds of formal definitions one is implying. \cite{soare:1996} has argued that there are at least four distinct formal meanings of the informal term `recursion' that can lead to misunderstanding. He traces these meanings to a historically normative convention has largely directed the use, and sometimes misuse, of the term by what he calls the Recursion Convention. He says in \citep{soare:1996} that
+
+	\begin{quotation} 
+[t]he Recursion Convention has brought `recursive' to have at least four different	meanings\dots. This leads to some ambiguity. When a speaker uses the word `recursive' before a general audience, does he mean `defined by induction,' `related to fixed points and reflexive program calls,' or does he mean 	`computable?' [\ldots] Worse still, the Convention leads to imprecise thinking about the basic concepts of the subject; the term `recursion' is often used when the concept of `computability' is meant. (By the term `recursive function' does the 	writer mean `inductively defined function' or `computable function?') Furthermore, ambiguous and little recognized terms and imprecise thinking lead to poor communication both within the subject and to outsiders, which leads to isolation and lack of progress within the subject, since progress in science depends on the collaboration of many minds.
+  \end{quotation}
+  
+In reading the many debates on `recursion' in human syntax it is hard not to get the impression that linguists too have fallen victim to what might be termed a Wittgensteinian neurosis. That is, it seems that we have allowed ourselves to get caught up in some, at times hostile, debates over an imprecisely defined term. The neurosis stems from the sense that while we all seem to know what we ourselves mean by `recursion' in syntax, we can't be sure exactly what others mean. \citep{jp:2005}{xxx} clarify this bit by showing the distinction between `tail recursion' and `?center?recursion.' \cite{parker06recursion} also clarifies her point by defining a specific sense of recursion. However, the problem is not that obviously intelligent researchers know what they mean when they say `recursion,' but that they cannot be sure that other researchers mean the same thing as them. This is exemplified clearly in the concept of Merge.
+
+No other current hypothetical syntactic operation exemplifies what I am talking about more than the operation Merge. xxxx 
+
+
+
+
+\section{The philosophical therapy of linguistic theorizing}
+The discussion of `therapy' in linguistics was famously reference by \cite{chomsky95mp} as a buffer to theoretical and methodological freedom in the generative enterprise. That is, if we hold our ideas about the nature of language to a strict sense of confirmation (or what have you) grounded in empirical evidence, then we will limit the range and scope of the practice of linguistic theorizing. In this way, then, linguistic theorizing can be allowed to investigate certain lines of thought without requiring direct confirmation or an kind of justified sense of evidence. Outside the context of the general methodological aims of the Minimalist Program this may seem like an overabundant relaxation on justification; and rightly so (see Cedric \posscitet{boeckx06linguisticmin} book for a well-crafted introduction the research program). Instead, this relaxation needs to be viewed within the methodological sense of the Galilean method of idealized models and abstraction to which empirical evidence only approximates. The relaxation on empirical evidence give the linguist the freedom to explore idealized possibilities without the risk of empirical failure. Once a model is proposed, then it may be subjected to empirical standards of normal science.   
+
+One needs to keep in mind that (minimalist) linguistics is uniquely placed within the spectrum of scientific studies. There is no physical object `language' to be observed in the external world, and yet, it is not a formal science either (but see \citealt{katz:1998}). Because a common definition of a science includes the use of mathematical or rigorous techniques to measure, observe, and/or exaplain natural phenomena, linguistic science must have some form of rigorization. However, natural language data have been (possibly \textsl{interpreted} as) defying any straightforward formal(ist) rigorization along the lines of early twentieth-century mathematical logic (but see \citealt{pullumscholz03contrasting, pullumscholz09recursion} and \citealt{scholzpullum07origins} for comments on the history, approaches, and attitudes in the application of mathematical models to natural language data; see also the largely reasonable comments in \citealt{postal09incoherence} and references there). For example, the impressive application of Georg Cantor's diagonalization technique to natural language coordination in \cite{langpostal:1984}, which was used as an argument for the infinitude of natural languages --- what was called the Vastness of Natural Language Theorem (VNT) --- was not very well-received by the linguistic community overall. In many cases, where attempts to couch natural language data within the mathematical/logical systems established over the last 100 years has gone forward, such work has usually been interpreted as mathematically ornate, psychologically irrelevant, or not ontologically necessary. There is generally, then, a bias against formal models that are \textsl{too mathematical}, and this probably comes from some very genuine instances where natural language data \textbf{do not} fit the mathematical/logical model.\footnote{For example, one common property of formal systems is \textsl{closure}, which it can be argued, natural languages may not have. In fact, it is still an open question whether or not there is an upper bound on the limits of natural language syntax. But this open question is rarely engaged and usually an answer to it is simply assumed without, in some cases, any conscious thought. To be fair, it is not entirely clear how to show that there is or is not an upper bound in human syntax.} Certainly, many advances from modern logic have helped,\footnote{For example, xxxx .} but no existent calculus or combination of calculi have yielded the appropriate empirical coverage; and where formal systems have been appropriated, they have been changed to account for natural language data and work is still underway. As \pgcitet{partee08symmetry}{10} mentions
+
+\begin{quote}
+A great deal of progress in semantics has emerged from studying areas where certain
+‘standard’ logical notions do not seem to have a perfect fit with their nearest natural language
+equivalents, and finding better notions where they turn out to be needed.\ldots [T]here is an interesting field for research starting from apparent mismatches between logicians’ definitions of symmetry and asymmetry and the way those notions are used in ordinary language\ldots.
+\end{quote}
+
+The ``interesting field of research'' can be expanded to many other concepts in semantics and generally to the field of syntax --- particularly in negotiating convergences and divergences between the various formal models of syntax (e.g., (Combinatory) Categorial Grammar, Generalized Phrase Structure Grammar, Relational Grammar, Lexical Functional Grammar, Tree-Adjoining Grammar, and others), as well as functionalist models, with the currently dominant formal models of syntax within the Minimalist Program. 
+
+As it stands now, linguistics is not a formal science (but see contrary arguments in \citealt{katz:1998}) and neither does it have the kind of confirmatory problems that the natural sciences have (i.e., there are no `objects' to be measured, observed, combined, or dissected---not, at least, in the sense in physics, chemistry, or biology). The current conception of minimalist linguistics, then, is that it may constitute a form of abstract biology (\citealt{boeckxpp:2005}, \citealt{chomsky07ofminds}, and \citealt{ppuri:2008}). On this point there is a general consensus between the two major linguistic frameworks --- Functionalist and Generativist. Exactly how to explain or implement a `biolinguistic' framework is, of course, a matter of debate between the functionalist and generativist linguist. 
+
+The concept of `therapy' in linguistics, then, is the idea that pursuing specific questions within a programatic framework (of minimalism) cans still be useful even if it does not result in empirically useful theories. Obviously, we want a theory to describe and explain reality by approximating it as close as it can (or at least to a level of exactness that does not result in errors). The issue here is that generative studies of natural language data are relatively young and empirical expectations of the various theoretical aims of the generativist should not be on par with physics or chemistry or biology. That is, the linguist needs some leniency on the demand for empirical coverage of their theories because such theories are so young and the range of data is so complex. The linguist needs time to develop a sophisticated set of theories. Additionally, it has become clear (at least to linguists) that a new kind of rigorization and mathematicization needs to be developed in order to precisely describe and explain natural language data.      
+
+For example, it has only become obvious in the last 20 or so years that language needs to be modeled through a hierarchical syntax (though this is limited to one line of theorizing in the generative tradition and has been practiced for some time). The typical tree structures one finds in beginning syntax courses are more than a convenient representational alternative for phrase-embedding notation. The hierarchical relations are assumed to be relevant and real in the domain of the computational capacity of natural language in the human mind and brain. For example, all three sentences in \ref{ambig} are ambiguous, but \ref{ambig2} and \ref{ambig3} share a kind of intuitive ambiguity that \ref{ambig1} does not have.
+
+\begin{exe}
+\ex \label{ambig}
+\begin{xlist}
+\ex Jon paints cars. \label{ambig1}
+\ex Visiting relatives can be lame. \label{ambig2}
+\ex drug technology \label{ambig3}
+\end{xlist}
+\end{exe}
+
+The last two sentences exhibit a structural ambiguity, while the first sentence ambiguity revolves around the lexical meaning of the verb \textsl{paint} --- (i) to apply paint to a canvas, versus (ii) to apply paint to `cars.' The structural ambiguity of the last two sentences can be represented with tree models, while lexical ambiguity of `paints' cannot.
+
+\begin{figure}
+\Tree [.CP C\\{\ldots} [.{\ldots} V\\{visiting} [.DP N\\{relatives} [\qroof{can be lame}.vP ]]]]
+\caption{(Visiting (relatives (can be crazy)))}\label{ambig2.1}
+\end{figure}
+
+\begin{figure}
+\Tree [.CP C\\{\ldots} [.{\ldots} N\\{visiting relatives} [\qroof{can be lame}.vP ]]]
+\caption{(Visiting relatives (can be crazy))}\label{ambig2.2}
+\end{figure}
+  
+\begin{figure}
+\Tree [.AdjP A\\{new} [\qroof{drug technology}.NP ]]
+\caption{(new (drug technology))}\label{ambig3.1}
+\end{figure}
+
+\begin{figure}
+\Tree [\qroof{new drug}.NP [.NP N\\{technology} ]]
+\caption{(new drug (technology))}\label{ambig3.2}
+\end{figure}
+
+The hierarchical relations between constituents is assumed to be real, and constitutes a major advance in the last 20 years in the basic structure of normal transitive clause constructions. That is, the hierarchical relations between the `subject,' `object,' and `verb.'
+
+\begin{figure}
+\Tree [.$v$P [.DP\\{\textsc{argument}} ] [.$v'$ $v$\\{\textsl{light verb}} [.VP [.YP\\{Adjunct} ] [.V$'$ V\\{\textsc{verb$_{trans.}$}} XP\\{\textsc{complement}} ]]]]
+\caption{Complex argument structure with $v$P shell}\label{vpshell}
+\end{figure}
+
+The hierarchical relations expressed in this tree model are now commonly understood (within certain syntax-semantics interface theories) to map into semantics (see \citealt{heimkratzer98semantics}, \citealt{kratzer08situations}, and \citealt{parsons90events}).
+
+Crucial to the construction of such tree models for representing the hierarchical relations between sentential constituents is the operation Merge. This operation can be defined in two ways (Internal and External) and can be decomposed into atomic sub-operations \textsl{concatenate} and \textsl{label} (see \citealt{pietroski08minmeaning}, \citealt{hornnunes08adjunction}), though this is a minor point of debate. I will ignore for now the definition of Internal Merge\footnote{Internal Merge attempts to describe and explain the operation of movement of constituents such as in the pair `Jon kicked $what_{1}$' to `$What_{1}$ did Jon kick \sout{$what_{1}$}', ignoring the insertion of \textsl{did}.} and the the decomposition of Merge into possible sub-operations; I focus only on External Merge, signified here as {\sl e}-Merge.
+
+\begin{exe}
+\ex $\{\{\alpha\}, \{\beta\}\} \stackrel{merge}{\longrightarrow} \{\Lambda, \{\alpha, \beta\}\}$ = $K$ = $e$-Merge \label{amerge1}
+
+\ex 
+\begin{xlist}
+\ex Where $\Lambda$ = exclusively the label $\{\alpha\}$ or $\{\beta\}$ and, 
+\ex $\alpha$ and $\beta$ are two independent syntactic objects, $K$ is the new object output of Merge.
+\ex
+\ex Where \{$\alpha$, $\beta\} \in K$, but only \{\{$\alpha$, $\beta\}, \Lambda\} \subseteq K$ and
+\ex `$\in$' = set membership and,
+\ex `$\subseteq$' = equivalent set membership.\\ (see \pgcitealt{chomsky95mp}{2145} for more)
+\end{xlist}
+\end{exe}
+
+
+Informally, this definition tries to capture the intuitive notion that two language constituents may exist independently of each other (e.g., the constituents `visiting' and `relatives') and when they are combined within some sentence (or clause, or proposition `visiting relatives can be crazy') they no longer behave as if they are independent. The interdependence of hierarchical relations between constituents in syntactic structures implies, in some cases, category changes. For example, the syntactic difference between \ref{ambig2.1} and \ref{ambig2.2} depends on the category distinctions between the two constituents `visiting' and `relatives.' In other words, when the two constituents Merge one of their labels must project. This projection of labels is dependent on the the operation of Merge (and other factors not covered here; see, for example, \citep{boeckx08bare}). Projection of labels determines the category, which in turn determines (or licenses) what other kinds of constituents can merge with the new object. For example,
+only the kind of structure in \ref{ambig2.2} can be possessed by elements like \textsl{my} in \ref{myvisitingrel} with the reading in \ref{1come} and \ref{2come}.
+
+\begin{exe}
+\ex I don't like visiting relatives.
+\begin{xlist} 
+\ex two readings: 
+\ex I dislike going to visit relatives.
+\ex I dislike the relatives that come visit me.\label{1come}
+\end{xlist}
+
+\ex I don't like my visiting relatives.\label{myvisitingrel}
+\begin{xlist}
+\ex one reading:
+\ex I dislike the relatives that come visit me.\label{2come}
+\end{xlist}
+\end{exe}
+
+
+
+
+
+
+
+\newpage
+%Bibliography------------------------------------------------------
+%\bibliographystyle{linquiry2}
+\bibliography{myrefs}
+
+
+
+ 
+\end{document}
+

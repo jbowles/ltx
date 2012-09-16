@@ -1,0 +1,33 @@
+\documentclass{wpblogentry}
+ 
+\title{How Cool is wplatex?}
+\tags{Latex, Python, Emacs}
+\category{Latex}
+\begin{document}
+
+Very cool!
+
+I will give the basic chronological order of things (as they are kind of scattered given the sequential blog entries from the packages creator), and then you need to go to the source. (And by the way, this entry was written in Emacs LaTeX mode and posted to my blog Lingusitic Logic through the wplatex package).
+
+wplatex comes from Curious Reasoning (http://curiousreasoning.wordpress.com), Eric Finster, and is still in an early state but seems to be working fine at a basic level.
+
+What you need first is to install plasTex and wordpresslib before installing wplatex-0.2 (as of April 08 2010). All three of these programs are python, and so install is easy: downdload, unzip or tar -xf, cd into the directory and once you are inside, you issue the normal install command: sudo python setup.py install. 
+
+There is one extra step for wplatex: the .cls file. It is called wpblogentry.cls and you need to put that into your LaTeX path; usually in /usr/share/texmf/tex or in your home path /home/username/texmf/tex (~/texmf/tex). The usual standards apply, which means you should make a new folder/directory in tex, calling it the name of the cls file. In my case the full structure is: ~/texmf/tex/wpblogentry/wpblogentry.cls
+
+Once this is done there are conventions for running a script called wplpost (this is installed in /usr/bin by the wplatex install package). If you want to know more go to curiousreasoning. Below I print out the --help from wplpost:
+
+ Usage: wplpost [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -b BLOG, --blog=BLOG  
+  -u USERNAME, --username=USERNAME
+  -p PASSWORD, --password=PASSWORD
+  -n, --no-post         
+  -d, --draft           
+  -t, --tree            
+  -x URL, --xmlrpc-url=URL
+  -c CLASSPATH, --classpath=CLASSPATH
+
+\end{document}

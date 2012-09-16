@@ -1,0 +1,431 @@
+
+\documentclass[11pt]{article}
+\usepackage{paperp}
+\usepackage{paperc}
+\usepackage{morphgloss}
+
+\begin{document}
+
+\title{Selection from ``Some Syntax, Semantics, and Pragmatics of Evidentiality
+in English''\footnote{This work is based on research done in the past few years
+on Eastern Tukanaon languages of the Northwest Amazon, specifically Tuyuca. The
+application of that research to English data is an outgrowth of insights gleaned
+from that work. I owe a debt of gratitude to Lyle Campbell for comments,
+direction, and advice on earlier work. I also want to thank Aniko Csirmaz for
+taking an interest and for many detailed discussions on previous work. Ed Rubin
+deserves credit for unwittingly getting me started on evidentials in the
+Minimalist Program, thank you. This material is new and the ideas are my own---none of those mentioned are associated with shortcomings in what follows.}}
+
+\author{Joshua Bowles\\
+Utah Valley University}
+\date{{\tt Draft\\ \today}}
+\maketitle
+
+\abstract{I introduce a general sketch of the formalization of some of the
+syntax, semantics, and pragmatics of evidentiality in English and Tuyuca.  I present here a first step at integrating some of
+the proposals for capturing the highly constrained nature of the semantics of
+evidentiality, while at same time trying to explain the morphosyntactic
+variability of the phenomenon. I use a Minimalist type of syntax to build my
+model, and begin to extend this into an algebraic group theory definition of the
+notion \textsl{evidentiary base}; the latter is intended to be compatible with
+the notion of a modal base.}
+
+\section{Introduction}
+The study of evidentiality is quickly becoming a popular area of study for formal semantics and pragmatics. The close relation it shares with epistemic modality and the complex interactions it has with tense and aspect make it a suitable phenomenon for elaborating detailed analysis of semantic and pragmatic issues that necessitate the formalization for contexts and situations. Evidentiality is also an interesting point of investigation for the syntax of the left periphery, the cartographic domain of functional hierarchies, and information structure in general. It is an ideal phenomenon for exploring interface conditions between semantics, syntax, and pragmatics.
+
+I begin with some abstract considerations, mapping out general ideas and proposing structures and features that are supported by lengthy studies of evidentiality (though here I do not make direct reference to many of them; these include works such as \cite{aikhenvald04evd}, \cite{chung05space}, \cite{garrett01evd} and \cite{faller02evd}). I then introduce tentative English data to support the claim that evidentiality can be composed of specific features, in particular as an illocutionary $Force$ discourse operator. Related to the hypothesis of a $Force$ operator is the problem of formalizing context of discourse: for this I sketch a path for formalizing context through a formal definition of an $evidentiary \ base$; which is intended to be compatible with a modal base.
+
+\section{Cross-linguistic View in a Minimalist Setting}
+
+The general range of morphosyntactic structures responsible for
+$\eta$-interpretations\footnote{In the rest of the paper I will refer to
+evidential morphosyntax and semantic-pragmatic evidentiality interpretations by
+the lowercase Greek letter Eta, clarifying where necessary.} is striking. What I
+am assuming here is that it may be the case that $\eta$-interpretations are
+possible in {\sc all} languages, but the particular linguistic forms or
+structures responsible for such interpretations are parameterized. In some languages, for example Dutch or
+English, these interpretations are compositionally built through particular
+Mode, Aspect, and clause interactions. In others, for example Estonian or
+Turkish, one finds aspectual forms in particular clausal constructions that
+serve as $\eta$-morphemes (i.e., they are homophonous with aspect as the result
+of historical reanalysis; see \cite{campbell91grammestonian} and
+\cite{harriscampbell95syntax} for Estonian reanalysis and
+\cite{johnsonutas:2000} for Turkish). Still yet in others, most famously Tuyuca
+and neighboring Upper Northwest Amazonian languages, there are $\eta$-morphs
+used directly for the purposes of $\eta$-interpretations that no
+longer function in a verbal, aspectual, or mood/modal way.\footnote{This is, of course, up to interpretation. See \cite{stenzel04wanano} for an analysis of Desano and Wanano evidentials as modals (Desano and Wanano are both Eastern Tukanaon languages of Northwest Amazon; closely related to Tuyuca). See also \cite{kaye:1970}, which might be the first `generative' analysis of evidentials, and treats Desano evidentials as modals.} In one of the most
+complex of these latter systems (the Tuyuca paradigm), one finds five distinct
+evidential morphs, each of which is fused with either present or past tense and
+also inflects for sentential subject agreement (i.e., only in the case where the
+subject of the clause is also the speaker does the inflectional agreement
+overlap with the speaker). Additionally, there are distinct future tense evidentials and interrogative evidentials. The following examples are taken from
+\cite{bowles09tuyucadata}, which is based on data found in \cite{barnes84evd,
+barnes94negation, barnes96autosegments} and \cite{karn:1976}.
+
+ \begin{exe}
+\ex 
+\gll Pak\ipa{\'1} \ipa{y\'a}i  s\ipa{\~i\~a-{\bf y\`ig}-1}. \\
+father jaguar  kill-\evd.\Scnd.\pst-3\m\sg \\ 
+\glt `Father killed a jaguar.'\footnote{Abbreviations for all glosses: EVD = evidential; SCND = secondhand; PST = past tense; DES = desiderative; Q = question; NVIS = nonvisual evidential; PRS = present tense; NEG = negative; 1/2 = first or second person (exclusive).} 
+
+\ex
+\gll Bas\ipa{\'a}-d\ipa{1}ga-{\bf gari}?\\
+     sing-\Des-\Q.\Nvis.\prs\\
+\glt `Do (you) want to sing?'
+
+\ex
+\gll Bas\ipa{\'a}-d\ipa{1}ga-ri-{\bf g}-a.\\
+     sing-\Des-\Neg-\evd.\Nvis.\prs-1/2\\
+\glt `(I) do not want to sing'
+\end{exe}
+
+Generally, in the literature, evidentiality has been analyzed as belonging to one of the functional categories of Aspect, Mood, or Modality, depending on the particular language and accompanying analysis. Others believe it is a grammatical category itself, though this does not entail that `evidence' is a grammatical primitive. Cross-linguistically, then, there appears to be no consensus. I propose to take each analysis at its word and not dispute the variation we find. This follows from the assumption that evidentiality interpretations are to be found in \textsc{all} languages and the particular mechanisms responsible for such interpretations are parametrized, namely along projections of either $v$P (as Aspect), or CP (as Mood or epistemic Modality). These functional projections all orbit around the Tense domain in a \cite{cinque99adverbs} like hierarchy. This makes sense given that TP is not typically understood to be a phase, but $v$P and CP are---that is, morphosyntactic parametrization of the $\eta$ interpretation can be tied to phase transfer domains. It also makes sense if the featural composition of $\eta$ includes a structural similarity to Tense as implied in section \ref{etacomp}
+
+The assumptions I am making here are consistent with something along the lines of the Evidential Domain Hypothesis (EDH) proposed by \cite{blaindechaine07evdtypes}.\footnote{Something of a sidenote here: in reference to \posscitet{anderson99formalist} comment that many hypotheses in generative grammar are not based on empirical data, and consequently are nothing more than (at best rationally well-grounded) methodological approaches, the EDH appears to be a hypothesis in the normal sense of the term: it was conceived from observations based on empirical data and builds into its definition the (potential) grounds on which it can be proved wrong. Additionally, the hypothesis itself appears to have been proposed independently by different scholars. I myself have only recently read Blain and D\`echaine's paper but have for the last two years been working on something similar to their observation, see \cite{bowles07phieta}, \pgcitet{bowles08fusedte}{footnotes 2, 8} and \pgcitet{bowles08thesis}{95}.}
+
+\begin{exe}
+\ex {\bf Evidential Domain Hypothesis (EDH)}\\
+Evidentiality can be interpreted in different phase domains ($v$*P, CP) cross-linguistically
+\end{exe}      
+
+\subsection{Feature composition of $\eta$}\label{etacomp} 
+Functional analysis of evidentiality has been criticized by formalist approaches for not providing a rigorous detailed model of the phenomenon (for example, \pgcitet{fintelmatt08unisem}{33}). As a step in this direction I assume that $\eta$ is composed of some set of finite features, which, together, can operate as a single entity. There are two ways to state it: (i) a syntactic/lexical item may contain an $\eta$ feature that needs to be checked in a probe-goal relation (or some kind of dependency) for semantic-pragmatic interpretation, or, (ii) $\eta$ can be a head, \obar{$\eta$}, that projects to an $\eta P$ level and licenses certain complements based on the feature composition in \obar{$\eta$}. Here (i) rests on lexical entries, and (ii) rests on a predefined structural hierarchy.
+
+Take, for example, the lexical verb \textsl{see}. According to (i) we might say that $see_{n}$ has a finite number of lexicalized interpretations, one of them being the evidential type, $see_{\eta}$, that means something like ``having visual sensory information.'' According to (ii), \textsl{see} acquires its evidential interpretation by occupying a syntactic position, i.e., the head position of the functional category $\eta P$. Indepenent of choosing (i) or (ii), evidential interpretations can be empirically verified by looking at either the syntactic complements licensed by the item or, in the case of evidential adverbs, the syntactic position. To summarize, I propose a finite set of compositional features that belong to a position in a functional hierarchy and/or a lexical item: these can be seen in Table (\ref{featuretable}).
+
+\begin{table}[!h]
+\caption{Feature Composition for $\eta$}\label{featuretable}
+\begin{tabular}{|l||l||l||l|}
+\hline
+{\sc Anaphoric} & {\sc Situation} & {\sc Semantics} & {\sc Pragmatics}\\
+\hline
+\hline
+{}[+ speaker],       & Reference,  & world = w         & agent = A\\ 
+{}[+ deictic sphere] & Evaluative, & context = c       & quality threshold = $c_{\tau}$\\
+{}                   & Discourse   & time = t          & proposition = p\\
+{}                   & {}          & modal base = B    & common ground = CG\\
+{}                   & {}          & {}                & $\mu_ {c}({\bf ev}) = P_{c}(\varphi_{{\bf ev}})$\\ 
+\hline 
+\end{tabular}
+\end{table} 
+
+My starting point for the features in Table (\ref{featuretable}) are those in \cite{speas04evdparadigms,speas07evdfunctional}, who proposes a model of featural agreement between modal base and evidential; I also draw heavily from the (probabilistic) pragmatic analysis of \cite{davispottsspeas07pragevd}.
+
+I will not discuss in detail all the elements of Table (\ref{featuretable}). I would like to focus on the last line in the {\sc Pragmatics} column that shows the mapping function from \pgcitet{davispottsspeas07pragevd}{10}: ``$\mu$ maps context-morpheme pairs to probabilities'' $P$ of true propositions in the situation --- this is based on the evidential evidence $\varphi_{{\bf ev}}$ (where $\varphi$ is the true proposition $p$ and \textbf{ev} = evidential). The $\mu_{c}$ function is a good candidate for a parameterized feature of evidentiality systems: languages such as English do not have it (or it is dramatically reduced in {\sl Force}), and languages such as Tuyuca do have it. 
+
+I hypothesize that an illocutionary $\eta Force$ position (similar to Declarative and Interrogative Force and discussed below) could be located in three places: (i) within the content of the $\eta$-morpheme, which the $\mu_{c}$ function maps to a probability --- see Figure (\ref{evdttree}); (ii) in a specifier position of ForceP, namely in the {\sl spec} of Declarative Force or Interrogative Force both of which are in the CP domain --- see Figure (\ref{evdttree2}); or (iii) as a head with a maximal projection, \mbar{$\eta$} or $\eta P$ --- see Figures (\ref{evdttree4}), (\ref{evdttree5}), and (\ref{evdttree6}). Intuitively, $\eta Force$ works similar to the way that interrogative or declarative work: it can contribute to the content of lexical items, be in a specifier position in which operator-variable binding applies, or base-generate certain lexical items. Two examples showing tree structures for the interaction of present tense and a visual $\eta$-interpretation in the syntax can be seen in Figure (\ref{evdttree}) for Tuyuca-like languages and Figure (\ref{evdttree2}) for English-like languages.
+
+% \begin{figure}\scriptsize
+% \Tree [.CP \obar{C} [.$\eta$P/TP {\sl spec} [.{} \obar{$\eta$}/\obar{T}\\{\bf {$\eta Force$}}\\{+speaker,}\\{+deictic sphere,}\\{\{D,E,R\}}\\{\{R,S,E\}} !{\qframesubtree} [.$v$P {\sl spec} [.{}\obar{$v$} ]]]]!{\qframesubtree} ]
+% \caption{Tense and $\eta$ in a Tuyuca-like language}\label{evdttree}
+% \end{figure}
+% 
+% \begin{figure}\scriptsize
+% \Tree [.CP {\sl spec} [.CP$_{\eta}$ {\bf {$\eta Force$}} !{\qframesubtree} [.{} \obar{C}$_{\eta}$\\{+speaker,}\\{+deictic sphere,}\\{\{D,E,R\}} !{\qframesubtree} [.TP {\sl spec} [.{} \obar{T}\\{\{R,S,E \}} !{\qframesubtree} [.$v$P {\sl spec} [.{}\obar{$v$} ]]]]]]!{\qframesubtree} ]
+% \caption{Tense and $\eta$ in an English-like language}\label{evdttree2}
+% \end{figure}
+
+
+The structure in Figure (\ref{evdttree})\footnote{For clarity, I only show a subset of the proposed features in the trees. Also note that, following Speas' work, I am using a neo-Reichenbachian tense for describing present tense: R,S,E = Reference,Speech,Event. Note also, that the situation features for evidentials, proposed in Speas' work, is defined similarly to tense.} assumes a distinct $\eta$ category with bare phrase X-bar structure. It is also based on empirical data that show the fusion between tense and evidential inflectional morphology in languages such as Tuyuca (see \citealt{bowles08fusedte} for a basic typology of fused tense-evidentials and an account of fusion between \obar{T} and \obar{$\eta$}). But a distinct category does not have to be assumed and the features that compose $\eta$-interpretations could conceivably be distributed across the domains of \obar{C}, \obar{T}, and/or \obar{$v$}. Needless to say, given the variation in morphosyntactic evidential systems --- and variation in evidentiality in languages without $\eta$-morphs --- the models in Figures (\ref{evdttree}) and (\ref{evdttree2}) are not meant to be descriptive of all systems. (\citealt{bowles10wccfl28} is an attempt to construct applications of this model to the language Pirah\~a and, generally, for so-called non-configurational, or discourse configurational, languages).  
+
+
+\subsection{Evidential Force from a Pragmatic View}
+\pgcitet{davispottsspeas07pragevd}{10-11} state that
+
+\begin{quote}
+Though direct evidence might be reliably better than hearsay evidence, this is not a lexical fact per se, but rather a fact that we derive from general regularities in the world and the context of utterance, and thus it is conceivable that things could be reversed in some situations.
+\end{quote}
+
+Sentential propositions could possibly show a relative ranking of evidential force ($\eta Force$), which is dependent on the context of unique situations. I define $\eta Force$ as equivalent with the lower bound (quality threshold) of subjective probability distribution for {\sl Lewisian Quality} defined in \pgcitet{davispottsspeas07pragevd}{7-9}.
+
+\begin{exe}
+\ex $\eta Force = [C_{A,c}(p) \geq c_{\tau}] \approx$ .98 (in the interval [0,1])
+\end{exe}
+
+Where $C$ is for credence and an agent $A$, in any context $c$ that has a threshold $c_{\tau} \in [0,1]$, can assert proposition $p$. What might be called a `realistic' constraint on belief attribution keeps a person's belief below absolute (i.e., below 1 in the numerical interval [0,1]; 100\% epistemic certainty seems too stringent).
+
+Notice that in the \pgcitet{davispottsspeas07pragevd}{11} model that $c_{\tau}$ becomes $\mu_{c}{\bf (ev)}$ before a speech act is performed (their (20.ii)). The concept of $\eta Force$ captures this for languages like Tuyuca {\sl and} English: in the former it is realized through the morphology of the evidential system while also functioning as an operator, in the latter it may be phonetically null (or contribute to a lexical item such as an evidential adverb) but still functions as a discourse operator.
+ 
+For example, the English sentences in (\ref{relativeevd}) provide a unique situation where two participants are at a concert and direct visual evidence seems to be outranked by indirect auditory. (A related example of evidence re-ranking is found in \posscitet{kratzer08situations} `bear sighting' example; though Kratzer does not explictly discuss evidentiality).
+
+\begin{exe}
+\ex \label{relativeevd}
+\begin{xlist}
+\ex I see$_{VISUAL}$ the band playing.\label{relativeevdi}
+\ex I see$_{VISUAL}$ the band playing {\sl Hard Rain}.\label{relativeevdii}
+\ex I hear$_{AUDITORY}$ the band playing {\sl Hard Rain}.\label{relativeevdiii}
+\end{xlist} 
+\end{exe}
+
+In (\ref{relativeevd}) one might argue that it is conventional to presuppose that visually {\sl seeing} a band play does not provide the appropriate truth-conditional context in which one can assert or propose to know what song is being played. Credence for the agent in this context has a certain quality threshold value, based on the probability that their proposition is true dependent on the evidence. For (\ref{relativeevdi}) such a threshold is high and the credence of the proposition is likely equal to the threshold --- given the proper context. Now, compare (\ref{relativeevdii}) and (\ref{relativeevdiii}); it is likely that the evidence required to make the proposition ``The band is playing {\sl Hard Rain}'' true, depends on what is presupposed to count as verification for knowing that a specific song is being played. In short, hearing a song would generally hold greater satisfaction for credence than seeing the band playing their instruments. For a more dramatic example where evidentiality types would have to be re-ranked, think of providing evidence for the proposition ``The Earth orbits the Sun.'' In such a case, emprically verified observation --- based on normal visual evidence from the Earth --- has historically given the wrong result. One needs to rank inference higher than visual evidence in order to get the right result; and this is the case historically in many scientific investigations. 
+
+Visual evidence is usually the strongest type of direct evidence available for speakers. But this is not a universal property, as the sentences in (\ref{relativeevd}) suggest. The evidentiary basis of evidentiality is often relativized to a situation or context, which itself may depend on certain conversational or conventional implicatures. A model of pragmatic informational strategies, then, {\sl must} incorporate some ability to relativize and rank types of evidentiality within certain contexts and situations.\footnote{The question of whether or not {\sl Lewisian Quality}, or for that matter {\sl Bayesian Confidence Interval}, is part of natural language grammar is another question. I am inclined to respond by saying that at this point in the history of linguistic science it does not really matter --- what matters is that we find models that work and then ask questions. If pushed to answer: {\sl Lewisian Quality} or {\sl subjective quality distribution} is probably not part of human grammar, but it {\sl is} part of human cognition. In other words, it is a matter of grammar interfacing with other cognitive domains, and thus, is a really difficult puzzle to solve. The best method for solution is `keep making progress.'} All in all, pragmatics needs to be able to relativize and (re-)rank speaker sources of evidence for propositions. 
+
+\subsubsection{The Syntax of Illocutionary ForceP in English Evidentiality}
+There are two widely accepted cartographies of discourse level syntax that can be used to account for evidentiality. One is the Mood$_{Evidential}$ position in \posscitet{cinque99adverbs} functional hierarchy, the other is \posscitet{rizzi97fine} Force Phrase, which sits atop three other discourse informational positions in the syntax and is responsible for declarative and interrogative force, among others. It is also widely assumed that both Cinque's and Rizzi's mappings should overlap in some way --- although the details have not be worked out in any depth. An intuitive move here is to assume that because evidentials can occur as discourse modifiers (or operators) for both declarative and interrogative sentences, then the discourse function of the syntax of evidentiality is probably separate but compatible with Declarative and Interrogative ForceP. There a few ways to model such an intuition, and I will provide one direction here that is compatible with the pragmatic view of $\eta Force$ sketched above.
+
+The main idea here is that an $\eta Force$ feature or an $\eta Force$ projection is co-relational with the syntactic behavior and/or position of ForceP or Mood$_{Evidential}$. In a language like English, an embedded clause with a semantic parenthetical  (e.g., ``I see'' as in ``Jon washed his car, I saw him'') that has an $\eta$-interpretation can take the form shown in (\ref{seethatcptpvp}) and Figure (\ref{evdttree3}). The embedded clause is modified by a semantically reduced lexical item $see_{KNOW}$ that contributes to the $\eta$-interpretation. In this kind of structure $\eta Force$ is located with the {\sl that} item. In sentences of the form in (\ref{seecptpvp}), the lexical item $see_{VISUAL}$ carries $\eta Force$; see also Figure (\ref{evdttree4}); \cite{gisborneholmes:2007} provide historical and corpus data on the different senses of {\it see} and {\it know}.
+ 
+
+\begin{exe}
+\ex \lb{\eta} see$_{KNOW}$ that [$_{CP/TP/vP}$\ldots ]\rb{} = Indirect Reading \label{seethatcptpvp} 
+\begin{xlist}
+\ex I see that Jon washes his car
+\end{xlist}
+\ex \lb{\eta} see$_{VISUAL}$ [$_{CP/TP/vP}$\ldots ]\rb{} = Direct Reading \label{seecptpvp}
+\begin{xlist}
+\ex I see Jon washing his car\footnote{In all examples where it may be the case that an unpronounced {\sl that} could be inserted, assume that I do not intend such a reading.}
+\end{xlist}    
+\end{exe}
+
+% \begin{figure}\scriptsize
+% \Tree [.$\eta$ForceP {I see} [. that\\{[+speaker]}\\{[+deictic sphere]}\\{[+finite]}\\{\{D,E,R\}}
+% [.TP {Jon$_{j}$} [.{} \obar{T}\\{[\textsc{Pres}]}\\{\{R,S,E\}} [.$v$P {\sout{Jon}_j}
+% [.{}\obar{$v$}\\{\ldots} ]]]]]]
+% % \caption{$\eta Force$ in {\sl I see that Jon\ldots}}\label{evdttree3}
+% % \end{figure}
+% % 
+% % \begin{figure}\scriptsize
+% % \Tree [.$\eta$ForceP {I_i see_s}\\{[+speaker]}\\{[+deictic
+% sphere]}\\{[+finite]}\\\node{dlevel}{\{D,E,R\}} [.TP \node{itp}{\sout{I}_i} [.{}
+% \obar{T}\\{[\textsc{Pres}]}\\\node{seet}{\{R,S,E\}} [.$v$P \node{ivp}{\sout{I}_i} [.{}
+% \obar{$v$}\\\node{seev}{\sout{see}_s} [.TP \node{jonf}{Jon_j} [.{} \obar{T} [.$v$P
+% \node{jonj}{\sout{Jon}_j} [.{}\obar{$v$}\\{washing\ldots} ]]]]]]]]]
+% \caption{$\eta Force$ in {\sl I see Jon washing\ldots}}\label{evdttree4}
+% \abarnodeconnect[-6pt]{jonj}{jonf}
+% \anodecurve[bl]{ivp}[bl]{itp}{0.4in}
+% \anodecurve[bl]{itp}[bl]{dlevel}{0.4in}
+% \anodecurve[bl]{seev}[bl]{seet}{0.4in}
+% \anodecurve[bl]{seet}[bl]{dlevel}{0.4in}\end{figure}
+
+$\eta$ForceP is in the topmost CP comain of a minimalist style syntax. \pgcitet{vangelderen01force}{108} notices that ``a finite CP contains either a finite complementizer {\sl that} or a sentence adverb (but not both).'' If we make the distinction in terms of an $\eta Force$ feature, then, either a lexical item (e.g., sentence adverb) will carry $\eta Force$ or the finite complementizer will, but not both. However, this does not appear to be the case in all instances. As \pgcitet{vangelderen01force}{114} further observes, 
+
+\begin{quote}
+Accordingly, the complementizer {\sl that} is in complementary distribution with speech act adverbs ({\sl frankly} [\ldots]) and evaluative adverbs ({\sl surprisingly} [\ldots]), [which is] expected if both are in ForceP. It is marginally in complementary distribution with the evidential ones ({\sl allegedly} [\ldots]). It is not clear to me what that means about the position of the evidential adverb.
+\end{quote}
+
+\begin{exe}
+\ex \pgposscitet{vangelderen01force}{23} Speech Act, Evaluative, and Evidential Adverb Examples\label{vangeld}
+\begin{xlist}
+\ex
+\begin{xlist}
+\ex[*]{I know that frankly she should be concerned}
+\ex[*]{I know frankly that she should be concerned}
+\end{xlist}
+\ex[*]{I know that surprisingly he left}
+\ex[?]{I know that allegedly he left}\label{vgevd}
+\end{xlist}
+\end{exe}
+
+The lack of clarity for the distribution of evidential adverbials can be explained by an appeal to the variability of $\eta Force$. Comparable sentences to (\ref{vgevd}) can be seen in Appendix (\ref{subseceta}): such sentences are found on the internet and show that it is possible for Mood$_{Evidential}$ adverbs to be embedded under the {\sl that} clause. I argue that this is the same {\sl that} clause hypothesized to be the ForceP that carries $\eta Force$ in Figure (\ref{evdttree3}). An explanation arising out of these details should be along the lines of syntactic-semantic restrictions on the co-occurrence of some of these items. In other words, $[_{\eta Force} \ that]$ licenses Mood$_{Evidential}$ adverbials when such adverbials are directly embedded by the $that$ clause. And even though there may be some problems with the judgments given for embedded evidential adverbs, there are attested examples. This brings van Gelderen's statement about ``complementary distribution'' into question.  
+
+Furthermore, we can see that Mood$_{Speech Act}$ adverbs might license $\eta Force$ in limited cases in the examples given in (\ref{samod}); though, of course, such examples need to be empirically tested.
+
+\begin{exe}
+\ex Speech Act Modifiers\label{samod}
+
+\begin{xlist}
+\ex Obviously/Unfortunately, I see Jon mowing his yard in the nude
+\begin{xlist}
+\ex Obviously, I see that Jon mows his yard in the nude
+\ex[?]{Unfortunately, I see that evidently Jon mows his yard in the nude}
+\ex[?]{Unfortunately, evidently, Jon mows his yard in the nude}
+\ex[?]{Unfortunately, I see that Jon evidently mows his yard in the nude}
+\end{xlist}
+
+\ex[?]{Frankly/Honestly, I see\footnote{Again, this should not be read as allowing an unpronounced {\sl that}.} Jon mowing his yard in the nude}
+\begin{xlist}
+\ex[?]{Frankly, I see that Jon mows his yard in the nude}
+\ex[?]{Honestly, I hear that Jon allegedly mows his yard in the nude}
+\ex[?]{Honestly, allegedly, Jon mows his yard in the nude}
+\ex[?]{Honestly, I hear that allegedly Jon mows his yard in the nude}
+\end{xlist}
+\end{xlist}
+\end{exe}
+
+The examples given so far should be enough to speculate a functional ordering based on \posscitet{cinque99adverbs} hierarchy. But as \cite{vangelderen05cpsplit} demonstrates there is one attested example in the British National Corpus (BNC) that goes against the Cinque ordering, though it conforms to the ordering of \cite{rizzi97fine} with {\sl that} in ForceP and the adverb in TopicP. The BNC example is in (\ref{bnc}), along with a sample from my search (examples \ref{mybnc}--\ref{mybncii}) of the string \texttt{that frankly} in the Corpus of Contemporary American English (COCA).\footnote{This was done on July 01, 2009; I found 3 more examples to add to van Gelderen's. The COCA contains more than 385 million words from spoken and written sources in fiction, popular magazines, newspapers, and academic texts, and is maintained by Mark Davies at Brigham Young University.} There are, as expected under Cinque's hierarchy, numerous examples with \texttt{frankly that} order. Putting some of these observations together we get (\ref{order}), which is also shown in Figures (\ref{evdttree5}) and (\ref{evdttree6}).
+ 
+\begin{exe}
+\ex \ldots she has told Paul {\bf that frankly} she's lapping up the attention (BNC KBF 8830)\label{bnc}
+\ex And I'm very concerned {\bf that frankly}, this is an abuse, potentially, of the mental health system (COCA \#3 2007 SPOK NBC\_Today)\label{mybnc}
+\ex But, you know, there are probably many similar cases, Terry, {\bf that frankly} we know nothing about (COCA \#8 2005 SPOK NPR\_FreshAir)\label{mybnci}
+\ex We have a competitive frenzy {\bf that frankly} involves parents more than it involves kids themselves\ldots (COCA \#15 2004 MAG PsychToday)\label{mybncii}
+\end{exe}
+
+\begin{exe}
+\ex Mood$_{Speech Act}$ \textgreater{} ($\eta$)ForceP \textgreater{} (TopicP) \textgreater{} Mood$_{Evidential}$\label{order}
+\end{exe}
+% 
+% \begin{figure}\scriptsize
+% \Tree [.$\eta$ForceP {I see} [. that\\{[+speaker]}\\{[+deictic sphere]}\\{[+finite]}\\{\{D,E,R\}} [.Mood$_{Evidential}$ evidently [. \obar{Mood$_{Evidential}$} [.TP {Jon$_{j}$} [.{} \obar{T}\\{[\textsc{Pres}]}\\{\{R,S,E\}} [.$v$P {\sout{Jon}_j} [. \obar{$v$}\\{\ldots} ]]]]]]]]
+% \caption{$\eta Force$ in {\sl I see that evidently Jon\ldots}}\label{evdttree5}
+% \end{figure}
+% 
+% \begin{figure}\scriptsize
+% \Tree [.Mood$_{Speech Act}$ {\sl spec} [. \obar{Mood$_{Speech}$} [.$\eta$ForceP {\sl spec} [. \obar{$\eta$Force} [.(TopicP) ({\sl spec}) [. (\obar{Topic}) [.Mood$_{\eta}$ {\sl spec} [. \obar{Mood$_{\eta}$} [\qroof{}.TP $v$P ]]]]]]]]]
+% \caption{Hierarchical relations for a piece of English discourse}\label{evdttree6}
+% \end{figure}
+
+Further evidence for these structures comes from looking at \posscitet{vangelderen05cpsplit} analysis of factives (see also \cite{simons07obs}). In her analysis, strings such as \texttt{the fact that} can be located in ForceP: with \texttt{the fact} located in \textsl{spec,ForceP} and \texttt{that} in \obar{Force}. She notes that there are no attested examples in the BNC of the string \texttt{see the fact that}. This could be because evidentiality readings do not seem forthcoming when a DP is the complement, as in [see [$_{DP}$ ]]. In other words, if the lexical item {\sl see} has an $\eta$ feature it will not license a DP or NP.\footnote{The obvious issue here is the sentence \textsl{I see Jon}. Without getting into too much detail, sentences of this type seem more to be making a claim on the existence of Jon, and not so much providing a source of evidence for the proposition that Jon exists. However, this explanation does not really satisfy.} This may be the case for the factives discussed by \cite{vangelderen05cpsplit}.
+
+I agree with \cite{vangelderen05cpsplit} that examples such as (\ref{seethefactthat}) should not be attested, but under my analysis we should expect to see examples such as (\ref{seethatthefactthat}). 
+
+\begin{exe}
+\ex[*]{I {\bf see the fact that} Jon mows his lawn}\label{seethefactthat}
+\ex I {\bf see that the fact that} `Jon mows his lawn' is provable by direct observation is a valid way to proceed\label{seethatthefactthat}
+\begin{xlist}
+\ex I see that {\bf it$_{i}$} is a valid way to proceed
+\ex $i =$ The fact that `Jon mows his lawn' is provable by direct observation 
+\end{xlist}
+\end{exe} 
+ 
+It turns out that there are no attested cases of (\ref{seethatthefactthat}) in neither the BNC
+nor the COCA, but this does not mean that (\ref{seethatthefactthat}) is unacceptable. While no
+corpora show attested examples, a search of the internet does (see Appendix \ref{subsecseethat}).
+
+\section{Beginning to Formalize an Intuition}
+Group theory is an algebraic formalization useful for studying the symmetry of relations. The notion of antisymmetry is popular in Minimalist syntax theories and symmetry carries some weight in formal semantics (e.g., the use of lattices and
+morphisms). I have argued elsewhere that this is a good reason to look towards group theory for
+some insipration in dealing with formal models for human languages (see
+\citealt{bowles09amerge})\footnote{More to the point, many formal techinques used in NLP that rely
+on linear algebra, vector spaces, or matrices, can be modeled in group theory. Additionally,
+algebraic structures such as rings, monoids, or various parts of Boolean algebra can also be related
+to groups by viewing them as extensions or precursors to groups; probablility can also be modeled using group
+theory. Lastly, group theory is useful in working with theories of grammar; e.g.,
+the theory based on Lambek calculus called pregroup grammar (see, for
+example, \citealt{stabler04tpg}); see also \cite{dymetman98groupcompling,dymetman98grouplingprocess} for various grammatical applications.}. I will apply this same reasoning here,
+specifically towards formalizing \textsl{context}.\footnote{I am not alone here.
+\pgcitet{mccarthy96logicaicontext}{5} notices that ``The variety of potential
+applications of contexts as objects suggests looking at contexts as mathematics
+looks at group elements.'' However, my treatment is different than McCarthy imagines: he seems to imply only an analogy between context and the way group elements are treated in the mathematics of group theory, with contexts being primitives; while I am trying to see how group theory application can be used for atomizing a context so that contexts can be composed of group relations. See \cite{hirst00spuriouscontext} for criticism of the general enterprise surrounding \cite{mccarthy96logicaicontext}.}
+\subsection{Symmetry and Contexts}
+Evidential systems are commonly partitioned into Direct and Indirect: that is,
+directly based on  empirical or sensory context, or indirectly based on
+lower-ranked empirical data or inference --- the latter usually being understood
+as not having `direct' access to the event or  information one is commenting on.
+Both Direct and Indirect types of evidentiality depend on contextual reference
+of the source of evidence the proposition is based on. The intuition here is
+that Direct evidentiality can be formalized by showing that contextual relations
+between speaker and evidence are symmetrical, i.e., they form a
+group.\footnote{However, this may be too stringent in that it would require a
+logically closed set of propositions for the whole context. Something like $\eta Force$, or quality threshold of subjective probability distribution on belief attributions, ensures that a speaker cannot have 100\% epistemic certainty in a context $c$. It seems that a closed set of propositions for a context must imply 100\% epistemic certainty --- this is not realistic for a `whole' context: it suggests a speaker knows everything there is to know about a context, or at least knows all the propositions relevant for a context, which is not realistic. This further suggests that a partition for contexts along \textsl{local} and \textsl{global} lines is useful. A speaker might be allowed a closed set of propositions for a local context --- or might be said to have a temporary epistemic certainty of 100\% as long as `temporary' is tied to the localness of the context. That is, the local context will be updated, and so will subjective probabilities and epistimic certainty.} This requires a
+formalization of context for evidential reasoning, what could be called an
+evidentiary base $B_{\eta}$. The $B_{\eta}$ is intended to be compatible with
+the modal base $B$ (or more accurately, the \textsl{kernal} of the base,
+$B_{K}$; see \cite{vonfintelgillies09must} who define \textsl{kernal} in terms
+of direct information). Instead of defining relations over an ordering source, the evidentiary base
+breaks down what a context is by giving definitions for direct or indirect
+information relative to (non)symmetrical relations that make up the context.  
+
+%Evidential evidence is designated as $\varphi_{{\bf ev}}$, the true proposition of the evidential. Intuitively, evidence is based on the reference of information relative to a particular speaker (and possibly adressee) at a point in time within the context of a particular world. Furthermore, if we assume that Pragmatic structure is composed (at least partially) of syntactic and semantic structure, then we might investigate the notion that $\varphi_{{\bf ev}}$ is composed of the semantic features proposed in Table \ref{featuretable}: $world,\ context,\ time,\ modal\ base$. In what follows I focus only on $context$. We might define what could be called the \textsl{evidentiary base} = $B_{\eta}$. Such a base could model symmetrical reference as a type of Direct evidential, and non-symmetrical reference as a type of Indirect evidential; both notions of (non)symmetry relying the definition of a group $G$. Before showing this, I define $G$.
+
+\subsubsection{Definition of Group}
+Group theory presupposes some knowledge of set theory because, technically, any group is also a set. That is, any collection of objects, including a set or collection of sets, can be a group if it meets Definition \ref{g}; the following is loosely based on \cite{rosen:1995} and \cite{milne:2008}.\footnote{It should be noted that definitions can vary slightly in the literature on Group Theory. \cite{milne:2008} does not explicitly state the \textsl{closure} criterion, but does make explicit reference to the fact that a group $G$ is a set. He also refers to the `neutral element' where Rosen uses `Identity.'}
+
+\begin{definition}
+\textsc{Group:}\\
+$G$ is a group iff $G$, under a law of composition, meets Criterion 1--4.\label{g} 
+\end{definition}
+
+\newtheorem*{comp}{Law of Composition}
+\begin{comp}
+\textsc(informal):\\
+Any two possible elements, $a$, $b$, may be combined in any possible way, where `$\circ$' is any combination, iff $a \circ b$ equals a set $S$.
+\end{comp}
+
+\begin{criterion}
+\textsl{Closure:}\\ For all $a$, $b$ : $a$, $b \in G$, then $ab$, $ba \in G$.
+\end{criterion}
+
+\begin{criterion}
+\textsl{Associativity:}\\ For all $a$, $b$, $c$ : $a$, $b$, $c \in G$, then $a$($bc$) = ($ab$)$c$.
+\end{criterion}
+
+\begin{criterion}
+\textsl{Existence of Identity:}\\ $G$ contains identity element $e$ : $ae = ea = a$.
+\end{criterion}
+
+\begin{criterion}
+\textsl{Existence of Inverses:}\\ For every $a \in G$, then $a^{-1} \in G$ : $aa^{-1} = a^{-1}a = e$.
+\end{criterion}
+
+A ``law of composition'' is broadly defined as any procedure that combines any two elements in any way (i.e., a binary operation). This can include the combination of functions $f(n)$,  relations $R$, integer values in addition or mulitplication ($t + y$, $t \times y$), or the combination of collections of objects that are subsets of a set, $s \in S$. Compositions also include permutations, rotations, and translations by displacement of a certain distance along a certain line. (For more on group theory, see Chapter 10 in \cite{pmw:1990}, section 39 in \cite{kleene:1967}; also \cite{dornhoffhohn:1978} or any abstract modern algebra book). The genius of GT is that it is so broadly defined that it can describe a wide variety of concrete or abstract objects, but is rigorous enough to derive very precise relations between those objects. For the purposes here, I use it to formalize a notion of $context$ that is compatible with a modal base, and specifically, the \textsl{kernal} of a modal base, $B_{K}$.
+
+% \subsubsection{Defining an Evidentiary Base $B_{\eta}$}
+% 
+% \newtheorem{ebase}{Conjecture}
+% \begin{ebase}
+% $B_{\eta}$ is composed of group-theoretic relations defined over one or more $contexts$.
+% \end{ebase}
+%  
+% I leave the details of definining an evidentiary base for a later date.
+% 
+% %\begin{proof}
+
+%\textsl{\textbf{Closure:}} If $\{\{\alpha\}, \{\beta\}\} \stackrel{merge}{\longrightarrow} \{\Lambda, \{\alpha, \beta\}\} = K$, (where $\Lambda\ = \alpha$ or $\beta$), then \{$\alpha$, $\beta\} \in K$ and \{$\beta$, $\alpha\} \in K$. This satisfies closure and is analogous to the c-command relation $R$ in the following way: if $\alpha R \beta$, then $\beta R \alpha$.
+
+%\textsl{\textbf{Associativity:}} If [$\Lambda$ $\alpha$ [ $\beta$ [ $\gamma$ $\delta$ ] ] ] = $K'$ and all label projections are ambiguous, then $K'$ equals the decomposition \{$\alpha$, $\beta$\}, \{$\beta$, $\gamma$\} and \{$\gamma$, $\delta$\}. By associativity, then, $K'$ can also be decomposed into $\alpha$\{$\beta$, $\gamma$\} and  \{$\alpha$, $\beta$\}$\gamma$. This is analogous to the c-command relation $R$ in following way: if, for example,  $\alpha R$ \{$\beta$, $\gamma$\}, then  \{$\alpha$, $\beta$\} $R \gamma$. 
+
+%\textsl{\textbf{Identity:}} By analogy, where rotation by 360$^\circ$ is equivalent to the absence of rotation---which is equivalent to an identity for rotation---the absence of the operation $\alpha$Merge occurring is equivalent to the identity function. Then, by stipulation $\exists$($\neg\alpha$Merge), and by identity, \{$\alpha$\}, \{$Y$\}$\stackrel{\neg merge}{\longrightarrow} \{\alpha\}$, where $Y$ is any constituent or set of constituents.
+
+%\textsl{\textbf{Inverse:}} By stipulation, if $\exists \{c\}$ then $\exists \{c^{-1}\}$. 
+
+%\end{proof}
+
+\section{Conclusion}
+I introduced a general sketch of the formalization of some of the
+syntax, semantics, and pragmatics of evidentiality in English. I used a minimalist style syntax and a probabilistically styled pragmatics and started to extend this model into an algebraic group theory definition of the
+notion \textsl{evidentiary base}; the latter is intended to be fully compatible with a modal base. 
+
+Generally, I presented a first step at integrating some of the formal proposals for the natural language phenomenon of evidentiality through combining insights from typological work on grammaticalized evidentials, corpus and historical studies on evidential lexical items in English, and theoretical arguments for hierarchical relations between functional items in information structure. 
+
+\section{Appendix}\label{appendix}
+
+\subsection{Some Attested Examples of $\eta Force$ Embedded Evidential Adverbs}\label{subseceta}
+
+Interestingly, none of the corpora I searched had examples, but internet searches did get some results.\footnote{ The copora include: Corpus of Contemporary American Speech, British National Corpus, VOICE {\sl online}. The internet searches were done by looking for full strings of the boldfaced material in the Google search engine LinguaLex, which was designed by the author to search through English language sensitive material; more empirical data is needed.} 
+
+\begin{exe} 
+\ex LinguaLex Examples
+\begin{xlist}
+\ex On the simple mouse\_test demo {\bf I see that, evidently,} IE8 still doesn't properly support text nodes\footnote{From \texttt{http://cross-browser.com/forums/viewtopic.php?id=515}.}\label{onfocevd}
+
+\ex For, consulting Omron's own web site, {\bf I see that evidently} they are (as of this writing) in the process of replacing\ldots\footnote{From \texttt{http://www.epinions.com}.}\label{fortopevd}
+\ex {\bf I see that obviously} when you're younger you're not going to be able to do that much by yourself\ldots
+\ex Well {\bf I see that obviously} she believes the guy because\ldots
+\ex {\bf I hear that\ldots allegedly\ldots}a few other animals in the neighborhood are missing. So sad and disgusting.\footnote{This was a written text and it appears that the ellipsis marks are not intended to delete any material.}
+\ex It may be just a rumor, but {\bf I hear that allegedly} The Public can't afford to pay the bills for the electricity\ldots
+\end{xlist}
+\end{exe}
+
+
+\begin{exe}
+\ex Bing Examples
+\begin{xlist}   
+\ex {\bf I hear that allegedly} there is a separate room in the Family and Adult video store\ldots
+\ex {\bf I see that allegedly} there are no responses at this time to that particular posting\ldots 
+\end{xlist}  
+\end{exe}
+
+These examples are clearly problematic, but not so much so that they are not suggestive of further directions for the cartography of the hypothetical $\eta Force$ and the kinds of complements it licenses; particularly in terms of its interaction with TopicP elements and what appears to be the licensing of a parenthetical evidential adverb within the intonational pause after the {\sl that} element. Also, the examples (\ref{onfocevd}) and (\ref{fortopevd}) suggest some interesting issues: in the case of (\ref{onfocevd}) the first clause {\sl On the simple mouse\_test demo} seems to be focused (new) material in a FocusP position; in the second case of (\ref{fortopevd}) the position of {\sl I see that evidently} comes after what appears to be the Focused content ({\sl consulting Omron's own web site}), which is embedded under the {\sl For} item --- which itself is probably FinP. 
+
+\subsection{`I see that the fact that\ldots'}\label{subsecseethat} 
+
+\begin{exe}
+\ex LinguaLex Examples 
+\begin{xlist}
+\ex  {\bf I see that the fact that} extensions are not enabled by default is confusing and will try to make this more clear in final 1.1 version
+\ex {\bf I see that the fact that} human beings have a free will and, unlike mindless animals, can exercise moral and behavioral choice was also lost on you\ldots\footnote{From \texttt{http://www.dakotavoice.com/2009/05/}.}
+\ex So {\bf I see that the fact that} it happened after the installation of the psu must be coincidental\footnote{From \texttt{http://h30434.www3.hp.com/psg/}.}
+\end{xlist}
+\end{exe}
+
+\newpage
+%Bibliography------------------------------------------------------
+%\bibliographystyle{linquiry2}
+\bibliography{myrefs}
+
+
+
+ 
+\end{document}

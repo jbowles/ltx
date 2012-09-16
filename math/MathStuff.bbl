@@ -1,0 +1,37 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Frisk(2007)}]{gustfriskalgebra}
+Frisk, R. David Gustafson \& Peter~D. 2007.
+\newblock \emph{College algebra}.
+\newblock United States: Brooks/Cole Thomson Learning, 7th edn.
+
+\bibitem[{Kleene(2002 [1967])}]{kleene:1967}
+Kleene, Stephen. 2002 [1967].
+\newblock \emph{Mathematical logic}.
+\newblock New York: Dover.
+
+\bibitem[{Korn \& Korn(2000)}]{mathbook}
+Korn, Graninio~A. \& Theresa~M. Korn. 2000.
+\newblock \emph{Mathematical handbook for scientists and engineers}.
+\newblock New York: Dover Publications Inc.
+\newblock Unabridged republication of 1968 edition, published by McGraw-Hill,
+  Inc.
+
+\bibitem[{Partee et~al.(1990)Partee, {ter Meulen} \& Wall}]{pmw:1990}
+Partee, Barbara, Alice {ter Meulen} \& Robert~E. Wall. 1990.
+\newblock \emph{Mathematical methods in linguistics}.
+\newblock Dordrecht: Kluwer Academic Publishers, 2nd edn.
+
+\bibitem[{Thompson(1986)}]{silvthomp}
+Thompson, Silvanus~P. 1986.
+\newblock \emph{Calculus made easy}.
+\newblock New York: St. Martin's Press.
+
+\end{thebibliography}

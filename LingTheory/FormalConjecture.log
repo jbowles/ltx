@@ -1,0 +1,1132 @@
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2009.3.26)  3 APR 2009 12:41
+entering extended mode
+**C:/Users/jb/Desktop/LaTeX*Documents/LingTheory/FormalConjecture.tex
+("C:/Users/jb/Desktop/LaTeX Documents/LingTheory/FormalConjecture.tex"
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\base\article.cls"
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\base\size12.clo"
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\natbib\natbib.sty"
+Package: natbib 2007/10/30 8.1 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count87
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\graphics\pdftex.def"
+File: pdftex.def 2007/06/12 v0.04h Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\linguex\linguex.sty"
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\tools\xspace.sty"
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\gb4e\cgloss4e.sty"
+\lineone=\box26
+\linetwo=\box27
+\linethree=\box28
+\wordone=\box29
+\wordtwo=\box30
+\wordthree=\box31
+\gline=\box32
+\glossglue=\skip45
+)
+\c@ExNo=\count89
+\c@SubExNo=\count90
+\c@SubSubExNo=\count91
+\c@FnExNo=\count92
+\c@ABC=\count93
+\currentlabel=\skip46
+\lessthanten=\skip47
+\lessthanhundred=\skip48
+\lessthanthousand=\skip49
+\@Exleftmargin=\skip50
+\Exlabelwidth=\skip51
+\Extopsep=\skip52
+\Exindent=\skip53
+\SubExleftmargin=\skip54
+\SubSubExleftmargin=\skip55
+\Exlabelsep=\skip56
+\alignSubExnegindent=\skip57
+\c@ExDepth=\count94
+\c@TempExDepth=\count95
+\CollectTokens=\toks15
+LaTeX Info: Redefining \b on input line 239.
+LaTeX Info: Redefining \c on input line 243.
+LaTeX Info: Redefining \d on input line 245.
+\c@tmpaEx=\count96
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\qtree\qtree.sty"
+Package: 2006/07/10 v.3.1Qtree: tree-drawing for linguistics
+Package: qtree 2006/07/10 v.3.1Qtree: tree-drawing for linguistics
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\pict2e\pict2e.sty"
+Package: pict2e 2006/03/05 v0.2s Improved picture commands (HjG,RN)
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\00miktex\pict2e.cfg"
+File: pict2e.cfg 2005/12/29 v1.0 MiKTeX 'pict2e' configuration
+)
+Package pict2e Info: Driver file: pdftex.def on input line 99.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 101.
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\pict2e\p2e-pdftex.def"
+File: p2e-pdftex.def 2004/06/25 v0.1r Driver-dependant file (RN,HjG)
+)
+\pIIe@GRAPH=\toks16
+)
+\c@treecount=\count97
+\c@branchcount=\count98
+\parentbox=\box33
+\treebox=\box34
+\treeboxone=\box35
+\treeboxtwo=\box36
+\treeboxthree=\box37
+\treeboxfour=\box38
+\treeboxfive=\box39
+\treeboxsix=\box40
+\treeboxseven=\box41
+\treeboxeight=\box42
+\treeboxnine=\box43
+\treeboxten=\box44
+\treeboxeleven=\box45
+\treeboxtwelve=\box46
+\treeboxthirteen=\box47
+\treeboxfourteen=\box48
+\treeboxfifteen=\box49
+\treeboxsixteen=\box50
+\treeboxseventeen=\box51
+\treeboxeighteen=\box52
+\treeboxnineteen=\box53
+\treeboxtwenty=\box54
+\treeoffsetone=\skip58
+\treeoffsettwo=\skip59
+\treeoffsetthree=\skip60
+\treeoffsetfour=\skip61
+\treeoffsetfive=\skip62
+\treeoffsetsix=\skip63
+\treeoffsetseven=\skip64
+\treeoffseteight=\skip65
+\treeoffsetnine=\skip66
+\treeoffsetten=\skip67
+\treeoffseteleven=\skip68
+\treeoffsettwelve=\skip69
+\treeoffsetthirteen=\skip70
+\treeoffsetfourteen=\skip71
+\treeoffsetfifteen=\skip72
+\treeoffsetsixteen=\skip73
+\treeoffsetseventeen=\skip74
+\treeoffseteighteen=\skip75
+\treeoffsetnineteen=\skip76
+\treeoffsettwenty=\skip77
+\treeshiftone=\skip78
+\treeshifttwo=\skip79
+\treeshiftthree=\skip80
+\treeshiftfour=\skip81
+\treeshiftfive=\skip82
+\treeshiftsix=\skip83
+\treeshiftseven=\skip84
+\treeshifteight=\skip85
+\treeshiftnine=\skip86
+\treeshiftten=\skip87
+\treeshifteleven=\skip88
+\treeshifttwelve=\skip89
+\treeshiftthirteen=\skip90
+\treeshiftfourteen=\skip91
+\treeshiftfifteen=\skip92
+\treeshiftsixteen=\skip93
+\treeshiftseventeen=\skip94
+\treeshifteighteen=\skip95
+\treeshiftnineteen=\skip96
+\treeshifttwenty=\skip97
+\treewidthone=\skip98
+\treewidthtwo=\skip99
+\treewidththree=\skip100
+\treewidthfour=\skip101
+\treewidthfive=\skip102
+\treewidthsix=\skip103
+\treewidthseven=\skip104
+\treewidtheight=\skip105
+\treewidthnine=\skip106
+\treewidthten=\skip107
+\treewidtheleven=\skip108
+\treewidthtwelve=\skip109
+\treewidththirteen=\skip110
+\treewidthfourteen=\skip111
+\treewidthfifteen=\skip112
+\treewidthsixteen=\skip113
+\treewidthseventeen=\skip114
+\treewidtheighteen=\skip115
+\treewidthnineteen=\skip116
+\treewidthtwenty=\skip117
+\daughteroffsetone=\skip118
+\daughteroffsettwo=\skip119
+\daughteroffsetthree=\skip120
+\daughteroffsetfour=\skip121
+\branchwidthone=\skip122
+\branchwidthtwo=\skip123
+\branchwidththree=\skip124
+\branchwidthfour=\skip125
+\parentoffset=\skip126
+\treeoffset=\skip127
+\daughteroffset=\skip128
+\branchwidth=\skip129
+\parentwidth=\skip130
+\treewidth=\skip131
+\qta=\toks17
+\qtb=\toks18
+\nbranches=\count99
+\qroofx=\count100
+\qroofy=\count101
+\@qrscratchbox=\box55
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip132
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen105
+))
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip10
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks20
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks21
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks22
+\multlinegap=\skip133
+\multlinetaggap=\skip134
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip135
+\thm@postskip=\skip136
+\thm@headsep=\skip137
+\dth@everypar=\toks29
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+\c@theorem=\count114
+\c@acknowledgement=\count115
+\c@algorithm=\count116
+\c@axiom=\count117
+\c@case=\count118
+\c@claim=\count119
+\c@conclusion=\count120
+\c@condition=\count121
+\c@conjecture=\count122
+\c@corollary=\count123
+\c@criterion=\count124
+\c@definition=\count125
+\c@example=\count126
+\c@exercise=\count127
+\c@lemma=\count128
+\c@problem=\count129
+\c@proposition=\count130
+\c@remark=\count131
+\c@solution=\count132
+\c@summary=\count133
+\c@phrase string=\count134
+\c@notation=\count135
+\c@tree=\count136
+
+(FormalConjecture.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Program Files (x86)\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count137
+\scratchdimen=\dimen114
+\scratchbox=\box58
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen115
+\MPnumerator=\count141
+\everyMPtoPDFconversion=\toks30
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+ [1
+
+{C:/ProgramData/MiKTeX/2.7/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+ [2]
+LaTeX Font Info:    Try loading font information for U+lasy on input line 62.
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+
+("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [3] [4]
+[5] [6]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
+ [7]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 108.
+
+ ("C:\Program Files (x86)\MiKTeX 2.7\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
+
+[8] [9]
+
+Package natbib Warning: Citation `bowles09amerge' on page 10 undefined on input
+ line 110.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 10 undefined on input 
+line 113.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 10 undefined on input l
+ine 113.
+
+
+Package natbib Warning: Citation `ppuriagereka:2008' on page 10 undefined on in
+put line 113.
+
+[10]
+
+Package natbib Warning: Citation `boeckx08bare' on page 11 undefined on input l
+ine 120.
+
+
+Package natbib Warning: Citation `chomsky95mp' on page 11 undefined on input li
+ne 120.
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+
+Package natbib Warning: Citation `boeckx08bare' on page 11 undefined on input l
+ine 120.
+
+
+Package natbib Warning: Citation `chametzky:2000' on page 11 undefined on input
+ line 120.
+
+
+Package natbib Warning: Citation `hn:2008' on page 11 undefined on input line 1
+20.
+
+
+Package natbib Warning: Citation `rubin:2002' on page 11 undefined on input lin
+e 120.
+
+
+Package natbib Warning: Citation `rubin:2003' on page 11 undefined on input lin
+e 120.
+
+[11]
+
+LaTeX Warning: Reference `humath' on page 12 undefined on input line 132.
+
+
+Package natbib Warning: Citation `barhillel:1954' on page 12 undefined on input
+ line 134.
+
+
+Package natbib Warning: Citation `chomsky55logicalsyntax' on page 12 undefined 
+on input line 134.
+
+
+Package natbib Warning: Citation `carnap:1937' on page 12 undefined on input li
+ne 134.
+
+[12]
+
+Package natbib Warning: Citation `chomsky57ss' on page 13 undefined on input li
+ne 143.
+
+
+Package natbib Warning: Citation `chomsky70remarks' on page 13 undefined on inp
+ut line 143.
+
+
+Package natbib Warning: Citation `jackendoff:1977' on page 13 undefined on inpu
+t line 143.
+
+
+Package natbib Warning: Citation `chomsky94bps' on page 13 undefined on input l
+ine 143.
+
+
+Package natbib Warning: Citation `chomsky95bps' on page 13 undefined on input l
+ine 143.
+
+
+Package natbib Warning: Citation `carnie:2000' on page 13 undefined on input li
+ne 143.
+
+
+Package natbib Warning: Citation `citko:2005' on page 13 undefined on input lin
+e 143.
+
+
+Package natbib Warning: Citation `collins:2001' on page 13 undefined on input l
+ine 143.
+
+
+Package natbib Warning: Citation `jayaseelan:2008' on page 13 undefined on inpu
+t line 143.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
+
+ []
+
+[13]
+
+Package natbib Warning: Citation `boeckx08bare' on page 14 undefined on input l
+ine 167.
+
+
+Package natbib Warning: Citation `chomsky95mp' on page 14 undefined on input li
+ne 172.
+
+
+Package natbib Warning: Citation `hcf:2002' on page 14 undefined on input line 
+175.
+
+
+Package natbib Warning: Citation `fhc:2005' on page 14 undefined on input line 
+175.
+
+
+Package natbib Warning: Citation `jp:2005' on page 14 undefined on input line 1
+75.
+
+
+Package natbib Warning: Citation `hcf:2002' on page 14 undefined on input line 
+175.
+
+
+Package natbib Warning: Citation `boeckx08bare' on page 14 undefined on input l
+ine 175.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 14 undefined on input 
+line 188.
+
+[14] [15]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 192.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 16 undefined on input 
+line 194.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 16 undefined on input l
+ine 194.
+
+
+Package natbib Warning: Citation `bcm:2006' on page 16 undefined on input line 
+194.
+
+
+Package natbib Warning: Citation `cm:2005' on page 16 undefined on input line 1
+94.
+
+
+Package natbib Warning: Citation `idsardi:2008' on page 16 undefined on input l
+ine 194.
+
+
+Package natbib Warning: Citation `ppuriagereka:2008' on page 16 undefined on in
+put line 194.
+
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ‘ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+
+Package natbib Warning: Citation `livio:2002' on page 16 undefined on input lin
+e 198.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 16 undefined on input 
+line 198.
+
+
+LaTeX Warning: Reference `gsop' on page 16 undefined on input line 201.
+
+
+LaTeX Warning: Reference `psop' on page 16 undefined on input line 201.
+
+
+Package natbib Warning: Citation `uriagereka:1998' on page 16 undefined on inpu
+t line 201.
+
+
+Package natbib Warning: Citation `ppuriagereka:2008' on page 16 undefined on in
+put line 201.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 16 undefined on input 
+line 201.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 16 undefined on input l
+ine 201.
+
+[16]
+
+LaTeX Warning: Reference `psop' on page 17 undefined on input line 212.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 17 undefined on input 
+line 214.
+
+
+LaTeX Warning: Reference `psop' on page 17 undefined on input line 214.
+
+
+LaTeX Warning: Reference `psop' on page 17 undefined on input line 216.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 17 undefined on input 
+line 216.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 17 undefined on input l
+ine 216.
+
+[17]
+
+LaTeX Warning: Float too large for page by 48.25055pt on input line 236.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 18 undefined on input l
+ine 238.
+
+
+Package natbib Warning: Citation `livio:2002' on page 18 undefined on input lin
+e 238.
+
+
+Package natbib Warning: Citation `uriagereka:1998' on page 18 undefined on inpu
+t line 238.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 18 undefined on input 
+line 238.
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20]
+
+LaTeX Warning: Reference `psop' on page 21 undefined on input line 245.
+
+
+Package natbib Warning: Citation `cm:2005' on page 21 undefined on input line 2
+45.
+
+
+Package natbib Warning: Citation `bcm:2006' on page 21 undefined on input line 
+245.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 21 undefined on input 
+line 245.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 21 undefined on input l
+ine 245.
+
+
+Package natbib Warning: Citation `livio:2005' on page 21 undefined on input lin
+e 254.
+
+
+Package natbib Warning: Citation `stewart:2007' on page 21 undefined on input l
+ine 254.
+
+
+Package natbib Warning: Citation `rosen:1995' on page 21 undefined on input lin
+e 254.
+
+
+Package natbib Warning: Citation `milne:2008' on page 21 undefined on input lin
+e 254.
+
+
+Package natbib Warning: Citation `pmw:1990' on page 21 undefined on input line 
+254.
+
+
+Package natbib Warning: Citation `rosen:1995' on page 21 undefined on input lin
+e 254.
+
+
+Package natbib Warning: Citation `carnie:2000' on page 21 undefined on input li
+ne 266.
+
+[21]
+
+Package natbib Warning: Citation `boeckx08bare' on page 22 undefined on input l
+ine 268.
+
+
+Package natbib Warning: Citation `boeckx08bare' on page 22 undefined on input l
+ine 268.
+
+
+Package natbib Warning: Citation `baker:2003' on page 22 undefined on input lin
+e 268.
+
+
+Package natbib Warning: Citation `boeckx08bare' on page 22 undefined on input l
+ine 268.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+
+Package natbib Warning: Citation `boeckx08bare' on page 23 undefined on input l
+ine 273.
+
+
+Package natbib Warning: Citation `uriagereka:1998' on page 23 undefined on inpu
+t line 273.
+
+
+Package natbib Warning: Citation `boeckxuri:2007' on page 23 undefined on input
+ line 273.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 23 undefined on input 
+line 273.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 23 undefined on input l
+ine 273.
+
+
+Package natbib Warning: Citation `idsardi:2008' on page 23 undefined on input l
+ine 273.
+
+
+Package natbib Warning: Citation `ppuriagereka:2008' on page 23 undefined on in
+put line 273.
+
+[23]
+
+Package natbib Warning: Citation `chomsky05threefactors' on page 24 undefined o
+n input line 280.
+
+[24]
+
+Package natbib Warning: Citation `chomsky55logicalsyntax' on page 25 undefined 
+on input line 284.
+
+
+Package natbib Warning: Citation `chomsky57ss' on page 25 undefined on input li
+ne 284.
+
+
+Package natbib Warning: Citation `carnap:1937' on page 25 undefined on input li
+ne 284.
+
+
+Package natbib Warning: Citation `ayer:1936' on page 25 undefined on input line
+ 284.
+
+
+Package natbib Warning: Citation `riechenbach:1947' on page 25 undefined on inp
+ut line 284.
+
+
+Package natbib Warning: Citation `quine:1953' on page 25 undefined on input lin
+e 284.
+
+
+Package natbib Warning: Citation `tarski:1956' on page 25 undefined on input li
+ne 284.
+
+
+Package natbib Warning: Citation `langpostal:1984' on page 25 undefined on inpu
+t line 284.
+
+
+Package natbib Warning: Citation `pmw:1990' on page 25 undefined on input line 
+284.
+
+
+Package natbib Warning: Citation `hornstein:1992' on page 25 undefined on input
+ line 284.
+
+
+Package natbib Warning: Citation `prsmol:1993' on page 25 undefined on input li
+ne 284.
+
+
+Package natbib Warning: Citation `uriagereka:1998' on page 25 undefined on inpu
+t line 284.
+
+
+Package natbib Warning: Citation `chmg:2000' on page 25 undefined on input line
+ 284.
+
+
+Package natbib Warning: Citation `tessmol:2000' on page 25 undefined on input l
+ine 284.
+
+
+Package natbib Warning: Citation `bhj:2003' on page 25 undefined on input line 
+284.
+
+
+Package natbib Warning: Citation `niyogi:2006' on page 25 undefined on input li
+ne 284.
+
+
+Package natbib Warning: Citation `fortcm:toappear' on page 25 undefined on inpu
+t line 284.
+
+
+Package natbib Warning: Citation `fortcm:toappear' on page 25 undefined on inpu
+t line 284.
+
+
+Package natbib Warning: Citation `chomsky55logicalsyntax' on page 25 undefined 
+on input line 295.
+
+
+Package natbib Warning: Citation `barhillel:1954' on page 25 undefined on input
+ line 295.
+
+
+Package natbib Warning: Citation `carnap:1937' on page 25 undefined on input li
+ne 295.
+
+
+Package natbib Warning: Citation `tomalin:2006' on page 25 undefined on input l
+ine 295.
+
+
+Package natbib Warning: Citation `clarkcurran:2007' on page 25 undefined on inp
+ut line 295.
+
+[25]
+
+Package natbib Warning: Citation `deutsch:1985' on page 26 undefined on input l
+ine 301.
+
+
+Package natbib Warning: Citation `deutsch:1997' on page 26 undefined on input l
+ine 301.
+
+
+Package natbib Warning: Citation `lloyd:2000' on page 26 undefined on input lin
+e 301.
+
+
+Package natbib Warning: Citation `lloyd:2006' on page 26 undefined on input lin
+e 301.
+
+
+Package natbib Warning: Citation `kauffman:1995' on page 26 undefined on input 
+line 301.
+
+
+Package natbib Warning: Citation `chomsky08onphases' on page 26 undefined on in
+put line 301.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 309.
+
+Package natbib Warning: Citation `boeckxpp:2005' on page 26 undefined on input 
+line 317.
+
+
+Package natbib Warning: Citation `chomsky86knowledge' on page 26 undefined on i
+nput line 317.
+
+
+Package natbib Warning: Citation `chomsky95langnature' on page 26 undefined on 
+input line 317.
+
+
+Package natbib Warning: Citation `chomsky95mp' on page 26 undefined on input li
+ne 317.
+
+
+Package natbib Warning: Citation `ppuriagereka:2008' on page 26 undefined on in
+put line 317.
+
+
+Package natbib Warning: Citation `uriagereka:1998' on page 26 undefined on inpu
+t line 317.
+
+
+Package natbib Warning: Citation `formigari:2004' on page 26 undefined on input
+ line 317.
+
+
+Package natbib Warning: Citation `deutsch:1985' on page 26 undefined on input l
+ine 320.
+
+
+Package natbib Warning: Citation `deutsch:1985' on page 26 undefined on input l
+ine 320.
+
+[26]
+
+Package natbib Warning: Citation `deutsch:1985' on page 27 undefined on input l
+ine 332.
+
+
+Package natbib Warning: Citation `chomsky05threefactors' on page 27 undefined o
+n input line 337.
+
+[27]
+
+Package natbib Warning: Citation `pmw:1990' on page 28 undefined on input line 
+340.
+
+
+Package natbib Warning: Citation `soare:1996' on page 28 undefined on input lin
+e 340.
+
+
+Package natbib Warning: Citation `soare:2007' on page 28 undefined on input lin
+e 340.
+
+
+Package natbib Warning: Citation `soare:2008' on page 28 undefined on input lin
+e 340.
+
+
+Package natbib Warning: Citation `soare:1996' on page 28 undefined on input lin
+e 340.
+
+
+Package natbib Warning: Citation `church:1936' on page 28 undefined on input li
+ne 340.
+
+
+Package natbib Warning: Citation `turing:1936' on page 28 undefined on input li
+ne 340.
+
+
+Package natbib Warning: Citation `post:1936' on page 28 undefined on input line
+ 340.
+
+
+Package natbib Warning: Citation `soare:2008' on page 28 undefined on input lin
+e 340.
+
+[28]
+
+Package natbib Warning: Citation `chomsky65aspects' on page 29 undefined on inp
+ut line 346.
+
+
+Package natbib Warning: Citation `post:1944' on page 29 undefined on input line
+ 346.
+
+
+Package natbib Warning: Citation `soare:2008' on page 29 undefined on input lin
+e 346.
+
+
+LaTeX Warning: Reference `con' on page 29 undefined on input line 346.
+
+
+Package natbib Warning: Citation `pmw:1990' on page 29 undefined on input line 
+346.
+
+
+Package natbib Warning: Citation `chmg:2000' on page 29 undefined on input line
+ 346.
+
+
+Package natbib Warning: Citation `chmg:2000' on page 29 undefined on input line
+ 346.
+
+
+Package natbib Warning: Citation `soare:1996' on page 29 undefined on input lin
+e 347.
+
+[29] [30]
+
+Package natbib Warning: Citation `fortcm:toappear' on page 31 undefined on inpu
+t line 353.
+
+
+Package natbib Warning: Citation `deutsch:1985' on page 31 undefined on input l
+ine 353.
+
+
+Package natbib Warning: Citation `rosen:1995' on page 31 undefined on input lin
+e 356.
+
+
+Package natbib Warning: Citation `boeckx08bare' on page 31 undefined on input l
+ine 356.
+
+[31]
+
+Package natbib Warning: Citation `pmw:1990' on page 32 undefined on input line 
+379.
+
+
+Package natbib Warning: Citation `milne:2008' on page 32 undefined on input lin
+e 379.
+
+
+Package natbib Warning: Citation `kleene:1967' on page 32 undefined on input li
+ne 379.
+
+
+Package natbib Warning: Citation `korfhage:1974' on page 32 undefined on input 
+line 379.
+
+
+Package natbib Warning: Citation `dornhoffhohn:1978' on page 32 undefined on in
+put line 379.
+
+
+Package natbib Warning: Citation `livio:2005' on page 32 undefined on input lin
+e 379.
+
+
+Package natbib Warning: Citation `stewart:2007' on page 32 undefined on input l
+ine 379.
+
+\c@gmerge=\count142
+[32]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sl' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sl' tried instead on input line 398.
+
+
+Package natbib Warning: Citation `chomsky95mp' on page 33 undefined on input li
+ne 408.
+
+[33]
+
+LaTeX Warning: Reference `con' on page 34 undefined on input line 416.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 34 undefined on input 
+line 416.
+
+
+Package natbib Warning: Citation `uriagereka:1998' on page 34 undefined on inpu
+t line 416.
+
+
+Package natbib Warning: Citation `cm:2005' on page 34 undefined on input line 4
+16.
+
+
+Package natbib Warning: Citation `bcm:2006' on page 34 undefined on input line 
+416.
+
+
+Package natbib Warning: Citation `idsardi:2008' on page 34 undefined on input l
+ine 416.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 34 undefined on input l
+ine 416.
+
+
+Package natbib Warning: Citation `ppuriagereka:2008' on page 34 undefined on in
+put line 416.
+
+
+Package natbib Warning: Citation `medeiros:2008' on page 34 undefined on input 
+line 416.
+
+
+Package natbib Warning: Citation `soschen:2008' on page 34 undefined on input l
+ine 416.
+
+
+Package natbib Warning: Citation `boeckx08bare' on page 34 undefined on input l
+ine 416.
+
+[34]
+
+Package natbib Warning: Citation `deutsch:1985' on page 35 undefined on input l
+ine 418.
+
+
+Package natbib Warning: Citation `soare:1996' on page 35 undefined on input lin
+e 418.
+
+
+Package natbib Warning: Citation `soare:2007' on page 35 undefined on input lin
+e 418.
+
+
+Package natbib Warning: Citation `soare:2008' on page 35 undefined on input lin
+e 418.
+
+[35] (FormalConjecture.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[36] (FormalConjecture.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2767 strings out of 95340
+ 32324 string characters out of 1184001
+ 123940 words of memory out of 1500000
+ 5900 multiletter control sequences out of 110000
+ 37774 words of font info for 85 fonts, out of 1200000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 27i,20n,25p,4772b,405s stack positions out of 5000i,500n,10000p,200000b,5000s
+{C:/Program Files (x86)/MiKTeX 2.7/fonts/enc/dvips/8r.enc}<C:/Program Files (
+x86)/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTe
+X 2.7/fonts/type1/bluesky/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.7/font
+s/type1/bluesky/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/blu
+esky/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr
+10.pfb><C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.pfb><C:/
+Program Files (x86)/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr7.pfb><C:/Program File
+s (x86)/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.7/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.7/fon
+ts/type1/bluesky/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/bl
+uesky/ams/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/urw/times/u
+tmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/urw/times/utmb8a.pfb><
+C:/Program Files (x86)/MiKTeX 2.7/fonts/type1/urw/times/utmbi8a.pfb><C:/Program
+ Files (x86)/MiKTeX 2.7/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86
+)/MiKTeX 2.7/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
+7/fonts/type1/urw/times/utmri8a.pfb>
+Output written on FormalConjecture.pdf (36 pages, 230499 bytes).
+PDF statistics:
+ 186 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

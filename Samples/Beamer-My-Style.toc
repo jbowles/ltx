@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.07pt}
+\beamer@sectionintoc {1}{1}{7}{0}{1}
+\beamer@sectionintoc {2}{2}{8}{0}{2}
+\beamer@sectionintoc {3}{3}{9}{0}{3}
+\beamer@sectionintoc {4}{4}{10}{0}{4}

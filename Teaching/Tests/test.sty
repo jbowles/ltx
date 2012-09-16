@@ -1,0 +1,205 @@
+\documentclass{article}
+% Change "article" to "report" to get rid of page number on title page
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{expex}
+\usepackage{setspace}
+\usepackage{Tabbing}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{soul,color}
+\usepackage{graphicx,float,wrapfig}
+
+% In case you need to adjust margins:
+\topmargin=-0.45in      %
+\evensidemargin=0in     %
+\oddsidemargin=0in      %
+\textwidth=6.5in        %
+\textheight=9.0in       %
+\headsep=0.25in
+
+% Exam Specific Information
+\newcommand{\examHeading}{Exam}
+\newcommand{\examTitle}{Terminology}
+\newcommand{\examDueDate}{June 2, 2010}
+\newcommand{\examClass}{Eng 2020}
+\newcommand{\examClassTime}{8:45 am--10:25 am}
+\newcommand{\examClassInstructor}{Joshua Bowles}
+\newcommand{\examAuthorName}{Your Name:}
+
+% Setup the header and footer
+\pagestyle{fancy}                                                       %
+\lhead{}                                                 %
+\chead{\examClass\ (\examClassInstructor\ \examClassTime): \examTitle}  %
+\rhead{\firstxmark}                                                     %
+\lfoot{\lastxmark}                                                      %
+\cfoot{This is an exam. Usual ethical considerations apply.}            %
+\rfoot{Page\ \thepage\ of\ \pageref{LastPage}}                          %
+\renewcommand\headrulewidth{0.4pt}                                      %
+\renewcommand\footrulewidth{0.4pt}                                      %
+
+% This is used to trace down (pin point) problems
+% in latexing a document:
+%\tracingall
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some tools
+\newcommand{\enterProblemHeader}[1]{\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak%
+                                    \nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak}%
+\newcommand{\exitProblemHeader}[1]{\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak%
+                                   \nobreak\extramarks{#1}{}\nobreak}%
+
+\newlength{\labelLength}
+\newcommand{\labelAnswer}[2]
+  {\settowidth{\labelLength}{#1}%
+   \addtolength{\labelLength}{0.25in}%
+   \changetext{}{-\labelLength}{}{}{}%
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#2\end{minipage}}%
+   \marginpar{\fbox{#1}}%
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   \changetext{}{+\labelLength}{}{}{}}%
+
+\setcounter{secnumdepth}{0}
+\newcommand{\examProblemName}{}%
+\newcounter{examProblemCounter}%
+\newenvironment{examProblem}[1][Problem \arabic{examProblemCounter}]%
+  {\stepcounter{examProblemCounter}%
+   \renewcommand{\examProblemName}{#1}%
+   \section{\examProblemName}%
+   \enterProblemHeader{\examProblemName}}%
+  {\exitProblemHeader{\examProblemName}}%
+
+\newcommand{\problemAnswer}[1]
+  {\noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}}%
+
+\newcommand{\problemLAnswer}[1]
+  {\labelAnswer{\examProblemName}{#1}}
+
+\newcommand{\examSectionName}{}%
+\newlength{\examSectionLabelLength}{}%
+\newenvironment{examSection}[1]%
+  {% We put this space here to make sure we're not connected to the above.
+   % Otherwise the changetext can do funny things to the other margin
+
+   \renewcommand{\examSectionName}{#1}%
+   \settowidth{\examSectionLabelLength}{\examSectionName}%
+   \addtolength{\examSectionLabelLength}{0.25in}%
+   \changetext{}{-\examSectionLabelLength}{}{}{}%
+   \subsection{\examSectionName}%
+   \enterProblemHeader{\examProblemName\ [\examSectionName]}}%
+  {\enterProblemHeader{\examProblemName}%
+
+   % We put the blank space above in order to make sure this margin
+   % change doesn't happen too soon (otherwise \sectionAnswer's can
+   % get ugly about their \marginpar placement.
+   \changetext{}{+\examSectionLabelLength}{}{}{}}%
+
+\newcommand{\sectionAnswer}[1]
+  {% We put this space here to make sure we're disconnected from the previous
+   % passage
+
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}%
+   \enterProblemHeader{\examProblemName}\exitProblemHeader{\examProblemName}%
+   \marginpar{\fbox{\examSectionName}}%
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   }%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Make title
+\title{\textmd{\textbf{ \examHeading \\ \examClass:\ \examTitle}}\\\normalsize\vspace{0.1in}\small{Given\ on\ \examDueDate}\\\vspace{0.1in}\large{\textit{\examClassInstructor\ \examClassTime}}}
+\date{\today}
+\author{\textbf{\examAuthorName}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+\texttt{Overview: This exam is {\bf open book} and {\bf closed-notes}. It is worth 3 points ($\approx$ 3\% of your grade). Each problem is worth 1.5 points. The first section asks you to define briefly the term. The second problem asks you to do some basic analysis.}
+
+\begin{examProblem}
+\texttt{Directions: Briefly define the following terms. Each definition is worth 1.5 points.({\sl Evidence is worth 0.375 points for each part}.)}
+
+ \ex
+Rhetoric:
+{}\\
+\xe
+
+ \ex
+Argument:
+{}\\
+\xe
+
+\ex
+Logic:
+{}\\
+\xe
+
+ \pex Evidence (define and give me 3 types):
+{}\\
+{}\\
+\a
+ \a
+ \a
+\xe
+
+ \ex
+Rhetoric:
+{}\\
+\xe
+
+ \ex
+Composition:
+{}\\
+\xe
+
+ \ex
+Claim:
+{}\\
+\xe
+
+ \ex
+Fallacy:
+{}\\
+\xe
+
+ \ex
+Audience:
+{}\\
+\xe
+
+ \ex
+Belief:
+{}\\
+\xe
+
+ \pex This is extra credit
+\a Knowledge:
+ \xe
+
+
+\end{examProblem}
+
+
+
+\begin{examProblem}
+\texttt{Directions: }
+
+
+\mbox{
+
+}
+
+\end{examProblem}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

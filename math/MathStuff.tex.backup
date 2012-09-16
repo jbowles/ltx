@@ -1,0 +1,49 @@
+\documentclass{book}
+\usepackage{mathpackages,mathcommands}
+%====uncomment this AND at the end and when I want and index======================= 
+\makeindex 
+%======================
+\begin{document}
+
+\title{Mathematical Formalizations: A brief study guide}
+ \author{\includegraphics[width=0.9\textwidth]{Screenshot-1}\\ Joshua Bowles\\ \date{\today}}
+         
+\maketitle
+
+%=================uncomment this when I want list of figures and tables
+\tableofcontents 
+\listoffigures 
+\listoftables 
+  
+%==========
+\chapter*{Preface}
+\begin{quote}
+     \textsl{Immature poets imitate; mature poets steal; bad poets deface what they take, and good poets make it into something better, or at least something different}.\\ --T.S. Eliot
+\end{quote}
+
+
+I would imagine the quote from Eliot could apply also to world of mathematics; one might addend it with the line ``and genius creates directly from nature.'' I am far from a mature mathematician, and hope one day to be a good one; at least in terms of my respective field of application and theory of mathematical formaliztions to the study of natural language linguistics. If the quote above were truely accurate here then I would be doing more imitating then stealing\ldots, but the truth is that I do more stealing than anything.
+
+This book is intended as a study guide for myself; if you are reading it then I have made it public for whatever reason. \textcolor{red}{\textbf{Please do not cite this reference guide}}. I have taken liberally from multiple sources and have not been too cautious in making sure that I have not plagiarized. The reason for this is becuase I want to make sure the mathematics I present here is credible: proofs, examples, theorems, and so on. I have modified many examples and such, but only when I was sure of the outcome; if there was every any question on my part I simply copied freely in order to ensure that this personal study guide was true to the facts. 
+
+The following sources have both inspired and guided me, and represent sources that I have either borrowed from, or flatly taken taken material out of (without permission by the way): \cite{gustfriskalgebra}, \cite{mathbook}, \cite{pmw:1990}, \cite{kleene:1967}, and \ldots. Of particular note is \posscitet{silvthomp}, originally written in 1910, and commendable for its Prologue which bears quoting in length.
+\begin{quote}
+    Considering how many fools can calculate, it is surprising tha tit should be thought either a difficult or a tedious task for any other fool to learn how to master 
+\end{quote}
+ 
+
+%==================
+\include{arithmetic}
+
+%==================================================
+\include{elementaryalgebra}
+
+%===================
+\include{probability}
+
+%===============uncomment this when I want to print index======
+\printindex
+%===========
+
+\bibliography{mathrefs}
+\end{document}

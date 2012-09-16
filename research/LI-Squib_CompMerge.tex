@@ -1,0 +1,174 @@
+
+\documentclass[11pt,twoside]{article}
+
+\usepackage{natbib,times,linguex,cgloss4e,latexsym,qtree}
+\usepackage{graphicx}
+
+%---------------------BIBLIOGRAPHY STYLE-------------------
+%I got this from Paul Hagstrom, who got if from the Semantics and Pragmatics journal specs.--------------------------------------------------------
+
+\bibpunct[: ]{(}{)}{;}{a}{}{,}
+\newcommand{\BIBand}{\&}
+\bibliographystyle{linquiry2}
+\newcommand{\posscitet}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\possciteauthor}[1]{\citeauthor{#1}'s}
+\newcommand{\pgposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~#2)}
+\newcommand{\secposscitet}[2]{\citeauthor{#1}'s (\citeyear{#1}:~$\S$#2)}
+\newcommand{\pgcitealt}[2]{\citealt{#1}:~#2}
+\newcommand{\seccitealt}[2]{\citealt{#1}:~$\S$#2}
+\newcommand{\pgcitep}[2]{(\citealt{#1}:~#2)}
+\newcommand{\seccitep}[2]{(\citealt{#1}:~$\S$#2)}
+\newcommand{\pgcitet}[2]{\citeauthor{#1} (\citeyear{#1}:~#2)}
+\newcommand{\seccitet}[2]{\citeauthor{#1} (\citeyear{#1}:~$\S$#2)}
+%---------------------------------------------------------------------
+% Vertical.
+\paperheight=11in
+\topmargin=0in     %
+\headheight=0.2in  % head: 1.5in (margin + head + sep = .5; latex adds 1in)
+\headsep=0.3in     %
+\topskip=0.1in     % included in the textheight
+\textheight=8in    % text is 8in
+\footskip=0.5in    % foot: 1.5in (.5 + 1.0in leftover)
+\parskip=0pt
+
+% Horizontal.
+\paperwidth=8.5in
+\textwidth=5.5in
+\oddsidemargin=0.5in  % 1.5in due to LaTeX's calculations
+\evensidemargin=0.5in % 1.5in due to LaTeX's calculations
+\raggedbottom % constant spacing in the text; cost is a ragged bottom
+\parindent=0.25in
+\leftmargini=0.5in%
+% Tell dvips about our paper.
+\special{papersize=8.5in,11in}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\newtheorem{theorem}{Theorem}
+\theoremstyle{plain}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{conclusion}{Conclusion}
+\newtheorem{condition}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{criterion}{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}{Solution}
+\newtheorem{summary}{Summary}
+\numberwithin{equation}{section}
+
+\theoremstyle{definition}
+\newtheorem{phrase string}{Phrase String}
+\newtheorem{notation}{Notation}
+
+
+\begin{document}
+
+\title{Computability and Merge: A note on the ideal structure of a hypothetical operation}
+
+\author{Joshua Bowles}
+\date{{\tt Draft\\ \today}}
+\maketitle
+
+\begin{abstract} jjjj 
+\end{abstract}
+\textbf{Keywords}: Symmetry, Group Theory, Merge\\
+
+
+\subsection{GT and syntax}\label{gtsyn:sub}
+
+\begin{definition}																									
+$\{\{\alpha\}, \{\beta\}\} \stackrel{merge}{\longrightarrow} 								
+\{\Lambda, \{\alpha, \beta\}\}$ = $K$ = $\alpha$Merge \label{amerge}					
+\end{definition} 	
+
+Group Theory, or GT, presupposes some knowledge of set theory because, technically, any group is also a set. That is, any collection of objects, including a set or collection of sets, can be a group if it can be defined by Definition \ref{g}; the following is loosely based on \cite{rosen:1995}.\footnote{Notice and interesting parallel with the criterion given below and some examples from \cite{boeckx08bare} when discussing the ``symmetry problem'' for Merge (pp. 79-80). In discussing the empirical inadequacy of, what I am calling $\alpha$Merge, he stresses that it cannot produce \textsl{asymmetric} relations such as precedence ($a \prec b \neq b \prec a$), and also prosody defined over prominence ([[ A, B] C ] $\neq$ [ A [ B, C ]]). These are equivalent to Crierion 1 and Criterion 2, respectively.}
+
+\begin{definition}
+\textsc{Group:}\\
+$G$ is a group iff $G$, under a law of composition, meets Criterion 1 to 4.\label{g} 
+\end{definition}
+
+\begin{criterion}
+\textsl{Closure:}\\ For all $a$, $b$ : $a$, $b \in G$, then $ab$, $ba \in G$.
+\end{criterion}
+
+\begin{criterion}
+\textsl{Associativity:}\\ For all $a$, $b$, $c$ : $a$, $b$, $c \in G$, then $a$($bc$) = ($ab$)$c$.
+\end{criterion}
+
+\begin{criterion}
+\textsl{Existence of Identity:}\\ $G$ contains identity element $e$ : $ae = ea = a$.
+\end{criterion}
+
+\begin{criterion}
+\textsl{Existence of Inverses:}\\ For every $a \in G$, then $a^{-1} \in G$ : $aa^{-1} = a^{-1}a = e$.
+\end{criterion}
+
+A ``law of composition'' is broadly defined as any procedure that combines any two elements in any way (i.e., a binary operation). This can include the combination of functions $f(n)$,  relations $R$, integer values in addition or mulitplication ($t + y$, $t \times y$), or the combination of collections of objects that are subsets of a set $s \in S$. Compositions also include permutations, rotations, and translations by displacement of a certain distance along a certain line. (For group theory, see especially Chapter 10 in \cite{pmw:1990}; also \cite{milne:2008}, section 39 in \cite{kleene:1967}; also \cite{korfhage:1974}, \cite{dornhoffhohn:1978}---or any abstract or modern algebra book; also \cite{livio:2005} and \cite{stewart:2007} for historical and popularized introductions to symmetry and groups.) The genius of GT is that it is so broadly defined that it can describe a wide variety of concrete or abstract objects, but is rigorous enough to derive very precise relations between those objects. I begin with a general notion for a law of composition.
+
+\newtheorem*{comp}{Law of Composition}
+\begin{comp}
+\textsc(informal):\\
+Any two possible elements, $a$, $b$, may be combined in any possible way, where `$\circ$' is any combination, iff $a \circ b$ equals a set $S$.
+\end{comp}
+
+I now briefly sketch how $\alpha$Merge meets the criteria in Definition \ref{g}, giving a proof. I then discuss some issues arising from the conjecture that syntactic operations can be defined using criteria from GT.
+
+\newtheorem{gmerge}{Conjecture}
+\begin{gmerge}
+The operation $\alpha$Merge forms a group.
+\end{gmerge}
+
+
+\begin{proof}
+Assume no other operation Merge and no interface constraints, then the following conditions hold:
+
+\textsl{\textbf{Closure:}} If $\{\{\alpha\}, \{\beta\}\} \stackrel{merge}{\longrightarrow} \{\Lambda, \{\alpha, \beta\}\} = K$, (where $\Lambda\ = \alpha$ or $\beta$), then \{$\alpha$, $\beta\} \in K$ and \{$\beta$, $\alpha\} \in K$. This satisfies closure and is analogous to the c-command relation $R$ in the following way: if $\alpha R \beta$, then $\beta R \alpha$.
+
+\textsl{\textbf{Associativity:}} If [$\Lambda$ $\alpha$ [ $\beta$ [ $\gamma$ $\delta$ ] ] ] = $K'$ and all label projections are ambiguous, then $K'$ equals the decomposition \{$\alpha$, $\beta$\}, \{$\beta$, $\gamma$\} and \{$\gamma$, $\delta$\}. By associativity, then, $K'$ can also be decomposed into $\alpha$\{$\beta$, $\gamma$\} and  \{$\alpha$, $\beta$\}$\gamma$. This is analogous to the c-command relation $R$ in following way: if, for example,  $\alpha R$ \{$\beta$, $\gamma$\}, then  \{$\alpha$, $\beta$\} $R \gamma$. 
+
+\textsl{\textbf{Identity:}} By analogy, where rotation by 360$^\circ$ is equivalent to the absence of rotation---which is equivalent to an identity for rotation---the absence of the operation $\alpha$Merge occurring is equivalent to the identity function. Then, by stipulation $\exists$($\neg\alpha$Merge), and by identity, \{$\alpha$\}, \{$Y$\}$\stackrel{\neg merge}{\longrightarrow} \{\alpha\}$, where $Y$ is any constituent or set of constituents.
+
+\textsl{\textbf{Inverse:}} By stipulation, if $\exists \{\alpha\}$ then $\exists \{\alpha^{-1}\}$. 
+
+\end{proof}
+
+The last stipulation for the existence of inverses is the biggest problem. Compared to the stipulation for the existence of identity---which is simply the non-occurrence of the operation $\alpha$Merge---the existence of inverses is harder to rationalize. Because it is specific for actual constituents in the derivation it might be interpreted as saying that lexical or functional items have inverses---or that lexical entries must encode some kind of information for its inverse. This is not so; in fact, the inverse can be part of the mechanism of a numeration $N$ and not of actual constituents. For now, I assume the legitimacy of this reasoning  based on the following line of argument. Assume a numeration $N$ consists of a finite set of elements that must all be selected, merged, and meet further requirements specific to Case, Phase, Agree, and other mechanisms or features belonging to a real-world syntactic derivation. Within a particular $N$, all elements consist of a set of pairs (LI, $i$) where LI is the lexical item and $i$ is the index, \cite{chomsky95mp}. Once the index $i$ is reduced to zero, such that it can no longer be selected to merge by External Merge (an extension \textsl{or} equivalent of $\alpha$Merge), then it seems rational to conclude that such a zero index specification may act as the inverse for whatever LI it was indexing. For items with an integer value greater than 1 for its index---so that it must be selected mulitple times in order to reduce to zero---the inverse is formed from its correlational index. That is, (DP$_{1}$, DP$_{2}$, \ldots, DP$_{n}$) correlates to (DP$_{-1}$, DP$_{-2}$, \ldots, DP$_{-n}$). In this way no problem arises for having to propose an inverse for lexical items. Instead, the inverse belongs to the abstract structure of the numeration. In other words, inverses are constructed from the indices of $N$ so that an item in the numeration with (LI, $i$) as its pair will also have ($i^{-1}$) and would look like this: (LI, $ii^{-1}$). This is an explicit representation of the idea that an index \textsl{must} reduce to zero (actually its inverse). Under this interpretation then, indices do not actually reduce to a numerical zero, but instead, they reduce to their prespecified inverse. Consequently, since the index is really just a placeholder within the numeration and does not belong to the feature content of LI's, the inverse of this placeholder is also not specified as a feature of LI, but of the abstract structure of $N$ generally.
+
+What GT has to offer syntax generally deals with the nature of derivations. For example, trees derived by iterations of $\alpha$Merge, such as Figure \ref{k'}, can be shown to form an Abelian group because any element can be \textsl{commuted} with any other element. This is certainly not the case with real-world trees derived from a more complicated and natural operation Merge. However, some elements in trees can commute with each other. Or rather, some \textsl{positions} can commute based on feature specification and probe-goal relations. These form chains $CH$, which, under GT considerations, might be Abelian subgroups $g$ belonging to a non-Abelian group $G$. Certainly, in GT these kinds of things are possible. And if the group $G$ is redefined as the derivation $D$, then a chain $CH$ of $D$ may possibly form such a subgroup relation.
+
+Applications from a GT perspective, namely one that defines $\alpha$Merge by Criterion 1 through 4, remain to prove their worth---but the possibility of rigor for defining a base notion of symmetry from which Merge originates and acts as \textsl{symmetry breaking agent} is promising. Such possibilities for syntax make certain aspects of GT a welcome convenience. It may provide formal rigor in establishing interesting relations of general symmetry, and especially symmetry-breaking, in natural language.
+
+%section 4:-------------------------------------------------
+\section*{What is Wrong (Right) with this Picture?}
+Besides being hihgly abstract and theoretical, the above definitions are so basic that they can be used as a base for almost any computable procedure. The Minimalist attitude is such that this must be case for human computable procedures for derived grammatical structure no matter what theory one presupposes; as long as the presumption rests on \textsl{a priori} acceptance of a linguistic faculty which is processes computable procedures via binary derivations. That is, Merge (and if one accepts arguments for $\alpha$Merge) is a matter of \textsl{a priori} acceptance: recursion is part of the language faculty by way of the definition of Merge, one need not rely on subordniated clauses and other overtly recursive structures to argue for the existence of recursion; belief in Merge (and $\alpha$Merge) is enough. I, for one, am happy enough to accept these consequences and test their empirical validity through various rigourous methods such as using corpus data to find the statistically relevant patterns.
+
+However, it should be pointed out that reducing Merge to $\alpha$Merge also gives some parallelism to what are called Pregroup grammars. Such grammars are based on Linear Logic, which finds its foundation in Lambek calculus. xxxxx
+
+Additionally, $\alpha$Merge can be used to generate the interesting mathematical properties of X-bar theory in the form of the Fibonacci pattern as shown in \cite{medeiros:2008}, \cite{soschen:2008}, \cite{ppuri:2008}, and \cite{boeckx08bare}. 
+
+The   
+ 
+The fact that various kinds of non-trivial natural symmetries can be defined in syntax is strong support for the investigation of the formal study of symmetry and Group Theory. Additionally, given the far-reaching goal for more rigorous methods of measurement and analysis in syntax, it is reasonable to look at Group Theory as possibly providing some useful tools to the theoretical linguist. For this reason, I provide a group theoretic definition of the idealized operation ambiguous Merge, or $\alpha$Merge.
+   
+
+
+%Bibliography------------------------------------------------------
+\bibliography{myrefs}
+
+
+
+\end{document}
+

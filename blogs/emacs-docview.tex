@@ -1,0 +1,23 @@
+\documentclass{wpblogentry}
+
+\title{Notes on Emacs}
+\tags{LaTeX, Emacs, Lisp}
+\category{Latex}
+
+\begin{document}
+Emacs is a really cool application. I had read about it for long time and wondered at the notion of a ``really powerful text-editor.'' I had no idea what people meant by that, nor could I imagine the possibilities (begin new to the computer science world in general meant I had little imagination as to what ``powerful'' could entail). When I decided to start using Emacs, and I mean ``really'' using it---not just opening it up and looking around or simply viewing \verb=.txt= files with it, I soon came to see what ``a powerful text editor'' was. Also, for the first time I started to exercise my imagination in terms of what was possible with computers.
+
+The motivation for this entry comes from something I noticed about the \verb=doc-view= package and its use in \LaTeX. As you may know, using Emacs in \LaTeX mode is very easy and provides some nice off-the-shelf functionality (and of course, if you know Lisp very well, you extend Emacs to do just about anything you want... OR, if you simply look in the right places you find other people's Lisp code extensions for Emacs that they are sharing and begin to learn be reverse-engineering). 
+
+The \LaTeX mode function that I was thrilled about was the ability to compile the \verb=.tex= document inside Emacs: you just do C-c C-c within the \verb=.tex= document (this will bring up \verb=latex-mode= and you need to press \verb=ENTER=). This will split your Emacs into two screens and you will the see the typical output of the \TeX compile (the kind of stuff you can see in any normal \TeX editor like Kile or TeXnicCenter). But imagine my delight when I did C-c C-c a couple times on the same document and I got the alternative \verb=doc-view= option (for wich one also has to press \verb=ENTER= to run the command). This, if you don't know, is truly cool: it will display the PDF output of your \verb=.tex= file in the bottom half of your split Emacs screen! Plus, like most \TeX editors it will also allow you to update both the \verb=.tex= and \verb=.pdf= at virtually the same time (if yo have PDF open in the bottom half of the split Emacs screen and you C-c C-c again it will the \verb=.tex= file and give the normal output, then C-c C-c again, and \verb=doc-view= will ask you if you want to display the newly compiled \verb=.pdf= file, print \verb=yes=).
+
+But there is one catch: the \verb=.tex= file has to be more than one page. Over the past few days I have tried to view a few short files and my C-c C-c would not toggle to \verb=doc-view=, so I tried playing around with Unix permissions on the \verb=.tex= file and nothign worked. Then finally I noticed the only differnce between files that worked and those that didn't was page number. I don't know why this is, but it probably has something to do with the way \verb=doc-view= works. 
+
+Briefly, \verb=doc-view= was written by Tassilo Horn as \verb=doc-view.el= in 2007. It was made part of the standard distribution of Emacs by version 23 (I think). What id does though, is use Ghostscript to translate each page into a \verb=.png= file (a nice description of \verb=doc-view=, from 2007, can be found here \verb=http://bc.tech.coop/blog/070830.html=; and here is the EmacsWiki page with some source code \verb=http://www.emacswiki.org/emacs/doc-view.el=.)
+
+I suspect that Ghostview ==> \verb=.png= has something to do with the restriction on more than one page for \verb=doc-view= to toggle from \LaTeX compile.
+
+For fun I will post my own \verb=.emacs= customization here:
+
+
+\end{document}

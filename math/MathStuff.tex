@@ -1,0 +1,63 @@
+\documentclass{book}
+\usepackage{mathpackages}
+\usepackage{mathcommands}
+%====uncomment this AND at the end and when I want an index======================= 
+\makeindex 
+%======================
+\begin{document}
+
+\title{Mathematical Formalizations: A brief study guide}
+ \author{\includegraphics[width=0.9\textwidth]{Screenshot-1}\\ Joshua Bowles\\ \date{\today}}
+         
+\maketitle
+
+%=================uncomment this when I want list of figures and tables
+\tableofcontents 
+\listoffigures 
+\listoftables 
+  
+%==========
+\chapter*{Preface}
+\begin{quote}
+     \textsl{Immature poets imitate; mature poets steal; bad poets deface what they take, and good poets make it into something better, or at least something different}.\\ --T.S. Eliot
+\end{quote}
+
+
+I would imagine the quote from Eliot could apply also to world of mathematics; one might addend it with the line ``and genius creates directly from nature.'' I am far from a mature mathematician, and hope one day to be a good one; at least in terms of my respective field of application and theory of mathematical formaliztions to the study of natural language linguistics. If the quote above were truely accurate here then I would be doing more imitating then stealing\ldots, but the truth is that I do more stealing than anything.
+
+This book is intended as a study guide for myself; if you are reading it then I have made it public for whatever reason. \textcolor{red}{\textbf{Please do not cite this reference guide}}. I have taken liberally from multiple sources and have not been too cautious in making sure that I have not plagiarized. The reason for this is becuase I want to make sure the mathematics I present here is credible: proofs, examples, theorems, and so on. I have modified many examples and such, but only when I was sure of the outcome; if there was every any question on my part I simply copied freely in order to ensure that this personal study guide was true to the facts. 
+
+The following sources have both inspired and guided me, and represent sources that I have either borrowed from, or flatly taken taken material out of (without permission by the way): \cite{gustfriskalgebra}, \cite{mathbook}, \cite{pmw:1990}, \cite{kleene:1967}, and \ldots. Of particular note is \cite{silvthomp}, originally written in 1910, and commendable for its Prologue which bears quoting in length.
+
+\begin{quotation}
+    Considering how many fools can calculate, it is surprising tha tit should be thought either a difficult or a tedious task for any other fool to learn how to master the same tricks.
+
+Some calculus-tricks are quite easy. Some are enormously difficult. The fools who write the text-books of advanced mathematics---and they are mostly clever fools---seldom take the trouble to show you how easy the calculations are. On the contrary, the see to desire to impress you with their tremendous cleverness by going about it in the msot difficult way.
+
+Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. \ldots What one fool can do, another can.
+\end{quotation}
+
+\chapter*{Prologue}
+ The quotation by Silvanus Thompson was written in time when a calculator (or better yet, a calculat-er) was an individual hired to plug variables into algorithms and perform other kinds of calculations. One could possibly see on a day to day basis, in Silvanus' day, that one did not need to be exceptionally bright in order to perform calculations. Today, we have sophisticated tools like scientitifc calculators, computational software, and computers to do the calculating for us. It is easy to be mistified by the process of brute calculation and from the depths of this mistification even easier to be lead into beleiving that calculation is an entirely difficult acitivty. Silvanus' humor, self-deprecation, and ease of exposition should be a model in both teaching and learning math. His all-around attitude is far too uncommon in a world that more resembles priests of some high-order who have secret knowledge of symbols and stand guard at the gates, waiting to dispel the weakest of underlings who dares try to join thier society than a mysterious world full of puzzles and beauty waiting to be explored by active young minds with rigorous tools developed thorugh the amazing history of human consciousness. One rarely hears about how mathematical developments rival the beauty and creativity of other human achievments in art, literature, music, and architecture. Silvanus' distinct attitude towards mathematics is conducive to the latter musings, and I hope to emulate his strength of character and appreciation for formalization.
+
+I prefer to think of math like I often tell my daughters: doing math is like digging a ditch. It seems simple when you think about what needs to be done; that is, combining like properties or solving variables or employing various binary combinations on vaalues, \textsl{et cetera}. What is hard is the actual work involved -- and the patience, discipline, and strength building that is necessitated by such work. 
+
+%==================
+\include{arithmetic}
+
+%==================================================
+\include{elementaryalgebra}
+
+%===================
+\include{probability}
+
+
+
+%=====================
+\bibliography{mathrefs}
+%===============uncomment this when I want to print index======
+\printindex
+%===========
+
+
+\end{document}

@@ -1,0 +1,46 @@
+%================================================================
+%				preamble
+%=================================================================
+% don't forget to set the corresponding switch in myifthensettings.sty
+\documentclass[11pt,letterpaper,one side]{article}
+
+\newcommand{\theauthor}{Joshua Bowles}	% enter your name here to save you some typing
+\newcommand{\university}{University of Utah} % dito for the name of your university
+\newcommand{\company}{One on One Marketing}
+\newcommand{\emailaddress}{bowlesling@gmail.com}
+\newcommand{\thetitle}{Curriculum Vitae} % dito for the title
+\newcommand{\thekeywords}{}
+\newcommand{\thedate}{\today}
+
+\usepackage{cvp}
+\usepackage{cvc}
+
+
+
+%=================================================================
+%			title format
+%=================================================================
+% Here you can load and typeset all
+% the metadata which you specified above
+\author{		\theauthor \\%
+		\small	\university \\%
+		\small	\company \\%
+		\small	\ifpdf
+			\href{mailto:\emailaddress}{\emailaddress}	% clickable mail address
+			\else
+			\emailaddress					% just printed address
+			\fi
+	}
+\title{\thetitle}
+\date{\small \texttt{Updated \thedate}}
+
+
+%=================================================================
+%			content
+%=================================================================
+
+\begin{document}
+\pagestyle{empty}
+
+\input{./info.tex}
+\end{document}

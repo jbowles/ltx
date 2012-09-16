@@ -1,0 +1,122 @@
+\documentclass[landscape,letterpaper]{article}
+
+% \usepackage{paperp,paperc}
+\usepackage[bookmarksdepth=3,colorlinks,
+			linkcolor=jblinkcolor,
+			citecolor=jblinkcolor,
+			urlcolor=jblinkcolor,
+			filecolor=jblinkcolor,
+			plainpages=false,
+			pdfpagelabels,
+			bookmarks=false,
+			pdfstartview=,
+			hyperfootnotes=false]{hyperref}
+\usepackage{calendar}
+\usepackage[landscape,margin=.5in]{geometry}
+
+\begin{document}
+  \noindent
+  \begin{center}
+    \textsc{\LARGE Stanford 3}\\
+    \textsc{\large October -- December 2011}
+  \end{center}
+  \StartingDayNumber=2 % Start the calendar on a Sunday (this is the default)
+  \begin{calendar}{\hsize}
+    \setcounter{calendardate}{1} % Start the calendar blank numeration 
+    \day{MachineLearn}{ % Monday
+		\textbf{ML morning:} lectures
+		\daysep
+    \textbf{ML night:} Algebra, Octave
+		}
+    \day{ArtifIntell}{ % Tuesday
+      \textbf{AI morning:} lectures
+			\daysep
+			\textbf{AI night:} Ai book \& Java
+    }
+    \day{MachLearn}{ % Wednesday
+			\textbf{ML morning:} lectures
+			\daysep
+      \textbf{ML night:} NLP applications, book, \& {\sc HMWK}
+    }
+    \day{ArtifIntell}{ % Thursday
+			\textbf{AI morning:} lectures
+			\daysep
+      \textbf{AI night:} Ai book, Python, \& {\sc HMWK}
+    }
+    \day{MachLearn}{ % Friday
+			\textbf{ML morning:} lectures
+			\daysep
+      \textbf{ML night:} Programming
+    }
+    \day{All}{ % Satruday
+			\textbf{AI morning:} lectures, book, Lisp, \& {\sc HMWK}
+			\daysep
+			\textbf{DB afternoon:} lectures, \& {\sc HMWK}
+			\daysep
+      \textbf{ML night:} {\sc HMWK}
+    }
+    \day{All}{ % Sunday
+      \textbf{ML morning:} Algebra, Octave
+			\daysep
+			\textbf{DB afternoon:} lectures, \& {\sc HMWK}
+			\daysep
+			Finish anything
+    }
+    \finishCalendar
+  \end{calendar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% WEEKDAY TABLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% \section{Header here} %% will push tables down to 2 pages
+	\begin{table}[!ht]
+	\caption{Monday - Friday}
+	\begin{center}
+	\begin{tabular}{|l|l|r|l|}
+	    \hline
+	\textbf{Time} & \textbf{Task} & HH.MM &\textbf{Week} (HH.MM)\\
+	\hline \hline
+	4:30 - 4:50 			& wake, stretch		 																& 0.20 		& \textcolor{blue}{{\bf 1.00}}  \\
+	4:50 - 7:00 			& \textbf{coursework}, eat												& 2.10 		& \textcolor{blue}{{\bf 10.5}}  \\
+	7:00 - 7:15 			& ready to ride 																	& 0.15		& \textcolor{blue}{{\bf 1.15}}  \\
+	7:15 - 8:00 			& leave for work, shower,change 									& 0.45 		& \textcolor{blue}{{\bf 2.25}}  \\
+	8:00 - 5:00 			& {\sc work} 																			& 9.00 	  & \textcolor{blue}{{\bf 45.00}} \\
+	5:00 - 5:30 			& leave for home 																	& 0.30 		& \textcolor{blue}{{\bf 1.50}}  \\
+	5:30 - 7:00 			& home, stretch, eat, wife, kids 									& 2.30		& \textcolor{blue}{{\bf 11.50}} \\
+	7:00 - 10:00    	& \textbf{coursework}												      & 3.00		& \textcolor{blue}{{\bf 15.00}} \\
+	10:00 - 4:30 			& bed 																						& 6.30  	& \textcolor{blue}{{\bf 31.50}} \\
+	   \hline
+	\end{tabular}
+	\end{center}
+	\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% WEEKEND TABLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{table}[!ht]
+	\caption{Saturday, Sunday}
+	\begin{center}
+	\begin{tabular}{|l|l|r|l|}
+	    \hline
+	\textbf{Time} & \textbf{Task} & HH.MM &\textbf{Total} (HH.MM)\\
+	\hline \hline
+	4:30 - 8:00 			& wake, stretch, \textbf{coursework}, eat							& 3.30 		& \textcolor{blue}{{\bf 7.00}}  \\
+	8:00 - 10:30 			& kids, wife, eat																			& 2.30		& \textcolor{blue}{{\bf 5.00}}  \\
+	10:30 - 12:30 		& \textbf{coursework} 																& 2.00 		& \textcolor{blue}{{\bf 4.00}}  \\
+	12:30 - 2:30 			& chores, kids																				& 2.00 	  & \textcolor{blue}{{\bf 4.00}} \\
+	2:30 - 5:30 			& \textbf{coursework}												          & 2.00 		& \textcolor{blue}{{\bf 4.00}}  \\
+	10:00 - 4:30 			& bed 																						    & 6.30  	& \textcolor{blue}{{\bf 13.00}} \\
+	   \hline
+	\end{tabular}
+	\end{center}
+	\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Total TABLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\begin{table}[!ht]
+		\caption{Week Totals}
+		\begin{center}
+		\begin{tabular}{|l|l|r|l|}
+		    \hline
+		\textbf{AI} 						& \textbf{ML} 						& \textbf{DB} 					& \textbf{Total} (HH.MM) \\
+		\hline \hline
+		\textcolor{red}{13.50} 	& \textcolor{red}{17.30}	& \textcolor{red}{4.00}	& \textcolor{red}{34.80} \\
+
+		   \hline
+		\end{tabular}
+		\end{center}
+		\end{table}
+	
+\end{document}

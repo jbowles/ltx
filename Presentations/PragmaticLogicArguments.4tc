@@ -1,0 +1,8 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toctoc{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\beamer@endinputifotherversion {3.07pt}}}{}\relax 
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\beamer@endinputifotherversion {3.07pt}}}{}\relax 
+\doTocEntry\toctoc{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\select@language{english}}}{}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\select@language{english}}}{}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\select@language{english}}}{}\relax 
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-2r1}{}{\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}}}{}\relax 
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-2r1}{}{\headcommand {\beamer@framepages {1}{1}}}}{}\relax 

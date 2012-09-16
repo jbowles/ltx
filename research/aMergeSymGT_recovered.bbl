@@ -1,0 +1,398 @@
+\begin{thebibliography}{71}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Ayer(1936)}]{ayer:1936}
+Ayer, A.~J. 1936.
+\newblock \emph{Truth, logic, and Language}.
+\newblock New York: Basic Books.
+
+\bibitem[{Baker(2003)}]{baker:2003}
+Baker, Mark. 2003.
+\newblock \emph{Lexical categories}.
+\newblock Cambridge, UK: Cambridge Univeristy Press.
+
+\bibitem[{Bar-Hillel(1954)}]{barhillel:1954}
+Bar-Hillel, Yehoshua. 1954.
+\newblock Logical syntax and semantics.
+\newblock \emph{Language} 30(2): 230--237.
+
+\bibitem[{Bod et~al.(2003)Bod, Hay \protect\BIBand{} (eds.)}]{bhj:2003}
+Bod, Rens, Jennifer Hay \protect\BIBand{} Stefanie~Jannedy (eds.). 2003.
+\newblock \emph{Probabilistic linguistics}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Boeckx(2008)}]{boeckx08bare}
+Boeckx, Cedric. 2008.
+\newblock \emph{Bare syntax}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Boeckx et~al.(2006)Boeckx, Carnie \protect\BIBand{}
+  Medeiros}]{bcm:2006}
+Boeckx, Cedric, Andrew Carnie \protect\BIBand{} David Medeiros. 2006.
+\newblock Some reflexes of natural law in syntactic structure.
+\newblock \textsc{M}s., Harvard University and University of Arizona.
+
+\bibitem[{Boeckx \protect\BIBand{} Piattelli-Palmarini(2005)}]{boeckxpp:2005}
+Boeckx, Cedric \protect\BIBand{} Massimo Piattelli-Palmarini. 2005.
+\newblock Language as a natural object---linguistics as a natural science.
+\newblock \emph{The Linguistic Review} 22: 447--466.
+
+\bibitem[{Boeckx \protect\BIBand{} Uriagereka(2007)}]{boeckxuri:2007}
+Boeckx, Cedric \protect\BIBand{} Juan Uriagereka. 2007.
+\newblock Minimalism.
+\newblock In Gillian Ramchand \protect\BIBand{} C.~Reiss (eds.) \emph{Oxford
+  handbook of linguistic interfaces}, 541--573. Oxford: Oxford University
+  Press.
+
+\bibitem[{Carnap(1937)}]{carnap:1937}
+Carnap, Rudolf. 1937.
+\newblock \emph{The logical syntax of language}.
+\newblock Chicago: Open Court Classics.
+
+\bibitem[{Carnie(2000)}]{carnie:2000}
+Carnie, Andrew. 2000.
+\newblock On the definition of \textsc{X$^{0}$} and \textsc{XP}.
+\newblock \emph{Syntax} 3(2): 59--106.
+
+\bibitem[{Carnie \protect\BIBand{} Medeiros(2005)}]{cm:2005}
+Carnie, Andrew \protect\BIBand{} David Medeiros. 2005.
+\newblock Tree maximization and the extended projection principle.
+\newblock \emph{Coyote Working Papers in Linguistics} 14: 51--55.
+
+\bibitem[{Chamtezky(2000)}]{chametzky:2000}
+Chamtezky, Robert. 2000.
+\newblock \emph{Phrase Structure: From \textsc{GB} to \textsc{M}inimalism}.
+\newblock Oxford: Blackwell.
+
+\bibitem[{Chierchia \protect\BIBand{} McConnell-Ginet(2000)}]{chmg:2000}
+Chierchia, Gennaro \protect\BIBand{} Sally McConnell-Ginet. 2000.
+\newblock \emph{Meaning and Grammar: An introduction to Semantics}.
+\newblock Cambridge, MA.: MIT Ptess, 2nd edn.
+
+\bibitem[{Chomsky(1955)}]{chomsky55logicalsyntax}
+Chomsky, Noam. 1955.
+\newblock Logical syntax and semantics: Their linguistic relevance.
+\newblock \emph{Language} 31(1): 36--45.
+
+\bibitem[{Chomsky(1957)}]{chomsky57ss}
+Chomsky, Noam. 1957.
+\newblock \emph{Syntactic structures}.
+\newblock The Hague: Mouton.
+
+\bibitem[{Chomsky(1965)}]{chomsky65aspects}
+Chomsky, Noam. 1965.
+\newblock \emph{Aspects of the theory of syntax}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Chomsky(1970)}]{chomsky70remarks}
+Chomsky, Noam. 1970.
+\newblock Remarks on nominalization.
+\newblock In Roderick Jacobs \protect\BIBand{} Peter Rosenbaum (eds.)
+  \emph{Readings in Transformational Grammar}. Waltham, MA.: Ginn.
+
+\bibitem[{Chomsky(1986)}]{chomsky86knowledge}
+Chomsky, Noam. 1986.
+\newblock \emph{Knowledge of language: Its nature, origin, and use}.
+\newblock New York: Praeger.
+
+\bibitem[{Chomsky(1994)}]{chomsky94bps}
+Chomsky, Noam. 1994.
+\newblock Bare phrase structure.
+\newblock \emph{MIT Occasional Papers in Linguistics} 5.
+
+\bibitem[{Chomsky(1995{\natexlab{a}})}]{chomsky95bps}
+Chomsky, Noam. 1995{\natexlab{a}}.
+\newblock Bare phrase structure.
+\newblock In Geert Webelhuth (ed.) \emph{Government and Binding theory and the
+  Minimlaist Program}. Oxford: Blackwell.
+
+\bibitem[{Chomsky(1995{\natexlab{b}})}]{chomsky95langnature}
+Chomsky, Noam. 1995{\natexlab{b}}.
+\newblock Language and nature.
+\newblock \emph{Mind} 104: 1--61.
+
+\bibitem[{Chomsky(1995{\natexlab{c}})}]{chomsky95mp}
+Chomsky, Noam. 1995{\natexlab{c}}.
+\newblock \emph{The minimalist program}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Chomsky(2005)}]{chomsky05threefactors}
+Chomsky, Noam. 2005.
+\newblock Three factors of language design.
+\newblock \emph{Linguistic Inquiry} 36(1): 1--22.
+
+\bibitem[{Chomsky(2008)}]{chomsky08onphases}
+Chomsky, Noam. 2008.
+\newblock On phases.
+\newblock In Robert Freidin, Carlos~P. Otero \protect\BIBand{} Maria~Luisa
+  Zubizarreta (eds.) \emph{Foundational issues in linguistic theory}.
+  Cambridge, MA.: MIT Press.
+
+\bibitem[{Church(1936)}]{church:1936}
+Church, Alonzo. 1936.
+\newblock An unsolvable problem of elementary number theory.
+\newblock \emph{American Journal of Mathematics} 58(2): 345--363.
+
+\bibitem[{Citko(2005)}]{citko:2005}
+Citko, Barbara. 2005.
+\newblock On the nature of merge: External merge, internal merge, and parallel
+  merge.
+\newblock \emph{Linguistic Inquiry} 36(4): 475--496.
+
+\bibitem[{Collins(2001)}]{collins:2001}
+Collins, Chris. 2001.
+\newblock Eliminating labels.
+\newblock In Samuel~D. Epstein \protect\BIBand{} T.~Daniel Seeley (eds.)
+  \emph{Derivation and explanation in the Minimalist Program}. Oxford:
+  Blackwell.
+
+\bibitem[{Deutsch(1985)}]{deutsch:1985}
+Deutsch, David. 1985.
+\newblock Quantum theory, the church-turing principle and the universal quantum
+  computer.
+\newblock \emph{Proceedings of the Royal Society of London A} 400: 97--117.
+
+\bibitem[{Deutsch(1997)}]{deutsch:1997}
+Deutsch, David. 1997.
+\newblock \emph{The fabric of reality: The science of parallel universes and
+  its implications}.
+\newblock New York: Penguin Books.
+
+\bibitem[{Dornhoff \protect\BIBand{} Hohn(1978)}]{dornhoffhohn:1978}
+Dornhoff, Larry~L. \protect\BIBand{} Franz~E. Hohn. 1978.
+\newblock \emph{Applied modern algebra}.
+\newblock New York: Macmillian Publishing Co., Inc.
+
+\bibitem[{Fitch et~al.(2005)Fitch, Hauser \protect\BIBand{} Chomsky}]{fhc:2005}
+Fitch, Tecumseh, Marc~D. Hauser \protect\BIBand{} Noam Chomsky. 2005.
+\newblock The evolution of the language faculty: Clarifications and
+  implications.
+\newblock \emph{Cognition} 97: 179--210.
+
+\bibitem[{Formigari(2004)}]{formigari:2004}
+Formigari, Lia. 2004.
+\newblock \emph{A history of langauge philosophies}.
+\newblock Amsterdam/Philadelphia: John Benjamins Publishing Company.
+
+\bibitem[{Fortuny \protect\BIBand{} Corominas-Mutra(to
+  appear)}]{fortcm:toappear}
+Fortuny, Jordi \protect\BIBand{} Bernat Corominas-Mutra. to appear.
+\newblock Some formal considerations on the generation of hierarchically
+  structured expressions.
+\newblock \textsc{M}s., Center for Language and Cognition Groningen.
+  Rijksuniversiteit Groningen and ICREA-Complex Systems Lab. Parc de Recerca
+  Biom�dica de Barcelona-Universitat Pompeu Fabra; to appear in
+  \textsl{Catalan Journal of Linguistics}.
+
+\bibitem[{Hauser et~al.(2002)Hauser, Chomsky \protect\BIBand{}
+  Fitch}]{hcf:2002}
+Hauser, Marc~D., Noam Chomsky \protect\BIBand{} Tecumseh Fitch. 2002.
+\newblock The language faculty: What is it, who has it, and how did it evolve?
+\newblock \emph{Science} 298: 1569--1579.
+
+\bibitem[{Hornstein(1992)}]{hornstein:1992}
+Hornstein, Norbert. 1992.
+\newblock \emph{As time goes by: Tense and Universal Grammar}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Hornstein \protect\BIBand{} Nunes(2008)}]{hn:2008}
+Hornstein, Norbert \protect\BIBand{} Jairo Nunes. 2008.
+\newblock Adjunction, labeling, and bare phrase structure.
+\newblock \emph{Biolinguistics} 2(1): 57--86.
+
+\bibitem[{Idsardi(2008)}]{idsardi:2008}
+Idsardi, William~J. 2008.
+\newblock Combinatorics for metrical feet.
+\newblock \emph{Biolinguistics} 2(2.2-3): 233--236.
+
+\bibitem[{Jackendoff(1977)}]{jackendoff:1977}
+Jackendoff, Ray. 1977.
+\newblock \emph{X'-syntax}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Jayaseelan(2008)}]{jayaseelan:2008}
+Jayaseelan, K.A. 2008.
+\newblock Bare phrase structure and specifier-less syntax.
+\newblock \emph{Biolinguistics} 2(1): 87--106.
+
+\bibitem[{Kauffman(1995)}]{kauffman:1995}
+Kauffman, Stuart. 1995.
+\newblock \emph{At home in the universe: The search for laws of
+  self-organization and complexity}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Kleene(2002 [1967])}]{kleene:1967}
+Kleene, Stephen. 2002 [1967].
+\newblock \emph{Mathematical logic}.
+\newblock New York: Dover.
+
+\bibitem[{Korfhage(1974)}]{korfhage:1974}
+Korfhage, Robert~R. 1974.
+\newblock \emph{Discrete computational structures}.
+\newblock New York: Academic Press.
+
+\bibitem[{Langendoen \protect\BIBand{} Postal(1984)}]{langpostal:1984}
+Langendoen, Terence \protect\BIBand{} Paul Postal. 1984.
+\newblock \emph{The vastness of natural languages}.
+\newblock Oxford: Basil Blackwell.
+
+\bibitem[{Livio(2002)}]{livio:2002}
+Livio, Mario. 2002.
+\newblock \emph{The Golden Ratio: The story of phi, the world's most
+  astonishing number}.
+\newblock New York: Broadway Books.
+
+\bibitem[{Livio(2005)}]{livio:2005}
+Livio, Mario. 2005.
+\newblock \emph{The equation that couldn't be solved: How mathematic genius
+  discovered the language of symmetry}.
+\newblock New York: Simon and Schuster Paperbacks.
+
+\bibitem[{Lloyd(2000)}]{lloyd:2000}
+Lloyd, Seth. 2000.
+\newblock Ultimate physical limits to computation.
+\newblock \emph{Nature} 406: 1047--1054.
+\newblock \urlprefix\url{http://arxiv.org/}.
+\newblock Cornell arXive; arXiv:quant-ph/9908043v3.
+
+\bibitem[{Lloyd(2006)}]{lloyd:2006}
+Lloyd, Seth. 2006.
+\newblock \emph{Programmaing the universe: A quntum computer scientist takes on
+  the cosmos}.
+\newblock New York: Random House.
+
+\bibitem[{Medeiros(2008)}]{medeiros:2008}
+Medeiros, David. 2008.
+\newblock Optimal growth in phrase structure.
+\newblock \emph{Biolinguistics} 2(2-3): 152--195.
+
+\bibitem[{Milne(2008)}]{milne:2008}
+Milne, James~S. 2008.
+\newblock Group theory.
+\newblock Lecture Notes, Univeristy of Michigan.
+
+\bibitem[{Niyogi(2006)}]{niyogi:2006}
+Niyogi, Partha. 2006.
+\newblock \emph{The computational nature of language learning and evolution}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Partee et~al.(1990)Partee, {ter Meulen} \protect\BIBand{}
+  Wall}]{pmw:1990}
+Partee, Barbara, Alice {ter Meulen} \protect\BIBand{} Robert~E. Wall. 1990.
+\newblock \emph{Mathematical methods in linguistics}.
+\newblock Dordrecht: Kluwer Academic Publishers, 2nd edn.
+
+\bibitem[{Pinker \protect\BIBand{} Jackendoff(2005)}]{jp:2005}
+Pinker, Steven \protect\BIBand{} Ray Jackendoff. 2005.
+\newblock The faculty of language: What's special about it?
+\newblock \emph{Cognition} 95(2): 201--236.
+
+\bibitem[{Popper(1959)}]{popper:1959}
+Popper, Karl~R. 1959.
+\newblock \emph{The logic of scientific discovery}.
+\newblock New York: Basic Books, 2nd edn.
+
+\bibitem[{Post(1936)}]{post:1936}
+Post, Emil~L. 1936.
+\newblock Finite combinatory processes-formulation 1.
+\newblock \emph{Journal of Symbolic Logic} 1: 103--105.
+
+\bibitem[{Post(1944)}]{post:1944}
+Post, Emil~L. 1944.
+\newblock Recursively enumerable sets of positive integers and their decision
+  problem.
+\newblock \emph{Bulletin of the American Mathematical Society} 50: 284--316.
+
+\bibitem[{Prince \protect\BIBand{} Smolensky(1993)}]{prsmol:1993}
+Prince, Alan \protect\BIBand{} Paul Smolensky. 1993.
+\newblock Optimality theory: Constraint interaction in generative grammar.
+\newblock Tech. rep., Rutgers University Center for Cognitive Science, New
+  Brunsqick, NJ.
+
+\bibitem[{Quine(1953)}]{quine:1953}
+Quine, Willard. 1953.
+\newblock \emph{From a logical point of view}.
+\newblock Cambridge, MA.: Harvard University Press.
+
+\bibitem[{Reichenbach(1947)}]{riechenbach:1947}
+Reichenbach, Hans. 1947.
+\newblock \emph{Elements of symbolic logic}.
+\newblock New York: MacMillan.
+
+\bibitem[{Rosen(1995)}]{rosen:1995}
+Rosen, Joe. 1995.
+\newblock \emph{Symmetry in science: An introduction to the general theory}.
+\newblock New York: Springer-Verlag.
+
+\bibitem[{Rubin(2002)}]{rubin:2002}
+Rubin, Edward~J. 2002.
+\newblock The structure of modifiers.
+\newblock \textsc{M}s., University of Utah.
+
+\bibitem[{Rubin(2003)}]{rubin:2003}
+Rubin, Edward~J. 2003.
+\newblock Determining pair-merge.
+\newblock \emph{Linguistic Inquiry} 34: 660--668.
+
+\bibitem[{Soare(1996)}]{soare:1996}
+Soare, Robert~I. 1996.
+\newblock Computability and recursion.
+\newblock \emph{Bulletin of Symbolic Logic} 2: 284--321.
+
+\bibitem[{Soare(2007)}]{soare:2007}
+Soare, Robert~I. 2007.
+\newblock Computability and incomputability: Computation and logic in the real
+  world.
+\newblock In S.~B. Cooper, B.~Lowe \protect\BIBand{} Andrea Sorbi (eds.)
+  \emph{Proceedings of the Third Conference on Computability in Europe, CiE
+  2007, Siena, Italy: Lecture notes in computer science No. 4497}. Heidelberg:
+  Springer-Verlag.
+
+\bibitem[{Soare(2008)}]{soare:2008}
+Soare, Robert~I. 2008.
+\newblock Incomputability, turing functionals, and open computing.
+\newblock \textsc{M}s., Department of Mathematics, Univeristy of Chicago.
+
+\bibitem[{Soschen(2008)}]{soschen:2008}
+Soschen, Alona. 2008.
+\newblock On the nature of syntax.
+\newblock \emph{Biolinguistics} 2(2-3): 196--224.
+
+\bibitem[{Stewart(2007)}]{stewart:2007}
+Stewart, Ian. 2007.
+\newblock \emph{Why beauty is truth: a history of symmetry}.
+\newblock New York: Basic Books.
+
+\bibitem[{Tarski(1956)}]{tarski:1956}
+Tarski, Alfred. 1956.
+\newblock \emph{Logic, semantics, metamathematics}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Tesar \protect\BIBand{} Smolensky(2000)}]{tessmol:2000}
+Tesar, Bruce \protect\BIBand{} Paul Smolensky. 2000.
+\newblock \emph{Learnability in Optimality Theory}.
+\newblock Cambridge, MA.: MIT Press.
+
+\bibitem[{Tomalin(2006)}]{tomalin:2006}
+Tomalin, Marcus. 2006.
+\newblock \emph{Formal foundations of generative grammar}.
+\newblock Cambridge: Cambridge University Press.
+
+\bibitem[{Turing(1936)}]{turing:1936}
+Turing, Alan~M. 1936.
+\newblock On computable numbers, with an application to the
+  \textsc{E}ntscheidungsproblem.
+\newblock \emph{Proceedings of the London Mathematical Society} 42: 230--265.
+
+\bibitem[{Uriagereka(1998)}]{uriagereka:1998}
+Uriagereka, Juan. 1998.
+\newblock \emph{Rhyme and reason: An introduction to minimalist syntax}.
+\newblock Cambridge, MA.: MIT Press.
+
+\end{thebibliography}

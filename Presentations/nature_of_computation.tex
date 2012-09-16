@@ -1,0 +1,202 @@
+% $Header: /cvsroot/latex-beamer/latex-beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex,v 1.5 2007/01/28 20:48:23 tantau Exp $
+
+\documentclass{beamer}
+
+% This file is a solution template for:
+
+% - Giving a talk on some subject.
+% - The talk is between 15min and 45min long.
+% - Style is ornate.
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Supervised Learning] % (optional, use only with long paper titles)
+{Machine Learning}
+
+\subtitle
+{Classification?} % (optional)
+
+\author[josh bowles, Another] % (optional, use only with lots of authors)
+{josh bowles\inst{1} \and S.~Another\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Experimental Philosophy\\
+  University of Somewhere
+  \and
+  \inst{2}%
+  Department of Theoretical Philosophy\\
+  University of Elsewhere}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[\Today] % (optional)
+{Date / Bayes Group}
+
+\subject{Reverend Bayes}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+\pgfdeclareimage[height=0.9cm]{university-logo}{code-merge}
+\logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+\beamerdefaultoverlayspecification{<+->}
+
+
+
+\AtBeginSubsection[]
+{
+ \begin{frame}<beamer>{Outline}
+   \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  %% You might wish to add the option [pausesections]
+\end{frame}
+
+\section{What is Supervised Learning?}
+
+\begin{frame}{Target Approximation}
+  Less Science-Fiction name would be more appropriate: Target Approximation
+  \begin{enumerate} According to Ai taxonomy
+\item Fully observalbe
+\item Stochastic
+\item Continuous
+\item 
+  \end{enumerate}
+Machine learning is really just a group of algorithms that all have similar end-game strategies: to make predictions given new data based on training data that specified a target to be optimally approximated.
+\end{frame}
+
+\begin{frame}{More definitions}
+	\begin{block}
+		Supervised learning algorithms assume that some variable X is designated as the target for prediction, explanation, or inference, and that the values of X in the dataset constitute the “ground truth” values for learning. That is, supervised learning algorithms use the known values of X to determine what should be "learned"
+	\end{block}
+  
+\end{frame} 
+
+\subsection{Is the Universe a Computer?}
+\begin{frame}{Universe a computer}\label{universe}
+If the Universe is a Computer then so are we. And the computers we use are artifiacts of natural phenomena
+\begin{enumerate}
+\item Thinking and consciousness are some kind of computational procedures amenable to formalization
+\item Programming is the act of translating naturally effective procedures into artifacts implementable through other artifacts (computers)
+\item Implemtation or Procedure
+\item Are we philosophers or engineers?
+\end{enumerate}
+\end{frame}
+
+
+\subsection{Definition}
+\begin{frame}{Computation defined (informal)}
+\begin{exampleblock}{\sc Church-Turing Thesis}
+Every function which would naturally be regarded as computable can be computed by the universal Turing machine.
+\end{exampleblock}
+
+\begin{block}{Church-Turing Principle}
+  Every finitely realizable physical system can be perfectly simulated by a universal model computing machine operating by finite means.
+\end{block}
+ \end{frame}\label{informal}
+
+
+\section{What is Knowledge?}
+\subsection{Formal}
+\begin{frame}{The subjective status of logic}
+  \textbf{Math and Logic and Language} are formal calculi (system for calculation) with a syntax (rules for combination) and semantics (rules for interpretation/representation) <++>
+\\
+\pause
+{\bf BUT}
+There's no system for deciding between two procedures or how to build an aggregation of procedures; 
+\end{frame}
+
+\subsection{Informal}
+\begin{frame}{The formal status of creativity}
+  If the universe (and our brains) are really computers that implement effective procedures of some kind, then creativity has some systematically formalizable model.
+\end{frame}
+
+\subsection{What do we get?}
+\begin{frame}{The takeaway}
+  By considering the natur of computation and its place in the physical universe, we force ourselves to think about the limits of what we can do with our programming.\\
+  {\bf If we understand mental processes and how they relate to the nature oc computation we gain an advantage in formalizing these processes and automating them.}<++>
+\end{frame}
+% Since this a solution template for a generic talk, very little can
+% be said about how it should be structured. However, the talk length
+% of between 15min and 45min and the theme suggest that you stick to
+% the following rules:  
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+
+\end{document}
+
+
+

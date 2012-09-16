@@ -1,0 +1,67 @@
+%HANDOUT
+
+\documentclass[11pt]{article}
+
+
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage[names]{xcolor}
+
+
+\definecolor{bolinkcolor}{rgb}{.0,.2,.4}
+\usepackage[pdftex,colorlinks,breaklinks,
+		linkcolor=bolinkcolor,
+		citecolor=bolinkcolor,
+		urlcolor=bolinkcolor,
+		plainpages=false,
+		bookmarks=false]{hyperref}
+\urlstyle{rm}
+
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Statement of Purpose: UT Austin}
+\date{\today}
+
+
+\maketitle
+
+\subsection{Background and Research}
+I am interested in the semantics, syntax, and pragmatics of {\sc Information Structure, Quantification, Phrase Structure}, and {\sc Evidentiality}. I am passionate and committed to finding solutions and developing novel approaches to puzzles in linguistic theory. I enjoy finding ways to use definitions and ideas from mathematical logic, computability theory, and abstract algebra to build rigorous models for explaining natural language data in a physically tractable and naturalistic domain.
+
+I started my linguistic life in the typological-functional approach to language through undergraduate study with \href{http://www.mscd.edu/~english/profiles/quizar.html}{Stefanie R. Quizar} (Mayan languages) that extended to graduate work with \href{http://www.hum.utah.edu/index.php?module=facultyDetails&personId=167&orgId=301}{Lyle Campbell} (American Indian languages). I was initially critical of formalist approaches to natural language phenomena, but now consider my work solidly based on formalist considerations --- generally under Minimalist tenets. However, I also draw from the functionalist-typological literature for descriptive accounts, comparative data, and alternative analyses when appropriate. My change of heart is due mostly to acceptance of the idea that natural language is shaped overall by properties of natural design and that rigorous approaches offer the best chances of explanatory success.  
+
+\subsection{Languages}
+For the last six months I have been learning modern Irish on my own. Additionally, I have begun auditing Mandarin classes at the University where I teach (as an adjunct instructor in the English Department), and will have taken up to a year in coursework by the time I leave. I have also studied at least a year each of Spanish, Portuguese, German, and Old English. I can also read at a beginner level in the Tukanoan language Tuyuca, an endangered Amazonian language that was the focus of my Master's thesis (\textsl{Agreement in Tuyuca}, which is an analysis of the verbal morphosyntax including the evidential system). Lastly, I have done limited field work (3 months) on the Tukanoan language Desano. 
+
+I am very committed to the long-term goals of acquiring a realistic fluency in both Irish and Mandarin. For the future, I intend to continue my Irish and Mandarin (and modern English) studies, investigating issues of anaphora, phrase structure, and quantification. My study of evidentiality revolves directly around Tuyuca data, but the syntax-semantics-pragmatics issues involved can also be applied to English, Irish, and Mandarin. I also intend to use my typological background in American Indian languages for comparative data \textsl{when and if} relevant. 
+
+
+\subsection{Recent Projects and Research}
+The following list represents topics and issues that I have been thinking and reading about; descriptive detail reflects the content of written manuscripts.
+
+\ex. \textbf{Group theory definition for Merge (and biolinguistic considerations).} Basically shows that ambiguous, or unbound, Merge can be defined as an algebraic group (it is symmetrical). This is nice because syntactic derivations can be defined as processes of symmetry-breaking, which in turn can be explained by appeal to the way two constituents decide which category will project its label. This boils down to operations we already need, such as Agree, structural Case, or configurational theta-theory.\label{group}
+
+\ex. \textbf{Syntax-semantics interface of evidentiality.} This expands on a footnote from my thesis and revolves around data such as: (i) \textsl{I see Jon washing his car} and (ii) \textsl{I see that Jon washes his car}. It is easy to show that (i) has some kind of visual evidentiality based on difference between(i$^{\prime}$) {\sl see = visual, sensory} and (ii$^{\prime}$) {\sl see = understand, know}. Is this is a different kind of evidentiality than that found in the inflectional evidential morphosyntax of a language like Tuyuca?
+
+\ex. \textbf{Noun-classifiers, mass terms, bare plurals, and definites.} Following work done by Christina Schmitt and Alan Munn, and assuming Chierchia's Nominal Mapping Parameter, I argue that Brazilian Portuguese has unpronounced noun classifiers and provide typological data from South American and Australian languages for support.\label{ncl} 
+
+\ex. \textbf{Anything on Irish or Mandarin Chinese.}\label{bind}
+
+\ex. \textbf{Evidentials and functional hierarchy in Pirah\~a.} Following work by Julie Legate on Warlpiri, I expect that the rigid order of evidentials, focus, and other material in the Pirah\~a left periphery matches the functional hierarchy proposed by Guglielmo Cinque. I use this to argue that Pirah\~a is configurational and has `recursion.'\label{recursion}
+
+\ex. \textbf{Quantification of Noun Classifiers.} Generally compare noun-classifier data from South American languages and Mandarin Chinese. The hunch is that noun-classifiers can quantify objects according to `topological space.' Tools from a formalized topological semantics (which topologizes set theory through something like a `Cantor-space') might be appropriate. Also, this analysis might help explain why Pirah\~a lacks typical quantification: it extends its noun-classifier system to all uses for quantification in terms of physical volume instead of numerosity.\label{cq}
+
+Most manuscripts are in the beginning stages. However, I plan to submit \ref{group} for publication soon and a combination of \ref{recursion} and \ref{group} has been submitted as an abstract to WCCFL 28 (2010). 
+
+While I cannot say exactly what my dissertation will cover, I think the list above gives a clear sketch of the flavor of my specific interests.
+
+
+\subsection{External Funding}
+I have applied for a National Endowment of Humanities Summer Stipend to study the syntax and semantics of evidentiality in Tuyuca and English (as well as some issues with presupposition in academic rhetoric and composition classes). I am always looking for sources of external funding and fully intend to apply for anything relevant to me or my research. 
+
+\end{document}  

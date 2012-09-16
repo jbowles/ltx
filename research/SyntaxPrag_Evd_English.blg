@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Arch Linux)
+The top-level auxiliary file: SyntaxPrag_Evd_English.aux
+The style file: sp.bst
+Database file #1: myrefs.bib
+Warning--I didn't find a database entry for "davispottsspeas07pragevd"
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+You've used 44 entries,
+            3166 wiz_defined-function locations,
+            899 strings with 10672 characters,
+and the built_in function-call counts, 22963 in all, are:
+= -- 1961
+> -- 595
+< -- 46
++ -- 239
+- -- 166
+* -- 1282
+:= -- 3627
+add.period$ -- 190
+call.type$ -- 44
+change.case$ -- 282
+chr.to.int$ -- 41
+cite$ -- 44
+duplicate$ -- 1912
+empty$ -- 1959
+format.name$ -- 239
+if$ -- 4668
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 381
+newline$ -- 236
+num.names$ -- 193
+pop$ -- 767
+preamble$ -- 1
+purify$ -- 226
+quote$ -- 0
+skip$ -- 704
+stack$ -- 0
+substring$ -- 1148
+swap$ -- 844
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 378
+warning$ -- 0
+while$ -- 194
+width$ -- 0
+write$ -- 589
+(There was 1 warning)

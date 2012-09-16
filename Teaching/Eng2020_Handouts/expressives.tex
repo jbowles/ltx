@@ -1,0 +1,101 @@
+
+%HANDOUT
+
+\documentclass[11pt,twoside]{article}
+
+
+\usepackage[pdftex]{hyperref}
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree,wrapfig}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Expressives in Composition\\ \small A computational approach}
+\date{\today}
+
+\maketitle
+\section{What are Expressives and Why Should we Care?}
+Expressive words are lexical items that contain some emotive content. They do not, however, impact the truth or falsity of a statement (usually called propositional content).  
+
+Expressives are relevant to us because we typically want to present our research through writing that is both neutral and negotiates its emotional investment. Through using expressive terms we reveal bias by revealing emotional investment. This is certainly one way to argue against using expressive terms in scientific writing. But there is, I argue, an even stronger reason: as we will see in the examples below, expressive terms do not appear to be compatible with making precise statements. Use of expressive content seems to mask precision and encourge vague reference to the world and data.   
+
+\section{Some Examples and Data}
+\subsection{Examples}
+\ex. Expressive words used in this study 
+\a. like, damn, soo, wow, crap, super, hell, awesome, totally, really, literally, idiot, stupid, dumb, amazing\label{exp}
+
+\ex.Common expressives
+\a. swears, exclamatives, intensives
+
+\ex. The cheetah can run {\bf so} fast.
+\a. The cheetah can run {\bf so} 60 miles per hour.\label{cheetah2}
+
+\ex. Pluto is {\bf really} far away.
+\a. Pluto is {\bf really} 5,913,520,000 kilometers away.\label{pluto2} 
+
+\ex. Toyota gas-pedal problems are {\bf freakin'} rare.
+\a. Toyota gas-pedal problems are {\bf freakin'} 0.00001\%. 
+
+Notice also that here we are addressing a problem that has come up before: vague language. We replace the terms \textsl{fast, far, rare} with measurable quantities. Notice what happens to the expressives -- in some cases, problems \ref{cheetah2} and \ref{pluto2}, they appear to act like an appeal to/for credibility.
+\subsubsection{Description of Method}
+Frequency counts of the words in example \ref{exp} are made in two different collections of texts. One collection (or corpus) contains lectures by academics and runs a total of about 4 million words; the other corpus is based on collections of emails, blogs, chatrooms, and reviews (i.e., movie, product, restaurant reviews) and runs about 1 million. Cumulative counts can be seen in the following graphs.
+\subsection{Cumulative Count Graphs}
+
+        \includegraphics[width=0.9\textwidth]{acadom_plot.png}
+
+        \includegraphics[width=0.9\textwidth]{expressdom_plot.png}
+
+\subsection{Indivdual Word Count Graphs}  
+What is interesting in these graphs is that the word \textsl{like} is the most frequent word in both corpora; this surprised me. There are also a number of problems with this very short study; I will name one here. The academic corpus consists of sampling from one pre-existing corpus which is composed entirely of academic lectures. This is problematic becuase we can assume with some confidence that one is more likely to use expressives in discussion versus writing---even in academic lectures. This means the percentage of 'expressive' words may actually be lower than 0.2\%. Generally, the chat corpus has a better sampling, consisting of three pre-existing corpora I put together. 
+
+\begin{figure}[!h]
+   \begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=0.9\textwidth]{expressdom_plot-i-count.png}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+    \end{figure}    	 
+\begin{figure}[!h]
+   \begin{wrapfigure}{R}{0.7\textwidth}
+         \vspace{-1cm}
+        \begin{center}
+        \includegraphics[width=0.9\textwidth]{acadom_plot-i-count.png}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+    \end{figure}   	
+  
+
+\begin{table}[t]
+\caption{Individual counts for 'expressives'}\label{icounts}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+    \hline
+Word & \textbf{Academic} &\textbf{Chat}\\
+like& 5047& 17010\\ 
+damn& 9 & 64 \\
+soo& 1 & 13 \\
+wow& 15 &224\\
+crap& 10 &63\\
+super& 20 & 10\\
+hell& 45 & 162\\
+totally& 114 & 206\\
+really& 2666 & 3305\\
+literally& 48 &28\\
+idiot& 8 & 13\\
+stupid& 32 & 166\\
+dumb& 2 & 22\\
+amazing& 33 & 25\\
+awesome& 0 & 39\\
+   \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\end{document}

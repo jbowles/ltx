@@ -1,0 +1,91 @@
+
+
+\documentclass[12pt]{article}
+
+
+\usepackage{articlep}
+\usepackage{articlec}
+
+\begin{document}
+
+
+\section{System Recursion Trees}
+\subsection{Examples}
+\pex 
+\a {\tt A} $\rightarrow$ BC
+\a {\tt B} $\rightarrow$ DE
+\a {\tt C} $\rightarrow$ AF
+\xe 
+
+\pex One-level embedding 
+ \a [ {\tt A} (B C) + {\tt B} (D E) + {\tt C} (A F) ]
+\xe
+\pex Two-level embedding
+ \a [ {\tt A} (B (d e) C (a f)) + {\tt B} (D E) + {\tt C} (A (b c) F) ]
+\xe
+
+\subsection{Trees}
+\begin{figure}
+\Tree [.{\tt A} [[.B d e ] [.C a f ]] [.{\tt B} [[.D x x ] [.E x x ]] [.{\tt C} [[.A b c ] [.F x x ]]]]]
+\caption{Two-level Embedding System Recursion: Binary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\tt A} [.B d e ] [.C a f ] [.{\tt B} [.D x x ] [.E x x ] [.{\tt C} [.A b c ] [.F x x ]]]]
+\caption{Two-level Embedding System Recursion: Ternary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\tt A} [B [d e ] C [a f ] ]  [.{\tt B} [D E ]  [.{\tt C} A [b c ] F ]]]
+\caption{Two-level Embedding System Recursion: $n$-nary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\bf A} B b a C c ] 
+\caption{Symmetrically $n$-nary (flat) structure}
+\end{figure}
+
+
+\begin{figure}
+\Tree [.{\tt A} [B C ]  [.{\tt B} [D E ]  [.{\tt C} A F ]]]
+\caption{One-level Embedding System Recursion: Binary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\tt A} B C [.{\tt B} D E [.{\tt C} A F ]]] 
+\caption{One-level Embedding System Recursion: Ternary}
+\end{figure}
+
+\section{Some Data}
+
+\begin{figure}
+\Tree [.CP C [.{\ldots} visiting [.DP relatives [\qroof{can be lame}.vP ]]]]
+\caption{(Visiting (relatives (can be lame)))}\label{ambig2.1}
+\end{figure}
+
+
+\begin{figure}
+\Tree [.CP C\\{\ldots} [.{\ldots} {N\\visiting relatives} [\qroof{can be lame}.vP ]]]
+\caption{(Visiting relatives (can be crazy))}\label{ambig2.2}
+\end{figure}
+  
+\begin{figure}
+\Tree [.AdjP {A\\new} [\qroof{drug technology}.NP ]]
+\caption{(new (drug technology))}\label{ambig3.1}
+\end{figure}
+
+\begin{figure}
+\Tree [\qroof{new drug}.NP [.NP N\\{technology} ]]
+\caption{(new drug (technology))}\label{ambig3.2}
+\end{figure}
+
+The hierarchical relations between constituents is assumed to be real, and constitutes a major advance in the last 20 years in the basic structure of normal transitive clause constructions. That is, the hierarchical relations between the `subject,' `object,' and `verb.'
+
+\begin{figure}
+\Tree [.$v$P [.DP\\{\textsc{argument}} ] [.$v'$ $v$\\{\textsl{light verb}} [.VP [.YP\\{Adjunct} ] [.V$'$ V\\{\textsc{verb$_{trans.}$}} XP\\{\textsc{complement}} ]]]]
+\caption{Complex argument structure with $v$P shell}\label{vpshell}
+\end{figure}
+
+
+
+\end{document}

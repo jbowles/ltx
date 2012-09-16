@@ -1,0 +1,43 @@
+\contentsline {part}{I\hspace {1em}Preliminary Comments}{2}{part.1}
+\contentsline {part}{II\hspace {1em}Induction}{4}{part.2}
+\contentsline {subsection}{\numberline {0.1}A Formalized Induction Scheme for Peano's Axioms}{5}{subsection.0.1}
+\contentsline {subsubsection}{\numberline {0.1.1}Writing numerals inductively}{5}{subsubsection.0.1.1}
+\contentsline {paragraph}{Division in a formalized induction scheme}{6}{section*.4}
+\contentsline {part}{III\hspace {1em}`Expressives' and `Argumentation' in Genres of Writing}{6}{part.3}
+\contentsline {section}{\numberline {1}What are Expressives and Why Should we Care?}{6}{section.1}
+\contentsline {section}{\numberline {2}Some Examples and Data}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Examples}{7}{subsection.2.1}
+\contentsline {section}{\numberline {3}Description of Method}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Corpora}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Academic Corpus}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Chat Corpus}{11}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Loyola CMC}{11}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}NPS Chat, Brown, and NLTK}{12}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Problems and Caveats}{12}{section.4}
+\contentsline {section}{\numberline {5}The Moral}{12}{section.5}
+\contentsline {section}{\numberline {6}Comparing Academic Terms in Three Corpora}{13}{section.6}
+\contentsline {subsubsection}{\numberline {6.0.3}A Note on Selection Criteria}{13}{subsubsection.6.0.3}
+\contentsline {subsection}{\numberline {6.1}Tables, graphs, and images}{14}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Description}{14}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}A Last Note}{15}{subsubsection.6.2.1}
+\contentsline {subsection}{\numberline {6.3}Code Samples}{17}{subsection.6.3}
+\contentsline {section}{\numberline {7}Sample Introductions: what to shoot for}{18}{section.7}
+\contentsline {subsection}{\numberline {7.1}\cite {etxepareevd10}}{18}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}\cite {parisetaldiscourse09}}{18}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}\cite {zeschgurevychsemrelate09}}{19}{subsection.7.3}
+\contentsline {section}{\numberline {8}Informal Logic}{20}{section.8}
+\contentsline {section}{\numberline {9}Definition of Terms}{20}{section.9}
+\contentsline {subsection}{\numberline {9.1}A Primer on the History of Logic}{20}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Main Definitions}{20}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Some Other Helpful Definitions}{21}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Some Remarks on Definitions}{21}{subsection.9.4}
+\contentsline {section}{\numberline {10}Examples of Syllogisms}{23}{section.10}
+\contentsline {subsection}{\numberline {10.1}More Detail}{23}{subsection.10.1}
+\contentsline {section}{\numberline {11}Problems and Excercises}{23}{section.11}
+\contentsline {section}{\numberline {12}Fallacies}{24}{section.12}
+\contentsline {subsection}{\numberline {12.1}Fallacious Reasoning: How to be a Con-artist}{26}{subsection.12.1}
+\contentsline {section}{\numberline {13}Terrence Parsons on What an Argument Is (and is not)}{28}{section.13}
+\contentsline {subsection}{\numberline {13.1}I see that I don't really see}{28}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Interpreting and Assessing are like Analysis and Synthesis}{29}{subsection.13.2}
+\contentsline {subsubsection}{\numberline {13.2.1}Refined Argument}{31}{subsubsection.13.2.1}
+\contentsline {part}{IV\hspace {1em}Syntax, Semantics, Pragmatics}{32}{part.4}

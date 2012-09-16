@@ -1,0 +1,11 @@
+\documentclass{wpblogentry}
+
+\title{A Latex Blog Entry}
+    \tags{tag1, tag2}
+    \category{latex}
+
+    \begin{document}
+
+      Your blog entry
+
+\end{document}

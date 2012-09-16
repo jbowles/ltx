@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+
+
+\usepackage{paperp}
+\usepackage{paperc}
+
+\begin{document}
+
+
+\section{System Recursion Trees}
+
+\ex {\tt A} $\rightarrow$ BC\\
+{\tt B} $\rightarrow$ DE\\
+{\tt C} $\rightarrow$ AF\\
+\xe 
+
+\pex 
+\a One-level embedding\\
+\i [ {\tt A} (B C) + {\tt B} (D E) + {\tt C} (A F) ]
+\a Two-level embedding\\
+\i [{\tt A} (B (d e) C (a f)) + {\tt B} (D E) + {\tt C} (A (b c) F) ]
+\xe
+
+\begin{figure}
+\Tree [.{\tt A} [[.B d e ] [.C a f ]] [.{\tt B} [[.D x x ] [.E x x ]] [.{\tt C} [[.A b c ] [.F x x ]]]]]
+\caption{Two-level Embedding System Recursion: Binary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\tt A} [.B d e ] [.C a f ] [.{\tt B} [.D x x ] [.E x x ] [.{\tt C} [.A b c ] [.F x x ]]]]
+\caption{Two-level Embedding System Recursion: Ternary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\tt A} [B [d e ] C [a f ] ]  [.{\tt B} [D E ]  [.{\tt C} A [b c ] F ]]]
+\caption{Two-level Embedding System Recursion: $n$-nary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\bf A} B b a C c ] 
+\caption{Symmetrically $n$-nary (flat) structure}
+\end{figure}
+
+
+\begin{figure}
+\Tree [.{\tt A} [B C ]  [.{\tt B} [D E ]  [.{\tt C} A F ]]]
+\caption{One-level Embedding System Recursion: Binary}
+\end{figure}
+
+\begin{figure}
+\Tree [.{\tt A} B C [.{\tt B} D E [.{\tt C} A F ]]] 
+\caption{One-level Embedding System Recursion: Ternary}
+\end{figure}
+
+\section{Some Data}
+
+\begin{figure}
+\Tree [.CP C [.{\ldots} visiting [.DP relatives [\qroof{can be lame}.vP ]]]]
+\caption{(Visiting (relatives (can be lame)))}\label{ambig2.1}
+\end{figure}
+
+
+
+\end{document}

@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: C:\Users\jb\Desktop\LaTeX Documents\LingTheory\FormalConjecture.aux
+I couldn't open style file linquiry2.bst
+---line 222 of file C:\Users\jb\Desktop\LaTeX Documents\LingTheory\FormalConjecture.aux
+ : \bibstyle{linquiry2
+ :                    }
+I'm skipping whatever remains of this command
+I couldn't open database file myrefs.bib
+---line 223 of file C:\Users\jb\Desktop\LaTeX Documents\LingTheory\FormalConjecture.aux
+ : \bibdata{myrefs
+ :                }
+I'm skipping whatever remains of this command
+I found no database files---while reading file C:\Users\jb\Desktop\LaTeX Documents\LingTheory\FormalConjecture.aux
+I found no style file---while reading file C:\Users\jb\Desktop\LaTeX Documents\LingTheory\FormalConjecture.aux
+(There were 4 error messages)

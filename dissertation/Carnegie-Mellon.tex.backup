@@ -1,0 +1,100 @@
+%HANDOUT
+
+\documentclass[11pt]{article}
+
+
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Statement of Purpose: Brandeis Computational Linguistics}
+\date{\today}
+
+
+\maketitle
+
+
+
+\documentclass[11pt]{article}
+\usepackage{natbib,graphicx,times,linguex,cgloss4e,latexsym}
+\usepackage{qtree}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+\author{Joshua Bowles}
+\title{Statement of Purpose: Stanford}
+\date{\today}
+
+
+\maketitle
+\section{Personal}
+I am looking to change research focus from documentary lingusitics to more formal and computational techniques. This means that I probably do not have the particular educational bakcground of most people going into computational lingusitics, but my committment and passion are as strong as anybody's.
+
+I was successful in previous MA studies, having produced or co-produced work that was accepted to high level conferences (see CV). However, after two years of typical lingistics training---including specializations in the morphology and syntax of native American languages in both a typological and Minimalist setting---I realized that I had become increasingly interested in more rigorous approaches. Capitalizing on my undergraduate training in mathematical logic I started studying modern algebra. I acquired an internship as a linguist working on computational linguistics and liked the work (see CV). Presently I am studying a   
+\subsection{GRE Scores}
+I realize that my GRE scores are not good and that this does not reflect well on my merit as a student. If you measure the merit of an active mind by a static remainder of standardized expectations then I will not measure up. Putting aside the rhetoric, I assure you that the GRE is not an accurate reflection of my potential and that my true worth is metted out in the daily grind of evaluating techinques, ideas, and data: these cannot be tested. I can also assure you that although I, apparently, do not test well, my committment to acquiring the mathematical and computational background necessary for being successful in the field of natural language investigation is solid.    
+\section{Research}
+I am fascinated with applying various linguistic theories to solve real-world problems in both academia and industry related domains. I enjoy finding ways to use ideas from mathematical logic, computability theory, and abstract algebra to build rigorous models for natural languages. Presently I am focusing my energy on basic skills needed for computational linguists. This includes (i) basic command line usage (having recently switched to a Linux environment), (ii) natural language processing (including languages such as Python and Prolog), and (iii) statistics and probability (including the programming language R). These are life-long goals and I hope to supplement my personal erudition with rigorous study at Brandeis.
+
+The following subsections list current and future research projects I would like to continue in my doctoral studies. 
+
+\subsection{Current Projects: 2008--2009}
+\ex. \textsl{English Corpus of Evidentiality Data} (goal of 1 million sentences/clauses; presently at about .02\% of goal).
+
+\ex. \textsl{Evidentiality and the Human Mind: Language, Information, and Human Discourse} (\texttt{Project under review for funding by the NEH Summer Stipend 2010}). 
+
+\ex. \textsl{Some Syntax, Semantics, and Pragmatics of Evidentiality in English}. Ms., 29 pgs: version 1.3. 
+
+\ex. \textsl{Recursion for Computation's Sake}. Ms., 24 pgs: version 1.
+
+\ex. \textsl{Ambiguous Merge, Symmetry, and Group Theory}. Ms., 27 pgs: version 2. 
+\a.  \small{Revision in progress for future squib submission. \textsl{A Note on Ideal Structure for a Hypothetical Operation}. 9 pgs: version 1}.
+
+\subsection{Future Project Interests: Things that have been on my mind}
+\ex. Computing Fixed Phrases and Idioms by Named Entity Recognition and Normalization (\small{related to work I did as a linguist intern at Attensity Corporation}).
+
+\ex. Statistical Patterns for Pragmatic Structures in English Evidentiality. 
+
+\ex. Formalizing Context.
+
+\ex. Ontology and Knowledge Representation for Evidential Reasoning.
+
+I am also considering studying a language with a large web presence: starting Mandarin, or continuing German or Spanish.
+
+
+
+\end{document}  
+\section{Research}
+I am generally interested in {\sc Binding, Quantification,} and {\sc Phrase Structure} in theoretical syntax and semantics. I enjoy finding ways to use definitions and ideas from mathematical logic, computability theory, and abstract algebra to build rigorous models for explaining natural language data. 
+
+\subsection{Recent Projects}
+
+\ex. evidentials and functional hierarchy in Pirah\~a show recursion, configurationality\label{recursion}
+
+\ex. syntax-semantics interface of evidentials and interacting tense/aspect/mood
+
+\ex. quantification in Pirah\~a is `classificatory' (based on noun-classifiers)
+
+\ex. binding conditions for resumption in Irish
+
+\ex. noun-classifiers and quantification in Mandarin and selected South American languages
+
+\ex. algebraic group-theory definition for Merge (and biolinguistic considerations)\label{group}
+
+I am in the process of writing numerous manuscripts that deal with the above areas; \ref{group} has been submitted for publication and a combination of \ref{recursion} and \ref{group} has been submitted as an abstract to WCCFL 2010. 
+
+While I cannot say exactly what my dissertation will be on, I think the list above gives a clear sketch of my specific interests.
+
+\subsection{Languages}
+For the last year I have been (i) learning modern Irish on my own and (ii) auditing Mandarin classes at the University where I teach (as an adjunct instructor in the English Department). I have also studied Spanish, Portuguese, German, and Old English. My MA thesis was on agreement and verbal morphosyntax of the Amazonian language Tuyuca (Tukanoan family), which I read at a beginner level. I have done limited field work (3 months) on the related Tukanoan language Desano. I intend to continue my Irish and Mandarin studies, investigating issues of binding and quantification in both these languages, and of course, my native English. I will also use my typological background in American Indian languages for novel and comparative data when and if appropriate.  
+
+\subsection{External Funding}
+I have applied for a National Endowment of Humanities Summer Stipend to study the syntax and semantics of evidentiality in Tuyuca and English (as well as some non-linguistic issues in the use of academic rhetoric and informal logic in composition classes). I will also apply (under a special appeal) to the National Science Foundation Graduate Research Fellowship Program. I applied once before to the NSF-GRFP for anthropological linguistics at the University of Utah under Lyle Campbell and was not awarded. This time, my application will be for theoretical linguistics (the basis for the appeal is the substantial change of focus in study). I am always looking for sources of external funding and fully intend to apply for anything relevant to me or my research. 
+
+\end{document}  
