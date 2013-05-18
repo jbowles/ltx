@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 JUN 2012 18:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 NOV 2012 22:04
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **basic_flow_one.tex
 (./basic_flow_one.tex
